@@ -76,15 +76,6 @@ export class ChecklistComponent implements OnInit {
     this.calculateCompletionPercentage();
   }
 
-  checkAll(checked: boolean): void {
-    this.regions.forEach(region => {
-      this.sections[region].forEach(section => {
-        this.checkAllInSection(region, section, checked);
-      });
-    });
-    this.calculateCompletionPercentage();
-  }
-
   checkAllInRegion(region: string, checked: boolean): void {
     this.sections[region].forEach(section => {
       this.checkAllInSection(region, section, checked);

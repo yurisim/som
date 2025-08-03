@@ -1,5 +1,6 @@
 <div
-  class="fixed top-0 left-0 right-0 z-10 bg-white dark:bg-gray-800 shadow-md p-2"
+  class="fixed top-0 left-0 right-0 z-10 bg-white dark:bg-gray-800 shadow-md p-2 mt-safe"
+  style="top: env(safe-area-inset-top, 0); padding-top: calc(env(safe-area-inset-top, 0) + 0.5rem);"
 >
   <div class="container mx-auto">
     <!-- Progress info - stacks on mobile, side-by-side on larger screens -->
@@ -44,13 +45,6 @@
   </mat-card>
 
   <div class="flex flex-wrap justify-end mb-4">
-    <button
-      mat-stroked-button
-      (click)="checkAll(true)"
-      class="mr-2 mb-2 sm:mb-0"
-    >
-      Check All
-    </button>
     <button mat-button color="primary" (click)="clearAll()">Clear All</button>
   </div>
   <div *ngFor="let region of regions; trackBy: trackByRegion" class="mb-6">
