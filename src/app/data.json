@@ -38,7 +38,7 @@
     "id": "common_area_sink_003",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Sink",
-    "description": "Rubber stoppers will be grounded (G) to the right side (I) of the faucet.",
+    "description": "(Optional) Rubber stoppers will be grounded (G) to the right side (I) of the faucet.",
     "bullet": "4.4.2"
   },
   {
@@ -290,14 +290,14 @@
     "id": "bed_area_blanket_001",
     "region": "Bed Area",
     "section": "Tan Blanket",
-    "description": "When displayed on top of the comforter, tan blanket will be neatly folded three times, centered on and flush with the foot end of the mattress.",
+    "description": "(Optional) When displayed on top of the comforter, tan blanket will be neatly folded three times, centered on and flush with the foot end of the mattress.",
     "bullet": "5.5"
   },
   {
     "id": "bed_area_blanket_002",
     "region": "Bed Area",
-    "section": "(Optional) Additional Blanket",
-    "description": "Display neatly folded three times, centered on and flush with the foot end of the mattress or tan blanket. Stack blankets with largest on the bottom.",
+    "section": "Additional Blanket",
+    "description": "(Optional) Display neatly folded three times, centered on and flush with the foot end of the mattress or tan blanket. Stack blankets with largest on the bottom.",
     "bullet": "5.6"
   },
   {
@@ -381,21 +381,21 @@
     "id": "personal_area_computer_001",
     "region": "Personal Living Area",
     "section": "Computer",
-    "description": "Displayed grounded to the back corner and side closest to the room entry. Must be password protected and open at a 90° angle.",
+    "description": "(Optional) Displayed grounded to the back corner and side closest to the room entry. Must be password protected and open at a 90° angle.",
     "bullet": "6.7.2"
   },
   {
     "id": "personal_area_printer_001",
     "region": "Personal Living Area",
-    "section": "(Optional) Printer",
-    "description": "Printer will be free of dust and debris. Display on the opposite side of the computer, grounded to the back, desk corner.",
+    "section": "Printer",
+    "description": "(Optional) Printer will be free of dust and debris. Display on the opposite side of the computer, grounded to the back, desk corner.",
     "bullet": "6.7.3"
   },
   {
     "id": "personal_area_printer_002",
     "region": "Personal Living Area",
-    "section": "(Optional) Printer",
-    "description": "Items will not be left on the glass and paper will not be in the tray.",
+    "section": "Printer",
+    "description": "(Optional) Items will not be left on the glass and paper will not be in the tray.",
     "bullet": "6.7.3"
   },
   {
@@ -409,14 +409,14 @@
     "id": "personal_area_drawer_001",
     "region": "Personal Living Area",
     "section": "Desk Drawer",
-    "description": "Only one plastic bin/bag for small office supplies is authorized; must be neatly stored and grounded to the front left corner.",
+    "description": "(Optional) Only one plastic bin/bag for small office supplies is authorized; must be neatly stored and grounded to the front left corner.",
     "bullet": "6.7.6"
   },
   {
     "id": "personal_area_drawer_002",
     "region": "Personal Living Area",
     "section": "Desk Drawer",
-    "description": "Printer paper will be grounded to the front right corner.",
+    "description": "(Optional) Printer paper will be grounded to the front right corner.",
     "bullet": "6.7.6"
   },
   {
@@ -472,7 +472,7 @@
     "id": "drawers_drawer4_underwear_001",
     "region": "Clothing Drawers",
     "section": "Drawer 4 (Undergarments)",
-    "description": "Neatly fold underwear/boxers. Ground the bottom item to the front right corner of the drawer. Stack with largest on the bottom.",
+    "description": "Neatly fold underwear/boxers. Ground the bottom item to the front right corner of the drawer. Stack with largest on the bottom. They must be each grounded to the front right corner of the drawer.",
     "bullet": "7.5.1"
   },
   {
