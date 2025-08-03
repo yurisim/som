@@ -7,16 +7,27 @@
       Clear All
     </button>
   </div>
-  <div *ngFor="let region of regions" class="mb-6">
+  <div *ngFor="let region of regions; trackBy: trackByRegion" class="mb-6">
     <mat-card>
-      <mat-card-header>
+      <mat-card-header class="cursor-pointer" (click)="toggleRegion(region)">
         <mat-card-title>{{ region }}</mat-card-title>
+        <div class="ml-auto flex items-center" (click)="$event.stopPropagation()">
+          <mat-checkbox (change)="checkAllInRegion(region, $event.checked)" class="mr-2">
+            Check All
+          </mat-checkbox>
+          <button mat-button color="warn" (click)="clearAllInRegion(region)" class="mr-2">
+            Clear All
+          </button>
+          <button mat-icon-button (click)="toggleRegion(region)">
+            <mat-icon>{{ regionCollapsedState[region] ? 'expand_more' : 'expand_less' }}</mat-icon>
+          </button>
+        </div>
       </mat-card-header>
-      <mat-card-content>
+      <mat-card-content *ngIf="!regionCollapsedState[region]">
         <mat-list *ngFor="let section of sections[region]">
           <div class="flex justify-between items-center">
             <h3 class="mat-subheader">{{ section }}</h3>
-            <div>
+            <div *ngIf="groupedChecklist[region][section].length > 1">
               <mat-checkbox
                 (change)="checkAllInSection(region, section, $event.checked)"
                 class="mr-2"

@@ -4,607 +4,650 @@
     "region": "General Dormitory Maintenance",
     "section": "General Instructions",
     "description": "During inspection order, all wastebaskets must be empty.",
-    "bullet": "3.1",
-    "reference": "pg. 8 - 3.1"
+    "bullet": "3.1"
   },
   {
     "id": "general_maintenance_grounds_001",
     "region": "General Dormitory Maintenance",
     "section": "General Instructions",
     "description": "All surrounding dormitory grounds will be free of debris and trash.",
-    "bullet": "3.1",
-    "reference": "pg. 8 - 3.1"
+    "bullet": "3.1"
   },
   {
     "id": "general_maintenance_stairwells_001",
     "region": "General Dormitory Maintenance",
     "section": "Stairwells/Hallways",
     "description": "Stairwells, landings, and hallways must be dusted, swept, and mopped.",
-    "bullet": "3.2",
-    "reference": "pg. 8 - 3.2"
+    "bullet": "3.2"
   },
   {
     "id": "general_maintenance_stairwells_002",
     "region": "General Dormitory Maintenance",
     "section": "Stairwells/Hallways",
     "description": "Clean handrails, windows, and windowsills.",
-    "bullet": "3.2",
-    "reference": "pg. 8 - 3.2"
+    "bullet": "3.2"
   },
   {
     "id": "general_maintenance_doors_001",
     "region": "General Dormitory Maintenance",
     "section": "Stairwells/Hallways",
     "description": "Entry/Exit doors will be clean and dust free.",
-    "bullet": "3.2",
-    "reference": "pg. 8 - 3.2"
-  },
-  {
-    "id": "general_maintenance_doors_002",
-    "region": "General Dormitory Maintenance",
-    "section": "Stairwells/Hallways",
-    "description": "Ensure all exterior windows and doors are closed and secure.",
-    "bullet": "3.2",
-    "reference": "pg. 8 - 3.2"
+    "bullet": "3.2"
   },
   {
     "id": "general_maintenance_utility_closet_001",
     "region": "General Dormitory Maintenance",
     "section": "Utility Closets",
     "description": "Utility closets must be swept, mopped, and dusted.",
-    "bullet": "3.3",
-    "reference": "pg. 8 - 3.3"
+    "bullet": "3.3"
   },
   {
     "id": "general_maintenance_utility_closet_002",
     "region": "General Dormitory Maintenance",
     "section": "Utility Closets",
     "description": "The door will be clean, dust free, and closed when the closet is not in use.",
-    "bullet": "3.3",
-    "reference": "pg. 8 - 3.3"
+    "bullet": "3.3"
   },
   {
     "id": "general_maintenance_latrine_001",
     "region": "General Dormitory Maintenance",
     "section": "CQ Office/Latrine",
     "description": "Latrine must be dusted, swept, and mopped.",
-    "bullet": "3.5.1",
-    "reference": "pg. 8 - 3.5.1"
+    "bullet": "3.5.1"
   },
   {
     "id": "general_maintenance_latrine_002",
     "region": "General Dormitory Maintenance",
     "section": "CQ Office/Latrine",
     "description": "Clean sink and toilet. Display the toilet seat in the up position.",
-    "bullet": "3.5.1",
-    "reference": "pg. 8 - 3.5.1"
+    "bullet": "3.5.1"
   },
   {
     "id": "general_maintenance_latrine_003",
     "region": "General Dormitory Maintenance",
     "section": "CQ Office/Latrine",
     "description": "Mirror must be clean, free of dust and smudges.",
-    "bullet": "3.5.1",
-    "reference": "pg. 8 - 3.5.1"
+    "bullet": "3.5.1"
   },
   {
     "id": "general_maintenance_latrine_004",
     "region": "General Dormitory Maintenance",
     "section": "CQ Office/Latrine",
     "description": "Trash must be emptied each day.",
-    "bullet": "3.5.1",
-    "reference": "pg. 8 - 3.5.1"
+    "bullet": "3.5.1"
   },
   {
-    "id": "general_maintenance_latrine_005",
+    "id": "general_maintenance_laundry_001",
     "region": "General Dormitory Maintenance",
-    "section": "CQ Office/Latrine",
-    "description": "Restock soap, toilet paper, and paper towels as needed.",
-    "bullet": "3.5.1",
-    "reference": "pg. 8 - 3.5.1"
+    "section": "Laundry Rooms",
+    "description": "Must be dusted, swept, and mopped.",
+    "bullet": "3.6"
+  },
+  {
+    "id": "general_maintenance_laundry_002",
+    "region": "General Dormitory Maintenance",
+    "section": "Laundry Rooms",
+    "description": "When not in use, washer lids will be open and dryer doors will be closed.",
+    "bullet": "3.6"
+  },
+  {
+    "id": "general_maintenance_laundry_003",
+    "region": "General Dormitory Maintenance",
+    "section": "Laundry Rooms",
+    "description": "Empty the trash can before it is full.",
+    "bullet": "3.6"
+  },
+  {
+    "id": "general_maintenance_laundry_004",
+    "region": "General Dormitory Maintenance",
+    "section": "Laundry Rooms",
+    "description": "Clean dryer lint traps after every use.",
+    "bullet": "3.6"
   },
   {
     "id": "common_area_floor_001",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Floor",
     "description": "Ensure trash/debris (U) is removed from floors.",
-    "bullet": "4.3",
-    "reference": "pg. 10 - 4.3"
+    "bullet": "4.3"
   },
   {
     "id": "common_area_floor_002",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Floor",
     "description": "Tile floors must be dusted, swept, and mopped (D).",
-    "bullet": "4.3",
-    "reference": "pg. 10 - 4.3"
+    "bullet": "4.3"
   },
   {
     "id": "common_area_floor_003",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Floor",
     "description": "Carpet must be vacuumed (U).",
-    "bullet": "4.3",
-    "reference": "pg. 10 - 4.3"
+    "bullet": "4.3"
   },
   {
     "id": "common_area_sink_001",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Sink",
     "description": "Sinks will be clean, free of dust (D) and debris (U), and dry (W).",
-    "bullet": "4.4",
-    "reference": "pg. 10 - 4.4"
+    "bullet": "4.4"
   },
   {
     "id": "common_area_sink_002",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Sink",
     "description": "Drinking cups/glasses must be clean (D) and serviceable (N).",
-    "bullet": "4.4.1",
-    "reference": "pg. 10 - 4.4.1"
+    "bullet": "4.4.1"
   },
   {
     "id": "common_area_sink_003",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Sink",
     "description": "Display drain plug in the up position (I).",
-    "bullet": "4.4.2",
-    "reference": "pg. 10 - 4.4.2"
+    "bullet": "4.4.2"
   },
   {
     "id": "common_area_sink_004",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Sink",
     "description": "Rubber stoppers will be grounded (G) to the right side (I) of the faucet.",
-    "bullet": "4.4.2",
-    "reference": "pg. 10 - 4.4.2"
+    "bullet": "4.4.2"
+  },
+  {
+    "id": "common_area_sink_005",
+    "region": "Common Area (Bathroom/Latrine)",
+    "section": "Sink",
+    "description": "Soap Tray and Toothbrush Holder chrome will be clean (D), free of dust (D) and debris (U), and dry (W). No items authorized on top.",
+    "bullet": "4.4.5"
   },
   {
     "id": "common_area_sink_cabinet_001",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Sink Cabinet",
     "description": "The sink cabinet must be neatly arranged. Doors will be closed when not in use (I).",
-    "bullet": "4.5",
-    "reference": "pg. 10 - 4.5"
+    "bullet": "4.5"
   },
   {
     "id": "common_area_sink_cabinet_002",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Sink Cabinet",
     "description": "The cabinet, authorized items, and optional storage bins will be clean (D), free of dust (D) and debris (U), and dry (W).",
-    "bullet": "4.5",
-    "reference": "pg. 10 - 4.5"
+    "bullet": "4.5"
   },
   {
     "id": "common_area_sink_cabinet_003",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Sink Cabinet",
     "description": "Hangers will stand upright and be grounded to the left and/or right side of either corner.",
-    "bullet": "4.5.2",
-    "reference": "pg. 10 - 4.5.2"
+    "bullet": "4.5.2"
   },
   {
     "id": "common_area_sink_cabinet_004",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Sink Cabinet",
-    "description": "Items will be sized tallest to shortest from left to right (S), with no break at the center anoint of the cabinet.",
-    "bullet": "4.5.2",
-    "reference": "pg. 10 - 4.5.2"
+    "description": "Items will be sized tallest to shortest from left to right (S), with no break at the center point of the cabinet.",
+    "bullet": "4.5.2"
   },
   {
     "id": "common_area_medicine_cabinet_001",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Medicine Cabinet/Mirror",
-    "description": "Items in cabinet will show signs of use and will be clean (D/U).",
-    "bullet": "4.6",
-    "reference": "pg. 11 - 4.6"
+    "description": "Items in cabinet will be clean (D/U).",
+    "bullet": "4.6"
   },
   {
     "id": "common_area_medicine_cabinet_002",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Medicine Cabinet/Mirror",
     "description": "Mirrors will be clean, free of dust and debris, and clear of smudges (D/U).",
-    "bullet": "4.6",
-    "reference": "pg. 11 - 4.6"
+    "bullet": "4.6"
   },
   {
     "id": "common_area_medicine_cabinet_003",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Medicine Cabinet/Mirror",
+    "description": "Items will stand upright unless the container or shape does not allow (I).",
+    "bullet": "4.6"
+  },
+  {
+    "id": "common_area_medicine_cabinet_004",
+    "region": "Common Area (Bathroom/Latrine)",
+    "section": "Medicine Cabinet/Mirror",
     "description": "Items will be sized tallest to shortest from left to right (S).",
-    "bullet": "4.6",
-    "reference": "pg. 11 - 4.6"
+    "bullet": "4.6"
   },
   {
     "id": "common_area_toilet_001",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Toilet",
     "description": "The entire surface and bowl will be cleaned (D/U).",
-    "bullet": "4.7",
-    "reference": "pg. 11 - 4.7"
+    "bullet": "4.7"
   },
   {
     "id": "common_area_toilet_002",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Toilet",
     "description": "Toilet seat and lid must be in the up position (I).",
-    "bullet": "4.7.1",
-    "reference": "pg. 11 - 4.7.1"
+    "bullet": "4.7.1"
   },
   {
     "id": "common_area_shower_001",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Shower",
     "description": "The shower will be clean and free of soap scum (D), mold, dirt, hair (U), etc.",
-    "bullet": "4.8",
-    "reference": "pg. 11 - 4.8"
+    "bullet": "4.8"
   },
   {
     "id": "common_area_shower_002",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Shower",
     "description": "The shower door will be left open (I).",
-    "bullet": "4.8.1",
-    "reference": "pg. 11 - 4.8.1"
+    "bullet": "4.8.1"
   },
   {
     "id": "common_area_towel_001",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Towel",
-    "description": "Towels will not be stained or heavily soiled (D) and must be serviceable (N).",
-    "bullet": "4.9",
-    "reference": "pg. 11 - 4.9"
+    "description": "Towels will not be stained or heavily soiled (D) and must be serviceable (N). Towels may be wet but must not drip.",
+    "bullet": "4.9"
   },
   {
     "id": "common_area_towel_002",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Towel",
     "description": "Fold towel in half lengthwise (F). Drape the towel evenly (I) over the towel rack. Ground the single folds to the brackets (G).",
-    "bullet": "4.9.1",
-    "reference": "pg. 11 - 4.9.1"
+    "bullet": "4.9.1"
   },
   {
     "id": "common_area_wastebasket_001",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Wastebasket",
     "description": "The wastebasket will always be lined with a trash bag (A).",
-    "bullet": "4.12",
-    "reference": "pg. 12 - 4.12"
+    "bullet": "4.12"
   },
   {
     "id": "common_area_wastebasket_002",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Wastebasket",
-    "description": "Trash bags must be empty and free of debris (U).",
-    "bullet": "4.12",
-    "reference": "pg. 12 - 4.12"
+    "description": "Trash bag must be empty and free of debris (U). No trash, dust, or debris under the liner.",
+    "bullet": "4.12"
   },
   {
     "id": "common_area_wastebasket_003",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Wastebasket",
     "description": "Display the wastebasket on the wall nearest Occupant 1's desk, grounding (G) the long side of the wastebasket to the wall (I).",
-    "bullet": "4.12.1",
-    "reference": "pg. 12 - 4.12.1"
+    "bullet": "4.12.1"
   },
   {
     "id": "common_area_ironing_board_001",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Iron/Ironing Board",
     "description": "Iron cord will be neatly wrapped (I). Iron and ironing board will be dust free (D/U) and neatly displayed in closet.",
-    "bullet": "4.13",
-    "reference": "pg. 12 - 4.13"
+    "bullet": "4.13"
   },
   {
     "id": "common_area_blinds_001",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Blinds/Curtains/Ledges",
     "description": "Windows, blinds, and drapes will be down and closed to conserve energy (I).",
-    "bullet": "4.14",
-    "reference": "pg. 12 - 4.14"
+    "bullet": "4.14"
   },
   {
     "id": "common_area_blinds_002",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Blinds/Curtains/Ledges",
     "description": "All blinds, curtains, and ledges will be free of debris and dusted daily (D/U).",
-    "bullet": "4.14",
-    "reference": "pg. 12 - 4.14"
+    "bullet": "4.14"
+  },
+  {
+    "id": "common_area_mirror_001",
+    "region": "Common Area (Bathroom/Latrine)",
+    "section": "Mirrors",
+    "description": "Will be clean and free of debris (U), spots, and streaks (D).",
+    "bullet": "4.15"
   },
   {
     "id": "common_area_lamp_001",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Lamp",
     "description": "Will be clean and dust free (D/U) and in serviceable working condition (N).",
-    "bullet": "4.16",
-    "reference": "pg. 12 - 4.16"
+    "bullet": "4.16"
   },
   {
     "id": "common_area_lamp_002",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Lamp",
     "description": "Center the lamp on the dressers between the two beds (H). Lamp shade will be grounded to the wall (G).",
-    "bullet": "4.16",
-    "reference": "pg. 12 - 4.16"
+    "bullet": "4.16"
   },
   {
     "id": "bed_area_general_001",
     "region": "Bed Area",
     "section": "General Instructions",
     "description": "Sheets and blankets will be tightened down to conform to the mattress.",
-    "bullet": "5.1",
-    "reference": "pg. 13 - 5.1"
+    "bullet": "5.1"
   },
   {
     "id": "bed_area_general_002",
     "region": "Bed Area",
-    "section": "Mattress",
-    "description": "Center the mattress on the bed frame and ground it to the foot end of bed frame.",
-    "bullet": "5.1, 5.8",
-    "reference": "pg. 13 - 5.1, pg. 14 - 5.8"
+    "section": "Bed Rails",
+    "description": "Bed rails must be clean and dust free.",
+    "bullet": "5.1"
   },
   {
     "id": "bed_area_general_003",
     "region": "Bed Area",
     "section": "General Instructions",
     "description": "All items used to make the bed must be clean, dry, and serviceable.",
-    "bullet": "5.1",
-    "reference": "pg. 13 - 5.1"
+    "bullet": "5.1"
+  },
+  {
+    "id": "bed_area_sheets_001",
+    "region": "Bed Area",
+    "section": "Sheets",
+    "description": "Place fitted sheet neatly over mattress ensuring tight, neat and wrinkle free.",
+    "bullet": "5.2"
   },
   {
     "id": "bed_area_comforter_001",
     "region": "Bed Area",
     "section": "Blue Comforter",
-    "description": "Make hospital corners using the top sheet and comforter at the same time.",
-    "bullet": "5.4",
-    "reference": "pg. 13 - 5.4"
+    "description": "Make hospital corners on the inspection side, tucking excess on the non-inspection side.",
+    "bullet": "5.4"
   },
   {
     "id": "bed_area_comforter_002",
     "region": "Bed Area",
     "section": "Blue Comforter",
     "description": "Ensure the comforter and sheet are tight, neat, and wrinkle free.",
-    "bullet": "5.4",
-    "reference": "pg. 13 - 5.4"
+    "bullet": "5.4"
+  },
+  {
+    "id": "bed_area_blanket_001",
+    "region": "Bed Area",
+    "section": "Tan/Additional Blanket",
+    "description": "When displayed on top of the comforter, blanket will be neatly folded three times, centered on and flush with the foot end of the mattress.",
+    "bullet": "5.5"
   },
   {
     "id": "bed_area_pillow_001",
     "region": "Bed Area",
     "section": "Pillow/Pillowcase",
     "description": "Ensure pillowcase is right side out, fold excess underneath the pillow.",
-    "bullet": "5.7",
-    "reference": "pg. 14 - 5.7"
+    "bullet": "5.7"
   },
   {
     "id": "bed_area_pillow_002",
     "region": "Bed Area",
     "section": "Pillow/Pillowcase",
     "description": "Ensure the pillow is flush with the head end of the mattress and centered on the width.",
-    "bullet": "5.7",
-    "reference": "pg. 14 - 5.7"
+    "bullet": "5.7"
+  },
+  {
+    "id": "bed_area_mattress_001",
+    "region": "Bed Area",
+    "section": "Mattress",
+    "description": "Center the mattress on the bed frame and ground it to the foot end of bed frame.",
+    "bullet": "5.8"
+  },
+  {
+    "id": "personal_area_general_001",
+    "region": "Personal Living Area",
+    "section": "General Instructions",
+    "description": "Properly size all items on shelves from tallest to shortest, left to right.",
+    "bullet": "6.1"
   },
   {
     "id": "personal_area_floor_001",
     "region": "Personal Living Area",
     "section": "Floor",
     "description": "Ensure trash/debris is removed from floors. Floors must be vacuumed.",
-    "bullet": "6.2",
-    "reference": "pg. 15 - 6.2"
+    "bullet": "6.2"
   },
   {
     "id": "personal_area_chair_001",
     "region": "Personal Living Area",
     "section": "Chair",
     "description": "Ensure chairs are free of dust and debris.",
-    "bullet": "6.5",
-    "reference": "pg. 15 - 6.5"
+    "bullet": "6.5"
   },
   {
     "id": "personal_area_chair_002",
     "region": "Personal Living Area",
     "section": "Chair",
     "description": "The chair will be pushed in and grounded to the side closest to the entry door and front of desk when not in use.",
-    "bullet": "6.5",
-    "reference": "pg. 15 - 6.5"
+    "bullet": "6.5"
   },
   {
     "id": "personal_area_hydration_001",
     "region": "Personal Living Area",
     "section": "Hydration System & Backpack",
     "description": "The hydration system or backpack will be draped over the back of the chair.",
-    "bullet": "6.6",
-    "reference": "pg. 15 - 6.6"
+    "bullet": "6.6"
   },
   {
     "id": "personal_area_desk_001",
     "region": "Personal Living Area",
     "section": "Desk/Shelves",
     "description": "All desk surfaces and interiors must be dry, clean, and free of dust and debris.",
-    "bullet": "6.7",
-    "reference": "pg. 15 - 6.7"
+    "bullet": "6.7"
   },
   {
-    "id": "personal_area_desk_002",
+    "id": "personal_area_computer_001",
     "region": "Personal Living Area",
-    "section": "Desk/Shelves",
-    "description": "Computer will be displayed grounded to the back corner and side closest to the room entry.",
-    "bullet": "6.7.2",
-    "reference": "pg. 15 - 6.7.2"
+    "section": "Computer",
+    "description": "Displayed grounded to the back corner and side closest to the room entry. Must be password protected and open at a 90° angle.",
+    "bullet": "6.7.2"
   },
   {
-    "id": "personal_area_desk_003",
+    "id": "personal_area_printer_001",
     "region": "Personal Living Area",
-    "section": "Desk/Shelves",
-    "description": "One picture frame (max 8x10) may be stored on the top shelf, centered and flush with the front edge.",
-    "bullet": "6.7.4",
-    "reference": "pg. 16 - 6.7.4"
+    "section": "Printer",
+    "description": "Printer will be free of dust and debris. Display on the opposite side of the computer, grounded to the back, desk corner.",
+    "bullet": "6.7.3"
+  },
+  {
+    "id": "personal_area_printer_002",
+    "region": "Personal Living Area",
+    "section": "Printer",
+    "description": "Items will not be left on the glass and paper will not be in the tray.",
+    "bullet": "6.7.3"
+  },
+  {
+    "id": "personal_area_shelf_001",
+    "region": "Personal Living Area",
+    "section": "Top Shelf",
+    "description": "One picture frame (max 8x10) may be stored on the top shelf, centered, and flush with the front edge.",
+    "bullet": "6.7.4"
+  },
+  {
+    "id": "personal_area_drawer_001",
+    "region": "Personal Living Area",
+    "section": "Desk Drawer",
+    "description": "Printer paper will be grounded to the front right corner.",
+    "bullet": "6.7.6"
   },
   {
     "id": "drawers_general_001",
     "region": "Clothing Drawers",
     "section": "General Instructions",
-    "description": "When not in rooms, the security drawer must be locked.",
-    "bullet": "7.1",
-    "reference": "pg. 17 - 7.1"
+    "description": "All drawer items and interiors must be dry, clean, and free of dust and debris.",
+    "bullet": "7.1"
   },
   {
     "id": "drawers_general_002",
     "region": "Clothing Drawers",
     "section": "General Instructions",
-    "description": "All drawer items and interiors must be dry, clean, and free of dust and debris.",
-    "bullet": "7.1",
-    "reference": "pg. 17 - 7.1"
+    "description": "All items will be serviceable (i.e., no rips or tears).",
+    "bullet": "7.1"
   },
   {
     "id": "drawers_drawer1_ptg_001",
     "region": "Clothing Drawers",
     "section": "Drawer 1 (PTG Clothing)",
-    "description": "Ground the bottom item of the PT clothes to the front right corner of the drawer.",
-    "bullet": "7.2.1.1",
-    "reference": "pg. 17 - 7.2.1.1"
+    "description": "Neatly fold PT shorts, T-shirts, and optional form fitting shorts. Ground the bottom item to the front right corner of the drawer.",
+    "bullet": "7.2.1"
   },
   {
     "id": "drawers_drawer1_socks_001",
     "region": "Clothing Drawers",
     "section": "Drawer 1 (PTG Clothing)",
-    "description": "The first pair of socks will be grounded to the front left corner.",
-    "bullet": "7.2.3",
-    "reference": "pg. 17 - 7.2.3"
+    "description": "Running socks will be rolled or folded neatly. Place sock grounded to the front left corner of the drawer.",
+    "bullet": "7.2.2"
   },
   {
     "id": "drawers_drawer2_socks_001",
     "region": "Clothing Drawers",
     "section": "Drawer 2 (Socks/long johns)",
-    "description": "The upward curve on the sock will face the front of the drawer.",
-    "bullet": "7.3.2",
-    "reference": "pg. 18 - 7.3.2"
+    "description": "Roll socks as a pair, ensuring upward curve faces the front of the drawer.",
+    "bullet": "7.3.1"
   },
   {
     "id": "drawers_drawer3_shirts_001",
     "region": "Clothing Drawers",
     "section": "Drawer 3 (Shirts)",
-    "description": "Place hemmed edge down at the 6 o'clock position and open end facing the rear of the drawer.",
-    "bullet": "7.4.2",
-    "reference": "pg. 20 - 7.4.2"
+    "description": "Roll shirts per folding instructions. Place the hemmed edge down at the 6 o'clock position and open end facing the rear of the drawer.",
+    "bullet": "7.4.2"
+  },
+  {
+    "id": "drawers_drawer4_underwear_001",
+    "region": "Clothing Drawers",
+    "section": "Drawer 4 (Undergarments)",
+    "description": "Neatly fold underwear/boxers. Ground the bottom item to the front right corner of the drawer. Stack with largest on the bottom.",
+    "bullet": "7.5.1"
   },
   {
     "id": "drawers_drawer5_security_001",
     "region": "Clothing Drawers",
     "section": "Drawer 5 (Security Drawer)",
     "description": "Any items stored in the security drawer must present a neat and orderly appearance.",
-    "bullet": "7.6.2",
-    "reference": "pg. 20 - 7.6.2"
+    "bullet": "7.6.2"
   },
   {
     "id": "drawers_drawer5_security_002",
     "region": "Clothing Drawers",
     "section": "Drawer 5 (Security Drawer)",
     "description": "The drawer must be locked when the owning Officer Trainee is not in the room.",
-    "bullet": "7.6.2",
-    "reference": "pg. 20 - 7.6.2"
+    "bullet": "7.6.2"
+  },
+  {
+    "id": "drawers_aetc_form_341_001",
+    "region": "Clothing Drawers",
+    "section": "AETC Form 341",
+    "description": "Place the properly filled out AETC Form 341 on top of the dresser, centered and flush with the front edge.",
+    "bullet": "7.7"
   },
   {
     "id": "closet_general_001",
     "region": "Closet",
     "section": "General Instructions",
     "description": "Items will be clean, dry, free of dust and debris, serviceable and shined (if applicable).",
-    "bullet": "8.1",
-    "reference": "pg. 22 - 8.1"
+    "bullet": "8.1"
   },
   {
     "id": "closet_general_002",
     "region": "Closet",
     "section": "General Instructions",
     "description": "Empty all pockets and remove loose strings and all tags that are not sewn in.",
-    "bullet": "8.1",
-    "reference": "pg. 22 - 8.1"
+    "bullet": "8.1"
   },
   {
     "id": "closet_general_003",
     "region": "Closet",
     "section": "General Instructions",
-    "description": "Display items as worn (i.e., secure all zippers, hook and loop, and buttons unless otherwise specified).",
-    "bullet": "8.1",
-    "reference": "pg. 22 - 8.1"
+    "description": "Display items as worn (i.e., secure all zippers, hook and loop, and buttons).",
+    "bullet": "8.1"
   },
   {
-    "id": "closet_shelf_001",
+    "id": "closet_shelf_patrol_cap_001",
     "region": "Closet",
     "section": "Closet Shelf",
     "description": "OCP Patrol Cap: Display on left side of closet shelf space, as worn. Ensure the bill of the cap is flush with the front edge of the shelf.",
-    "bullet": "8.2.1",
-    "reference": "pg. 22 - 8.2.1"
+    "bullet": "8.2.1"
   },
   {
-    "id": "closet_shelf_002",
+    "id": "closet_shelf_flight_cap_001",
     "region": "Closet",
     "section": "Closet Shelf",
     "description": "Flight Cap: Display to the right of OCP Patrol Cap, triangle facing down. Ensure the front of the cap is flush with the edge of the shelf.",
-    "bullet": "8.2.2",
-    "reference": "pg. 22 - 8.2.2"
+    "bullet": "8.2.2"
+  },
+  {
+    "id": "closet_shelf_flashlight_001",
+    "region": "Closet",
+    "section": "Closet Shelf",
+    "description": "Flashlight: Display to the left of gloves. Ensure the flashlight is grounded to the wall or center partition. The lightbulb end will be flush with the front edge of the shelf.",
+    "bullet": "8.2.5"
   },
   {
     "id": "closet_rod_001",
     "region": "Closet",
     "section": "Closet Rod",
     "description": "Hang each item with the open end of the hanger toward the rear wall of the closet.",
-    "bullet": "8.3",
-    "reference": "pg. 23 - 8.3"
+    "bullet": "8.3"
   },
   {
     "id": "closet_rod_002",
     "region": "Closet",
     "section": "Closet Rod",
-    "description": "Hang all items with the left sleeve facing the closet door.",
-    "bullet": "8.3",
-    "reference": "pg. 23 - 8.3"
+    "description": "Service dress items will be pressed, neat, and wrinkle-free.",
+    "bullet": "8.3"
   },
   {
     "id": "closet_rod_003",
     "region": "Closet",
     "section": "Closet Rod",
     "description": "Hangers will be evenly spaced from left to right.",
-    "bullet": "8.3.2",
-    "reference": "pg. 23 - 8.3.2"
+    "bullet": "8.3.2"
+  },
+  {
+    "id": "closet_rod_004",
+    "region": "Closet",
+    "section": "Closet Rod",
+    "description": "Display items in the correct hanger order.",
+    "bullet": "8.3.1"
   },
   {
     "id": "closet_laundry_bag_001",
     "region": "Closet",
     "section": "Laundry Bag",
     "description": "Pull the laundry bag strings tight so the top of the bag is closed. Excess string will be tucked towards the back neatly.",
-    "bullet": "8.4",
-    "reference": "pg. 24 - 8.4"
+    "bullet": "8.4"
   },
   {
     "id": "closet_laundry_bag_002",
     "region": "Closet",
     "section": "Laundry Bag",
     "description": "Ensure the laundry bag is grounded to the corner of the back wall, opposite the shoe display.",
-    "bullet": "8.4",
-    "reference": "pg. 24 - 8.4"
+    "bullet": "8.4"
   },
   {
     "id": "closet_shoes_001",
     "region": "Closet",
     "section": "Shoes",
     "description": "Shoes will be neat, clean/dust free and dry. All items need to be serviceable.",
-    "bullet": "8.6",
-    "reference": "pg. 24 - 8.6"
+    "bullet": "8.6"
   },
   {
     "id": "closet_shoes_002",
     "region": "Closet",
     "section": "Shoes",
     "description": "Ground the heels and soles of each pair together. Ground the sole of the first shoe to the wall of the doorway.",
-    "bullet": "8.6.1",
-    "reference": "pg. 25 - 8.6.1"
+    "bullet": "8.6.1"
   },
   {
     "id": "closet_shoes_003",
     "region": "Closet",
     "section": "Shoes",
-    "description": "Tightly lace your shoes and boots, leaving untied, and tuck the excess laces inside the shoe or boot, out of sight.",
-    "bullet": "8.6.2",
-    "reference": "pg. 25 - 8.6.2"
+    "description": "Tightly lace your shoes and boots by pulling the laces as tight as possible, leaving untied, and tuck the excess laces inside the shoe or boot, out of sight.",
+    "bullet": "8.6.2"
+  },
+  {
+    "id": "closet_shoes_004",
+    "region": "Closet",
+    "section": "Shoes",
+    "description": "Display shoes in the correct order: Combat Boots, Low Quarters, Pumps, Running Shoes, Shower Shoes.",
+    "bullet": "8.6.7"
   }
 ]

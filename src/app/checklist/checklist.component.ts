@@ -31,6 +31,7 @@ export class ChecklistComponent implements OnInit {
   groupedChecklist: GroupedChecklist = {};
   regions: string[] = [];
   sections: { [region: string]: string[] } = {};
+  regionCollapsedState: { [region: string]: boolean } = {};
 
   checklistService = inject(ChecklistService);
 
@@ -40,8 +41,17 @@ export class ChecklistComponent implements OnInit {
       this.regions = Object.keys(this.groupedChecklist);
       this.regions.forEach(region => {
         this.sections[region] = Object.keys(this.groupedChecklist[region]);
+        this.regionCollapsedState[region] = false; // Default to expanded
       });
     });
+  }
+
+  toggleRegion(region: string): void {
+    this.regionCollapsedState[region] = !this.regionCollapsedState[region];
+  }
+
+  trackByRegion(index: number, region: string): string {
+    return region;
   }
 
   private groupData(data: ChecklistItem[]): GroupedChecklist {
@@ -64,6 +74,18 @@ export class ChecklistComponent implements OnInit {
       this.sections[region].forEach(section => {
         this.checkAllInSection(region, section, checked);
       });
+    });
+  }
+
+  checkAllInRegion(region: string, checked: boolean): void {
+    this.sections[region].forEach(section => {
+      this.checkAllInSection(region, section, checked);
+    });
+  }
+
+  clearAllInRegion(region: string): void {
+    this.sections[region].forEach(section => {
+      this.clearAllInSection(region, section);
     });
   }
 
