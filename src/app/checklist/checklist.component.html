@@ -1,6 +1,6 @@
 <div class="container mx-auto p-4">
   <div class="flex justify-end mb-4">
-    <button mat-button (click)="checkAll(true)" class="mr-2">
+    <button matButton="filled" (click)="checkAll(true)" class="mr-2">
       Check All
     </button>
     <button matButton="outlined" color="warn" (click)="clearAll()">
@@ -23,10 +23,10 @@
           (keydown.enter)="$event.stopPropagation()"
           tabindex="-1"
         >
-          <button mat-button (click)="checkAllInRegion(region, true)" class="mr-2">
+          <button matButton="filled" (click)="checkAllInRegion(region, true)" class="mr-2">
             Check All
           </button>
-          <button mat-button color="warn" (click)="clearAllInRegion(region)" class="mr-2">
+          <button matButton="outlined" color="warn" (click)="clearAllInRegion(region)" class="mr-2">
             Clear All
           </button>
           <button mat-icon-button (click)="toggleRegion(region)">
@@ -47,7 +47,7 @@
                 Check All
               </button>
               <button
-                matButton="outlined"
+                mat-button
                 color="warn"
                 (click)="clearAllInSection(region, section)"
               >
