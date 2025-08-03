@@ -1,18 +1,25 @@
-<div class="fixed top-0 left-0 right-0 z-10 bg-white dark:bg-gray-800 shadow-md p-2">
+<div
+  class="fixed top-0 left-0 right-0 z-10 bg-white dark:bg-gray-800 shadow-md p-2"
+>
   <div class="container mx-auto">
     <!-- Progress info - stacks on mobile, side-by-side on larger screens -->
     <div class="flex flex-col sm:flex-row items-center justify-between">
       <div class="flex items-center w-full sm:max-w-md mb-2 sm:mb-0">
-        <mat-progress-bar 
-          class="w-full" 
-          color="primary" 
-          mode="determinate" 
-          [value]="completionPercentage">
+        <mat-progress-bar
+          class="w-full"
+          color="primary"
+          mode="determinate"
+          [value]="completionPercentage"
+        >
         </mat-progress-bar>
       </div>
       <div class="flex justify-between w-full sm:w-auto sm:ml-4">
-        <span class="text-sm font-medium">{{ completionPercentage }}% Complete</span>
-        <span class="text-sm ml-4">{{ completedItems }} / {{ totalItems }} items</span>
+        <span class="text-sm font-medium"
+          >{{ completionPercentage }}% Complete</span
+        >
+        <span class="text-sm ml-4"
+          >{{ completedItems }} / {{ totalItems }} items</span
+        >
       </div>
     </div>
   </div>
@@ -24,37 +31,44 @@
       <mat-card-title>Rules of Engagement (RoE)</mat-card-title>
     </mat-card-header>
     <mat-card-content>
-      <p>This checklist is a supplemental tool and does not replace the official Dormitory Standard Operating Procedure (SOP). Users must follow the actual Dorm SOP for complete guidance.</p>
+      <p>
+        This checklist is a supplemental tool and does not replace the official
+        Dormitory Standard Operating Procedure (SOP). Users must follow the
+        actual Dorm SOP for complete guidance.
+      </p>
       <p class="mt-2"><strong>Current as of (CAO): 08 AUG 2025</strong></p>
       <p class="mt-2">Made by OT Sims 20-25</p>
     </mat-card-content>
   </mat-card>
 
   <div class="flex flex-wrap justify-end mb-4">
-    <button mat-stroked-button (click)="checkAll(true)" class="mr-2 mb-2 sm:mb-0">
+    <button
+      mat-stroked-button
+      (click)="checkAll(true)"
+      class="mr-2 mb-2 sm:mb-0"
+    >
       Check All
     </button>
-    <button mat-button color="primary" (click)="clearAll()">
-      Clear All
-    </button>
+    <button mat-button color="primary" (click)="clearAll()">Clear All</button>
   </div>
   <div *ngFor="let region of regions; trackBy: trackByRegion" class="mb-6">
     <mat-card>
-      <mat-card-header
-        class="flex flex-col sm:flex-row"
-      >
+      <mat-card-header class="flex flex-col sm:flex-row">
         <div class="flex items-center w-full justify-between">
           <div class="flex items-center">
             <button mat-icon-button (click)="toggleRegion(region)" class="mr-2">
-              <mat-icon>{{ regionCollapsedState[region] ? 'expand_more' : 'expand_less' }}</mat-icon>
+              <mat-icon>{{
+                regionCollapsedState[region] ? 'expand_more' : 'expand_less'
+              }}</mat-icon>
             </button>
-            <mat-card-title 
-              class="text-lg sm:text-xl break-words cursor-pointer" 
+            <mat-card-title
+              class="text-lg sm:text-xl break-words cursor-pointer"
               (click)="toggleRegion(region)"
               (keydown.enter)="toggleRegion(region)"
               tabindex="0"
               role="button"
-            >{{ region }}</mat-card-title>
+              >{{ region }}</mat-card-title
+            >
           </div>
         </div>
         <div
@@ -83,9 +97,18 @@
       </mat-card-header>
       <mat-card-content *ngIf="!regionCollapsedState[region]">
         <div *ngFor="let section of sections[region]" class="mb-6">
-          <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-3">
-            <h3 class="mat-subheader text-base sm:text-lg font-medium break-words">{{ section }}</h3>
-            <div *ngIf="groupedChecklist[region][section].length > 1" class="flex flex-wrap mt-1 sm:mt-0">
+          <div
+            class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-3"
+          >
+            <h3
+              class="mat-subheader text-base sm:text-lg font-medium break-words"
+            >
+              {{ section }}
+            </h3>
+            <div
+              *ngIf="groupedChecklist[region][section].length > 1"
+              class="flex flex-wrap mt-1 sm:mt-0"
+            >
               <button
                 mat-stroked-button
                 (click)="checkAllInSection(region, section, true)"
@@ -103,19 +126,22 @@
               </button>
             </div>
           </div>
-          <div *ngFor="let item of groupedChecklist[region][section]" class="mb-4">
-            <div class="flex items-start">
+          <div
+            *ngFor="let item of groupedChecklist[region][section]"
+            class="mb-4"
+          >
+            <div class="flex items-center">
               <mat-checkbox
                 [(ngModel)]="item.checked"
                 (ngModelChange)="onCheckboxChange($event, item.id)"
-                class="mt-1"
               ></mat-checkbox>
-              <div class="ml-2 whitespace-normal text-sm sm:text-base break-words">
+              <div
+                class="ml-2 whitespace-normal text-sm sm:text-base break-words"
+              >
                 {{ item.description }}
                 <span class="text-gray-500 text-sm ml-1">
                   ({{ item.bullet }})
                 </span>
-
               </div>
             </div>
           </div>
