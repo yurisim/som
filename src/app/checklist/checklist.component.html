@@ -25,7 +25,8 @@
     </mat-card-header>
     <mat-card-content>
       <p>This checklist is a supplemental tool and does not replace the official Dormitory Standard Operating Procedure (SOP). Users must follow the actual Dorm SOP for complete guidance.</p>
-      <p class="mt-2"><strong>Document current as of: 08 AUG 2025</strong></p>
+      <p class="mt-2"><strong>Current as of (CAO): 08 AUG 2025</strong></p>
+      <p class="mt-2">Made by OT Sims 20-25</p>
     </mat-card-content>
   </mat-card>
 
@@ -40,17 +41,21 @@
   <div *ngFor="let region of regions; trackBy: trackByRegion" class="mb-6">
     <mat-card>
       <mat-card-header
-        class="cursor-pointer flex flex-col sm:flex-row"
-        (click)="toggleRegion(region)"
-        (keydown.enter)="toggleRegion(region)"
-        tabindex="0"
-        role="button"
+        class="flex flex-col sm:flex-row"
       >
         <div class="flex items-center w-full justify-between">
-          <mat-card-title class="text-lg sm:text-xl break-words">{{ region }}</mat-card-title>
-          <button mat-icon-button (click)="toggleRegion(region)" class="sm:hidden">
-            <mat-icon>{{ regionCollapsedState[region] ? 'expand_more' : 'expand_less' }}</mat-icon>
-          </button>
+          <div class="flex items-center">
+            <button mat-icon-button (click)="toggleRegion(region)" class="mr-2">
+              <mat-icon>{{ regionCollapsedState[region] ? 'expand_more' : 'expand_less' }}</mat-icon>
+            </button>
+            <mat-card-title 
+              class="text-lg sm:text-xl break-words cursor-pointer" 
+              (click)="toggleRegion(region)"
+              (keydown.enter)="toggleRegion(region)"
+              tabindex="0"
+              role="button"
+            >{{ region }}</mat-card-title>
+          </div>
         </div>
         <div
           class="w-full sm:ml-auto flex flex-wrap items-center justify-end mt-2 sm:mt-0"
@@ -73,9 +78,7 @@
           >
             Clear All
           </button>
-          <button mat-icon-button (click)="toggleRegion(region)" class="hidden sm:block">
-            <mat-icon>{{ regionCollapsedState[region] ? 'expand_more' : 'expand_less' }}</mat-icon>
-          </button>
+          <!-- Expand/collapse button moved to the left of region name -->
         </div>
       </mat-card-header>
       <mat-card-content *ngIf="!regionCollapsedState[region]">
