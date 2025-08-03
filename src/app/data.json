@@ -654,7 +654,7 @@
     "id": "closet_rod_004",
     "region": "Closet",
     "section": "Closet Rod",
-    "description": "Display items in the correct hanger order (All-Weather Coat, Blues Jacket, Sweater, Service Coat, etc.).",
+    "description": "Display items in the correct hanger order (From Left to Right): 1. All-Weather Coat/Liner 2. Lightweight Blue Jacket/Liner 3. Cardigan/Pullover Sweater 4. Service Coat 5. Long Sleeve Blue Shirts/Blouses 6. Short Sleeve Blue Shirts/Blouses 7. Blue Trousers/Slacks 8. Blues Skirt 9. Extreme Cold/Wet Weather (e.g. ECWW Jacket, MASSIF, Gortex) 10. Fleece 11. (Optional) Waffle top/bottom 12. OCP Coat (Tops/Blouses) 13. OCP Trousers 14. PTG Jacket/pants 15. PT Sweater.",
     "bullet": "8.3.1"
   },
   {

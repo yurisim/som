@@ -11,4 +11,5 @@ export interface ChecklistItem {
   description: string;
   bullet: string;
   checked?: boolean;
+  optional?: boolean;
 }
