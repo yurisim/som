@@ -13,7 +13,7 @@
         <mat-card-title>{{ region }}</mat-card-title>
       </mat-card-header>
       <mat-card-content>
-        <mat-list *ngFor="let section of getSections(region)">
+        <mat-list *ngFor="let section of sections[region]">
           <div class="flex justify-between items-center">
             <h3 class="mat-subheader">{{ section }}</h3>
             <div>
@@ -40,7 +40,7 @@
               <span class="whitespace-normal">
                 {{ item.description }}
                 <span class="text-gray-500 text-sm ml-2">
-                  ({{ item.bullet }}, page {{ item.page }})
+                  ({{ item.bullet }})
                 </span>
               </span>
             </mat-checkbox>

@@ -7,14 +7,10 @@ import { MatListModule } from '@angular/material/list';
 import { FormsModule } from '@angular/forms';
 import {MatIconModule} from '@angular/material/icon';
 import { ChecklistService } from '../checklist.service';
-import { ChecklistItem } from '../checklist.model';
+import { ChecklistItem, GroupedChecklist } from '../checklist.model';
 
 
-interface GroupedChecklist {
-  [region: string]: {
-    [section: string]: ChecklistItem[];
-  };
-}
+
 
 @Component({
   selector: 'app-checklist',
@@ -34,6 +30,7 @@ interface GroupedChecklist {
 export class ChecklistComponent implements OnInit {
   groupedChecklist: GroupedChecklist = {};
   regions: string[] = [];
+  sections: { [region: string]: string[] } = {};
 
   checklistService = inject(ChecklistService);
 
@@ -41,6 +38,9 @@ export class ChecklistComponent implements OnInit {
     this.checklistService.getChecklistData().subscribe(data => {
       this.groupedChecklist = this.groupData(data);
       this.regions = Object.keys(this.groupedChecklist);
+      this.regions.forEach(region => {
+        this.sections[region] = Object.keys(this.groupedChecklist[region]);
+      });
     });
   }
 
@@ -53,17 +53,15 @@ export class ChecklistComponent implements OnInit {
     }, {} as GroupedChecklist);
   }
 
-  getSections(region: string): string[] {
-    return Object.keys(this.groupedChecklist[region]);
-  }
+
 
   onCheckboxChange(checked: boolean, id: string): void {
     this.checklistService.setCheckedState(id, checked);
   }
 
   checkAll(checked: boolean): void {
-    this.regions.forEach((region) => {
-      this.getSections(region).forEach((section) => {
+    this.regions.forEach(region => {
+      this.sections[region].forEach(section => {
         this.checkAllInSection(region, section, checked);
       });
     });
@@ -71,7 +69,7 @@ export class ChecklistComponent implements OnInit {
 
   clearAll(): void {
     this.regions.forEach(region => {
-      this.getSections(region).forEach(section => {
+      this.sections[region].forEach(section => {
         this.clearAllInSection(region, section);
       });
     });
