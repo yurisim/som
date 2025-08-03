@@ -1,16 +1,19 @@
 <div class="fixed top-0 left-0 right-0 z-10 bg-white dark:bg-gray-800 shadow-md p-2">
-  <div class="container mx-auto flex items-center justify-between">
-    <div class="flex items-center w-full max-w-md">
-      <mat-progress-bar 
-        class="w-full mr-2" 
-        color="primary" 
-        mode="determinate" 
-        [value]="completionPercentage">
-      </mat-progress-bar>
-      <span class="text-sm font-medium ml-2">{{ completionPercentage }}% Complete</span>
-    </div>
-    <div>
-      <span class="text-sm">{{ completedItems }} / {{ totalItems }} items</span>
+  <div class="container mx-auto">
+    <!-- Progress info - stacks on mobile, side-by-side on larger screens -->
+    <div class="flex flex-col sm:flex-row items-center justify-between">
+      <div class="flex items-center w-full sm:max-w-md mb-2 sm:mb-0">
+        <mat-progress-bar 
+          class="w-full" 
+          color="primary" 
+          mode="determinate" 
+          [value]="completionPercentage">
+        </mat-progress-bar>
+      </div>
+      <div class="flex justify-between w-full sm:w-auto sm:ml-4">
+        <span class="text-sm font-medium">{{ completionPercentage }}% Complete</span>
+        <span class="text-sm ml-4">{{ completedItems }} / {{ totalItems }} items</span>
+      </div>
     </div>
   </div>
 </div>
@@ -26,8 +29,8 @@
     </mat-card-content>
   </mat-card>
 
-  <div class="flex justify-end mb-4">
-    <button mat-button (click)="checkAll(true)" class="mr-2">
+  <div class="flex flex-wrap justify-end mb-4">
+    <button mat-button (click)="checkAll(true)" class="mr-2 mb-2 sm:mb-0">
       Check All
     </button>
     <button mat-stroked-button color="warn" (click)="clearAll()">
@@ -37,15 +40,20 @@
   <div *ngFor="let region of regions; trackBy: trackByRegion" class="mb-6">
     <mat-card>
       <mat-card-header
-        class="cursor-pointer"
+        class="cursor-pointer flex flex-col sm:flex-row"
         (click)="toggleRegion(region)"
         (keydown.enter)="toggleRegion(region)"
         tabindex="0"
         role="button"
       >
-        <mat-card-title>{{ region }}</mat-card-title>
+        <div class="flex items-center w-full justify-between">
+          <mat-card-title class="text-lg sm:text-xl break-words">{{ region }}</mat-card-title>
+          <button mat-icon-button (click)="toggleRegion(region)" class="sm:hidden">
+            <mat-icon>{{ regionCollapsedState[region] ? 'expand_more' : 'expand_less' }}</mat-icon>
+          </button>
+        </div>
         <div
-          class="ml-auto flex items-center"
+          class="w-full sm:ml-auto flex flex-wrap items-center justify-end mt-2 sm:mt-0"
           (click)="$event.stopPropagation()"
           (keydown.enter)="$event.stopPropagation()"
           tabindex="-1"
@@ -53,7 +61,7 @@
           <button
             mat-button
             (click)="checkAllInRegion(region, true)"
-            class="mr-2"
+            class="mr-2 mb-2 sm:mb-0"
           >
             Check All
           </button>
@@ -61,26 +69,24 @@
             mat-stroked-button
             color="warn"
             (click)="clearAllInRegion(region)"
-            class="mr-2"
+            class="mr-2 mb-2 sm:mb-0"
           >
             Clear All
           </button>
-          <button mat-icon-button (click)="toggleRegion(region)">
-            <mat-icon>{{
-              regionCollapsedState[region] ? 'expand_more' : 'expand_less'
-            }}</mat-icon>
+          <button mat-icon-button (click)="toggleRegion(region)" class="hidden sm:block">
+            <mat-icon>{{ regionCollapsedState[region] ? 'expand_more' : 'expand_less' }}</mat-icon>
           </button>
         </div>
       </mat-card-header>
       <mat-card-content *ngIf="!regionCollapsedState[region]">
         <mat-list *ngFor="let section of sections[region]">
-          <div class="flex justify-between items-center">
-            <h3 class="mat-subheader">{{ section }}</h3>
-            <div *ngIf="groupedChecklist[region][section].length > 1">
+          <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center">
+            <h3 class="mat-subheader text-base sm:text-lg font-medium break-words">{{ section }}</h3>
+            <div *ngIf="groupedChecklist[region][section].length > 1" class="flex flex-wrap mt-1 sm:mt-0">
               <button
                 mat-button
                 (click)="checkAllInSection(region, section, true)"
-                class="mr-2"
+                class="mr-2 mb-2 sm:mb-0 text-sm"
               >
                 Check All
               </button>
@@ -88,17 +94,19 @@
                 mat-stroked-button
                 color="warn"
                 (click)="clearAllInSection(region, section)"
+                class="text-sm"
               >
                 Clear All
               </button>
             </div>
           </div>
-          <mat-list-item *ngFor="let item of groupedChecklist[region][section]">
+          <mat-list-item *ngFor="let item of groupedChecklist[region][section]" class="mb-1">
             <mat-checkbox
               [(ngModel)]="item.checked"
               (ngModelChange)="onCheckboxChange($event, item.id)"
+              class="w-full"
             >
-              <span class="whitespace-normal">
+              <span class="whitespace-normal text-sm sm:text-base break-words">
                 {{ item.description }}
                 <span class="text-gray-500 text-sm ml-2">
                   ({{ item.bullet }})
