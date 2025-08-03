@@ -7,6 +7,7 @@ import { MatButtonModule } from '@angular/material/button';
   selector: 'app-root',
   templateUrl: './app.html',
   styleUrl: './app.scss',
+  standalone: true,
 })
 export class App {
   protected title = 'som';
