@@ -738,25 +738,74 @@
     "id": "closet_shoes_001",
     "region": "Closet",
     "section": "Shoes",
-    "description": "Shoes will be neat, clean/dust free and dry. All items need to be serviceable.",
+    "description": "Shoes will be neat, clean/dust free and dry. All items need to be serviceable. Remove packaging plastic and thread.",
     "bullet": "8.6"
   },
   {
     "id": "closet_shoes_002",
     "region": "Closet",
     "section": "Shoes",
-    "description": "Ground the heels and soles of each pair together. Ground the sole of the first shoe to the wall of the doorway.",
+    "description": "Placement: Ground the heels and soles of each pair together. If heels and soles cannot be grounded together, ground the soles. Ground the sole of the first shoe to the wall of the doorway. Align each shoe so that the heels are flush to the back wall or dividing line.",
     "bullet": "8.6.1"
   },
   {
-    "id": "closet_shoes_003",
+    "id": "closet_shoes_004",
     "region": "Closet",
     "section": "Shoes",
-    "description": "Tightly lace your shoes and boots by pulling the laces as tight as possible, leaving untied, and tuck the excess laces inside the shoe or boot, out of sight.",
+    "description": "Quantity & Gaps: Do not display more than two pairs of a single type of shoe. If a pair is removed from display, slide the remaining shoes over to fill the gap.",
+    "bullet": "8.6.1"
+  },
+  {
+    "id": "closet_shoes_005",
+    "region": "Closet",
+    "section": "Shoes",
+    "description": "Inspection Lacing (General): Tightly lace shoes and boots (all the way from bottom to top) without changing the conformity of the shoe.",
     "bullet": "8.6.2"
   },
   {
-    "id": "closet_shoes_004",
+    "id": "closet_shoes_006",
+    "region": "Closet",
+    "section": "Shoes",
+    "description": "Routine Order Lacing (Running Shoes Only): During routine order and while sleeping, running shoes may be loosely laced to allow for easy entry in an emergency.",
+    "bullet": "8.6.3"
+  },
+  {
+    "id": "closet_shoes_007",
+    "region": "Closet",
+    "section": "Shoes",
+    "description": "Lacing (Combat Boots): Lace for best fit utilizing each eyelet. Tie a single knot at the end of each lace so they cannot be pulled through. Tuck excess laces inside the boot.",
+    "bullet": "8.6.4"
+  },
+  {
+    "id": "closet_shoes_008",
+    "region": "Closet",
+    "section": "Shoes",
+    "description": "Lacing (Low Quarters): Lace for best fit utilizing each eyelet. Do NOT tie a knot on the end of the laces. Tuck excess laces inside the shoes.",
+    "bullet": "8.6.5"
+  },
+  {
+    "id": "closet_shoes_009",
+    "region": "Closet",
+    "section": "Shoes",
+    "description": "Lacing (Running Shoes): Lace for best fit. Tie a single knot at the end of each lace so they cannot be pulled through. Tuck excess laces inside the shoe.",
+    "bullet": "8.6.6"
+  },
+  {
+    "id": "closet_shoes_010",
+    "region": "Closet",
+    "section": "Shoes",
+    "description": "(Optional) Shoe Inserts: Shoe fresheners and shapers are authorized but must be tucked into shoes. Paper/cardboard stuffing do not constitute shoe shapers.",
+    "bullet": "8.6"
+  },
+  {
+    "id": "closet_shoes_011",
+    "region": "Closet",
+    "section": "Shoes",
+    "description": "Shower Shoes: Soles must be made completely of rubberized material and cannot be leather, sandal, or sock-type.",
+    "bullet": "8.6"
+  },
+  {
+    "id": "closet_shoes_012",
     "region": "Closet",
     "section": "Shoes",
     "description": "Display shoes in the correct order: 1. Combat Boots 2. Low Quarters 3. (Optional) Pumps 4. Running Shoes 5. Shower Shoes.",
