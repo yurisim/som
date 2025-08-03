@@ -528,7 +528,7 @@
     "id": "closet_shelf_flight_cap_001",
     "region": "Closet",
     "section": "Closet Shelf",
-    "description": "Flight Cap: Display to the right of OCP Patrol Cap, triangle facing down. Ensure the front of the cap is flush with the edge of the shelf.",
+    "description": "Flight Cap: Display to the right of OCP Patrol Cap, triangle facing down. Ensure the front of the cap is flush with the edge of the shelf. Direct commissioned officers wear rank.",
     "bullet": "8.2.2"
   },
   {
@@ -537,6 +537,13 @@
     "section": "Closet Shelf",
     "description": "(Optional) Watch Cap: Fold in half from left to right. Edges flush and even. Open end is flush to the edge of the shelf.",
     "bullet": "8.2.3"
+  },
+  {
+    "id": "closet_shelf_gloves_001",
+    "region": "Closet",
+    "section": "Closet Shelf",
+    "description": "Ground the thumb side to the right wall/dividing line. Ensure the open ends are flush with each other. See picture in SOP for reference.",
+    "bullet": "8.2.4"
   },
   {
     "id": "closet_shelf_flashlight_001",
@@ -612,7 +619,7 @@
     "id": "service_coat_001",
     "region": "Closet",
     "section": "Closet Rod",
-    "description": "Service Coat: Pin all proper accoutrements (rank, etc.). Hang on 1 plastic hanger. If coat is worn, leave empty hanger evenly spaced. Direct commissioned officers wear rank.",
+    "description": "Service Coat: Pin all proper accoutrements with exception to rank. Hang on 1 plastic hanger. If coat is worn, leave empty hanger evenly spaced. Direct commissioned officers wear rank.",
     "bullet": "8.3.6"
   },
   {
