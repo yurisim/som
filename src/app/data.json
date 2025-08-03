@@ -1,5 +1,110 @@
 [
   {
+    "id": "general_maintenance_wastebasket_001",
+    "region": "General Dormitory Maintenance",
+    "section": "General Instructions",
+    "description": "During inspection order, all wastebaskets must be empty.",
+    "bullet": "3.1"
+  },
+  {
+    "id": "general_maintenance_grounds_001",
+    "region": "General Dormitory Maintenance",
+    "section": "General Instructions",
+    "description": "All surrounding dormitory grounds will be free of debris and trash.",
+    "bullet": "3.1"
+  },
+  {
+    "id": "general_maintenance_stairwells_001",
+    "region": "General Dormitory Maintenance",
+    "section": "Stairwells/Hallways",
+    "description": "Stairwells, landings, and hallways must be dusted, swept, and mopped.",
+    "bullet": "3.2"
+  },
+  {
+    "id": "general_maintenance_stairwells_002",
+    "region": "General Dormitory Maintenance",
+    "section": "Stairwells/Hallways",
+    "description": "Clean handrails, windows, and windowsills.",
+    "bullet": "3.2"
+  },
+  {
+    "id": "general_maintenance_doors_001",
+    "region": "General Dormitory Maintenance",
+    "section": "Stairwells/Hallways",
+    "description": "Entry/Exit doors will be clean and dust free.",
+    "bullet": "3.2"
+  },
+  {
+    "id": "general_maintenance_utility_closet_001",
+    "region": "General Dormitory Maintenance",
+    "section": "Utility Closets",
+    "description": "Utility closets must be swept, mopped, and dusted.",
+    "bullet": "3.3"
+  },
+  {
+    "id": "general_maintenance_utility_closet_002",
+    "region": "General Dormitory Maintenance",
+    "section": "Utility Closets",
+    "description": "The door will be clean, dust free, and closed when the closet is not in use.",
+    "bullet": "3.3"
+  },
+  {
+    "id": "general_maintenance_latrine_001",
+    "region": "General Dormitory Maintenance",
+    "section": "CQ Office/Latrine",
+    "description": "Latrine must be dusted, swept, and mopped.",
+    "bullet": "3.5.1"
+  },
+  {
+    "id": "general_maintenance_latrine_002",
+    "region": "General Dormitory Maintenance",
+    "section": "CQ Office/Latrine",
+    "description": "Clean sink and toilet. Display the toilet seat in the up position.",
+    "bullet": "3.5.1"
+  },
+  {
+    "id": "general_maintenance_latrine_003",
+    "region": "General Dormitory Maintenance",
+    "section": "CQ Office/Latrine",
+    "description": "Mirror must be clean, free of dust and smudges.",
+    "bullet": "3.5.1"
+  },
+  {
+    "id": "general_maintenance_latrine_004",
+    "region": "General Dormitory Maintenance",
+    "section": "CQ Office/Latrine",
+    "description": "Trash must be emptied each day.",
+    "bullet": "3.5.1"
+  },
+  {
+    "id": "general_maintenance_laundry_001",
+    "region": "General Dormitory Maintenance",
+    "section": "Laundry Rooms",
+    "description": "Must be dusted, swept, and mopped.",
+    "bullet": "3.6"
+  },
+  {
+    "id": "general_maintenance_laundry_002",
+    "region": "General Dormitory Maintenance",
+    "section": "Laundry Rooms",
+    "description": "When not in use, washer lids will be open and dryer doors will be closed.",
+    "bullet": "3.6"
+  },
+  {
+    "id": "general_maintenance_laundry_003",
+    "region": "General Dormitory Maintenance",
+    "section": "Laundry Rooms",
+    "description": "Empty the trash can before it is full.",
+    "bullet": "3.6"
+  },
+  {
+    "id": "general_maintenance_laundry_004",
+    "region": "General Dormitory Maintenance",
+    "section": "Laundry Rooms",
+    "description": "Clean dryer lint traps after every use.",
+    "bullet": "3.6"
+  },
+  {
     "id": "common_area_floor_001",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Floor",
@@ -147,6 +252,27 @@
     "bullet": "4.8.1"
   },
   {
+    "id": "common_area_shower_003",
+    "region": "Common Area (Bathroom/Latrine)",
+    "section": "Shower",
+    "description": "(Optional) Squeegee may be displayed inside the shower, grounded to corner of shower floor (G), nearest the hinge side of the shower door.",
+    "bullet": "4.8.2"
+  },
+  {
+    "id": "common_area_shower_004",
+    "region": "Common Area (Bathroom/Latrine)",
+    "section": "Shower",
+    "description": "(Optional) A bathmat or towel may be in the shower, as long as it is grounded to the base of the shower and centered (G). If a towel is used, it must be draped over the shower door neatly when not in use.",
+    "bullet": "4.8.2"
+  },
+  {
+    "id": "common_area_shower_005",
+    "region": "Common Area (Bathroom/Latrine)",
+    "section": "Shower",
+    "description": "(Optional) Wet Uniform Items (PTG): Jacket/Pants will be hung on a hanger on the shower frame. Shoes will be placed inside the shower. Gloves on rack above toilet. Underwear/socks stowed in laundry bag.",
+    "bullet": "4.8.3"
+  },
+  {
     "id": "common_area_towel_001",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Towel",
@@ -255,7 +381,7 @@
     "id": "bed_area_comforter_001",
     "region": "Bed Area",
     "section": "Blue Comforter/Top Sheet",
-    "description": "Make hospital corners on the inspection side, tucking excess on the non-inspection side.",
+    "description": "Make hospital corners on the inspection side, tucking excess on the non-inspection side if unable to make corners on the non-inspection side.",
     "bullet": "5.4"
   },
   {
