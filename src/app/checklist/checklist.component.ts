@@ -40,7 +40,8 @@ export class ChecklistComponent implements OnInit {
 
   checklistService = inject(ChecklistService);
 
-  ngOnInit(): void {
+  // loads data and sets up initial state
+ngOnInit(): void {
     this.checklistService.getChecklistData().subscribe(data => {
       this.groupedChecklist = this.groupData(data);
       this.regions = Object.keys(this.groupedChecklist);
@@ -52,15 +53,18 @@ export class ChecklistComponent implements OnInit {
     });
   }
 
-  toggleRegion(region: string): void {
+  // expands/collapses a region
+toggleRegion(region: string): void {
     this.regionCollapsedState[region] = !this.regionCollapsedState[region];
   }
 
-  trackByRegion(index: number, region: string): string {
+  // helps Angular's ngFor performance
+trackByRegion(index: number, region: string): string {
     return region;
   }
 
-  private groupData(data: ChecklistItem[]): GroupedChecklist {
+  // organizes flat data into nested structure by region and section
+private groupData(data: ChecklistItem[]): GroupedChecklist {
     return data.reduce((acc, item) => {
       acc[item.region] = acc[item.region] || {};
       acc[item.region][item.section] = acc[item.region][item.section] || [];
@@ -71,26 +75,30 @@ export class ChecklistComponent implements OnInit {
 
 
 
+  // updates checkbox state and recalculates completion %
   onCheckboxChange(checked: boolean, id: string): void {
     this.checklistService.setCheckedState(id, checked);
     this.calculateCompletionPercentage();
   }
 
-  checkAllInRegion(region: string, checked: boolean): void {
+  // checks/unchecks all items in a region
+checkAllInRegion(region: string, checked: boolean): void {
     this.sections[region].forEach(section => {
       this.checkAllInSection(region, section, checked);
     });
     this.calculateCompletionPercentage();
   }
 
-  clearAllInRegion(region: string): void {
+  // unchecks everything in a region
+clearAllInRegion(region: string): void {
     this.sections[region].forEach(section => {
       this.clearAllInSection(region, section);
     });
     this.calculateCompletionPercentage();
   }
 
-  clearAll(): void {
+  // resets all checkboxes
+clearAll(): void {
     this.regions.forEach(region => {
       this.sections[region].forEach(section => {
         this.clearAllInSection(region, section);
@@ -99,7 +107,8 @@ export class ChecklistComponent implements OnInit {
     this.calculateCompletionPercentage();
   }
 
-  checkAllInSection(region: string, section: string, checked: boolean): void {
+  // bulk check/uncheck for a section
+checkAllInSection(region: string, section: string, checked: boolean): void {
     this.groupedChecklist[region][section].forEach((item) => {
       if (item.checked !== checked) {
         item.checked = checked;
@@ -109,7 +118,8 @@ export class ChecklistComponent implements OnInit {
     this.calculateCompletionPercentage();
   }
 
-  clearAllInSection(region: string, section: string): void {
+  // unchecks all items in a section
+clearAllInSection(region: string, section: string): void {
     this.groupedChecklist[region][section].forEach(item => {
       if (item.checked) {
         item.checked = false;
@@ -119,7 +129,8 @@ export class ChecklistComponent implements OnInit {
     this.calculateCompletionPercentage();
   }
 
-  calculateCompletionPercentage(): void {
+  // figures out how much is done
+calculateCompletionPercentage(): void {
     this.totalItems = 0;
     this.completedItems = 0;
     
@@ -135,5 +146,10 @@ export class ChecklistComponent implements OnInit {
     // Calculate percentage
     this.completionPercentage = this.totalItems > 0 ? 
       Math.round((this.completedItems / this.totalItems) * 100) : 0;
+  }
+
+  // scrolls to the top of the page
+  scrollToTop(): void {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 }
