@@ -574,6 +574,125 @@
     "bullet": "8.3.1"
   },
   {
+    "id": "closet_rod_001",
+    "region": "Closet",
+    "section": "Closet Rod",
+    "description": "General Instructions: Hang items with hanger's open end to the rear. Left sleeve faces door. Press service dress items. Outer garments use 2 wire or 1 plastic hanger. Note for Direct Commissioned Officers: Display rank on all Class A/B outer garments (Service Coat, AWC, LW Jacket, Cardigan).",
+    "bullet": "8.3 & 8.3.6"
+  },
+  {
+    "id": "closet_rod_hangers_001",
+    "region": "Closet",
+    "section": "Closet Rod",
+    "description": "Hangers: Space hangers evenly. Ground end hangers to brackets or dividing line. Only display an empty hanger for a worn Service Coat, Lightweight Blues Jacket, or All-Weather Coat.",
+    "bullet": "8.3.2"
+  },
+  {
+    "id": "all_weather_coat_001",
+    "region": "Closet",
+    "section": "Closet Rod",
+    "description": "All-Weather Coat/Liner: Do not zip liner to coat. Button all buttons except top. Buckle belt through all loops. Direct commissioned Officers: Display rank. If coat is worn, display liner alone as if inside.",
+    "bullet": "8.3.3"
+  },
+  {
+    "id": "lw_blue_jacket_001",
+    "region": "Closet",
+    "section": "Closet Rod",
+    "description": "Lightweight Blue Jacket/Liner: Zip jacket fully and tuck zipper. Attach liner with tabs. Direct commissioned Officers: Display rank. If jacket is worn, display liner alone as if attached.",
+    "bullet": "8.3.4"
+  },
+  {
+    "id": "cardigan_sweater_001",
+    "region": "Closet",
+    "section": "Closet Rod",
+    "description": "Cardigan/Pullover Sweater: Button epaulets. Commissioned Officers: Display rank.",
+    "bullet": "8.3.5"
+  },
+  {
+    "id": "service_coat_001",
+    "region": "Closet",
+    "section": "Closet Rod",
+    "description": "Service Coat: Pin all proper accoutrements (rank, etc.). Hang on 1 plastic hanger. If coat is worn, leave empty hanger evenly spaced. Direct commissioned officers wear rank.",
+    "bullet": "8.3.6"
+  },
+  {
+    "id": "ls_blue_shirt_001",
+    "region": "Closet",
+    "section": "Closet Rod",
+    "description": "Long Sleeve Blue Shirt/Blouse: Button all buttons. Group all similar shirts/blouses together.",
+    "bullet": "8.3.7"
+  },
+  {
+    "id": "ss_blue_shirt_001",
+    "region": "Closet",
+    "section": "Closet Rod",
+    "description": "Short Sleeve Blue Shirt/Blouse: Button all buttons except the top one. Group all similar shirts/blouses together.",
+    "bullet": "8.3.8"
+  },
+  {
+    "id": "blue_trousers_001",
+    "region": "Closet",
+    "section": "Closet Rod",
+    "description": "Blue Trousers/Slacks: Button all buttons, zip fly, and fasten clasp. Drape over hanger bar with legs inseam-to-inseem and cuffs/waistband even. Fly faces closet door.",
+    "bullet": "8.3.9"
+  },
+  {
+    "id": "blues_skirt_001",
+    "region": "Closet",
+    "section": "Closet Rod",
+    "description": "Blues Skirt: Button all buttons and zip fly. Hang on a separate hanger, attached with pins. Skirt front faces left.",
+    "bullet": "8.3.10"
+  },
+  {
+    "id": "ecww_jacket_001",
+    "region": "Closet",
+    "section": "Closet Rod",
+    "description": "ECWW Jacket: Zip fully. Roll and secure hood. Snap any pockets. Hang on one hanger. Tuck zipper string out of sight.",
+    "bullet": "8.3.11"
+  },
+  {
+    "id": "fleece_001",
+    "region": "Closet",
+    "section": "Closet Rod",
+    "description": "Fleece: Zip fully to the top. Hang on one hanger and ensure pockets are empty.",
+    "bullet": "8.3.12"
+  },
+  {
+    "id": "waffle_top_bottom_001",
+    "region": "Closet",
+    "section": "Closet Rod",
+    "description": "Waffle top/bottom (Optional): Hang on one hanger, displayed in the same manner as PTG jacket and pants.",
+    "bullet": "8.3.13"
+  },
+  {
+    "id": "ocp_coat_001",
+    "region": "Closet",
+    "section": "Closet Rod",
+    "description": "OCP Coat/Top: Hang each on a separate hanger. Display as worn: all buttons fastened, including wrists. Group all OCP coats together.",
+    "bullet": "8.3.14"
+  },
+  {
+    "id": "ocp_trousers_001",
+    "region": "Closet",
+    "section": "Closet Rod",
+    "description": "OCP Trousers: Button all buttons. Hang each pair on a separate hanger, draped over bar with legs inseam-to-inseem and cuffs/waistband even. Group all OCP trousers together.",
+    "bullet": "8.3.15"
+  },
+  {
+    "id": "ptg_jacket_pants_001",
+    "region": "Closet",
+    "section": "Closet Rod",
+    "description": "PTG Jacket/Pants: On a single hanger: Jacket (pockets empty, front zipper unzipped, pocket zippers zipped) placed over folded pants (cuff zippers zipped). Hang with fly facing the door.",
+    "bullet": "8.3.16 & 8.3.17"
+  },
+  {
+    "id": "pt_sweater_001",
+    "region": "Closet",
+    "section": "Closet Rod",
+    "description": "PT Sweater: Hang on one hanger, to the right of the PTG items. The small front emblem must face the PTG.",
+    "bullet": "8.3.18"
+  },
+  {
     "id": "closet_rod_waffle_top_001",
     "region": "Closet",
     "section": "Closet Rod",
