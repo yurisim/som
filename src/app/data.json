@@ -1,0 +1,452 @@
+[
+  {
+    "id": "common_area_floor_001",
+    "region": "Common Area (Bathroom/Latrine)",
+    "section": "Floor",
+    "description": "Remove all trash/debris",
+    "page": 9,
+    "bullet": "4.3",
+    "reference": "pg. 9 - 4.3",
+    "chapter": 4
+  },
+  {
+    "id": "common_area_floor_002", 
+    "region": "Common Area (Bathroom/Latrine)",
+    "section": "Floor",
+    "description": "Tile floors must be dusted, swept, and mopped",
+    "page": 9,
+    "bullet": "4.3",
+    "reference": "pg. 9 - 4.3",
+    "chapter": 4
+  },
+  {
+    "id": "common_area_floor_003",
+    "region": "Common Area (Bathroom/Latrine)", 
+    "section": "Floor",
+    "description": "Carpet must be vacuumed",
+    "page": 9,
+    "bullet": "4.3",
+    "reference": "pg. 9 - 4.3",
+    "chapter": 4
+  },
+  {
+    "id": "common_area_sink_001",
+    "region": "Common Area (Bathroom/Latrine)",
+    "section": "Sink",
+    "description": "Authorized items: rubber stoppers, hand soap, drinking cups/glasses only",
+    "page": 9,
+    "bullet": "4.4.1",
+    "reference": "pg. 9 - 4.4.1",
+    "chapter": 4
+  },
+  {
+    "id": "common_area_sink_002",
+    "region": "Common Area (Bathroom/Latrine)",
+    "section": "Sink", 
+    "description": "Display drain plug in up position, rubber stoppers grounded to right side of faucet",
+    "page": 9,
+    "bullet": "4.4.2",
+    "reference": "pg. 9 - 4.4.2",
+    "chapter": 4
+  },
+  {
+    "id": "common_area_sink_003",
+    "region": "Common Area (Bathroom/Latrine)",
+    "section": "Sink",
+    "description": "Positions 1 and 2 ground drinking cup to left, positions 3 and 4 to right, grounded to back wall",
+    "page": 9,
+    "bullet": "4.4.3",
+    "reference": "pg. 9 - 4.4.3",
+    "chapter": 4
+  },
+  {
+    "id": "common_area_sink_004",
+    "region": "Common Area (Bathroom/Latrine)",
+    "section": "Sink",
+    "description": "Only 1 hand soap per sink, grounded to left side of faucet",
+    "page": 9,
+    "bullet": "4.4.4",
+    "reference": "pg. 9 - 4.4.4",
+    "chapter": 4
+  },
+  {
+    "id": "common_area_sink_005",
+    "region": "Common Area (Bathroom/Latrine)",
+    "section": "Sink",
+    "description": "Chrome clean, free of dust and debris, dry, no items on soap tray/toothbrush holder during inspection",
+    "page": 9,
+    "bullet": "4.4.5",
+    "reference": "pg. 9 - 4.4.5",
+    "chapter": 4
+  },
+  {
+    "id": "common_area_sink_006",
+    "region": "Common Area (Bathroom/Latrine)",
+    "section": "Sink",
+    "description": "Sinks clean, free of dust and debris, dry",
+    "page": 9,
+    "bullet": "4.4",
+    "reference": "pg. 9 - 4.4",
+    "chapter": 4
+  },
+  {
+    "id": "common_area_cabinet_001",
+    "region": "Common Area (Bathroom/Latrine)",
+    "section": "Sink Cabinet",
+    "description": "Authorized items: storage bins/toiletry bags, toiletries, laundry supplies, air fresheners, hangers (4 max per cabinet), excess items",
+    "page": 9,
+    "bullet": "4.5.1",
+    "reference": "pg. 9 - 4.5.1",
+    "chapter": 4
+  },
+  {
+    "id": "common_area_cabinet_002",
+    "region": "Common Area (Bathroom/Latrine)",
+    "section": "Sink Cabinet",
+    "description": "Hangers upright, grounded to left/right corner; occupants 1&2 ground storage bin to left side against hangers/wall; occupants 3&4 to right side against hangers/wall; items sized tallest to shortest left to right; one storage bin per occupant; hangers neatly stacked and grounded",
+    "page": 9,
+    "bullet": "4.5.2",
+    "reference": "pg. 9 - 4.5.2",
+    "chapter": 4
+  },
+  {
+    "id": "common_area_cabinet_003",
+    "region": "Common Area (Bathroom/Latrine)",
+    "section": "Sink Cabinet",
+    "description": "Doors closed when not in use",
+    "page": 9,
+    "bullet": "4.5",
+    "reference": "pg. 9 - 4.5",
+    "chapter": 4
+  },
+  {
+    "id": "common_area_cabinet_004",
+    "region": "Common Area (Bathroom/Latrine)",
+    "section": "Sink Cabinet",
+    "description": "Cabinet, items, bins clean, dust-free, debris-free, dry",
+    "page": 9,
+    "bullet": "4.5",
+    "reference": "pg. 9 - 4.5",
+    "chapter": 4
+  },
+  {
+    "id": "common_area_medicine_001",
+    "region": "Common Area (Bathroom/Latrine)",
+    "section": "Medicine Cabinet/Mirror",
+    "description": "Occupants 1&2 use bottom shelves, occupant 3 uses top shelf of occupant 2, occupant 4 uses top shelf of occupant 1",
+    "page": 10,
+    "bullet": "4.6",
+    "reference": "pg. 10 - 4.6",
+    "chapter": 4
+  },
+  {
+    "id": "common_area_medicine_002",
+    "region": "Common Area (Bathroom/Latrine)",
+    "section": "Medicine Cabinet/Mirror",
+    "description": "Items clean, show signs of use",
+    "page": 10,
+    "bullet": "4.6",
+    "reference": "pg. 10 - 4.6",
+    "chapter": 4
+  },
+  {
+    "id": "common_area_medicine_003",
+    "region": "Common Area (Bathroom/Latrine)",
+    "section": "Medicine Cabinet/Mirror",
+    "description": "Items stand upright unless container doesn't allow",
+    "page": 10,
+    "bullet": "4.6",
+    "reference": "pg. 10 - 4.6",
+    "chapter": 4
+  },
+  {
+    "id": "common_area_medicine_004",
+    "region": "Common Area (Bathroom/Latrine)",
+    "section": "Medicine Cabinet/Mirror",
+    "description": "Items sized tallest to shortest left to right",
+    "page": 10,
+    "bullet": "4.6",
+    "reference": "pg. 10 - 4.6",
+    "chapter": 4
+  },
+  {
+    "id": "common_area_medicine_005",
+    "region": "Common Area (Bathroom/Latrine)",
+    "section": "Medicine Cabinet/Mirror",
+    "description": "Mirrors clean, dust-free, debris-free, smudge-free",
+    "page": 10,
+    "bullet": "4.6",
+    "reference": "pg. 10 - 4.6",
+    "chapter": 4
+  },
+  {
+    "id": "common_area_toilet_001",
+    "region": "Common Area (Bathroom/Latrine)",
+    "section": "Toilet",
+    "description": "Toilet seat and lid in up position",
+    "page": 10,
+    "bullet": "4.7.1",
+    "reference": "pg. 10 - 4.7.1",
+    "chapter": 4
+  },
+  {
+    "id": "common_area_toilet_002",
+    "region": "Common Area (Bathroom/Latrine)",
+    "section": "Toilet",
+    "description": "Up to 2 extra toilet paper rolls on rack behind toilet; optional wastebasket grounded to wall, flush with doorframe",
+    "page": 10,
+    "bullet": "4.7.2",
+    "reference": "pg. 10 - 4.7.2",
+    "chapter": 4
+  },
+  {
+    "id": "common_area_toilet_003",
+    "region": "Common Area (Bathroom/Latrine)",
+    "section": "Toilet",
+    "description": "Entire surface and bowl cleaned",
+    "page": 10,
+    "bullet": "4.7",
+    "reference": "pg. 10 - 4.7",
+    "chapter": 4
+  },
+  {
+    "id": "common_area_shower_001",
+    "region": "Common Area (Bathroom/Latrine)",
+    "section": "Shower",
+    "description": "Shower door left open",
+    "page": 10,
+    "bullet": "4.8.1",
+    "reference": "pg. 10 - 4.8.1",
+    "chapter": 4
+  },
+  {
+    "id": "common_area_shower_002",
+    "region": "Common Area (Bathroom/Latrine)",
+    "section": "Shower",
+    "description": "Squeegee grounded to corner nearest hinge side; bathmat/towel grounded to base and centered; towel draped neatly over door when not in use",
+    "page": 10,
+    "bullet": "4.8.2",
+    "reference": "pg. 10 - 4.8.2",
+    "chapter": 4
+  },
+  {
+    "id": "common_area_shower_003",
+    "region": "Common Area (Bathroom/Latrine)",
+    "section": "Shower",
+    "description": "Wet PTG items: jacket/pants hung on shower frame, shoes inside shower, gloves on rack above toilet",
+    "page": 10,
+    "bullet": "4.8.3",
+    "reference": "pg. 10 - 4.8.3",
+    "chapter": 4
+  },
+  {
+    "id": "common_area_shower_004",
+    "region": "Common Area (Bathroom/Latrine)",
+    "section": "Shower",
+    "description": "Clean, free of soap scum, mold, dirt, hair",
+    "page": 10,
+    "bullet": "4.8",
+    "reference": "pg. 10 - 4.8",
+    "chapter": 4
+  },
+  {
+    "id": "bed_area_general_001",
+    "region": "Bed Area",
+    "section": "General Bed Standards",
+    "description": "Use rag to dust bed rails, remove rings/watches",
+    "page": 12,
+    "bullet": "5.1.1",
+    "reference": "pg. 12 - 5.1.1",
+    "chapter": 5
+  },
+  {
+    "id": "bed_area_general_002",
+    "region": "Bed Area",
+    "section": "General Bed Standards",
+    "description": "Authorized items: fitted/bottom sheet, top sheet, tan blanket, personal blanket (optional), blue comforter, pillow/pillowcase, dry towel/washcloth",
+    "page": 12,
+    "bullet": "5.1.2",
+    "reference": "pg. 12 - 5.1.2",
+    "chapter": 5
+  },
+  {
+    "id": "bed_area_fitted_001",
+    "region": "Bed Area",
+    "section": "Fitted/Bottom Sheet",
+    "description": "Fitted sheet: neat over mattress, tight, wrinkle-free",
+    "page": 12,
+    "bullet": "5.2",
+    "reference": "pg. 12 - 5.2",
+    "chapter": 5
+  },
+  {
+    "id": "bed_area_fitted_002",
+    "region": "Bed Area",
+    "section": "Fitted/Bottom Sheet",
+    "description": "Bottom sheet: drape evenly, tuck short end under head, pull tight, flatten wrinkles, hospital corners per 5.4 steps 1-4",
+    "page": 12,
+    "bullet": "5.2",
+    "reference": "pg. 12 - 5.2",
+    "chapter": 5
+  },
+  {
+    "id": "bed_area_top_001",
+    "region": "Bed Area",
+    "section": "Top Sheet",
+    "description": "Drape evenly, edge ~12 inches from head end",
+    "page": 12,
+    "bullet": "5.3",
+    "reference": "pg. 12 - 5.3",
+    "chapter": 5
+  },
+  {
+    "id": "bed_area_top_002",
+    "region": "Bed Area",
+    "section": "Top Sheet",
+    "description": "Tuck excess under foot end",
+    "page": 12,
+    "bullet": "5.3",
+    "reference": "pg. 12 - 5.3",
+    "chapter": 5
+  },
+  {
+    "id": "personal_area_floor_001",
+    "region": "Personal Living Area",
+    "section": "Floor",
+    "description": "Remove trash/debris",
+    "page": 14,
+    "bullet": "6.2",
+    "reference": "pg. 14 - 6.2",
+    "chapter": 6
+  },
+  {
+    "id": "personal_area_floor_002",
+    "region": "Personal Living Area",
+    "section": "Floor",
+    "description": "Vacuum floors",
+    "page": 14,
+    "bullet": "6.2",
+    "reference": "pg. 14 - 6.2",
+    "chapter": 6
+  },
+  {
+    "id": "personal_area_chair_001",
+    "region": "Personal Living Area",
+    "section": "Chair",
+    "description": "Free of dust and debris",
+    "page": 14,
+    "bullet": "6.5",
+    "reference": "pg. 14 - 6.5",
+    "chapter": 6
+  },
+  {
+    "id": "personal_area_chair_002",
+    "region": "Personal Living Area",
+    "section": "Chair",
+    "description": "Pushed in, grounded to side closest to entry door and front of desk when not in use",
+    "page": 14,
+    "bullet": "6.5",
+    "reference": "pg. 14 - 6.5",
+    "chapter": 6
+  },
+  {
+    "id": "clothing_drawer_general_001",
+    "region": "Clothing Drawers",
+    "section": "General Drawer Standards",
+    "description": "Religious undergarments in security drawer",
+    "page": 16,
+    "bullet": "7.1.1",
+    "reference": "pg. 16 - 7.1.1",
+    "chapter": 7
+  },
+  {
+    "id": "clothing_drawer_general_002",
+    "region": "Clothing Drawers",
+    "section": "General Drawer Standards",
+    "description": "Don't leave drawers open unattended",
+    "page": 16,
+    "bullet": "7.1.2",
+    "reference": "pg. 16 - 7.1.2",
+    "chapter": 7
+  },
+  {
+    "id": "clothing_drawer_ptg_001",
+    "region": "Clothing Drawers",
+    "section": "Drawer 1 - PTG Clothing",
+    "description": "PT shorts, T-shirts, form-fitting sportswear neatly folded",
+    "page": 16,
+    "bullet": "7.2.1",
+    "reference": "pg. 16 - 7.2.1",
+    "chapter": 7
+  },
+  {
+    "id": "clothing_drawer_ptg_002",
+    "region": "Clothing Drawers",
+    "section": "Drawer 1 - PTG Clothing",
+    "description": "Ground bottom item to front right corner, stack longest on bottom (pyramid effect)",
+    "page": 16,
+    "bullet": "7.2.1.1",
+    "reference": "pg. 16 - 7.2.1.1",
+    "chapter": 7
+  },
+  {
+    "id": "closet_area_general_001",
+    "region": "Closet Area",
+    "section": "General Closet Standards",
+    "description": "Separate closets per occupant (1&4 first closet, 2&3 second closet)",
+    "page": 20,
+    "bullet": "8.1",
+    "reference": "pg. 20 - 8.1",
+    "chapter": 8
+  },
+  {
+    "id": "closet_area_general_002",
+    "region": "Closet Area",
+    "section": "General Closet Standards",
+    "description": "Occupants 1&2 use side closest to entry door",
+    "page": 20,
+    "bullet": "8.1",
+    "reference": "pg. 20 - 8.1",
+    "chapter": 8
+  },
+  {
+    "id": "closet_area_shelf_001",
+    "region": "Closet Area",
+    "section": "Closet Shelf",
+    "description": "OCP patrol cap left side, as worn, bill flush with front edge, right side grounded to left wall/centerline",
+    "page": 20,
+    "bullet": "8.2.1",
+    "reference": "pg. 20 - 8.2.1",
+    "chapter": 8
+  },
+  {
+    "id": "closet_area_shelf_002",
+    "region": "Closet Area",
+    "section": "Closet Shelf",
+    "description": "Flight cap right of OCP cap, triangle down, front flush with edge, grounded to OCP cap",
+    "page": 20,
+    "bullet": "8.2.2",
+    "reference": "pg. 20 - 8.2.2",
+    "chapter": 8
+  },
+  {
+    "id": "closet_area_shoes_001",
+    "region": "Closet Area",
+    "section": "Shoes",
+    "description": "Ground heels and soles together, if not possible ground soles; first shoe sole to doorway wall; successive pairs grounded at soles; heels flush to back wall/dividing line; no spaces when wearing shoes; max 2 pairs per type",
+    "page": 23,
+    "bullet": "8.6.1",
+    "reference": "pg. 23 - 8.6.1",
+    "chapter": 8
+  },
+  {
+    "id": "closet_area_shoes_002",
+    "region": "Closet Area",
+    "section": "Shoes",
+    "description": "Tight lacing bottom to top without changing shoe conformity, untied, excess tucked inside out of sight",
+    "page": 24,
+    "bullet": "8.6.2",
+    "reference": "pg. 24 - 8.6.2",
+    "chapter": 8
+  }
+]
