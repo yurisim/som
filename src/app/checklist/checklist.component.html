@@ -31,10 +31,10 @@
   </mat-card>
 
   <div class="flex flex-wrap justify-end mb-4">
-    <button mat-button (click)="checkAll(true)" class="mr-2 mb-2 sm:mb-0">
+    <button mat-stroked-button (click)="checkAll(true)" class="mr-2 mb-2 sm:mb-0">
       Check All
     </button>
-    <button mat-stroked-button color="warn" (click)="clearAll()">
+    <button mat-button color="primary" (click)="clearAll()">
       Clear All
     </button>
   </div>
@@ -64,15 +64,15 @@
           tabindex="-1"
         >
           <button
-            mat-button
+            mat-stroked-button
             (click)="checkAllInRegion(region, true)"
             class="mr-2 mb-2 sm:mb-0"
           >
             Check All
           </button>
           <button
-            mat-stroked-button
-            color="warn"
+            mat-button
+            color="primary"
             (click)="clearAllInRegion(region)"
             class="mr-2 mb-2 sm:mb-0"
           >
@@ -87,15 +87,15 @@
             <h3 class="mat-subheader text-base sm:text-lg font-medium break-words">{{ section }}</h3>
             <div *ngIf="groupedChecklist[region][section].length > 1" class="flex flex-wrap mt-1 sm:mt-0">
               <button
-                mat-button
+                mat-stroked-button
                 (click)="checkAllInSection(region, section, true)"
                 class="mr-2 mb-2 sm:mb-0 text-sm"
               >
                 Check All
               </button>
               <button
-                mat-stroked-button
-                color="warn"
+                mat-button
+                color="primary"
                 (click)="clearAllInSection(region, section)"
                 class="text-sm"
               >
