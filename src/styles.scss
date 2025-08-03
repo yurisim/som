@@ -1,56 +1,23 @@
-// Include theming for Angular Material with `mat.theme()`.
-// This Sass mixin will define CSS variables that are used for styling Angular Material
-// components according to the Material 3 design spec.
-// Learn more about theming and how to use it for your application's
-// custom components at https://material.angular.dev/guide/theming
 @use '@angular/material' as mat;
 
-$light-theme: mat.define-theme(
-  (
-    color: (
-      theme-type: light,
-      primary: mat.$cyan-palette,
-      tertiary: mat.$orange-palette,
-    ),
-  )
-);
-$dark-theme: mat.define-theme(
-  (
-    color: (
-      theme-type: dark,
-      primary: mat.$cyan-palette,
-      tertiary: mat.$orange-palette,
-    ),
-  )
-);
-
-html {
-  @include mat.core();
-}
-
-body {
-  // Default the application to a light color theme and let the browser know that
-  // both light and dark themes are supported.
-  @include mat.all-component-themes($light-theme);
-  color-scheme: light dark;
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    @include mat.all-component-colors($dark-theme);
-  }
-}
-@tailwind base;
+// @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* You can add global styles to this file, and also import other style files */
+// Light theme by default
+@import "@angular/material/prebuilt-themes/indigo-pink.css" (prefers-color-scheme: light);
+// Dark theme when system prefers dark mode
+@import "@angular/material/prebuilt-themes/pink-bluegrey.css" (prefers-color-scheme: dark);
 
-html,
-body {
-  height: 100%;
+html, body { height: 100%; }
+body { 
+  margin: 0; 
+  font-family: Roboto, "Helvetica Neue", sans-serif;
 }
-body {
-  margin: 0;
-  font-family: Roboto, 'Helvetica Neue', sans-serif;
+
+// Dark mode specific styles
+@media (prefers-color-scheme: dark) {
+  body {
+    color: white;
+  }
 }

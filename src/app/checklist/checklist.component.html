@@ -1,0 +1,48 @@
+<div class="container mx-auto p-4">
+  <div class="flex justify-end mb-4">
+    <mat-checkbox (change)="checkAll($event.checked)" class="mr-2">
+      Check All
+    </mat-checkbox>
+    <button matFab color="warn" (click)="clearAll()">
+      <mat-icon>delete</mat-icon>
+    </button>
+  </div>
+  <div *ngFor="let region of regions" class="mb-6">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>{{ region }}</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <mat-list *ngFor="let section of getSections(region)">
+          <div class="flex justify-between items-center">
+            <h3 class="mat-subheader">{{ section }}</h3>
+            <div>
+              <mat-checkbox (change)="checkAllInSection(region, section, $event.checked)" class="mr-2">
+                Check All
+              </mat-checkbox>
+              <button
+              matButton="outlined" color="warn"
+                (click)="clearAllInSection(region, section)"
+              >
+                Clear All
+              </button>
+            </div>
+          </div>
+          <mat-list-item *ngFor="let item of groupedChecklist[region][section]">
+            <mat-checkbox
+              [(ngModel)]="item.checked"
+              (ngModelChange)="onCheckboxChange($event, item.id)"
+            >
+              <span class="whitespace-normal">
+                {{ item.description }}
+                <span class="text-gray-500 text-sm ml-2">
+                  ({{ item.bullet }}, page {{ item.page }})
+                </span>
+              </span>
+            </mat-checkbox>
+          </mat-list-item>
+        </mat-list>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
