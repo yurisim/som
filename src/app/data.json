@@ -136,25 +136,32 @@
     "id": "common_area_sink_002",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Sink",
-    "description": "Drinking cups/glasses must be clean (D) and serviceable (N).",
-    "bullet": "4.4.1"
-  },
-  {
-    "id": "common_area_sink_003",
-    "region": "Common Area (Bathroom/Latrine)",
-    "section": "Sink",
     "description": "Display drain plug in the up position (I).",
     "bullet": "4.4.2"
   },
   {
-    "id": "common_area_sink_004",
+    "id": "common_area_sink_003",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Sink",
     "description": "Rubber stoppers will be grounded (G) to the right side (I) of the faucet.",
     "bullet": "4.4.2"
   },
   {
+    "id": "common_area_sink_004",
+    "region": "Common Area (Bathroom/Latrine)",
+    "section": "Sink",
+    "description": "(Optional) Drinking cups/glasses must be clean (D) and serviceable (N). Grounded to the left (Pos 1&2) or right (Pos 3&4) and to the back wall.",
+    "bullet": "4.4.1, 4.4.3"
+  },
+  {
     "id": "common_area_sink_005",
+    "region": "Common Area (Bathroom/Latrine)",
+    "section": "Sink",
+    "description": "(Optional) Hand Soap: Only 1 hand soap per sink will be grounded (G) to the left side (I) of the faucet.",
+    "bullet": "4.4.4"
+  },
+  {
+    "id": "common_area_sink_006",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Sink",
     "description": "Soap Tray and Toothbrush Holder chrome will be clean (D), free of dust (D) and debris (U), and dry (W). No items authorized on top.",
@@ -259,6 +266,13 @@
     "bullet": "4.9.1"
   },
   {
+    "id": "common_area_hand_towel_001",
+    "region": "Common Area (Bathroom/Latrine)",
+    "section": "(Optional) Hand Towel",
+    "description": "Hand towel must be serviceable (D/N/U) and may be damp but not soaking wet. Fold and display same as large towel.",
+    "bullet": "4.11"
+  },
+  {
     "id": "common_area_wastebasket_001",
     "region": "Common Area (Bathroom/Latrine)",
     "section": "Wastebasket",
@@ -325,7 +339,7 @@
     "id": "bed_area_general_001",
     "region": "Bed Area",
     "section": "General Instructions",
-    "description": "Sheets and blankets will be tightened down to conform to the mattress.",
+    "description": "All items used to make the bed must be clean, dry, and serviceable.",
     "bullet": "5.1"
   },
   {
@@ -336,39 +350,39 @@
     "bullet": "5.1"
   },
   {
-    "id": "bed_area_general_003",
-    "region": "Bed Area",
-    "section": "General Instructions",
-    "description": "All items used to make the bed must be clean, dry, and serviceable.",
-    "bullet": "5.1"
-  },
-  {
     "id": "bed_area_sheets_001",
     "region": "Bed Area",
     "section": "Sheets",
-    "description": "Place fitted sheet neatly over mattress ensuring tight, neat and wrinkle free.",
+    "description": "Fitted or bottom sheet placed neatly over mattress ensuring it is tight, neat and wrinkle free.",
     "bullet": "5.2"
   },
   {
     "id": "bed_area_comforter_001",
     "region": "Bed Area",
-    "section": "Blue Comforter",
+    "section": "Blue Comforter/Top Sheet",
     "description": "Make hospital corners on the inspection side, tucking excess on the non-inspection side.",
     "bullet": "5.4"
   },
   {
     "id": "bed_area_comforter_002",
     "region": "Bed Area",
-    "section": "Blue Comforter",
+    "section": "Blue Comforter/Top Sheet",
     "description": "Ensure the comforter and sheet are tight, neat, and wrinkle free.",
     "bullet": "5.4"
   },
   {
     "id": "bed_area_blanket_001",
     "region": "Bed Area",
-    "section": "Tan/Additional Blanket",
-    "description": "When displayed on top of the comforter, blanket will be neatly folded three times, centered on and flush with the foot end of the mattress.",
+    "section": "Tan Blanket",
+    "description": "When displayed on top of the comforter, tan blanket will be neatly folded three times, centered on and flush with the foot end of the mattress.",
     "bullet": "5.5"
+  },
+  {
+    "id": "bed_area_blanket_002",
+    "region": "Bed Area",
+    "section": "(Optional) Additional Blanket",
+    "description": "Display neatly folded three times, centered on and flush with the foot end of the mattress or tan blanket. Stack blankets with largest on the bottom.",
+    "bullet": "5.6"
   },
   {
     "id": "bed_area_pillow_001",
@@ -406,6 +420,20 @@
     "bullet": "6.2"
   },
   {
+    "id": "personal_area_bed_rail_towel_001",
+    "region": "Personal Living Area",
+    "section": "Bed Rail",
+    "description": "(Optional) Dry Towel: Drape towel evenly over top bed rail. Ground single fold to inspection side of bed.",
+    "bullet": "6.3"
+  },
+  {
+    "id": "personal_area_bed_rail_towel_002",
+    "region": "Personal Living Area",
+    "section": "Bed Rail",
+    "description": "(Optional) Hand Towel/Wash Cloth: Drape evenly over the dry towel or bed rail. Ground single fold to inspection side of bed.",
+    "bullet": "6.4"
+  },
+  {
     "id": "personal_area_chair_001",
     "region": "Personal Living Area",
     "section": "Chair",
@@ -423,7 +451,7 @@
     "id": "personal_area_hydration_001",
     "region": "Personal Living Area",
     "section": "Hydration System & Backpack",
-    "description": "The hydration system or backpack will be draped over the back of the chair.",
+    "description": "The hydration system or backpack will be draped over the back of the chair. Zippers and hook and loop will be closed.",
     "bullet": "6.6"
   },
   {
@@ -443,14 +471,14 @@
   {
     "id": "personal_area_printer_001",
     "region": "Personal Living Area",
-    "section": "Printer",
+    "section": "(Optional) Printer",
     "description": "Printer will be free of dust and debris. Display on the opposite side of the computer, grounded to the back, desk corner.",
     "bullet": "6.7.3"
   },
   {
     "id": "personal_area_printer_002",
     "region": "Personal Living Area",
-    "section": "Printer",
+    "section": "(Optional) Printer",
     "description": "Items will not be left on the glass and paper will not be in the tray.",
     "bullet": "6.7.3"
   },
@@ -458,11 +486,18 @@
     "id": "personal_area_shelf_001",
     "region": "Personal Living Area",
     "section": "Top Shelf",
-    "description": "One picture frame (max 8x10) may be stored on the top shelf, centered, and flush with the front edge.",
+    "description": "(Optional) One picture frame (max 8x10) may be stored on the top shelf, centered, and flush with the front edge.",
     "bullet": "6.7.4"
   },
   {
     "id": "personal_area_drawer_001",
+    "region": "Personal Living Area",
+    "section": "Desk Drawer",
+    "description": "Only one plastic bin/bag for small office supplies is authorized; must be neatly stored and grounded to the front left corner.",
+    "bullet": "6.7.6"
+  },
+  {
+    "id": "personal_area_drawer_002",
     "region": "Personal Living Area",
     "section": "Desk Drawer",
     "description": "Printer paper will be grounded to the front right corner.",
@@ -485,14 +520,14 @@
   {
     "id": "drawers_drawer1_ptg_001",
     "region": "Clothing Drawers",
-    "section": "Drawer 1 (PTG Clothing)",
+    "section": "Drawer 1 (Top Drawer) PTG Clothing",
     "description": "Neatly fold PT shorts, T-shirts, and optional form fitting shorts. Ground the bottom item to the front right corner of the drawer.",
     "bullet": "7.2.1"
   },
   {
     "id": "drawers_drawer1_socks_001",
     "region": "Clothing Drawers",
-    "section": "Drawer 1 (PTG Clothing)",
+    "section": "Drawer 1 (Top Drawer) PTG Clothing",
     "description": "Running socks will be rolled or folded neatly. Place sock grounded to the front left corner of the drawer.",
     "bullet": "7.2.2"
   },
@@ -502,6 +537,13 @@
     "section": "Drawer 2 (Socks/long johns)",
     "description": "Roll socks as a pair, ensuring upward curve faces the front of the drawer.",
     "bullet": "7.3.1"
+  },
+  {
+    "id": "drawers_drawer2_long_johns_001",
+    "region": "Clothing Drawers",
+    "section": "Drawer 2 (Socks/long johns)",
+    "description": "(Optional) If displaying long johns (cold weather undergarments), fold neatly and ground to back right corner. Stack items with the longest item on the bottom in the pyramid effect.",
+    "bullet": "7.3.3"
   },
   {
     "id": "drawers_drawer3_shirts_001",
@@ -574,6 +616,13 @@
     "bullet": "8.2.2"
   },
   {
+    "id": "closet_shelf_watch_cap_001",
+    "region": "Closet",
+    "section": "Closet Shelf",
+    "description": "(Optional) Watch Cap: Fold in half from left to right. Edges flush and even. Open end is flush to the edge of the shelf.",
+    "bullet": "8.2.3"
+  },
+  {
     "id": "closet_shelf_flashlight_001",
     "region": "Closet",
     "section": "Closet Shelf",
@@ -584,7 +633,7 @@
     "id": "closet_rod_001",
     "region": "Closet",
     "section": "Closet Rod",
-    "description": "Hang each item with the open end of the hanger toward the rear wall of the closet.",
+    "description": "Hang each item with the open end of the hanger toward the rear wall of the closet and left sleeve facing the closet door.",
     "bullet": "8.3"
   },
   {
@@ -605,8 +654,15 @@
     "id": "closet_rod_004",
     "region": "Closet",
     "section": "Closet Rod",
-    "description": "Display items in the correct hanger order.",
+    "description": "Display items in the correct hanger order (All-Weather Coat, Blues Jacket, Sweater, Service Coat, etc.).",
     "bullet": "8.3.1"
+  },
+  {
+    "id": "closet_rod_waffle_top_001",
+    "region": "Closet",
+    "section": "Closet Rod",
+    "description": "(Optional) Waffle top/bottom: Hang on one hanger, display in the same manner as the PTG jacket and pants.",
+    "bullet": "8.3.13"
   },
   {
     "id": "closet_laundry_bag_001",
@@ -647,7 +703,7 @@
     "id": "closet_shoes_004",
     "region": "Closet",
     "section": "Shoes",
-    "description": "Display shoes in the correct order: Combat Boots, Low Quarters, Pumps, Running Shoes, Shower Shoes.",
+    "description": "Display shoes in the correct order: 1. Combat Boots 2. Low Quarters 3. (Optional) Pumps 4. Running Shoes 5. Shower Shoes.",
     "bullet": "8.6.7"
   }
 ]
