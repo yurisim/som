@@ -134,7 +134,13 @@
                 (ngModelChange)="onCheckboxChange($event, item.id)"
               ></mat-checkbox>
               <div
-                class="ml-2 whitespace-normal text-sm sm:text-base break-words"
+                class="ml-2 whitespace-normal text-sm sm:text-base break-words cursor-pointer"
+                (click)="item.checked = !item.checked; onCheckboxChange(item.checked, item.id)"
+                (keydown.enter)="item.checked = !item.checked; onCheckboxChange(item.checked, item.id)"
+                (keydown.space)="item.checked = !item.checked; onCheckboxChange(item.checked, item.id)"
+                tabindex="0"
+                role="checkbox"
+                [attr.aria-checked]="item.checked"
               >
                 {{ item.description }}
                 <span class="text-gray-500 text-sm ml-1">
