@@ -3,8 +3,8 @@
     <mat-checkbox (change)="checkAll($event.checked)" class="mr-2">
       Check All
     </mat-checkbox>
-    <button matFab color="warn" (click)="clearAll()">
-      <mat-icon>delete</mat-icon>
+    <button matButton="outlined" color="warn" (click)="clearAll()">
+      Clear All
     </button>
   </div>
   <div *ngFor="let region of regions" class="mb-6">
@@ -17,11 +17,15 @@
           <div class="flex justify-between items-center">
             <h3 class="mat-subheader">{{ section }}</h3>
             <div>
-              <mat-checkbox (change)="checkAllInSection(region, section, $event.checked)" class="mr-2">
+              <mat-checkbox
+                (change)="checkAllInSection(region, section, $event.checked)"
+                class="mr-2"
+              >
                 Check All
               </mat-checkbox>
               <button
-              matButton="outlined" color="warn"
+                matButton="outlined"
+                color="warn"
                 (click)="clearAllInSection(region, section)"
               >
                 Clear All
