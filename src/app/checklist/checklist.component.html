@@ -57,15 +57,16 @@
         <mat-panel-title class="text-lg sm:text-xl font-medium">
           {{ region }}
         </mat-panel-title>
-        <mat-panel-description class="flex-grow justify-end items-center">
-          ({{getCompletedItemsInRegion(region)}} / {{getTotalItemsInRegion(region)}})
-          <div
-            (click)="$event.stopPropagation()"
-            (keydown.enter)="$event.stopPropagation()"
-            tabindex="0"
-            role="button"
-            class="focus:outline-none"
-          >
+        <mat-panel-description class="flex-grow justify-end">
+          <div class="flex items-center">
+            <span class="mr-2">({{getCompletedItemsInRegion(region)}} / {{getTotalItemsInRegion(region)}})</span>
+            <div
+              (click)="$event.stopPropagation()"
+              (keydown.enter)="$event.stopPropagation()"
+              tabindex="0"
+              role="button"
+              class="focus:outline-none"
+            >
             <button
               mat-icon-button
               (click)="checkAllInRegion(region, true)"
@@ -81,6 +82,7 @@
             >
               <mat-icon>remove_done</mat-icon>
             </button>
+            </div>
           </div>
         </mat-panel-description>
       </mat-expansion-panel-header>
