@@ -14,10 +14,10 @@
         </mat-progress-bar>
       </div>
       <div class="flex justify-between w-full sm:w-auto sm:ml-4">
-        <span class="text-sm font-medium"
+        <span class="font-medium"
           >{{ completionPercentage }}% Complete</span
         >
-        <span class="text-sm ml-4"
+        <span class="ml-4"
           >{{ completedItems }} / {{ totalItems }} items</span
         >
       </div>
@@ -31,14 +31,14 @@
       <mat-card-title>Rules of Engagement (RoE)</mat-card-title>
     </mat-card-header>
     <mat-card-content>
-      <p class="text-sm">
+      <p class="">
         This checklist is a supplemental tool and does not replace the official
         Dormitory Standard Operating Procedure (SOP). Users must follow the
         actual Dorm SOP for complete guidance. Efforts will be made to keep this
         checklist up to date, but it is not a substitute for the official SOP.
         The official SOP will be released to you via Teams. 
       </p>
-      <p class="text-sm">
+      <p class="">
         Your progress is saved on your local device and only you will be able to view it. 
       </p>
       <p class="mt-2"><strong>Current as of (CAO): 03 AUG 2025</strong></p>
@@ -123,7 +123,7 @@
                 (ngModelChange)="onCheckboxChange($event, item.id)"
               ></mat-checkbox>
               <div
-                class="ml-2 whitespace-normal text-xs sm:text-sm break-words cursor-pointer"
+                class="ml-2 whitespace-normal  break-words cursor-pointer"
                 (click)="item.checked = !item.checked; onCheckboxChange(item.checked, item.id)"
                 (keydown.enter)="item.checked = !item.checked; onCheckboxChange(item.checked, item.id)"
                 (keydown.space)="item.checked = !item.checked; onCheckboxChange(item.checked, item.id)"
@@ -132,7 +132,7 @@
                 [attr.aria-checked]="item.checked"
               >
                 {{ item.description }}
-                <span class="text-gray-500 text-sm ml-1">
+                <span class="text-gray-500 ml-1">
                   ({{ item.bullet }})
                 </span>
               </div>
