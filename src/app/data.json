@@ -196,11 +196,46 @@
     "bullet": "4.9.1"
   },
   {
+    "id": "common_area_towel_003",
+    "region": "Common Area",
+    "section": "Towel",
+    "description": "Position 1 and 4 share bottom rack; 2 and 3 share top. Pos 1/2 ground fold to bracket near entry; 3/4 ground fold to bracket farthest from entry.",
+    "bullet": "4.9.2"
+  },
+  {
+    "id": "common_area_towel_004",
+    "region": "Common Area",
+    "section": "Towel",
+    "description": "Towels may be wet but must not drip water onto the floor.",
+    "bullet": "4.9"
+  },
+  {
+    "id": "common_area_wash_cloth_001",
+    "region": "Common Area",
+    "section": "Wash Cloth",
+    "description": "Fold and drape the washcloth in the same manner as the towel (F/G/I). Place on the towel or directly on the rack. Flush single fold of washcloth with single fold of towel.",
+    "bullet": "4.10"
+  },
+  {
     "id": "common_area_hand_towel_001",
     "region": "Common Area",
     "section": "(Optional) Hand Towel",
     "description": "Hand towel must be serviceable (D/N/U) and may be damp but not soaking wet. Fold and display same as large towel.",
     "bullet": "4.11"
+  },
+  {
+    "id": "common_area_iron_001",
+    "region": "Common Area",
+    "section": "Iron/Ironing Board",
+    "description": "Iron cord will be neatly wrapped (I). Iron and ironing board will be dust free (D/U) and will be neatly displayed in closet. Iron will be free of water when displayed (W).",
+    "bullet": "4.13"
+  },
+  {
+    "id": "common_area_ironing_board_001",
+    "region": "Common Area",
+    "section": "Iron/Ironing Board",
+    "description": "Iron cord will be neatly wrapped (I). Iron and ironing board will be dust free (D/U) and neatly displayed in closet.",
+    "bullet": "4.13"
   },
   {
     "id": "common_area_wastebasket_001",
@@ -220,16 +255,10 @@
     "id": "common_area_wastebasket_003",
     "region": "Common Area",
     "section": "Wastebasket",
-    "description": "Display the wastebasket on the wall nearest Occupant 1's desk, grounding (G) the long side of the wastebasket to the wall (I).",
+    "description": "Display on the wall nearest Occupant 1’s desk, grounding the long side of the wastebasket to the wall (G/I). The short side will be flush with the corner of the wall (G/I).",
     "bullet": "4.12.1"
   },
-  {
-    "id": "common_area_ironing_board_001",
-    "region": "Common Area",
-    "section": "Iron/Ironing Board",
-    "description": "Iron cord will be neatly wrapped (I). Iron and ironing board will be dust free (D/U) and neatly displayed in closet.",
-    "bullet": "4.13"
-  },
+
   {
     "id": "common_area_blinds_001",
     "region": "Common Area",
