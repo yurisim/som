@@ -31,14 +31,14 @@
       <mat-card-title>Rules of Engagement (RoE)</mat-card-title>
     </mat-card-header>
     <mat-card-content>
-      <p>
+      <p class="text-sm">
         This checklist is a supplemental tool and does not replace the official
         Dormitory Standard Operating Procedure (SOP). Users must follow the
         actual Dorm SOP for complete guidance. Efforts will be made to keep this
         checklist up to date, but it is not a substitute for the official SOP.
         The official SOP will be released to you via Teams. 
       </p>
-      <p>
+      <p class="text-sm">
         Your progress is saved on your local device and only you will be able to view it. 
       </p>
       <p class="mt-2"><strong>Current as of (CAO): 03 AUG 2025</strong></p>
@@ -47,7 +47,9 @@
   </mat-card>
 
   <div class="flex flex-wrap justify-end mb-4">
-    <button mat-button color="primary" (click)="clearAll()">Clear All</button>
+    <button mat-icon-button color="primary" (click)="clearAll()" aria-label="Clear all items">
+      <mat-icon>remove_done</mat-icon>
+    </button>
   </div>
   <div *ngFor="let region of regions; trackBy: trackByRegion" class="mb-6">
     <mat-card>
@@ -76,19 +78,21 @@
           tabindex="-1"
         >
           <button
-            mat-stroked-button
+            mat-icon-button
             (click)="checkAllInRegion(region, true)"
             class="mr-2 mb-2 sm:mb-0"
+            aria-label="Check all items in this region"
           >
-            Check All
+            <mat-icon>done_all</mat-icon>
           </button>
           <button
-            mat-button
+            mat-icon-button
             color="primary"
             (click)="clearAllInRegion(region)"
             class="mr-2 mb-2 sm:mb-0"
+            aria-label="Clear all items in this region"
           >
-            Clear All
+            <mat-icon>remove_done</mat-icon>
           </button>
           <!-- Expand/collapse button moved to the left of region name -->
         </div>
@@ -108,19 +112,20 @@
               class="flex flex-wrap mt-1 sm:mt-0"
             >
               <button
-                mat-stroked-button
+                mat-icon-button
                 (click)="checkAllInSection(region, section, true)"
-                class="mr-2 mb-2 sm:mb-0 text-sm"
+                class="mr-2 mb-2 sm:mb-0"
+                aria-label="Check all items in this section"
               >
-                Check All
+                <mat-icon>done_all</mat-icon>
               </button>
               <button
-                mat-button
+                mat-icon-button
                 color="primary"
                 (click)="clearAllInSection(region, section)"
-                class="text-sm"
+                aria-label="Clear all items in this section"
               >
-                Clear All
+                <mat-icon>remove_done</mat-icon>
               </button>
             </div>
           </div>
@@ -134,7 +139,7 @@
                 (ngModelChange)="onCheckboxChange($event, item.id)"
               ></mat-checkbox>
               <div
-                class="ml-2 whitespace-normal text-sm sm:text-base break-words cursor-pointer"
+                class="ml-2 whitespace-normal text-xs sm:text-sm break-words cursor-pointer"
                 (click)="item.checked = !item.checked; onCheckboxChange(item.checked, item.id)"
                 (keydown.enter)="item.checked = !item.checked; onCheckboxChange(item.checked, item.id)"
                 (keydown.space)="item.checked = !item.checked; onCheckboxChange(item.checked, item.id)"
