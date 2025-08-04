@@ -1,266 +1,266 @@
 [
   {
     "id": "common_area_floor_001",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Floor",
     "description": "Ensure trash/debris (U) is removed from floors.",
     "bullet": "4.3"
   },
   {
     "id": "common_area_floor_002",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Floor",
     "description": "Tile floors must be dusted, swept, and mopped (D).",
     "bullet": "4.3"
   },
   {
     "id": "common_area_floor_003",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Floor",
     "description": "Carpet must be vacuumed (U).",
     "bullet": "4.3"
   },
   {
     "id": "common_area_sink_001",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Sink",
     "description": "Sinks will be clean, free of dust (D) and debris (U), and dry (W).",
     "bullet": "4.4"
   },
   {
     "id": "common_area_sink_002",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Sink",
     "description": "Display drain plug in the up position (I).",
     "bullet": "4.4.2"
   },
   {
     "id": "common_area_sink_003",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Sink",
     "description": "(Optional) Rubber stoppers will be grounded (G) to the right side (I) of the faucet.",
     "bullet": "4.4.2"
   },
   {
     "id": "common_area_sink_004",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Sink",
     "description": "(Optional) Drinking cups/glasses must be clean (D) and serviceable (N). Grounded to the left (Pos 1&2) or right (Pos 3&4) and to the back wall.",
     "bullet": "4.4.1, 4.4.3"
   },
   {
     "id": "common_area_sink_005",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Sink",
     "description": "(Optional) Hand Soap: Only 1 hand soap per sink will be grounded (G) to the left side (I) of the faucet.",
     "bullet": "4.4.4"
   },
   {
     "id": "common_area_sink_006",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Sink",
     "description": "Soap Tray and Toothbrush Holder chrome will be clean (D), free of dust (D) and debris (U), and dry (W). No items authorized on top.",
     "bullet": "4.4.5"
   },
   {
     "id": "common_area_sink_cabinet_001",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Sink Cabinet",
     "description": "The sink cabinet must be neatly arranged. Doors will be closed when not in use (I).",
     "bullet": "4.5"
   },
   {
     "id": "common_area_sink_cabinet_002",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Sink Cabinet",
     "description": "The cabinet, authorized items, and optional storage bins will be clean (D), free of dust (D) and debris (U), and dry (W).",
     "bullet": "4.5"
   },
   {
     "id": "common_area_sink_cabinet_003",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Sink Cabinet",
     "description": "Hangers will stand upright and be grounded to the left and/or right side of either corner.",
     "bullet": "4.5.2"
   },
   {
     "id": "common_area_sink_cabinet_004",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Sink Cabinet",
     "description": "Items will be sized tallest to shortest from left to right (S), with no break at the center point of the cabinet.",
     "bullet": "4.5.2"
   },
   {
     "id": "common_area_medicine_cabinet_001",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Medicine Cabinet/Mirror",
     "description": "Items in cabinet will be clean (D/U).",
     "bullet": "4.6"
   },
   {
     "id": "common_area_medicine_cabinet_002",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Medicine Cabinet/Mirror",
     "description": "Mirrors will be clean, free of dust and debris, and clear of smudges (D/U).",
     "bullet": "4.6"
   },
   {
     "id": "common_area_medicine_cabinet_003",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Medicine Cabinet/Mirror",
     "description": "Items will stand upright unless the container or shape does not allow (I).",
     "bullet": "4.6"
   },
   {
     "id": "common_area_medicine_cabinet_004",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Medicine Cabinet/Mirror",
     "description": "Items will be sized tallest to shortest from left to right (S).",
     "bullet": "4.6"
   },
   {
     "id": "common_area_toilet_001",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Toilet",
     "description": "The entire surface and bowl will be cleaned (D/U).",
     "bullet": "4.7"
   },
   {
     "id": "common_area_toilet_002",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Toilet",
     "description": "Toilet seat and lid must be in the up position (I).",
     "bullet": "4.7.1"
   },
   {
     "id": "common_area_toilet_003",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Toilet",
     "description": "(Optional) Rack behind toilet may have up to two extra rolls of toilet paper. OTs may have an additional wastebasket long side grounded to the wall and short side flushed with the doorframe.",
     "bullet": "4.7.2"
   },
   {
     "id": "common_area_toilet_004",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Toilet",
     "description": "(Optional) You may have a wastebasket long side grounded to the wall and short side flushed with the doorframe.",
     "bullet": "4.7.2"
   },
   {
     "id": "common_area_shower_001",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Shower",
     "description": "The shower will be clean and free of soap scum (D), mold, dirt, hair (U), etc.",
     "bullet": "4.8"
   },
   {
     "id": "common_area_shower_002",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Shower",
     "description": "The shower door will be left open (I).",
     "bullet": "4.8.1"
   },
   {
     "id": "common_area_shower_003",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Shower",
     "description": "(Optional) Squeegee may be displayed inside the shower, grounded to corner of shower floor (G), nearest the hinge side of the shower door.",
     "bullet": "4.8.2"
   },
   {
     "id": "common_area_shower_004",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Shower",
     "description": "(Optional) A bathmat or towel may be in the shower, as long as it is grounded to the base of the shower and centered (G). If a towel is used, it must be draped over the shower door neatly when not in use.",
     "bullet": "4.8.2"
   },
   {
     "id": "common_area_shower_005",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Shower",
     "description": "(Optional) Wet Uniform Items (PTG): Jacket/Pants will be hung on a hanger on the shower frame. Shoes will be placed inside the shower. Gloves on rack above toilet. Underwear/socks stowed in laundry bag.",
     "bullet": "4.8.3"
   },
   {
     "id": "common_area_towel_001",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Towel",
     "description": "Towels will not be stained or heavily soiled (D) and must be serviceable (N). Towels may be wet but must not drip.",
     "bullet": "4.9"
   },
   {
     "id": "common_area_towel_002",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Towel",
     "description": "Fold towel in half lengthwise (F). Drape the towel evenly (I) over the towel rack. Ground the single folds to the brackets (G).",
     "bullet": "4.9.1"
   },
   {
     "id": "common_area_hand_towel_001",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "(Optional) Hand Towel",
     "description": "Hand towel must be serviceable (D/N/U) and may be damp but not soaking wet. Fold and display same as large towel.",
     "bullet": "4.11"
   },
   {
     "id": "common_area_wastebasket_001",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Wastebasket",
     "description": "The wastebasket will always be lined with a trash bag (A).",
     "bullet": "4.12"
   },
   {
     "id": "common_area_wastebasket_002",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Wastebasket",
     "description": "Trash bag must be empty and free of debris (U). No trash, dust, or debris under the liner.",
     "bullet": "4.12"
   },
   {
     "id": "common_area_wastebasket_003",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Wastebasket",
     "description": "Display the wastebasket on the wall nearest Occupant 1's desk, grounding (G) the long side of the wastebasket to the wall (I).",
     "bullet": "4.12.1"
   },
   {
     "id": "common_area_ironing_board_001",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Iron/Ironing Board",
     "description": "Iron cord will be neatly wrapped (I). Iron and ironing board will be dust free (D/U) and neatly displayed in closet.",
     "bullet": "4.13"
   },
   {
     "id": "common_area_blinds_001",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Blinds/Curtains/Ledges",
     "description": "Windows, blinds, and drapes will be down and closed to conserve energy (I).",
     "bullet": "4.14"
   },
   {
     "id": "common_area_blinds_002",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Blinds/Curtains/Ledges",
     "description": "All blinds, curtains, and ledges will be free of debris and dusted daily (D/U).",
     "bullet": "4.14"
   },
   {
     "id": "common_area_mirror_001",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Mirrors",
     "description": "Will be clean and free of debris (U), spots, and streaks (D).",
     "bullet": "4.15"
   },
   {
     "id": "common_area_lamp_001",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Lamp",
     "description": "Will be clean and dust free (D/U) and in serviceable working condition (N).",
     "bullet": "4.16"
   },
   {
     "id": "common_area_lamp_002",
-    "region": "Common Area (Bathroom/Latrine)",
+    "region": "Common Area",
     "section": "Lamp",
     "description": "Center the lamp on the dressers between the two beds (H). Lamp shade will be grounded to the wall (G).",
     "bullet": "4.16"
