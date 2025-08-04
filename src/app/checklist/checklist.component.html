@@ -68,13 +68,15 @@
               class="focus:outline-none"
             >
             <button
+              *ngIf="getCompletedItemsInRegion(region) < getTotalItemsInRegion(region)"
               mat-icon-button
               (click)="checkAllInRegion(region, true)"
               aria-label="Check all items in this region"
             >
-              <mat-icon>done_all</mat-icon>
+              <mat-icon>checklist</mat-icon>
             </button>
             <button
+              *ngIf="getCompletedItemsInRegion(region) > 0"
               mat-icon-button
               color="primary"
               (click)="clearAllInRegion(region)"
@@ -96,13 +98,15 @@
               class="flex items-center"
             >
               <button
+                *ngIf="getCompletedItemsInSection(region, section) < getTotalItemsInSection(region, section)"
                 mat-icon-button
                 (click)="checkAllInSection(region, section, true)"
                 aria-label="Check all items in this section"
               >
-                <mat-icon>done_all</mat-icon>
+                <mat-icon>checklist</mat-icon>
               </button>
               <button
+                *ngIf="getCompletedItemsInSection(region, section) > 0"
                 mat-icon-button
                 color="primary"
                 (click)="clearAllInSection(region, section)"

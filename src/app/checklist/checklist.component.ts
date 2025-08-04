@@ -87,6 +87,20 @@ trackByRegion(index: number, region: string): string {
     );
   }
 
+  getCompletedItemsInSection(region: string, section: string): number {
+    if (!this.groupedChecklist[region] || !this.groupedChecklist[region][section]) {
+      return 0;
+    }
+    return this.groupedChecklist[region][section].filter(item => item.checked).length;
+  }
+
+  getTotalItemsInSection(region: string, section: string): number {
+    if (!this.groupedChecklist[region] || !this.groupedChecklist[region][section]) {
+      return 0;
+    }
+    return this.groupedChecklist[region][section].length;
+  }
+
   // organizes flat data into nested structure by region and section
 private groupData(data: ChecklistItem[]): GroupedChecklist {
     return data.reduce((acc, item) => {
