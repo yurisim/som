@@ -8,7 +8,13 @@ import { FormsModule } from '@angular/forms';
 import { MatIconModule } from '@angular/material/icon';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatExpansionModule } from '@angular/material/expansion';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatDialog, MatDialogModule } from '@angular/material/dialog';
+import { ConfirmDialogComponent } from './confirm-dialog.component';
 import { ChecklistService } from '../checklist.service';
+import { KeyValue } from '@angular/common';
 import { ChecklistItem, GroupedChecklist } from '../checklist.model';
 
 
@@ -27,6 +33,10 @@ import { ChecklistItem, GroupedChecklist } from '../checklist.model';
     MatButtonModule,
     MatProgressBarModule,
     MatExpansionModule,
+    MatTooltipModule,
+    MatDialogModule,
+    MatFormFieldModule,
+    MatInputModule,
   ],
   templateUrl: './checklist.component.html',
   styleUrls: ['./checklist.component.scss']
@@ -38,13 +48,17 @@ export class ChecklistComponent implements OnInit {
   completionPercentage = 0;
   totalItems = 0;
   completedItems = 0;
+  filteredGroupedChecklist: GroupedChecklist = {};
+  searchQuery = '';
 
   checklistService = inject(ChecklistService);
+  dialog = inject(MatDialog);
 
   // loads data and sets up initial state
 ngOnInit(): void {
     this.checklistService.getChecklistData().subscribe(data => {
       this.groupedChecklist = this.groupData(data);
+      this.filteredGroupedChecklist = this.groupedChecklist;
       this.regions = Object.keys(this.groupedChecklist);
       this.regions.forEach(region => {
         this.sections[region] = Object.keys(this.groupedChecklist[region]);
@@ -53,9 +67,12 @@ ngOnInit(): void {
     });
   }
 
-  // helps Angular's ngFor performance
-trackByRegion(index: number, region: string): string {
+  trackByRegion(index: number, region: string): string {
     return region;
+  }
+
+  trackByRegionKey(index: number, region: KeyValue<string, { [key: string]: ChecklistItem[] }>): string {
+    return region.key;
   }
 
   // checks if all items in a region are completed
@@ -137,12 +154,18 @@ clearAllInRegion(region: string): void {
 
   // resets all checkboxes
 clearAll(): void {
-    this.regions.forEach(region => {
-      this.sections[region].forEach(section => {
-        this.clearAllInSection(region, section);
-      });
+    const dialogRef = this.dialog.open(ConfirmDialogComponent);
+
+    dialogRef.afterClosed().subscribe(result => {
+      if (result) {
+        this.regions.forEach(region => {
+          this.sections[region].forEach(section => {
+            this.clearAllInSection(region, section);
+          });
+        });
+        this.calculateCompletionPercentage();
+      }
     });
-    this.calculateCompletionPercentage();
   }
 
   // bulk check/uncheck for a section
@@ -189,5 +212,33 @@ calculateCompletionPercentage(): void {
   // scrolls to the top of the page
   scrollToTop(): void {
     window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  applyFilter(): void {
+    const filterValue = this.searchQuery.toLowerCase();
+    if (!filterValue) {
+      this.filteredGroupedChecklist = this.groupedChecklist;
+      return;
+    }
+
+    this.filteredGroupedChecklist = {};
+    this.regions.forEach(region => {
+      const filteredSections: { [key: string]: ChecklistItem[] } = {};
+      let regionHasItems = false;
+      this.sections[region].forEach(section => {
+        const filteredItems = this.groupedChecklist[region][section].filter(
+          item =>
+            item.description.toLowerCase().includes(filterValue) ||
+            item.bullet.toLowerCase().includes(filterValue)
+        );
+        if (filteredItems.length > 0) {
+          filteredSections[section] = filteredItems;
+          regionHasItems = true;
+        }
+      });
+      if (regionHasItems) {
+        this.filteredGroupedChecklist[region] = filteredSections;
+      }
+    });
   }
 }

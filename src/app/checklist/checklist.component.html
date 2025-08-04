@@ -26,6 +26,10 @@
 </div>
 
 <div class="container mx-auto p-4 mt-20 max-w-full box-border">
+  <mat-form-field class="w-full mb-4">
+    <mat-label>Search</mat-label>
+    <input matInput type="text" [(ngModel)]="searchQuery" (ngModelChange)="applyFilter()" placeholder="e.g. Bed linens">
+  </mat-form-field>
   <mat-card class="mb-4" color="primary">
     <mat-card-header>
       <mat-card-title>Rules of Engagement (RoE)</mat-card-title>
@@ -47,19 +51,22 @@
   </mat-card>
 
   <div class="flex flex-wrap justify-end mb-4">
-    <button mat-icon-button color="primary" (click)="clearAll()" aria-label="Clear all items">
+    <button mat-icon-button color="primary" (click)="clearAll()" aria-label="Clear all items" matTooltip="Clear all items">
       <mat-icon>remove_done</mat-icon>
     </button>
   </div>
+  <div *ngIf="(filteredGroupedChecklist | keyvalue).length === 0" class="text-center text-gray-500 my-8">
+    No items match your search.
+  </div>
   <mat-accordion multi togglePosition="before">
-    <mat-expansion-panel *ngFor="let region of regions; trackBy: trackByRegion" class="mb-2" [expanded]="!isRegionComplete(region)">
+    <mat-expansion-panel *ngFor="let region of (filteredGroupedChecklist | keyvalue); trackBy: trackByRegionKey" class="mb-2" [expanded]="!isRegionComplete(region.key)">
       <mat-expansion-panel-header>
         <mat-panel-title class="font-medium mat-subheader">
-          {{ region }}
+          {{ region.key }}
         </mat-panel-title>
         <mat-panel-description class="flex-grow justify-end">
           <div class="flex items-center">
-            <span class="mr-2" [ngClass]="{'text-green-500': isRegionComplete(region)}">({{getCompletedItemsInRegion(region)}} / {{getTotalItemsInRegion(region)}})</span>
+            <span class="mr-2" [ngClass]="{'text-green-500': isRegionComplete(region.key)}">({{getCompletedItemsInRegion(region.key)}} / {{getTotalItemsInRegion(region.key)}})</span>
             <div
               (click)="$event.stopPropagation()"
               (keydown.enter)="$event.stopPropagation()"
@@ -68,19 +75,21 @@
               class="focus:outline-none"
             >
             <button
-              *ngIf="getCompletedItemsInRegion(region) < getTotalItemsInRegion(region)"
+              *ngIf="getCompletedItemsInRegion(region.key) < getTotalItemsInRegion(region.key)"
               mat-icon-button
-              (click)="checkAllInRegion(region, true)"
+              (click)="checkAllInRegion(region.key, true)"
               aria-label="Check all items in this region"
+              matTooltip="Check all items in this region"
             >
               <mat-icon>checklist</mat-icon>
             </button>
             <button
-              *ngIf="getCompletedItemsInRegion(region) > 0"
+              *ngIf="getCompletedItemsInRegion(region.key) > 0"
               mat-icon-button
               color="primary"
-              (click)="clearAllInRegion(region)"
+              (click)="clearAllInRegion(region.key)"
               aria-label="Clear all items in this region"
+              matTooltip="Clear all items in this region"
             >
               <mat-icon>remove_done</mat-icon>
             </button>
@@ -88,36 +97,38 @@
           </div>
         </mat-panel-description>
       </mat-expansion-panel-header>
-        <div *ngFor="let section of sections[region]" class="mb-4">
+        <div *ngFor="let section of (region.value | keyvalue)" class="mb-4">
           <div class="flex justify-between items-center">
             <h3 class="mat-subheader font-medium break-words">
-              {{ section }}
+              {{ section.key }}
             </h3>
             <div
-              *ngIf="groupedChecklist[region][section].length > 1"
+              *ngIf="section.value.length > 1"
               class="flex items-center"
             >
               <button
-                *ngIf="getCompletedItemsInSection(region, section) < getTotalItemsInSection(region, section)"
+                *ngIf="getCompletedItemsInSection(region.key, section.key) < getTotalItemsInSection(region.key, section.key)"
                 mat-icon-button
-                (click)="checkAllInSection(region, section, true)"
+                (click)="checkAllInSection(region.key, section.key, true)"
                 aria-label="Check all items in this section"
+                matTooltip="Check all items in this section"
               >
                 <mat-icon>checklist</mat-icon>
               </button>
               <button
-                *ngIf="getCompletedItemsInSection(region, section) > 0"
+                *ngIf="getCompletedItemsInSection(region.key, section.key) > 0"
                 mat-icon-button
                 color="primary"
-                (click)="clearAllInSection(region, section)"
+                (click)="clearAllInSection(region.key, section.key)"
                 aria-label="Clear all items in this section"
+                matTooltip="Clear all items in this section"
               >
                 <mat-icon>remove_done</mat-icon>
               </button>
             </div>
           </div>
           <div
-            *ngFor="let item of groupedChecklist[region][section]"
+            *ngFor="let item of section.value"
             class="mb-1"
           >
             <div class="flex items-center">
