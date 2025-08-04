@@ -14,22 +14,14 @@
         </mat-progress-bar>
       </div>
       <div class="flex justify-between w-full sm:w-auto sm:ml-4">
-        <span class="font-medium"
-          >{{ completionPercentage }}% Complete</span
-        >
-        <span class="ml-4"
-          >{{ completedItems }} / {{ totalItems }} items</span
-        >
+        <span class="font-medium">{{ completionPercentage }}% Complete</span>
+        <span class="ml-4">{{ completedItems }} / {{ totalItems }} items</span>
       </div>
     </div>
   </div>
 </div>
 
 <div class="container mx-auto p-4 mt-20 max-w-full box-border">
-  <mat-form-field class="w-full mb-4">
-    <mat-label>Search</mat-label>
-    <input matInput type="text" [(ngModel)]="searchQuery" (ngModelChange)="applyFilter()" placeholder="e.g. Bed linens">
-  </mat-form-field>
   <mat-card class="mb-4" color="primary">
     <mat-card-header>
       <mat-card-title>Rules of Engagement (RoE)</mat-card-title>
@@ -40,33 +32,64 @@
         Dormitory Standard Operating Procedure (SOP). Users must follow the
         actual Dorm SOP for complete guidance. Efforts will be made to keep this
         checklist up to date, but it is not a substitute for the official SOP.
-        The official SOP will be released to you via Teams. 
+        The official SOP will be released to you via Teams.
       </p>
       <p class="">
-        Your progress is saved on your local device and only you will be able to view it. 
+        Your progress is saved on your local device and only you will be able to
+        view it.
       </p>
       <p class="mt-2"><strong>Current as of (CAO): 03 AUG 2025</strong></p>
       <p class="mt-2">Made by OT Sims 25-20</p>
     </mat-card-content>
   </mat-card>
-
+  <mat-form-field class="w-full mb-4" appearance="outline">
+    <mat-label>Search</mat-label>
+    <input
+      matInput
+      type="text"
+      [(ngModel)]="searchQuery"
+      (ngModelChange)="applyFilter()"
+      placeholder="e.g. Bed"
+    />
+  </mat-form-field>
   <div class="flex flex-wrap justify-end mb-4">
-    <button mat-icon-button color="primary" (click)="clearAll()" aria-label="Clear all items" matTooltip="Clear all items">
+    <button
+      mat-icon-button
+      color="primary"
+      (click)="clearAll()"
+      aria-label="Clear all items"
+      matTooltip="Clear all items"
+    >
       <mat-icon>remove_done</mat-icon>
     </button>
   </div>
-  <div *ngIf="(filteredGroupedChecklist | keyvalue).length === 0" class="text-center text-gray-500 my-8">
+  <div
+    *ngIf="(filteredGroupedChecklist | keyvalue).length === 0"
+    class="text-center text-gray-500 my-8"
+  >
     No items match your search.
   </div>
   <mat-accordion multi togglePosition="before">
-    <mat-expansion-panel *ngFor="let region of (filteredGroupedChecklist | keyvalue); trackBy: trackByRegionKey" class="mb-2" [expanded]="!isRegionComplete(region.key)">
+    <mat-expansion-panel
+      *ngFor="
+        let region of filteredGroupedChecklist | keyvalue;
+        trackBy: trackByRegionKey
+      "
+      class="mb-2"
+      [expanded]="!isRegionComplete(region.key)"
+    >
       <mat-expansion-panel-header>
         <mat-panel-title class="font-medium mat-subheader">
           {{ region.key }}
         </mat-panel-title>
         <mat-panel-description class="flex-grow justify-end">
           <div class="flex items-center">
-            <span class="mr-2" [ngClass]="{'text-green-500': isRegionComplete(region.key)}">({{getCompletedItemsInRegion(region.key)}} / {{getTotalItemsInRegion(region.key)}})</span>
+            <span
+              class="mr-2"
+              [ngClass]="{ 'text-green-500': isRegionComplete(region.key) }"
+              >({{ getCompletedItemsInRegion(region.key) }} /
+              {{ getTotalItemsInRegion(region.key) }})</span
+            >
             <div
               (click)="$event.stopPropagation()"
               (keydown.enter)="$event.stopPropagation()"
@@ -74,93 +97,100 @@
               role="button"
               class="focus:outline-none"
             >
-            <button
-              *ngIf="getCompletedItemsInRegion(region.key) < getTotalItemsInRegion(region.key)"
-              mat-icon-button
-              (click)="checkAllInRegion(region.key, true)"
-              aria-label="Check all items in this region"
-              matTooltip="Check all items in this region"
-            >
-              <mat-icon>checklist</mat-icon>
-            </button>
-            <button
-              *ngIf="getCompletedItemsInRegion(region.key) > 0"
-              mat-icon-button
-              color="primary"
-              (click)="clearAllInRegion(region.key)"
-              aria-label="Clear all items in this region"
-              matTooltip="Clear all items in this region"
-            >
-              <mat-icon>remove_done</mat-icon>
-            </button>
-            </div>
-          </div>
-        </mat-panel-description>
-      </mat-expansion-panel-header>
-        <div *ngFor="let section of (region.value | keyvalue)" class="mb-4">
-          <div class="flex justify-between items-center">
-            <h3 class="mat-subheader font-medium break-words">
-              {{ section.key }}
-            </h3>
-            <div
-              *ngIf="section.value.length > 1"
-              class="flex items-center"
-            >
               <button
-                *ngIf="getCompletedItemsInSection(region.key, section.key) < getTotalItemsInSection(region.key, section.key)"
+                *ngIf="
+                  getCompletedItemsInRegion(region.key) <
+                  getTotalItemsInRegion(region.key)
+                "
                 mat-icon-button
-                (click)="checkAllInSection(region.key, section.key, true)"
-                aria-label="Check all items in this section"
-                matTooltip="Check all items in this section"
+                (click)="checkAllInRegion(region.key, true)"
+                aria-label="Check all items in this region"
+                matTooltip="Check all items in this region"
               >
                 <mat-icon>checklist</mat-icon>
               </button>
               <button
-                *ngIf="getCompletedItemsInSection(region.key, section.key) > 0"
+                *ngIf="getCompletedItemsInRegion(region.key) > 0"
                 mat-icon-button
                 color="primary"
-                (click)="clearAllInSection(region.key, section.key)"
-                aria-label="Clear all items in this section"
-                matTooltip="Clear all items in this section"
+                (click)="clearAllInRegion(region.key)"
+                aria-label="Clear all items in this region"
+                matTooltip="Clear all items in this region"
               >
                 <mat-icon>remove_done</mat-icon>
               </button>
             </div>
           </div>
-          <div
-            *ngFor="let item of section.value"
-            class="mb-1"
-          >
-            <div class="flex items-center">
-              <mat-checkbox
-                [(ngModel)]="item.checked"
-                (ngModelChange)="onCheckboxChange($event, item.id)"
-              ></mat-checkbox>
-              <div
-                class="ml-2 whitespace-normal  break-words cursor-pointer text-sm"
-                (click)="item.checked = !item.checked; onCheckboxChange(item.checked, item.id)"
-                (keydown.enter)="item.checked = !item.checked; onCheckboxChange(item.checked, item.id)"
-                (keydown.space)="item.checked = !item.checked; onCheckboxChange(item.checked, item.id)"
-                tabindex="0"
-                role="checkbox"
-                [attr.aria-checked]="item.checked"
-              >
-                {{ item.description }}
-                <span class="text-gray-500 ml-1">
-                  ({{ item.bullet }})
-                </span>
-              </div>
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <div *ngFor="let section of region.value | keyvalue" class="mb-4">
+        <div class="flex justify-between items-center">
+          <h3 class="mat-subheader font-medium break-words">
+            {{ section.key }}
+          </h3>
+          <div *ngIf="section.value.length > 1" class="flex items-center">
+            <button
+              *ngIf="
+                getCompletedItemsInSection(region.key, section.key) <
+                getTotalItemsInSection(region.key, section.key)
+              "
+              mat-icon-button
+              (click)="checkAllInSection(region.key, section.key, true)"
+              aria-label="Check all items in this section"
+              matTooltip="Check all items in this section"
+            >
+              <mat-icon>checklist</mat-icon>
+            </button>
+            <button
+              *ngIf="getCompletedItemsInSection(region.key, section.key) > 0"
+              mat-icon-button
+              color="primary"
+              (click)="clearAllInSection(region.key, section.key)"
+              aria-label="Clear all items in this section"
+              matTooltip="Clear all items in this section"
+            >
+              <mat-icon>remove_done</mat-icon>
+            </button>
+          </div>
+        </div>
+        <div *ngFor="let item of section.value" class="mb-1">
+          <div class="flex items-center">
+            <mat-checkbox
+              [(ngModel)]="item.checked"
+              (ngModelChange)="onCheckboxChange($event, item.id)"
+            ></mat-checkbox>
+            <div
+              class="ml-2 whitespace-normal break-words cursor-pointer text-sm"
+              (click)="
+                item.checked = !item.checked;
+                onCheckboxChange(item.checked, item.id)
+              "
+              (keydown.enter)="
+                item.checked = !item.checked;
+                onCheckboxChange(item.checked, item.id)
+              "
+              (keydown.space)="
+                item.checked = !item.checked;
+                onCheckboxChange(item.checked, item.id)
+              "
+              tabindex="0"
+              role="checkbox"
+              [attr.aria-checked]="item.checked"
+            >
+              {{ item.description }}
+              <span class="text-gray-500 ml-1"> ({{ item.bullet }}) </span>
             </div>
           </div>
         </div>
+      </div>
     </mat-expansion-panel>
   </mat-accordion>
 </div>
 
 <!-- Scroll to top FAB -->
-<button 
-  mat-fab 
-  color="primary" 
+<button
+  mat-fab
+  color="primary"
   class="scroll-to-top"
   (click)="scrollToTop()"
   aria-label="Scroll to top"
