@@ -53,34 +53,25 @@
   </div>
   <div *ngFor="let region of regions; trackBy: trackByRegion" class="mb-6">
     <mat-card>
-      <mat-card-header class="flex flex-col sm:flex-row">
-        <div class="flex items-center w-full justify-between">
-          <div class="flex items-center">
-            <button mat-icon-button (click)="toggleRegion(region)" class="mr-2">
-              <mat-icon>{{
-                regionCollapsedState[region] ? 'expand_more' : 'expand_less'
-              }}</mat-icon>
-            </button>
-            <mat-card-title
-              class="text-lg sm:text-xl break-words cursor-pointer"
-              (click)="toggleRegion(region)"
-              (keydown.enter)="toggleRegion(region)"
-              tabindex="0"
-              role="button"
-              >{{ region }}</mat-card-title
-            >
-          </div>
+      <mat-card-header class="flex items-center justify-between">
+        <div class="flex-grow flex items-center">
+          <button mat-icon-button (click)="toggleRegion(region)" class="mr-2">
+            <mat-icon>{{ regionCollapsedState[region] ? 'expand_more' : 'expand_less' }}</mat-icon>
+          </button>
+          <mat-card-title
+            class="text-lg sm:text-xl break-words cursor-pointer"
+            (click)="toggleRegion(region)"
+            (keydown.enter)="toggleRegion(region)"
+            tabindex="0"
+            role="button"
+          >
+            {{ region }}
+          </mat-card-title>
         </div>
-        <div
-          class="w-full sm:ml-auto flex flex-wrap items-center justify-end mt-2 sm:mt-0"
-          (click)="$event.stopPropagation()"
-          (keydown.enter)="$event.stopPropagation()"
-          tabindex="-1"
-        >
+        <div class="flex items-center">
           <button
             mat-icon-button
             (click)="checkAllInRegion(region, true)"
-            class="mr-2 mb-2 sm:mb-0"
             aria-label="Check all items in this region"
           >
             <mat-icon>done_all</mat-icon>
@@ -89,32 +80,25 @@
             mat-icon-button
             color="primary"
             (click)="clearAllInRegion(region)"
-            class="mr-2 mb-2 sm:mb-0"
             aria-label="Clear all items in this region"
           >
             <mat-icon>remove_done</mat-icon>
           </button>
-          <!-- Expand/collapse button moved to the left of region name -->
         </div>
       </mat-card-header>
       <mat-card-content *ngIf="!regionCollapsedState[region]">
-        <div *ngFor="let section of sections[region]" class="mb-6">
-          <div
-            class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-3"
-          >
-            <h3
-              class="mat-subheader text-base sm:text-lg font-medium break-words"
-            >
+        <div *ngFor="let section of sections[region]" class="mb-4">
+          <div class="flex justify-between items-center">
+            <h3 class="mat-subheader text-base sm:text-lg font-medium break-words">
               {{ section }}
             </h3>
             <div
               *ngIf="groupedChecklist[region][section].length > 1"
-              class="flex flex-wrap mt-1 sm:mt-0"
+              class="flex items-center"
             >
               <button
                 mat-icon-button
                 (click)="checkAllInSection(region, section, true)"
-                class="mr-2 mb-2 sm:mb-0"
                 aria-label="Check all items in this section"
               >
                 <mat-icon>done_all</mat-icon>
@@ -131,7 +115,7 @@
           </div>
           <div
             *ngFor="let item of groupedChecklist[region][section]"
-            class="mb-4"
+            class="mb-1"
           >
             <div class="flex items-center">
               <mat-checkbox
