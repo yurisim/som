@@ -7,6 +7,7 @@ import { MatListModule } from '@angular/material/list';
 import { FormsModule } from '@angular/forms';
 import { MatIconModule } from '@angular/material/icon';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { MatExpansionModule } from '@angular/material/expansion';
 import { ChecklistService } from '../checklist.service';
 import { ChecklistItem, GroupedChecklist } from '../checklist.model';
 
@@ -25,6 +26,7 @@ import { ChecklistItem, GroupedChecklist } from '../checklist.model';
     FormsModule,
     MatButtonModule,
     MatProgressBarModule,
+    MatExpansionModule,
   ],
   templateUrl: './checklist.component.html',
   styleUrls: ['./checklist.component.scss']
@@ -32,8 +34,7 @@ import { ChecklistItem, GroupedChecklist } from '../checklist.model';
 export class ChecklistComponent implements OnInit {
   groupedChecklist: GroupedChecklist = {};
   regions: string[] = [];
-  sections: { [region: string]: string[] } = {};
-  regionCollapsedState: { [region: string]: boolean } = {};
+  sections: { [key: string]: string[] } = {};
   completionPercentage = 0;
   totalItems = 0;
   completedItems = 0;
@@ -47,20 +48,43 @@ ngOnInit(): void {
       this.regions = Object.keys(this.groupedChecklist);
       this.regions.forEach(region => {
         this.sections[region] = Object.keys(this.groupedChecklist[region]);
-        this.regionCollapsedState[region] = false; // Default to expanded
       });
       this.calculateCompletionPercentage();
     });
   }
 
-  // expands/collapses a region
-toggleRegion(region: string): void {
-    this.regionCollapsedState[region] = !this.regionCollapsedState[region];
-  }
-
   // helps Angular's ngFor performance
 trackByRegion(index: number, region: string): string {
     return region;
+  }
+
+  // checks if all items in a region are completed
+  getCompletedItemsInRegion(region: string): number {
+    if (!this.sections[region]) {
+      return 0;
+    }
+    return this.sections[region].reduce((acc, section) => {
+      const completedInSection = this.groupedChecklist[region][section].filter(item => item.checked).length;
+      return acc + completedInSection;
+    }, 0);
+  }
+
+  getTotalItemsInRegion(region: string): number {
+    if (!this.sections[region]) {
+      return 0;
+    }
+    return this.sections[region].reduce((acc, section) => {
+      return acc + this.groupedChecklist[region][section].length;
+    }, 0);
+  }
+
+  isRegionComplete(region: string): boolean {
+    if (!this.sections[region]) {
+      return false;
+    }
+    return this.sections[region].every(section =>
+      this.groupedChecklist[region][section].every(item => item.checked)
+    );
   }
 
   // organizes flat data into nested structure by region and section
