@@ -59,7 +59,7 @@
         </mat-panel-title>
         <mat-panel-description class="flex-grow justify-end">
           <div class="flex items-center">
-            <span class="mr-2">({{getCompletedItemsInRegion(region)}} / {{getTotalItemsInRegion(region)}})</span>
+            <span class="mr-2" [ngClass]="{'text-green-500': isRegionComplete(region)}">({{getCompletedItemsInRegion(region)}} / {{getTotalItemsInRegion(region)}})</span>
             <div
               (click)="$event.stopPropagation()"
               (keydown.enter)="$event.stopPropagation()"
