@@ -75,6 +75,11 @@ ngOnInit(): void {
     return region.key;
   }
 
+  clearSearch(): void {
+    this.searchQuery = '';
+    this.applyFilter();
+  }
+
   // checks if all items in a region are completed
   getCompletedItemsInRegion(region: string): number {
     if (!this.sections[region]) {
