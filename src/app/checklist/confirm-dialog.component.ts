@@ -11,7 +11,9 @@ import { MatButtonModule } from '@angular/material/button';
     </div>
     <div mat-dialog-actions align="end">
       <button mat-button (click)="onNoClick()">Cancel</button>
-      <button mat-button [mat-dialog-close]="true" cdkFocusInitial>Confirm</button>
+      <button mat-button [mat-dialog-close]="true" cdkFocusInitial>
+        Confirm
+      </button>
     </div>
   `,
   standalone: true,

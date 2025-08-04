@@ -17,9 +17,6 @@ import { ChecklistService } from '../checklist.service';
 import { KeyValue } from '@angular/common';
 import { ChecklistItem, GroupedChecklist } from '../checklist.model';
 
-
-
-
 @Component({
   selector: 'app-checklist',
   standalone: true,
@@ -39,7 +36,7 @@ import { ChecklistItem, GroupedChecklist } from '../checklist.model';
     MatInputModule,
   ],
   templateUrl: './checklist.component.html',
-  styleUrls: ['./checklist.component.scss']
+  styleUrls: ['./checklist.component.scss'],
 })
 export class ChecklistComponent implements OnInit {
   groupedChecklist: GroupedChecklist = {};
@@ -55,12 +52,12 @@ export class ChecklistComponent implements OnInit {
   dialog = inject(MatDialog);
 
   // loads data and sets up initial state
-ngOnInit(): void {
-    this.checklistService.getChecklistData().subscribe(data => {
+  ngOnInit(): void {
+    this.checklistService.getChecklistData().subscribe((data) => {
       this.groupedChecklist = this.groupData(data);
       this.filteredGroupedChecklist = this.groupedChecklist;
       this.regions = Object.keys(this.groupedChecklist);
-      this.regions.forEach(region => {
+      this.regions.forEach((region) => {
         this.sections[region] = Object.keys(this.groupedChecklist[region]);
       });
       this.calculateCompletionPercentage();
@@ -71,7 +68,10 @@ ngOnInit(): void {
     return region;
   }
 
-  trackByRegionKey(index: number, region: KeyValue<string, { [key: string]: ChecklistItem[] }>): string {
+  trackByRegionKey(
+    index: number,
+    region: KeyValue<string, { [key: string]: ChecklistItem[] }>
+  ): string {
     return region.key;
   }
 
@@ -86,7 +86,9 @@ ngOnInit(): void {
       return 0;
     }
     return this.sections[region].reduce((acc, section) => {
-      const completedInSection = this.groupedChecklist[region][section].filter(item => item.checked).length;
+      const completedInSection = this.groupedChecklist[region][section].filter(
+        (item) => item.checked
+      ).length;
       return acc + completedInSection;
     }, 0);
   }
@@ -104,27 +106,34 @@ ngOnInit(): void {
     if (!this.sections[region]) {
       return false;
     }
-    return this.sections[region].every(section =>
-      this.groupedChecklist[region][section].every(item => item.checked)
+    return this.sections[region].every((section) =>
+      this.groupedChecklist[region][section].every((item) => item.checked)
     );
   }
 
   getCompletedItemsInSection(region: string, section: string): number {
-    if (!this.groupedChecklist[region] || !this.groupedChecklist[region][section]) {
+    if (
+      !this.groupedChecklist[region] ||
+      !this.groupedChecklist[region][section]
+    ) {
       return 0;
     }
-    return this.groupedChecklist[region][section].filter(item => item.checked).length;
+    return this.groupedChecklist[region][section].filter((item) => item.checked)
+      .length;
   }
 
   getTotalItemsInSection(region: string, section: string): number {
-    if (!this.groupedChecklist[region] || !this.groupedChecklist[region][section]) {
+    if (
+      !this.groupedChecklist[region] ||
+      !this.groupedChecklist[region][section]
+    ) {
       return 0;
     }
     return this.groupedChecklist[region][section].length;
   }
 
   // organizes flat data into nested structure by region and section
-private groupData(data: ChecklistItem[]): GroupedChecklist {
+  private groupData(data: ChecklistItem[]): GroupedChecklist {
     return data.reduce((acc, item) => {
       acc[item.region] = acc[item.region] || {};
       acc[item.region][item.section] = acc[item.region][item.section] || [];
@@ -133,8 +142,6 @@ private groupData(data: ChecklistItem[]): GroupedChecklist {
     }, {} as GroupedChecklist);
   }
 
-
-
   // updates checkbox state and recalculates completion %
   onCheckboxChange(checked: boolean, id: string): void {
     this.checklistService.setCheckedState(id, checked);
@@ -142,29 +149,29 @@ private groupData(data: ChecklistItem[]): GroupedChecklist {
   }
 
   // checks/unchecks all items in a region
-checkAllInRegion(region: string, checked: boolean): void {
-    this.sections[region].forEach(section => {
+  checkAllInRegion(region: string, checked: boolean): void {
+    this.sections[region].forEach((section) => {
       this.checkAllInSection(region, section, checked);
     });
     this.calculateCompletionPercentage();
   }
 
   // unchecks everything in a region
-clearAllInRegion(region: string): void {
-    this.sections[region].forEach(section => {
+  clearAllInRegion(region: string): void {
+    this.sections[region].forEach((section) => {
       this.clearAllInSection(region, section);
     });
     this.calculateCompletionPercentage();
   }
 
   // resets all checkboxes
-clearAll(): void {
+  clearAll(): void {
     const dialogRef = this.dialog.open(ConfirmDialogComponent);
 
-    dialogRef.afterClosed().subscribe(result => {
+    dialogRef.afterClosed().subscribe((result) => {
       if (result) {
-        this.regions.forEach(region => {
-          this.sections[region].forEach(section => {
+        this.regions.forEach((region) => {
+          this.sections[region].forEach((section) => {
             this.clearAllInSection(region, section);
           });
         });
@@ -174,7 +181,7 @@ clearAll(): void {
   }
 
   // bulk check/uncheck for a section
-checkAllInSection(region: string, section: string, checked: boolean): void {
+  checkAllInSection(region: string, section: string, checked: boolean): void {
     this.groupedChecklist[region][section].forEach((item) => {
       if (item.checked !== checked) {
         item.checked = checked;
@@ -185,8 +192,8 @@ checkAllInSection(region: string, section: string, checked: boolean): void {
   }
 
   // unchecks all items in a section
-clearAllInSection(region: string, section: string): void {
-    this.groupedChecklist[region][section].forEach(item => {
+  clearAllInSection(region: string, section: string): void {
+    this.groupedChecklist[region][section].forEach((item) => {
       if (item.checked) {
         item.checked = false;
         this.checklistService.setCheckedState(item.id, false);
@@ -196,22 +203,24 @@ clearAllInSection(region: string, section: string): void {
   }
 
   // figures out how much is done
-calculateCompletionPercentage(): void {
+  calculateCompletionPercentage(): void {
     this.totalItems = 0;
     this.completedItems = 0;
-    
+
     // Count total and completed items
-    this.regions.forEach(region => {
-      this.sections[region].forEach(section => {
+    this.regions.forEach((region) => {
+      this.sections[region].forEach((section) => {
         const items = this.groupedChecklist[region][section];
         this.totalItems += items.length;
-        this.completedItems += items.filter(item => item.checked).length;
+        this.completedItems += items.filter((item) => item.checked).length;
       });
     });
-    
+
     // Calculate percentage
-    this.completionPercentage = this.totalItems > 0 ? 
-      Math.round((this.completedItems / this.totalItems) * 100) : 0;
+    this.completionPercentage =
+      this.totalItems > 0
+        ? Math.round((this.completedItems / this.totalItems) * 100)
+        : 0;
   }
 
   // scrolls to the top of the page
@@ -227,12 +236,12 @@ calculateCompletionPercentage(): void {
     }
 
     this.filteredGroupedChecklist = {};
-    this.regions.forEach(region => {
+    this.regions.forEach((region) => {
       const filteredSections: { [key: string]: ChecklistItem[] } = {};
       let regionHasItems = false;
-      this.sections[region].forEach(section => {
+      this.sections[region].forEach((section) => {
         const filteredItems = this.groupedChecklist[region][section].filter(
-          item =>
+          (item) =>
             item.description.toLowerCase().includes(filterValue) ||
             item.bullet.toLowerCase().includes(filterValue)
         );
