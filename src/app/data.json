@@ -24,7 +24,7 @@
     "id": "common_area_sink_001",
     "region": "Common Area",
     "section": "Sink",
-    "description": "Sinks will be clean, free of dust (D) and debris (U), and dry (W).",
+    "description": "Sinks will be clean, free of dust (D) and debris (U), and dry (W). Sink closest to entry door is for Pos 1&4; opposing sink for Pos 2&3.",
     "bullet": "4.4"
   },
   {
@@ -45,29 +45,29 @@
     "id": "common_area_sink_004",
     "region": "Common Area",
     "section": "Sink",
-    "description": "(Optional) Drinking cups/glasses must be clean (D) and serviceable (N). Grounded to the left (Pos 1&2) or right (Pos 3&4) and to the back wall.",
+    "description": "(Optional) Drinking cups/glasses must be clean (D) and serviceable (N). Grounded left (Pos 1&2) or right (Pos 3&4) of faucet, grounded to the back wall, and either to the corner or flush with sink edge.",
     "bullet": "4.4.1, 4.4.3"
   },
   {
     "id": "common_area_sink_005",
     "region": "Common Area",
     "section": "Sink",
-    "description": "(Optional) Hand Soap: Only 1 hand soap per sink will be grounded (G) to the left side (I) of the faucet.",
+    "description": "(Optional) Only 1 hand soap per sink will be grounded (G) to the left side (I) of the faucet.",
     "bullet": "4.4.4"
   },
   {
     "id": "common_area_sink_006",
     "region": "Common Area",
     "section": "Sink",
-    "description": "Soap Tray and Toothbrush Holder chrome will be clean (D), free of dust (D) and debris (U), and dry (W). No items authorized on top.",
+    "description": "Soap Tray and Toothbrush Holder chrome will be clean (D), free of dust (D) and debris (U), and dry (W). No items authorized on soap tray or toothbrush holder.",
     "bullet": "4.4.5"
   },
   {
     "id": "common_area_sink_cabinet_001",
     "region": "Common Area",
     "section": "Sink Cabinet",
-    "description": "The sink cabinet must be neatly arranged. Doors will be closed when not in use (I).",
-    "bullet": "4.5"
+    "description": "The sink cabinet must be neatly arranged. Doors will be closed when not in use (I). Authorized items: Storage Bin/Toiletry bag, toiletries, laundry supplies, air fresheners (4 hangers max).",
+    "bullet": "4.5, 4.5.1"
   },
   {
     "id": "common_area_sink_cabinet_002",
@@ -80,28 +80,28 @@
     "id": "common_area_sink_cabinet_003",
     "region": "Common Area",
     "section": "Sink Cabinet",
-    "description": "Hangers will stand upright and be grounded to the left and/or right side of either corner.",
-    "bullet": "4.5.2"
+    "description": "Hangers (4 max) neatly stacked, upright, and grounded to a wall. Pos 1&2 ground storage bin/toiletry bag to left side of cabinet against hangers. Pos 3&4 ground bin/bag to right side against hangers.",
+    "bullet": "4.5.1, 4.5.2"
   },
   {
     "id": "common_area_sink_cabinet_004",
     "region": "Common Area",
     "section": "Sink Cabinet",
-    "description": "Items will be sized tallest to shortest from left to right (S), with no break at the center point of the cabinet.",
+    "description": "Items will be sized tallest to shortest from left to right (S), with no break at the center, regardless of the number of occupants.",
     "bullet": "4.5.2"
   },
   {
     "id": "common_area_medicine_cabinet_001",
     "region": "Common Area",
     "section": "Medicine Cabinet/Mirror",
-    "description": "Items in cabinet will be clean (D/U).",
+    "description": "Items in cabinet will be clean (D/U). Pos 1&2 use bottom shelf area; Pos 3&4 use top shelf area. The middle shelf is shared.",
     "bullet": "4.6"
   },
   {
     "id": "common_area_medicine_cabinet_002",
     "region": "Common Area",
     "section": "Medicine Cabinet/Mirror",
-    "description": "Mirrors will be clean, free of dust and debris, and clear of smudges (D/U).",
+    "description": "Mirrors will be clean, free of dust, debris, and smudges (D/U).",
     "bullet": "4.6"
   },
   {
@@ -136,14 +136,14 @@
     "id": "common_area_toilet_003",
     "region": "Common Area",
     "section": "Toilet",
-    "description": "(Optional) Rack behind toilet may have up to two extra rolls of toilet paper. OTs may have an additional wastebasket long side grounded to the wall and short side flushed with the doorframe.",
+    "description": "(Optional) Rack behind toilet may have up to two extra rolls of toilet paper.",
     "bullet": "4.7.2"
   },
   {
     "id": "common_area_toilet_004",
     "region": "Common Area",
     "section": "Toilet",
-    "description": "(Optional) You may have a wastebasket long side grounded to the wall and short side flushed with the doorframe.",
+    "description": "(Optional) You may have an additional wastebasket in the latrine, long side grounded to the wall and short side flushed with the doorframe.",
     "bullet": "4.7.2"
   },
   {
@@ -157,8 +157,8 @@
     "id": "common_area_shower_002",
     "region": "Common Area",
     "section": "Shower",
-    "description": "The shower door will be left open (I).",
-    "bullet": "4.8.1"
+    "description": "The shower door will be left open (I). All toiletries will be stored in the sink cabinet.",
+    "bullet": "4.8.1, 4.8.2"
   },
   {
     "id": "common_area_shower_003",
@@ -171,63 +171,63 @@
     "id": "common_area_shower_004",
     "region": "Common Area",
     "section": "Shower",
-    "description": "(Optional) A bathmat or towel may be in the shower, as long as it is grounded to the base of the shower and centered (G). If a towel is used, it must be draped over the shower door neatly when not in use.",
+    "description": "(Optional) A bathmat or towel may be in the shower, grounded to the base of the shower and centered (G). If a towel is used, it must be draped over the shower door neatly when not in use.",
     "bullet": "4.8.2"
   },
   {
     "id": "common_area_shower_005",
     "region": "Common Area",
     "section": "Shower",
-    "description": "(Optional) Wet Uniform Items (PTG): Jacket/Pants will be hung on a hanger on the shower frame. Shoes will be placed inside the shower. Gloves on rack above toilet. Underwear/socks stowed in laundry bag.",
+    "description": "(Optional) Wet Uniform Items (PTG): Jacket/Pants hung on a hanger on shower frame. Shoes placed inside shower. Gloves on rack above toilet. Underwear/socks stowed in laundry bag.",
     "bullet": "4.8.3"
   },
   {
     "id": "common_area_towel_001",
     "region": "Common Area",
     "section": "Towel",
-    "description": "Towels will not be stained or heavily soiled (D) and must be serviceable (N). Towels may be wet but must not drip.",
+    "description": "Towels will not be stained or heavily soiled (D), must be serviceable (N), and may be wet but must not drip water.",
     "bullet": "4.9"
   },
   {
     "id": "common_area_towel_002",
     "region": "Common Area",
     "section": "Towel",
-    "description": "Fold towel in half lengthwise (F). Drape the towel evenly (I) over the towel rack. Ground the single folds to the brackets (G).",
+    "description": "Fold towel in half lengthwise (F). Drape evenly (I) over towel rack. Ground the single folds to the brackets (G) with open edges towards the center.",
     "bullet": "4.9.1"
   },
   {
     "id": "common_area_towel_003",
     "region": "Common Area",
     "section": "Towel",
-    "description": "Position 1 and 4 share bottom rack; 2 and 3 share top. Pos 1/2 ground fold to bracket near entry; 3/4 ground fold to bracket farthest from entry.",
+    "description": "Position 1 & 4 share bottom rack; 2 & 3 share top. Pos 1/2 ground fold to bracket near entry door; Pos 3/4 ground fold to bracket farthest from entry door.",
     "bullet": "4.9.2"
   },
   {
     "id": "common_area_towel_004",
     "region": "Common Area",
     "section": "Towel",
-    "description": "Towels may be wet but must not drip water onto the floor.",
+    "description": "Towels may be wet but must not drip water onto the floor. (Duplicate: see common_area_towel_001)",
     "bullet": "4.9"
   },
   {
     "id": "common_area_wash_cloth_001",
     "region": "Common Area",
     "section": "Wash Cloth",
-    "description": "Fold and drape the washcloth in the same manner as the towel (F/G/I). Place on the towel or directly on the rack. Flush single fold of washcloth with single fold of towel.",
+    "description": "Fold and drape washcloth same as towel (F/G/I) on towel or rack. Flush single fold of washcloth with towel's single fold. (Luffa: place in open ziplock bag in sink cabinet).",
     "bullet": "4.10"
   },
   {
     "id": "common_area_hand_towel_001",
     "region": "Common Area",
     "section": "(Optional) Hand Towel",
-    "description": "Hand towel must be serviceable (D/N/U) and may be damp but not soaking wet. Fold and display same as large towel.",
+    "description": "Serviceable (D/N/U), damp is ok. Fold/drape same as large towel. On towel bar next to sink: Pos 1&2 ground fold toward bathroom door; Pos 3&4 ground fold toward mirror.",
     "bullet": "4.11"
   },
   {
     "id": "common_area_iron_001",
     "region": "Common Area",
     "section": "Iron/Ironing Board",
-    "description": "Iron cord will be neatly wrapped (I). Iron and ironing board will be dust free (D/U) and will be neatly displayed in closet. Iron will be free of water when displayed (W).",
+    "description": "Iron cord will be neatly wrapped (I). Iron and ironing board will be dust free (D/U) and neatly displayed in closet. Iron will be free of water when displayed (W).",
     "bullet": "4.13"
   },
   {
@@ -241,7 +241,7 @@
     "id": "common_area_wastebasket_001",
     "region": "Common Area",
     "section": "Wastebasket",
-    "description": "The wastebasket will always be lined with a trash bag (A).",
+    "description": "The wastebasket must be lined with a trash bag (A). A single, unused liner may be placed under the active liner.",
     "bullet": "4.12"
   },
   {
@@ -255,10 +255,9 @@
     "id": "common_area_wastebasket_003",
     "region": "Common Area",
     "section": "Wastebasket",
-    "description": "Display on the wall nearest Occupant 1’s desk, grounding the long side of the wastebasket to the wall (G/I). The short side will be flush with the corner of the wall (G/I).",
+    "description": "Display on the wall nearest Occupant 1’s desk, grounding the long side to the wall (G/I). The short side will be flush with the corner of the wall (G/I).",
     "bullet": "4.12.1"
   },
-
   {
     "id": "common_area_blinds_001",
     "region": "Common Area",
@@ -277,7 +276,7 @@
     "id": "common_area_mirror_001",
     "region": "Common Area",
     "section": "Mirrors",
-    "description": "Will be clean and free of debris (U), spots, and streaks (D).",
+    "description": "Hanging mirrors will be clean and free of debris (U), spots, and streaks (D).",
     "bullet": "4.15"
   },
   {
@@ -298,7 +297,7 @@
     "id": "bed_area_general_001",
     "region": "Bed Area",
     "section": "General Instructions",
-    "description": "All items used to make the bed must be clean, dry, and serviceable.",
+    "description": "All bed items must be clean, dry, serviceable. Inspection side is closest to door. Head of bed is nearest the wall.",
     "bullet": "5.1"
   },
   {
@@ -319,7 +318,7 @@
     "id": "bed_area_comforter_001",
     "region": "Bed Area",
     "section": "Blue Comforter/Top Sheet",
-    "description": "Make hospital corners on the inspection side, tucking excess on the non-inspection side if unable to make corners on the non-inspection side.",
+    "description": "Make hospital corners on inspection side. If comforter is wide enough, make on both sides; otherwise, tuck excess on non-inspection side.",
     "bullet": "5.4"
   },
   {
@@ -333,7 +332,7 @@
     "id": "bed_area_blanket_001",
     "region": "Bed Area",
     "section": "Tan Blanket",
-    "description": "(Optional) When displayed on top of the comforter, tan blanket will be neatly folded three times, centered on and flush with the foot end of the mattress.",
+    "description": "(Optional) May be displayed between blue comforter and top sheet, OR neatly folded three times, centered on and flush with the foot end of the mattress.",
     "bullet": "5.5"
   },
   {
@@ -354,7 +353,7 @@
     "id": "bed_area_pillow_002",
     "region": "Bed Area",
     "section": "Pillow/Pillowcase",
-    "description": "Ensure the pillow is flush with the head end of the mattress and centered on the width.",
+    "description": "Pillow is flush with the head end of the mattress and centered on the width. Extra pillows are placed on top, sized largest to smallest.",
     "bullet": "5.7"
   },
   {
@@ -368,7 +367,7 @@
     "id": "personal_area_general_001",
     "region": "Personal Living Area",
     "section": "General Instructions",
-    "description": "Properly size all items on shelves from tallest to shortest, left to right.",
+    "description": "Size items on shelves tallest to shortest, left to right. Stack similar items with longest on bottom.",
     "bullet": "6.1"
   },
   {
@@ -382,14 +381,14 @@
     "id": "personal_area_bed_rail_towel_001",
     "region": "Personal Living Area",
     "section": "Bed Rail",
-    "description": "(Optional) Dry Towel: Drape towel evenly over top bed rail. Ground single fold to inspection side of bed.",
+    "description": "(Optional) Dry Towel: Drape towel evenly over top bed rail. Ground single fold to the end of the bedrail on the inspection side of the bed.",
     "bullet": "6.3"
   },
   {
     "id": "personal_area_bed_rail_towel_002",
     "region": "Personal Living Area",
     "section": "Bed Rail",
-    "description": "(Optional) Hand Towel/Wash Cloth: Drape evenly over the dry towel or bed rail. Ground single fold to inspection side of bed.",
+    "description": "(Optional) Hand Towel/Wash Cloth: Drape evenly over the dry towel or rail. Ground single fold to the end of the bedrail on the inspection side.",
     "bullet": "6.4"
   },
   {
@@ -410,21 +409,21 @@
     "id": "personal_area_hydration_001",
     "region": "Personal Living Area",
     "section": "Hydration System & Backpack",
-    "description": "The hydration system or backpack will be draped over the back of the chair. Zippers and hook and loop will be closed.",
+    "description": "The backpack will be draped over the back of the chair. Hydration system will be draped over the backpack. Zippers and hook and loop will be closed.",
     "bullet": "6.6"
   },
   {
     "id": "personal_area_desk_001",
     "region": "Personal Living Area",
     "section": "Desk/Shelves",
-    "description": "All desk surfaces and interiors must be dry, clean, and free of dust and debris.",
-    "bullet": "6.7"
+    "description": "All desk/shelf surfaces and interiors must be dry, clean, and dust/debris free. Accoutrements bin: grounded to corner of shelf furthest from entry door.",
+    "bullet": "6.7, 6.7.5"
   },
   {
     "id": "personal_area_computer_001",
     "region": "Personal Living Area",
     "section": "Computer",
-    "description": "(Optional) Displayed grounded to the back corner and side closest to the room entry. Must be password protected and open at a 90° angle.",
+    "description": "(Optional) Laptop displayed grounded to back corner and side closest to entry, password protected, open 90°. Tower grounded to opposite side of desk, flush with front.",
     "bullet": "6.7.2"
   },
   {
@@ -452,7 +451,7 @@
     "id": "personal_area_drawer_001",
     "region": "Personal Living Area",
     "section": "Desk Drawer",
-    "description": "(Optional) Only one plastic bin/bag for small office supplies is authorized; must be neatly stored and grounded to the front left corner.",
+    "description": "(Optional) One plastic bin/bag for office supplies is authorized, grounded to the front left corner. Items too large for bin are stored next to it, grounded to the front.",
     "bullet": "6.7.6"
   },
   {
@@ -480,43 +479,43 @@
     "id": "drawers_drawer1_ptg_001",
     "region": "Clothing Drawers",
     "section": "Drawer 1 (Top Drawer) PTG Clothing",
-    "description": "Neatly fold PT shorts, T-shirts, and optional form fitting shorts. Ground the bottom item to the front right corner of the drawer.",
+    "description": "Fold PT shorts, T-shirts, and optional form fitting shorts. Ground bottom item to front right corner. Stack with longest on bottom (pyramid effect).",
     "bullet": "7.2.1"
   },
   {
     "id": "drawers_drawer1_socks_001",
     "region": "Clothing Drawers",
     "section": "Drawer 1 (Top Drawer) PTG Clothing",
-    "description": "Running socks will be rolled or folded neatly. Place sock grounded to the front left corner of the drawer.",
+    "description": "Running socks rolled/folded. Ground first pair to front left corner. Ground subsequent pairs to the rear in a single row. Stack excess directly on top.",
     "bullet": "7.2.2"
   },
   {
     "id": "drawers_drawer2_socks_001",
     "region": "Clothing Drawers",
     "section": "Drawer 2 (Socks/long johns)",
-    "description": "Roll socks as a pair, ensuring upward curve faces the front of the drawer.",
-    "bullet": "7.3.1"
+    "description": "Roll socks; upward curve forms a smile facing front. Ground boot socks front-left; low quarters front-right of boot socks. Form rows front-to-back, stack excess in gap.",
+    "bullet": "7.3.1, 7.3.2"
   },
   {
     "id": "drawers_drawer2_long_johns_001",
     "region": "Clothing Drawers",
     "section": "Drawer 2 (Socks/long johns)",
-    "description": "(Optional) If displaying long johns (cold weather undergarments), fold neatly and ground to back right corner. Stack items with the longest item on the bottom in the pyramid effect.",
+    "description": "(Optional) Long johns: fold neatly and ground to back right corner. Stack with longest on bottom (pyramid effect).",
     "bullet": "7.3.3"
   },
   {
     "id": "drawers_drawer3_shirts_001",
     "region": "Clothing Drawers",
     "section": "Drawer 3 (Shirts)",
-    "description": "Roll shirts per folding instructions. Place the hemmed edge down at the 6 o'clock position and open end facing the rear of the drawer.",
+    "description": "Roll T-shirts, hemmed edge down (6 o'clock), open end to rear. OCP shirts in a line from front-left. White T-shirts in a line right of OCPs. Stack excess in gap.",
     "bullet": "7.4.2"
   },
   {
     "id": "drawers_drawer4_underwear_001",
     "region": "Clothing Drawers",
     "section": "Drawer 4 (Undergarments)",
-    "description": "Neatly fold underwear/boxers. Ground the bottom item to the front right corner of the drawer. Stack with largest on the bottom. They must be each grounded to the front right corner of the drawer.",
-    "bullet": "7.5.1"
+    "description": "Underwear/Boxers: Ground to front-right, stack largest on bottom, waistband to rear. Bras: under-wire front-left; sport bras back-left; stack largest to smallest, cups up.",
+    "bullet": "7.5.1, 7.5.2"
   },
   {
     "id": "drawers_drawer5_security_001",
@@ -543,15 +542,15 @@
     "id": "closet_general_001",
     "region": "Closet",
     "section": "General Instructions",
-    "description": "Items will be clean, dry, free of dust and debris, serviceable and shined (if applicable).",
+    "description": "Items clean, dry, dust-free, serviceable, shined. Pos 1&4 use closet nearest entry; Pos 2&3 use second. Pos 1&2 use side closest to entry. DCOs display rank on outer garments.",
     "bullet": "8.1"
   },
   {
     "id": "closet_general_002",
     "region": "Closet",
     "section": "General Instructions",
-    "description": "Empty all pockets and remove loose strings and all tags that are not sewn in.",
-    "bullet": "8.1"
+    "description": "Empty all pockets and remove non-sewn strings/tags. OCPs will not have unsewn patches/tapes. MREs: Box on floor, long end to back wall, short end to entry wall. Pos 3&4 stack on top of 1&2.",
+    "bullet": "8.1, 8.5"
   },
   {
     "id": "closet_general_003",
@@ -564,43 +563,43 @@
     "id": "closet_shelf_patrol_cap_001",
     "region": "Closet",
     "section": "Closet Shelf",
-    "description": "OCP Patrol Cap: Display on left side of closet shelf space, as worn. Ensure the bill of the cap is flush with the front edge of the shelf.",
+    "description": "OCP Patrol Cap: Display on left side of shelf, as worn. Bill flush with front edge. Ground right side of cap to left wall (or centerline if shared).",
     "bullet": "8.2.1"
   },
   {
     "id": "closet_shelf_flight_cap_001",
     "region": "Closet",
     "section": "Closet Shelf",
-    "description": "Flight Cap: Display to the right of OCP Patrol Cap, triangle facing down. Ensure the front of the cap is flush with the edge of the shelf. Direct commissioned officers wear rank.",
+    "description": "Flight Cap: Display right of Patrol Cap, triangle down, front flush with shelf edge. Ground to Patrol Cap. DCOs display rank.",
     "bullet": "8.2.2"
   },
   {
     "id": "closet_shelf_watch_cap_001",
     "region": "Closet",
     "section": "Closet Shelf",
-    "description": "(Optional) Watch Cap: Fold in half from left to right. Edges flush and even. Open end is flush to the edge of the shelf.",
+    "description": "(Optional) Watch Cap: Fold in half left-to-right, edges even. Open end flush with shelf edge. Ground single fold to open side of Flight Cap.",
     "bullet": "8.2.3"
   },
   {
     "id": "closet_shelf_gloves_001",
     "region": "Closet",
     "section": "Closet Shelf",
-    "description": "Ground the thumb side to the right wall/dividing line. Ensure the open ends are flush with each other. See picture in SOP for reference.",
+    "description": "Gloves: Ground thumb side to right wall/dividing line. Open ends flush with each other.",
     "bullet": "8.2.4"
   },
   {
     "id": "closet_shelf_flashlight_001",
     "region": "Closet",
     "section": "Closet Shelf",
-    "description": "Flashlight: Display to the left of gloves. Ensure the flashlight is grounded to the wall or center partition. The lightbulb end will be flush with the front edge of the shelf.",
+    "description": "Flashlight: Display left of gloves, grounded to them. If no gloves, ground to wall/partition. Lightbulb end flush with front edge.",
     "bullet": "8.2.5"
   },
   {
     "id": "closet_rod_001",
     "region": "Closet",
     "section": "Closet Rod",
-    "description": "Hang each item with the open end of the hanger toward the rear wall of the closet and left sleeve facing the closet door.",
-    "bullet": "8.3"
+    "description": "Hang items with open-end of hanger to rear. Left sleeve and front of item faces closet door. Outer garments on 2 wire or 1 plastic hanger.",
+    "bullet": "8.3, 8.3.6"
   },
   {
     "id": "closet_rod_002",
@@ -613,56 +612,49 @@
     "id": "closet_rod_003",
     "region": "Closet",
     "section": "Closet Rod",
-    "description": "Hangers will be evenly spaced from left to right.",
+    "description": "Hangers will be evenly spaced from left to right. Ground end hangers to brackets or dividing line.",
     "bullet": "8.3.2"
   },
   {
     "id": "closet_rod_004",
     "region": "Closet",
     "section": "Closet Rod",
-    "description": "Display items in the correct hanger order (From Left to Right): 1. All-Weather Coat/Liner 2. Lightweight Blue Jacket/Liner 3. Cardigan/Pullover Sweater 4. Service Coat 5. Long Sleeve Blue Shirts/Blouses 6. Short Sleeve Blue Shirts/Blouses 7. Blue Trousers/Slacks 8. Blues Skirt 9. Extreme Cold/Wet Weather (e.g. ECWW Jacket, MASSIF, Gortex) 10. Fleece 11. (Optional) Waffle top/bottom 12. OCP Coat (Tops/Blouses) 13. OCP Trousers 14. PTG Jacket/pants 15. PT Sweater.",
+    "description": "Hanger Order (L-R): All-Weather Coat, LW Blue Jacket, Cardigan, Service Coat, LS Blue Shirt, SS Blue Shirt, Blue Trousers, Blues Skirt, ECWW, Fleece, Waffle top/bottom, OCP Coat, OCP Trousers, PTG Jacket/pants, PT Sweater.",
     "bullet": "8.3.1"
-  },
-  {
-    "id": "closet_rod_001",
-    "region": "Closet",
-    "section": "Closet Rod",
-    "description": "Press service dress items. Outer top service dress garments use 2 wire or 1 plastic hanger.",
-    "bullet": "8.3 & 8.3.6"
   },
   {
     "id": "closet_rod_hangers_001",
     "region": "Closet",
     "section": "Closet Rod",
-    "description": "Hangers: Space hangers evenly. Ground end hangers to brackets or dividing line. Only display an empty hanger for a worn Service Coat, Lightweight Blues Jacket, or All-Weather Coat.",
+    "description": "Only display an empty hanger for a worn Service Coat, Lightweight Blues Jacket, or All-Weather Coat.",
     "bullet": "8.3.2"
   },
   {
     "id": "all_weather_coat_001",
     "region": "Closet",
     "section": "Closet Rod",
-    "description": "All-Weather Coat/Liner: Do not zip liner to coat. Button all buttons except top. Buckle belt through all loops. Direct commissioned Officers: Display rank. If coat is worn, display liner alone as if inside.",
+    "description": "All-Weather Coat/Liner: Do not zip liner to coat. Button all except top. Buckle belt. If coat worn, display liner as if inside.",
     "bullet": "8.3.3"
   },
   {
     "id": "lw_blue_jacket_001",
     "region": "Closet",
     "section": "Closet Rod",
-    "description": "Lightweight Blue Jacket/Liner: Zip jacket fully and tuck zipper. Attach liner with tabs. Direct commissioned Officers: Display rank. If jacket is worn, display liner alone as if attached.",
+    "description": "Lightweight Blue Jacket/Liner: Zip jacket fully, tuck zipper. Attach liner. If jacket worn, display liner as if attached.",
     "bullet": "8.3.4"
   },
   {
     "id": "cardigan_sweater_001",
     "region": "Closet",
     "section": "Closet Rod",
-    "description": "Cardigan/Pullover Sweater: Button epaulets. Commissioned Officers: Display rank.",
+    "description": "Cardigan/Pullover Sweater: Button epaulets. Commissioned officers display rank.",
     "bullet": "8.3.5"
   },
   {
     "id": "service_coat_001",
     "region": "Closet",
     "section": "Closet Rod",
-    "description": "Service Coat: Pin all proper accoutrements with exception to rank. Hang on 1 plastic hanger. If coat is worn, leave empty hanger evenly spaced. Direct commissioned officers wear rank.",
+    "description": "Service Coat: Attach/pin all proper accoutrements on coat. Hang on 1 plastic hanger. If worn, leave hanger displayed.",
     "bullet": "8.3.6"
   },
   {
@@ -683,28 +675,28 @@
     "id": "blue_trousers_001",
     "region": "Closet",
     "section": "Closet Rod",
-    "description": "Blue Trousers/Slacks: Button all buttons, zip fly, and fasten clasp. Drape over hanger bar with legs inseam-to-inseem and cuffs/waistband even. Fly faces closet door.",
+    "description": "Blue Trousers/Slacks: Button, zip, fasten. Drape inseam-to-inseem over hanger bar, cuffs/waistband even. Fly faces closet door; waistband left, legs right.",
     "bullet": "8.3.9"
   },
   {
     "id": "blues_skirt_001",
     "region": "Closet",
     "section": "Closet Rod",
-    "description": "Blues Skirt: Button all buttons and zip fly. Hang on a separate hanger, attached with pins. Skirt front faces left.",
+    "description": "Blues Skirt: Button and zip. Hang on separate hanger, attached to left shoulder with pins. Skirt front faces left.",
     "bullet": "8.3.10"
   },
   {
     "id": "ecww_jacket_001",
     "region": "Closet",
     "section": "Closet Rod",
-    "description": "ECWW Jacket: Zip fully. Roll and secure hood. Snap any pockets. Hang on one hanger. Tuck zipper string out of sight.",
+    "description": "ECWW Jacket: Zip fully. Roll and secure hood. Snap pockets. Hang on one hanger. Tuck zipper string.",
     "bullet": "8.3.11"
   },
   {
     "id": "fleece_001",
     "region": "Closet",
     "section": "Closet Rod",
-    "description": "Fleece: Zip fully to the top. Hang on one hanger and ensure pockets are empty.",
+    "description": "Fleece: Zip fully to the top. Hang on one hanger, pockets empty.",
     "bullet": "8.3.12"
   },
   {
@@ -718,21 +710,21 @@
     "id": "ocp_coat_001",
     "region": "Closet",
     "section": "Closet Rod",
-    "description": "OCP Coat/Top: Hang each on a separate hanger. Display as worn: all buttons fastened, including wrists. Group all OCP coats together.",
+    "description": "OCP Coat/Top: Hang each on a separate hanger. Display as worn: all buttons fastened, including wrists. Group coats together.",
     "bullet": "8.3.14"
   },
   {
     "id": "ocp_trousers_001",
     "region": "Closet",
     "section": "Closet Rod",
-    "description": "OCP Trousers: Button all buttons. Hang each pair on a separate hanger, draped over bar with legs inseam-to-inseem and cuffs/waistband even. Group all OCP trousers together.",
+    "description": "OCP Trousers: Button all. Hang on separate hanger, draped inseam-to-inseem, cuffs/waistband even. Fly faces door; waistband left, cuffs right. Group trousers.",
     "bullet": "8.3.15"
   },
   {
     "id": "ptg_jacket_pants_001",
     "region": "Closet",
     "section": "Closet Rod",
-    "description": "PTG Jacket/Pants: On a single hanger: Jacket (pockets empty, front zipper unzipped, pocket zippers zipped) placed over folded pants (cuff zippers zipped). Hang with fly facing the door.",
+    "description": "PTG Jacket/Pants: On one hanger, jacket (pockets empty, front unzipped, pocket zippers zipped) over folded pants (cuff zippers zipped). Fly faces door; waistband left, legs right.",
     "bullet": "8.3.16 & 8.3.17"
   },
   {
@@ -753,91 +745,91 @@
     "id": "closet_laundry_bag_001",
     "region": "Closet",
     "section": "Laundry Bag",
-    "description": "Pull the laundry bag strings tight so the top of the bag is closed. Excess string will be tucked towards the back neatly.",
+    "description": "Pull laundry bag strings tight; tuck excess string to back. Only store dirty clothes/towels inside.",
     "bullet": "8.4"
   },
   {
     "id": "closet_laundry_bag_002",
     "region": "Closet",
     "section": "Laundry Bag",
-    "description": "Ensure the laundry bag is grounded to the corner of the back wall, opposite the shoe display.",
+    "description": "Ground to back corner opposite shoes. (Pos 4 grounds to front/door-side of Pos 1's closet. Pos 3 grounds to Pos 2's bag in other closet).",
     "bullet": "8.4"
   },
   {
     "id": "closet_shoes_001",
     "region": "Closet",
     "section": "Shoes",
-    "description": "Shoes will be neat, clean/dust free and dry. All items need to be serviceable. Remove packaging plastic and thread.",
+    "description": "Shoes must be neat, clean/dust free, dry, and serviceable. Remove packaging.",
     "bullet": "8.6"
   },
   {
     "id": "closet_shoes_002",
     "region": "Closet",
     "section": "Shoes",
-    "description": "Placement: Ground the heels and soles of each pair together. If heels and soles cannot be grounded together, ground the soles. Ground the sole of the first shoe to the wall of the doorway. Align each shoe so that the heels are flush to the back wall or dividing line.",
-    "bullet": "8.6.1"
+    "description": "Placement: Pos 1&2 heels grounded to entry wall. Pos 3&4 display in front of 1&2, heels grounded to dividing line (line set by aligning toes of first pair with closet door frame).",
+    "bullet": "8.6"
   },
   {
     "id": "closet_shoes_004",
     "region": "Closet",
     "section": "Shoes",
-    "description": "Quantity & Gaps: Do not display more than two pairs of a single type of shoe. If a pair is removed from display, slide the remaining shoes over to fill the gap.",
+    "description": "Quantity & Gaps: Max two pairs of a type. If a pair is removed, slide remaining shoes to fill gap.",
     "bullet": "8.6.1"
   },
   {
     "id": "closet_shoes_005",
     "region": "Closet",
     "section": "Shoes",
-    "description": "Inspection Lacing (General): Tightly lace shoes and boots (all the way from bottom to top) without changing the conformity of the shoe.",
+    "description": "Inspection Lacing (General): Tightly lace shoes/boots bottom to top, leave untied, tuck excess laces inside and out of sight.",
     "bullet": "8.6.2"
   },
   {
     "id": "closet_shoes_006",
     "region": "Closet",
     "section": "Shoes",
-    "description": "Routine Order Lacing (Running Shoes Only): During routine order and while sleeping, running shoes may be loosely laced to allow for easy entry in an emergency.",
+    "description": "Routine Order Lacing (Running Shoes Only): During routine order/sleeping, shoes may be loosely laced for easy entry.",
     "bullet": "8.6.3"
   },
   {
     "id": "closet_shoes_007",
     "region": "Closet",
     "section": "Shoes",
-    "description": "Lacing (Combat Boots): Lace for best fit utilizing each eyelet. Tie a single knot at the end of each lace so they cannot be pulled through. Tuck excess laces inside the boot.",
+    "description": "Lacing (Combat Boots): Lace for fit using each eyelet. Tie single knot at lace ends. Tuck excess laces inside boot, out of sight.",
     "bullet": "8.6.4"
   },
   {
     "id": "closet_shoes_008",
     "region": "Closet",
     "section": "Shoes",
-    "description": "Lacing (Low Quarters): Lace for best fit utilizing each eyelet. Do NOT tie a knot on the end of the laces. Tuck excess laces inside the shoes.",
+    "description": "Lacing (Low Quarters): Lace for fit using each eyelet. Do NOT knot ends. Tuck excess laces inside shoes, out of sight.",
     "bullet": "8.6.5"
   },
   {
     "id": "closet_shoes_009",
     "region": "Closet",
     "section": "Shoes",
-    "description": "Lacing (Running Shoes): Lace for best fit. Tie a single knot at the end of each lace so they cannot be pulled through. Tuck excess laces inside the shoe.",
+    "description": "Lacing (Running Shoes): Lace for fit. Tie single knot at lace ends. Tuck excess laces inside shoe, out of sight.",
     "bullet": "8.6.6"
   },
   {
     "id": "closet_shoes_010",
     "region": "Closet",
     "section": "Shoes",
-    "description": "(Optional) Shoe Inserts: Shoe fresheners and shapers are authorized but must be tucked into shoes. Paper/cardboard stuffing do not constitute shoe shapers.",
+    "description": "(Optional) Shoe Inserts: Fresheners/shapers authorized if tucked inside. No cardboard/paper stuffing.",
     "bullet": "8.6"
   },
   {
     "id": "closet_shoes_011",
     "region": "Closet",
     "section": "Shoes",
-    "description": "Shower Shoes: Soles must be made completely of rubberized material and cannot be leather, sandal, or sock-type.",
+    "description": "Shower Shoes: Must be entirely rubberized material; not leather, sandal, or sock-type.",
     "bullet": "8.6"
   },
   {
     "id": "closet_shoes_012",
     "region": "Closet",
     "section": "Shoes",
-    "description": "Display shoes in the correct order: 1. Combat Boots 2. Low Quarters 3. (Optional) Pumps 4. Running Shoes 5. Shower Shoes.",
+    "description": "Display Order: 1. Combat Boots 2. Low Quarters 3. Pumps (Optional) 4. Running Shoes 5. Shower Shoes.",
     "bullet": "8.6.7"
   }
 ]

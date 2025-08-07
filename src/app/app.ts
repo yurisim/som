@@ -2,16 +2,28 @@ import { Component, AfterViewInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
 import { ChecklistComponent } from './checklist/checklist.component';
+import { PasswordComponent } from './password/password.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
-  imports: [RouterModule, MatButtonModule, ChecklistComponent],
+  imports: [RouterModule, MatButtonModule, ChecklistComponent, PasswordComponent, CommonModule],
   selector: 'app-root',
   templateUrl: './app.html',
   styleUrl: './app.scss',
   standalone: true,
 })
 export class App implements AfterViewInit {
-  protected title = 'som';
+  isAuthenticated = false;
+
+  constructor() {
+    this.isAuthenticated = localStorage.getItem('isAuthenticated') === 'true';
+  }
+
+    protected title = 'som';
+
+  onAuthenticated(isAuthenticated: boolean) {
+    this.isAuthenticated = isAuthenticated;
+  }
 
   ngAfterViewInit() {
     setTimeout(() => {
