@@ -4,6 +4,7 @@ export interface Question {
   options: string[];
   section: string;
   correctOption: number;
+  selectedOption?: number;
   explanation: string;
 }
 

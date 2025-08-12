@@ -1,9 +1,61 @@
-<div class="p-8">
+<div class="fixed top-0 left-0 right-0 z-10 bg-white dark:bg-gray-800 shadow-md p-2 w-full box-border">
+  <div class="container mx-auto">
+    <!-- Progress info - stacks on mobile, side-by-side on larger screens -->
+    <div class="flex flex-col sm:flex-row items-center justify-between">
+      <div class="flex items-center w-full sm:w-auto sm:flex-1 sm:max-w-md mb-2 sm:mb-0">
+        <mat-progress-bar
+          class="w-full"
+          color="primary"
+          mode="determinate"
+          [value]="completionPercentage"
+        >
+        </mat-progress-bar>
+      </div>
+      <div class="text-sm font-semibold text-gray-600 dark:text-gray-300 sm:ml-4">
+        {{ answeredQuestions }} / {{ totalQuestions }} Answered
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="p-4 sm:p-8 pt-20">
   <div *ngIf="!quizFinished; else resultsView">
-    <app-question
-      [question]="currentQuestion"
-      (answer)="onAnswer($event)"
-    ></app-question>
+    <div *ngFor="let question of paginatedQuestions; let i = index">
+      <app-question
+        [questionNumber]="currentPage * questionsPerPage + i + 1"
+        [question]="question"
+        (answer)="onAnswer($event)"
+      ></app-question>
+    </div>
+
+    <div class="flex justify-between mt-8">
+      <button
+        mat-raised-button
+        color="accent"
+        (click)="previousPage()"
+        [disabled]="currentPage === 0"
+      >
+        Previous
+      </button>
+
+      <button
+        *ngIf="!isLastPage()"
+        mat-raised-button
+        color="primary"
+        (click)="nextPage()"
+      >
+        Next
+      </button>
+
+      <button
+        *ngIf="isLastPage()"
+        mat-raised-button
+        color="primary"
+        (click)="submitQuiz()"
+      >
+        Submit
+      </button>
+    </div>
   </div>
 
   <ng-template #resultsView>

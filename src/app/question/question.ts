@@ -18,7 +18,8 @@ interface ShuffledOption {
 })
 export class QuestionComponent implements OnChanges {
   @Input() question!: Question;
-  @Output() answer = new EventEmitter<number>();
+  @Input() questionNumber!: number;
+  @Output() answer = new EventEmitter<{ questionId: number, selectedOption: number }>();
 
   shuffledOptions: ShuffledOption[] = [];
   selectedOption: ShuffledOption | null = null;
@@ -26,8 +27,11 @@ export class QuestionComponent implements OnChanges {
 
   ngOnChanges(changes: SimpleChanges): void {
     if (changes['question'] && this.question) {
-      this.reset();
+      this.isAnswered = this.question.selectedOption !== undefined;
       this.shuffleOptions();
+      if (this.isAnswered) {
+        this.selectedOption = this.shuffledOptions.find(o => o.originalIndex === this.question.selectedOption) || null;
+      }
     }
   }
 
@@ -48,7 +52,7 @@ export class QuestionComponent implements OnChanges {
     if (!this.isAnswered) {
       this.selectedOption = option;
       this.isAnswered = true;
-      this.answer.emit(this.selectedOption.originalIndex);
+      this.answer.emit({ questionId: this.question.id, selectedOption: this.selectedOption.originalIndex });
     }
   }
 
@@ -60,9 +64,9 @@ export class QuestionComponent implements OnChanges {
     return this.selectedOption === option && !this.isCorrect(option);
   }
 
-  private reset(): void {
-    this.shuffledOptions = [];
-    this.selectedOption = null;
-    this.isAnswered = false;
+  getLetter(index: number): string {
+    return String.fromCharCode(97 + index);
   }
+
+
 }
