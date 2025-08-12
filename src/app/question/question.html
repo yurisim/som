@@ -8,11 +8,11 @@
         <mat-list-item
           *ngFor="let option of shuffledOptions; let i = index"
           (click)="selectOption(option)"
-          class="quiz-option cursor-pointer my-2 p-3 rounded border flex items-center"
+          class="quiz-option"
           [ngClass]="{
-            'bg-green-600 text-white border-green-700': isAnswered && isCorrect(option),
-            'bg-red-600 text-white border-red-700': isAnswered && isIncorrect(option),
-            'hover:bg-gray-100': !isAnswered
+            'bg-green-500 opacity-50 text-white': isAnswered && isCorrect(option),
+            'bg-red-500 opacity-50 text-white': isAnswered && isIncorrect(option),
+            'hover:bg-gray-500 hover:text-white': !isAnswered
           }"
         >
           <span class="font-bold mr-2">{{ getLetter(i) }})</span>

@@ -1,9 +1,8 @@
 .quiz-option {
-  height: auto !important; /* Allow the item to grow vertically */
-  padding-top: 8px !important;
-  padding-bottom: 8px !important;
+  @apply cursor-pointer my-2 p-3 rounded border flex items-center;
 
-  /* Target the span containing the option text */
+  height: auto; /* Allow the item to grow vertically */
+
   span {
     white-space: normal; /* Allow text to wrap */
     word-wrap: break-word; /* Break long words if necessary */
