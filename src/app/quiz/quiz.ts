@@ -7,11 +7,12 @@ import { MatButtonModule } from '@angular/material/button';
 import { ResultsComponent } from '../results/results';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatTableModule } from '@angular/material/table';
+import { MatIconModule } from '@angular/material/icon';
 
 @Component({
   selector: 'app-quiz',
   standalone: true,
-    imports: [CommonModule, QuestionComponent, MatButtonModule, ResultsComponent, MatProgressBarModule, MatTableModule],
+      imports: [CommonModule, QuestionComponent, MatButtonModule, ResultsComponent, MatProgressBarModule, MatTableModule, MatIconModule],
   templateUrl: './quiz.html',
   styleUrls: ['./quiz.scss'],
 })
@@ -24,8 +25,10 @@ export class QuizComponent implements OnInit {
   questionsPerPage = 20;
   score = 0;
   quizFinished = false;
+  quizStarted = false;
   missedAreas: { section: string; count: number }[] = [];
   displayedColumns: string[] = ['section', 'count'];
+  totalPages = 0;
 
   get answeredQuestions(): number {
     return this.questions.filter(q => q.selectedOption !== undefined).length;
@@ -44,10 +47,6 @@ export class QuizComponent implements OnInit {
 
   ngOnInit(): void {
     this.loadState();
-    if (this.questions.length === 0) {
-      this.startNewQuiz();
-    }
-    this.setupPage();
   }
 
   private shuffleQuestions(): void {
@@ -57,10 +56,12 @@ export class QuizComponent implements OnInit {
     }
   }
 
-  setupPage(): void {
-    const startIndex = this.currentPage * this.questionsPerPage;
-    const endIndex = startIndex + this.questionsPerPage;
-    this.paginatedQuestions = this.questions.slice(startIndex, endIndex);
+  private setupPage(): void {
+    this.totalPages = Math.ceil(this.questions.length / this.questionsPerPage);
+    this.paginatedQuestions = this.questions.slice(
+      this.currentPage * this.questionsPerPage,
+      (this.currentPage + 1) * this.questionsPerPage
+    );
   }
 
   onAnswer(payload: { questionId: number; selectedOption: number }): void {
@@ -79,12 +80,18 @@ export class QuizComponent implements OnInit {
     }
   }
 
-  previousPage(): void {
+  prevPage(): void {
     if (this.currentPage > 0) {
       this.currentPage--;
       this.setupPage();
       this.saveState();
     }
+  }
+
+  exitQuiz(): void {
+    this.quizStarted = false;
+    this.quizFinished = false;
+    this.clearState();
   }
 
   submitQuiz(): void {
@@ -110,7 +117,9 @@ export class QuizComponent implements OnInit {
   private saveState(): void {
     const state = {
       questions: this.questions,
-      currentPage: this.currentPage
+      currentPage: this.currentPage,
+      quizStarted: this.quizStarted,
+      quizFinished: this.quizFinished
     };
     localStorage.setItem('quizState', JSON.stringify(state));
   }
@@ -121,6 +130,9 @@ export class QuizComponent implements OnInit {
       const state = JSON.parse(savedState);
       this.questions = state.questions;
       this.currentPage = state.currentPage;
+      this.quizStarted = state.quizStarted;
+      this.quizFinished = state.quizFinished;
+      this.setupPage();
     }
   }
 
@@ -133,17 +145,27 @@ export class QuizComponent implements OnInit {
   }
 
   restartQuiz(): void {
-    this.startNewQuiz();
+    this.quizStarted = false;
+    this.quizFinished = false;
+    this.clearState();
   }
 
-  startNewQuiz(): void {
+  selectMode(numQuestions: number | 'all'): void {
+    this.quizStarted = true;
+    this.startNewQuiz(numQuestions);
+  }
+
+  startNewQuiz(numQuestions: number | 'all'): void {
     this.clearState();
     this.currentPage = 0;
     this.score = 0;
     this.quizFinished = false;
     this.questions = this.quizService.getQuestions();
     this.shuffleQuestions();
-    this.questions = this.questions.slice(0, 5);
+    if (numQuestions !== 'all') {
+      this.questions = this.questions.slice(0, numQuestions);
+    }
     this.setupPage();
+    this.saveState();
   }
 }

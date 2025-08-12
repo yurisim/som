@@ -31,9 +31,6 @@ export class App implements AfterViewInit {
   }
 
   onViewSelected(view: 'checklist' | 'quiz') {
-    if (this.selectedView !== 'quiz' && view === 'quiz') {
-      this.quizComponent?.startNewQuiz();
-    }
     this.selectedView = view;
   }
 
