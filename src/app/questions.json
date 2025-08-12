@@ -1,0 +1,2656 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "questionText": "Which USAF Core Value is considered 'the single most important part of character'?",
+      "options": [
+        "Service Before Self",
+        "Integrity First",
+        "Excellence in All We Do",
+        "Honor"
+      ],
+      "section": "Core Values",
+      "correctOption": 1,
+      "explanation": "Integrity First is defined as the single most important part of character, involving doing the right thing all the time."
+    },
+    {
+      "id": 2,
+      "questionText": "What are the four 'Cs' that represent the USSF Core Values?",
+      "options": [
+        "Character, Connection, Commitment, Courage",
+        "Character, Courage, Commitment, Community",
+        "Connection, Commitment, Character, Communication",
+        "Courage, Character, Competence, Commitment"
+      ],
+      "section": "Core Values",
+      "correctOption": 0,
+      "explanation": "The USSF Core Values are known as the 4 Cs: Character, Connection, Commitment, and Courage."
+    },
+    {
+      "id": 3,
+      "questionText": "Which virtue under 'Integrity First' involves preserving trust?",
+      "options": [
+        "Courage",
+        "Accountability",
+        "Honesty",
+        "Humility"
+      ],
+      "section": "Core Values",
+      "correctOption": 2,
+      "explanation": "Honesty is the virtue under Integrity First that preserves trust."
+    },
+    {
+      "id": 4,
+      "questionText": "What does the USSF Core Value 'Connection' emphasize?",
+      "options": [
+        "Individual achievement",
+        "Common purpose and being stronger together",
+        "Technical expertise",
+        "Risk aversion"
+      ],
+      "section": "Core Values",
+      "correctOption": 1,
+      "explanation": "Connection emphasizes common purpose and being stronger together, embracing diverse perspectives."
+    },
+    {
+      "id": 5,
+      "questionText": "How many steps are in the Practical Problem-Solving Method (PPSM)?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "section": "Problem Solving",
+      "correctOption": 2,
+      "explanation": "The PPSM consists of 8 detailed steps for systematic problem solving."
+    },
+    {
+      "id": 6,
+      "questionText": "What is the first step in the 8-Step Practical Problem-Solving Method?",
+      "options": [
+        "Break Down Problem & ID Performance Gaps",
+        "Clarify the Problem",
+        "Set Improvement Targets",
+        "Determine Root Causes"
+      ],
+      "section": "Problem Solving",
+      "correctOption": 1,
+      "explanation": "The first step in the PPSM is to Clarify the Problem."
+    },
+    {
+      "id": 7,
+      "questionText": "How does the OODA Loop differ from the 8-Step PPSM?",
+      "options": [
+        "OODA is more detailed and systematic",
+        "OODA is for rapid decision-making in time-compressed environments",
+        "OODA requires more team input",
+        "OODA focuses on long-term solutions"
+      ],
+      "section": "Problem Solving",
+      "correctOption": 1,
+      "explanation": "The OODA Loop is designed for rapid decision-making in combat/time-compressed environments, while PPSM is for long-term, systematic problem solving."
+    },
+    {
+      "id": 8,
+      "questionText": "Which followership style is characterized as 'Active and a critical thinker'?",
+      "options": [
+        "Sheep",
+        "Yes People",
+        "Alienated Followers",
+        "Effective Followers"
+      ],
+      "section": "Followership",
+      "correctOption": 3,
+      "explanation": "Effective Followers are both active and critical thinkers who are proactive, take initiative, and work well with others."
+    },
+    {
+      "id": 9,
+      "questionText": "What characterizes 'Alienated Followers'?",
+      "options": [
+        "Active but not critical thinkers",
+        "Passive and not critical thinkers",
+        "Critical thinkers but passive",
+        "Active and critical thinkers"
+      ],
+      "section": "Followership",
+      "correctOption": 2,
+      "explanation": "Alienated Followers are critical thinkers but passive. They are often cynical and criticize leadership but don't offer solutions."
+    },
+    {
+      "id": 10,
+      "questionText": "According to followership principles, if you disagree with your boss, you should:",
+      "options": [
+        "Voice disagreement publicly to show independence",
+        "Remain silent to avoid conflict",
+        "Disagree privately with the boss",
+        "Discuss with peers to build consensus"
+      ],
+      "section": "Followership",
+      "correctOption": 2,
+      "explanation": "Effective followers should disagree with the boss privately, not publicly undermine them."
+    },
+    {
+      "id": 11,
+      "questionText": "Which branch of government establishes military authority?",
+      "options": [
+        "Legislative Branch",
+        "Judicial Branch",
+        "Executive Branch",
+        "Military Branch"
+      ],
+      "section": "U.S. Constitution",
+      "correctOption": 2,
+      "explanation": "The Executive Branch establishes military authority, derived from Article II of the Constitution with the President as Commander in Chief."
+    },
+    {
+      "id": 12,
+      "questionText": "Which constitutional provision divides government into three independent branches?",
+      "options": [
+        "Enumerated Powers",
+        "Separation of Powers",
+        "Federalism",
+        "Bill of Rights"
+      ],
+      "section": "U.S. Constitution",
+      "correctOption": 1,
+      "explanation": "Separation of Powers divides government into three independent branches (Legislative, Executive, Judicial) to prevent concentration of power."
+    },
+    {
+      "id": 13,
+      "questionText": "Which Amendment contains an exception to grand jury indictment for military personnel?",
+      "options": [
+        "First Amendment",
+        "Third Amendment",
+        "Fourth Amendment",
+        "Fifth Amendment"
+      ],
+      "section": "U.S. Constitution",
+      "correctOption": 3,
+      "explanation": "The Fifth Amendment contains an exception to grand jury indictment for persons serving in the armed forces, who are subject to the court-martial system."
+    },
+    {
+      "id": 14,
+      "questionText": "What is the UCMJ?",
+      "options": [
+        "A military training manual",
+        "Federal law that is the basis of the military justice system",
+        "A leadership development program",
+        "An operational security protocol"
+      ],
+      "section": "Military Justice",
+      "correctOption": 1,
+      "explanation": "The Uniform Code of Military Justice (UCMJ) is federal law that serves as the basis of the military justice system."
+    },
+    {
+      "id": 15,
+      "questionText": "Under Article 31, what rights do service members have?",
+      "options": [
+        "Right to a civilian trial",
+        "Right against compulsory self-incrimination",
+        "Right to choose their commanding officer",
+        "Right to refuse deployment"
+      ],
+      "section": "Military Justice",
+      "correctOption": 1,
+      "explanation": "Article 31 provides service members the right against compulsory self-incrimination, including the right to remain silent."
+    },
+    {
+      "id": 16,
+      "questionText": "What is the most severe administrative action before punitive measures?",
+      "options": [
+        "Letter of Counseling (LOC)",
+        "Letter of Admonishment (LOA)",
+        "Letter of Reprimand (LOR)",
+        "Unfavorable Information File (UIF)"
+      ],
+      "section": "Military Justice",
+      "correctOption": 2,
+      "explanation": "Letter of Reprimand (LOR) is the most severe administrative action, representing official censure more severe than LOC or LOA."
+    },
+    {
+      "id": 17,
+      "questionText": "Which court-martial tries the most serious offenses?",
+      "options": [
+        "Summary Court-Martial",
+        "Special Court-Martial",
+        "General Court-Martial",
+        "Administrative Court-Martial"
+      ],
+      "section": "Military Justice",
+      "correctOption": 2,
+      "explanation": "General Court-Martial tries the most serious offenses with the possibility of maximum punishment."
+    },
+    {
+      "id": 18,
+      "questionText": "Who represents Air Force and Space Force personnel accused of wrongdoing?",
+      "options": [
+        "Staff Judge Advocate (SJA)",
+        "Area Defense Counsel (ADC)",
+        "Victims' Counsel (VC)",
+        "Command Legal Office"
+      ],
+      "section": "Military Justice",
+      "correctOption": 1,
+      "explanation": "Area Defense Counsel (ADC) represents Air Force and Space Force personnel accused of wrongdoing and operates through a separate chain of command to ensure independence."
+    },
+    {
+      "id": 19,
+      "questionText": "What defines an unprofessional relationship?",
+      "options": [
+        "Any friendship between military members",
+        "Relationships that detract from authority and show favoritism",
+        "Social media connections between ranks",
+        "Professional mentoring relationships"
+      ],
+      "section": "Professional Relationships",
+      "correctOption": 1,
+      "explanation": "Unprofessional relationships detract from the authority of superiors, result in or appear to show favoritism, partiality, or misuse of position."
+    },
+    {
+      "id": 20,
+      "questionText": "What is fraternization?",
+      "options": [
+        "Any social interaction between officers and enlisted",
+        "Professional mentoring relationships",
+        "A UPR between an officer and enlisted member that violates customs",
+        "Participation in unit social events"
+      ],
+      "section": "Professional Relationships",
+      "correctOption": 2,
+      "explanation": "Fraternization is a UPR between an officer and an enlisted member that violates customs of acceptable behavior and prejudices good order and discipline."
+    },
+    {
+      "id": 21,
+      "questionText": "Officers are specifically prohibited from doing all of the following with enlisted members EXCEPT:",
+      "options": [
+        "Gambling",
+        "Dating or sexual relations",
+        "Professional training and mentoring",
+        "Sharing living accommodations"
+      ],
+      "section": "Professional Relationships",
+      "correctOption": 2,
+      "explanation": "Professional training and mentoring are appropriate relationships. Officers are prohibited from gambling, dating, and sharing living accommodations with enlisted members."
+    },
+    {
+      "id": 22,
+      "questionText": "What is the definition of critical thinking according to PME materials?",
+      "options": [
+        "Making decisions quickly under pressure",
+        "Following established procedures without question",
+        "The process of thinking carefully without allowing feelings to affect you",
+        "Accepting information from authoritative sources"
+      ],
+      "section": "Critical Thinking",
+      "correctOption": 2,
+      "explanation": "Critical thinking is defined as 'the process of thinking carefully about a subject or idea, without allowing feelings or opinions to affect you.'"
+    },
+    {
+      "id": 23,
+      "questionText": "Which intellectual standard serves as the 'gateway standard' relevant to all others?",
+      "options": [
+        "Accuracy",
+        "Clarity",
+        "Precision",
+        "Logic"
+      ],
+      "section": "Critical Thinking",
+      "correctOption": 1,
+      "explanation": "Clarity is the 'gateway standard' that is relevant to all others. If a statement is unclear, you cannot determine its accuracy or relevance."
+    },
+    {
+      "id": 24,
+      "questionText": "What is the primary goal of cognitive domain operations?",
+      "options": [
+        "Physical destruction of enemy assets",
+        "Influence an adversary's will, beliefs, and thinking",
+        "Electronic warfare capabilities",
+        "Cyber network penetration"
+      ],
+      "section": "Critical Thinking",
+      "correctOption": 1,
+      "explanation": "Cognitive domain operations aim to influence an adversary's will, beliefs, and thinking to affect their decisions and actions."
+    },
+    {
+      "id": 25,
+      "questionText": "Which thinking error involves favoring information that confirms existing beliefs?",
+      "options": [
+        "Halo Effect",
+        "Confirmation Bias",
+        "Deflection",
+        "Activated Ignorance"
+      ],
+      "section": "Critical Thinking",
+      "correctOption": 1,
+      "explanation": "Confirmation Bias (also called Belief Perseverance) involves favoring information that confirms existing beliefs and perspectives."
+    },
+    {
+      "id": 26,
+      "questionText": "What are the eight elements of reasoning used in critical thinking?",
+      "options": [
+        "Purpose, Question, Information, Concepts, Assumptions, Inferences, Points of View, Implications",
+        "Facts, Opinions, Logic, Evidence, Analysis, Synthesis, Evaluation, Application",
+        "Observe, Orient, Decide, Act, Reflect, Adapt, Improve, Execute",
+        "Clarity, Accuracy, Precision, Relevance, Depth, Breadth, Logic, Significance"
+      ],
+      "section": "Critical Thinking",
+      "correctOption": 0,
+      "explanation": "The eight elements of reasoning are: Purpose, Question at Issue, Points of View, Information, Concepts, Assumptions, Inferences, and Implications & Consequences."
+    },
+    {
+      "id": 27,
+      "questionText": "Which conflict management style shows high assertiveness and low cooperation?",
+      "options": [
+        "Accommodating",
+        "Avoiding",
+        "Competing",
+        "Collaborating"
+      ],
+      "section": "Conflict Management",
+      "correctOption": 2,
+      "explanation": "Competing/Forcing shows high assertiveness and low cooperation, aiming to overwhelm an opponent with authority or power."
+    },
+    {
+      "id": 28,
+      "questionText": "Which conflict source involves issues arising from organization size?",
+      "options": [
+        "Communication Factors",
+        "Structural Factors",
+        "Personal Behavior Factors",
+        "Resource Factors"
+      ],
+      "section": "Conflict Management",
+      "correctOption": 1,
+      "explanation": "Structural Factors involve issues arising from the size of an organization, such as information distortion."
+    },
+    {
+      "id": 29,
+      "questionText": "The 'Cooperate' approach in conflict management corresponds to which Thomas-Kilmann style?",
+      "options": [
+        "Compromising",
+        "Accommodating",
+        "Collaborating",
+        "Competing"
+      ],
+      "section": "Conflict Management",
+      "correctOption": 2,
+      "explanation": "The 'Cooperate' approach from AFNC corresponds to Collaborating in the Thomas-Kilmann model, showing high assertiveness and high cooperation."
+    },
+    {
+      "id": 30,
+      "questionText": "How many core functions does the USAF have?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "section": "DAF Capabilities",
+      "correctOption": 2,
+      "explanation": "The USAF has five core functions: Air Superiority, ISR, Rapid Global Mobility, Global Strike, and Command and Control."
+    },
+    {
+      "id": 31,
+      "questionText": "Which USAF core function provides 'eyes and ears on adversaries'?",
+      "options": [
+        "Air Superiority",
+        "Intelligence, Surveillance, and Reconnaissance (ISR)",
+        "Global Strike",
+        "Command and Control"
+      ],
+      "section": "DAF Capabilities",
+      "correctOption": 1,
+      "explanation": "ISR provides 'eyes and ears on adversaries' and situational awareness while minimizing uncertainty."
+    },
+    {
+      "id": 32,
+      "questionText": "Which USSF core competency focuses on 'movement and support of military equipment into space'?",
+      "options": [
+        "Space Security",
+        "Combat Power Projection",
+        "Space Mobility and Logistics",
+        "Space Domain Awareness"
+      ],
+      "section": "DAF Capabilities",
+      "correctOption": 2,
+      "explanation": "Space Mobility and Logistics involves movement and support of military equipment and personnel into, through, and back from the space domain."
+    },
+    {
+      "id": 33,
+      "questionText": "What is the primary purpose of doctrine?",
+      "options": [
+        "Provides rigid rules that must be followed",
+        "Describes and guides the proper use of airpower and space power",
+        "Establishes criminal law for military members",
+        "Creates organizational charts for commands"
+      ],
+      "section": "DAF Capabilities",
+      "correctOption": 1,
+      "explanation": "Doctrine describes and guides the proper use of airpower and space power, providing fundamental principles for military actions."
+    },
+    {
+      "id": 34,
+      "questionText": "How many phases are in the AFFORGEN cycle?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "section": "DAF Deployment",
+      "correctOption": 2,
+      "explanation": "AFFORGEN has four phases: Reset, Prepare, Ready, and Commit."
+    },
+    {
+      "id": 35,
+      "questionText": "What is the main difference between AFFORGEN and SPAFORGEN cycles?",
+      "options": [
+        "AFFORGEN has 4 phases, SPAFORGEN has 3 phases",
+        "AFFORGEN is for officers only",
+        "SPAFORGEN is only for overseas deployments",
+        "There is no difference"
+      ],
+      "section": "DAF Deployment",
+      "correctOption": 0,
+      "explanation": "AFFORGEN has 4 phases (Reset, Prepare, Ready, Commit) while SPAFORGEN has 3 phases (Prepare, Ready, Commit)."
+    },
+    {
+      "id": 36,
+      "questionText": "Which leadership style represents the 'absence of action or leadership'?",
+      "options": [
+        "Transactional",
+        "Transformational",
+        "Laissez-Faire",
+        "Authoritarian"
+      ],
+      "section": "Full Range Leadership",
+      "correctOption": 2,
+      "explanation": "Laissez-Faire represents the absence of action or leadership and should be avoided as it is counterproductive."
+    },
+    {
+      "id": 37,
+      "questionText": "Which transformational leadership behavior involves 'acting as a positive role model'?",
+      "options": [
+        "Inspirational Motivation (IM)",
+        "Idealized Influence (II)",
+        "Intellectual Stimulation (IS)",
+        "Individual Consideration (IC)"
+      ],
+      "section": "Full Range Leadership",
+      "correctOption": 1,
+      "explanation": "Idealized Influence (II) involves acting as a positive role model, demonstrating 'walking the talk.'"
+    },
+    {
+      "id": 38,
+      "questionText": "Transactional leadership includes all of the following behaviors EXCEPT:",
+      "options": [
+        "Contingent Reward (CR)",
+        "Management by Exception-Active (MBE-A)",
+        "Individual Consideration (IC)",
+        "Management by Exception-Passive (MBE-P)"
+      ],
+      "section": "Full Range Leadership",
+      "correctOption": 2,
+      "explanation": "Individual Consideration (IC) is a transformational leadership behavior, not transactional. The three transactional behaviors are CR, MBE-A, and MBE-P."
+    },
+    {
+      "id": 39,
+      "questionText": "What is the most important reason for establishing expectations?",
+      "options": [
+        "To demonstrate authority over subordinates",
+        "To provide a clear roadmap for achieving goals",
+        "To create documentation for performance reviews",
+        "To avoid personal responsibility"
+      ],
+      "section": "Full Range Leadership",
+      "correctOption": 1,
+      "explanation": "Establishing expectations provides a roadmap to achieve goals and serves as the critical starting point for effective leadership and mission success."
+    },
+    {
+      "id": 40,
+      "questionText": "In which team development stage does the most conflict occur?",
+      "options": [
+        "Forming",
+        "Storming",
+        "Norming",
+        "Performing"
+      ],
+      "section": "Team Building",
+      "correctOption": 1,
+      "explanation": "Storming is the most difficult stage where conflict arises as members resist collaboration and argue over team actions."
+    },
+    {
+      "id": 41,
+      "questionText": "What leadership style should be used during the Forming stage?",
+      "options": [
+        "Coach",
+        "Director",
+        "Collaborator",
+        "Visionary"
+      ],
+      "section": "Team Building",
+      "correctOption": 1,
+      "explanation": "During the Forming stage, leaders should act as a 'Director,' being directive and helping define roles and mission."
+    },
+    {
+      "id": 42,
+      "questionText": "In the Performing stage, what should leaders focus on?",
+      "options": [
+        "Controlling chaos and managing conflict",
+        "Defining roles and establishing ground rules",
+        "Acting as a visionary and planning for the future",
+        "Facilitating collaboration among team members"
+      ],
+      "section": "Team Building",
+      "correctOption": 2,
+      "explanation": "In the Performing stage, leaders should act as a 'Visionary,' focusing on maintaining success, planning for the future, and cultivating leadership talent."
+    },
+    {
+      "id": 43,
+      "questionText": "What is the main difference between organizational climate and culture?",
+      "options": [
+        "Climate is long-term, culture is short-term",
+        "Climate is short-term and adjustable, culture is long-term and ingrained",
+        "They are the same thing",
+        "Climate applies to officers, culture applies to enlisted"
+      ],
+      "section": "Organizational Climate",
+      "correctOption": 1,
+      "explanation": "Organizational climate is short-term and adjustable (current attitudes and perceptions), while culture is long-term and ingrained (values, norms, and traditions)."
+    },
+    {
+      "id": 44,
+      "questionText": "What does a mission statement focus on?",
+      "options": [
+        "Future aspirations and long-term goals",
+        "Present purpose and what the organization does",
+        "Individual career development",
+        "Financial objectives"
+      ],
+      "section": "Inspiring Action",
+      "correctOption": 1,
+      "explanation": "Mission statements focus on the present, defining the organization's purpose and what it does, answering the 'what' and 'who.'"
+    },
+    {
+      "id": 45,
+      "questionText": "What does SWOT stand for?",
+      "options": [
+        "Strategies, Weaknesses, Opportunities, Tactics",
+        "Strengths, Weaknesses, Opportunities, Threats",
+        "Systems, Workflows, Operations, Training",
+        "Standards, Workforce, Objectives, Timeline"
+      ],
+      "section": "Inspiring Action",
+      "correctOption": 1,
+      "explanation": "SWOT stands for Strengths, Weaknesses, Opportunities, and Threats - a strategic planning tool to identify priorities."
+    },
+    {
+      "id": 46,
+      "questionText": "What is Operations Security (OPSEC)?",
+      "options": [
+        "Physical security of military installations",
+        "Information-related capability to preserve secrecy",
+        "Personnel security clearance process",
+        "Weapons and ammunition storage procedures"
+      ],
+      "section": "Operations Security (OPSEC)",
+      "correctOption": 1,
+      "explanation": "OPSEC is an information-related capability to preserve secrecy using a process to identify, control, and protect critical information."
+    },
+    {
+      "id": 47,
+      "questionText": "What is the first step in the five-step OPSEC process?",
+      "options": [
+        "Analyze Threats",
+        "Identify Critical Information",
+        "Analyze Vulnerabilities",
+        "Assess Risk"
+      ],
+      "section": "Operations Security (OPSEC)",
+      "correctOption": 1,
+      "explanation": "The first step in the OPSEC process is to Identify Critical Information that is valuable to an adversary."
+    },
+    {
+      "id": 48,
+      "questionText": "When are OPSEC countermeasures applied?",
+      "options": [
+        "Always, regardless of threat level",
+        "Only during wartime operations",
+        "When risk is deemed unacceptable",
+        "Only for classified information"
+      ],
+      "section": "Operations Security (OPSEC)",
+      "correctOption": 2,
+      "explanation": "OPSEC countermeasures are applied when risk is deemed unacceptable, after assessing the adversary's ability to exploit vulnerabilities."
+    },
+    {
+      "id": 49,
+      "questionText": "What virtue under 'Service Before Self' involves making necessary sacrifices?",
+      "options": [
+        "Duty",
+        "Loyalty",
+        "Respect",
+        "Honor"
+      ],
+      "section": "Core Values",
+      "correctOption": 0,
+      "explanation": "Duty involves making necessary sacrifices to accomplish the mission and is a virtue under Service Before Self."
+    },
+    {
+      "id": 50,
+      "questionText": "Under 'Excellence in All We Do,' which virtue focuses on operations, product, and resource excellence?",
+      "options": [
+        "Discipline",
+        "Teamwork",
+        "Mission",
+        "Standards"
+      ],
+      "section": "Core Values",
+      "correctOption": 2,
+      "explanation": "Mission focuses on operations, product, and resource excellence under the core value of Excellence in All We Do."
+    },
+    {
+      "id": 51,
+      "questionText": "What is step 4 in the 8-Step Practical Problem-Solving Method?",
+      "options": [
+        "Set Improvement Targets",
+        "Develop Countermeasures",
+        "Determine Root Causes",
+        "See Countermeasures Through"
+      ],
+      "section": "Problem Solving",
+      "correctOption": 2,
+      "explanation": "Step 4 in the PPSM is 'Determine Root Causes' after setting improvement targets in step 3."
+    },
+    {
+      "id": 52,
+      "questionText": "Which followership style 'does just enough to get by and avoids making waves'?",
+      "options": [
+        "Sheep",
+        "Yes People",
+        "Survivors",
+        "Alienated Followers"
+      ],
+      "section": "Followership",
+      "correctOption": 2,
+      "explanation": "Survivors are a mix of all styles who do just enough to get by and avoid making waves or taking risks."
+    },
+    {
+      "id": 53,
+      "questionText": "What is a key characteristic of effective followers regarding problem-solving?",
+      "options": [
+        "Wait for supervisor direction before acting",
+        "Fix problems without worrying about who gets credit",
+        "Delegate problems to subordinates",
+        "Document problems for higher headquarters"
+      ],
+      "section": "Followership",
+      "correctOption": 1,
+      "explanation": "Effective followers fix problems they find without worrying about who gets the credit, demonstrating initiative and selflessness."
+    },
+    {
+      "id": 54,
+      "questionText": "Which Amendment prohibits the military from forcing the public to house soldiers?",
+      "options": [
+        "First Amendment",
+        "Second Amendment",
+        "Third Amendment",
+        "Fourth Amendment"
+      ],
+      "section": "U.S. Constitution",
+      "correctOption": 2,
+      "explanation": "The Third Amendment prohibits the military from forcing the public to house soldiers."
+    },
+    {
+      "id": 55,
+      "questionText": "What does 'Federalism' mean in the context of the Constitution?",
+      "options": [
+        "Federal government has unlimited power",
+        "Divides and shares power between national and state governments",
+        "Only federal law applies to military",
+        "States have no authority over federal matters"
+      ],
+      "section": "U.S. Constitution",
+      "correctOption": 1,
+      "explanation": "Federalism divides and shares power between the national and state governments as one of the three provisions of the Constitution."
+    },
+    {
+      "id": 56,
+      "questionText": "What is an Unfavorable Information File (UIF)?",
+      "options": [
+        "A criminal conviction record",
+        "Official record of unfavorable information about conduct and performance",
+        "A type of court-martial proceeding",
+        "Administrative discharge paperwork"
+      ],
+      "section": "Military Justice",
+      "correctOption": 1,
+      "explanation": "A UIF is an official record of unfavorable information about conduct and performance, used as an administrative (non-punitive) tool."
+    },
+    {
+      "id": 57,
+      "questionText": "Who advises victims of alleged sexual assault and domestic violence?",
+      "options": [
+        "Staff Judge Advocate (SJA)",
+        "Area Defense Counsel (ADC)",
+        "Victims' Counsel (VC)",
+        "First Sergeant"
+      ],
+      "section": "Military Justice",
+      "correctOption": 2,
+      "explanation": "Victims' Counsel (VC) advises and represents victims of alleged sexual assault and domestic violence, operating through a separate chain of command."
+    },
+    {
+      "id": 58,
+      "questionText": "What type of court-martial tries minor offenses for enlisted members only?",
+      "options": [
+        "Summary Court-Martial",
+        "Special Court-Martial",
+        "General Court-Martial",
+        "Administrative Court-Martial"
+      ],
+      "section": "Military Justice",
+      "correctOption": 0,
+      "explanation": "Summary Court-Martial tries minor offenses for enlisted members only."
+    },
+    {
+      "id": 59,
+      "questionText": "Who is primarily responsible for maintaining professional standards in a relationship between different ranks?",
+      "options": [
+        "The junior member",
+        "Both members equally",
+        "The senior member",
+        "The commanding officer"
+      ],
+      "section": "Professional Relationships",
+      "correctOption": 2,
+      "explanation": "While all members are accountable, the senior member in a relationship is primarily responsible for maintaining professional standards."
+    },
+    {
+      "id": 60,
+      "questionText": "Professional relationships become a concern when they:",
+      "options": [
+        "Involve members from different units",
+        "Include social media interactions",
+        "Adversely affect morale, good order, discipline, or mission",
+        "Occur during off-duty time"
+      ],
+      "section": "Professional Relationships",
+      "correctOption": 2,
+      "explanation": "Personal relationships become an official concern when they adversely affect morale, good order, discipline, respect for authority, unit cohesion, or the mission."
+    },
+    {
+      "id": 61,
+      "questionText": "Which intellectual standard helps refine information by adding necessary details?",
+      "options": [
+        "Clarity",
+        "Accuracy",
+        "Precision",
+        "Depth"
+      ],
+      "section": "Critical Thinking",
+      "correctOption": 2,
+      "explanation": "Precision helps refine information by adding necessary details to make statements more exact."
+    },
+    {
+      "id": 62,
+      "questionText": "What is 'activated ignorance'?",
+      "options": [
+        "Deliberately avoiding information",
+        "Actively using information that is false but believed to be true",
+        "Refusing to consider alternative viewpoints",
+        "Making decisions without sufficient data"
+      ],
+      "section": "Critical Thinking",
+      "correctOption": 1,
+      "explanation": "Activated ignorance is actively using information that is false but mistakenly believed to be true."
+    },
+    {
+      "id": 63,
+      "questionText": "In critical thinking, what do 'implications and consequences' represent?",
+      "options": [
+        "The data used to support reasoning",
+        "The central problem being addressed",
+        "The potential outcomes of a decision or action",
+        "The beliefs taken for granted"
+      ],
+      "section": "Critical Thinking",
+      "correctOption": 2,
+      "explanation": "Implications and consequences represent the potential outcomes of a decision or action in the elements of reasoning."
+    },
+    {
+      "id": 64,
+      "questionText": "Which conflict management approach seeks a solution that partially satisfies both parties?",
+      "options": [
+        "Insist",
+        "Evade",
+        "Settle",
+        "Cooperate"
+      ],
+      "section": "Conflict Management",
+      "correctOption": 2,
+      "explanation": "Settle (corresponding to Compromising) seeks a solution that partially satisfies both parties through mutual concessions."
+    },
+    {
+      "id": 65,
+      "questionText": "Resource interdependence as a source of conflict occurs when:",
+      "options": [
+        "Teams work independently",
+        "Resources like time, people, or money are perceived as scarce",
+        "Communication is too frequent",
+        "Authority is clearly defined"
+      ],
+      "section": "Conflict Management",
+      "correctOption": 1,
+      "explanation": "Resource interdependence creates conflict when resources like time, people, or money are perceived as scarce."
+    },
+    {
+      "id": 66,
+      "questionText": "Which USAF core function holds 'any target on the planet at risk'?",
+      "options": [
+        "Air Superiority",
+        "Rapid Global Mobility",
+        "Global Strike",
+        "Command and Control"
+      ],
+      "section": "DAF Capabilities",
+      "correctOption": 2,
+      "explanation": "Global Strike provides the capability to hold any target on the planet at risk, delivering effects anywhere, any time."
+    },
+    {
+      "id": 67,
+      "questionText": "Which USSF core competency involves 'timely, rapid, and reliable collection and transportation of data'?",
+      "options": [
+        "Space Domain Awareness",
+        "Information Mobility",
+        "Space Security",
+        "Combat Power Projection"
+      ],
+      "section": "DAF Capabilities",
+      "correctOption": 1,
+      "explanation": "Information Mobility involves timely, rapid, and reliable collection and transportation of data."
+    },
+    {
+      "id": 68,
+      "questionText": "Doctrine is best described as:",
+      "options": [
+        "Rigid rules that must always be followed",
+        "Official advice that requires judgment in application",
+        "Classified operational procedures",
+        "Administrative regulations"
+      ],
+      "section": "DAF Capabilities",
+      "correctOption": 1,
+      "explanation": "Doctrine is official advice, but not directive, and requires judgment in application. It provides an 80-90% solution when properly applied."
+    },
+    {
+      "id": 69,
+      "questionText": "What is the main purpose of AFFORGEN?",
+      "options": [
+        "Train pilots for combat missions",
+        "Present sustainable, predictable forces to Joint Force Commanders",
+        "Manage personnel assignments",
+        "Coordinate with allied forces"
+      ],
+      "section": "DAF Deployment",
+      "correctOption": 1,
+      "explanation": "AFFORGEN's purpose is to present sustainable, predictable forces to Joint Force Commanders while enabling operational preparedness."
+    },
+    {
+      "id": 70,
+      "questionText": "Which transformational leadership behavior involves 'stimulating creative thinking and challenging old ways'?",
+      "options": [
+        "Idealized Influence (II)",
+        "Inspirational Motivation (IM)",
+        "Intellectual Stimulation (IS)",
+        "Individual Consideration (IC)"
+      ],
+      "section": "Full Range Leadership",
+      "correctOption": 2,
+      "explanation": "Intellectual Stimulation (IS) involves stimulating creative thinking and challenging old ways of doing things."
+    },
+    {
+      "id": 71,
+      "questionText": "In Full-Range Leadership, effective leaders should:",
+      "options": [
+        "Use only one leadership style consistently",
+        "Avoid transactional leadership behaviors",
+        "Blend and emphasize approaches based on the situation",
+        "Focus exclusively on transformational behaviors"
+      ],
+      "section": "Full Range Leadership",
+      "correctOption": 2,
+      "explanation": "Effective leaders utilize several approaches simultaneously, blending and emphasizing approaches based on the situation."
+    },
+    {
+      "id": 72,
+      "questionText": "When establishing expectations, what should leaders do first?",
+      "options": [
+        "Set challenging goals for the team",
+        "Understand why the expectations are being set",
+        "Communicate with subordinates",
+        "Create monitoring procedures"
+      ],
+      "section": "Full Range Leadership",
+      "correctOption": 1,
+      "explanation": "Leaders should first understand the importance of why expectations are being set before proceeding with other guidelines."
+    },
+    {
+      "id": 73,
+      "questionText": "During which team development stage should leaders act as a 'Coach'?",
+      "options": [
+        "Forming",
+        "Storming",
+        "Norming",
+        "Performing"
+      ],
+      "section": "Team Building",
+      "correctOption": 1,
+      "explanation": "During the Storming stage, leaders should act as a 'Coach' to control chaos, facilitate open discussion, and resolve conflicts."
+    },
+    {
+      "id": 74,
+      "questionText": "In the Norming stage, what do team members primarily focus on?",
+      "options": [
+        "Determining their roles and responsibilities",
+        "Resisting collaboration and arguing",
+        "Establishing cohesiveness and commitment",
+        "Solving problems and implementing change"
+      ],
+      "section": "Team Building",
+      "correctOption": 2,
+      "explanation": "In the Norming stage, team members establish cohesiveness and commitment, reconcile competing loyalties, and increase cooperation."
+    },
+    {
+      "id": 75,
+      "questionText": "What characterizes a vision statement compared to a mission statement?",
+      "options": [
+        "Focuses on present operations",
+        "Describes current organizational structure",
+        "Focuses on future aspirations and long-term goals",
+        "Details specific procedures to follow"
+      ],
+      "section": "Inspiring Action",
+      "correctOption": 2,
+      "explanation": "Vision statements focus on the future, describing long-term aspirations and answering the 'why' and 'how,' providing inspiration and direction."
+    },
+    {
+      "id": 76,
+      "questionText": "In the SWOT analysis, which factors are considered external?",
+      "options": [
+        "Strengths and Weaknesses",
+        "Opportunities and Threats",
+        "Strengths and Opportunities",
+        "Weaknesses and Threats"
+      ],
+      "section": "Inspiring Action",
+      "correctOption": 1,
+      "explanation": "In SWOT analysis, Opportunities and Threats are external factors, while Strengths and Weaknesses are internal factors."
+    },
+    {
+      "id": 77,
+      "questionText": "To positively change organizational climate, leaders should focus on:",
+      "options": [
+        "Major policy changes only",
+        "The little things that show constant influence",
+        "Annual climate surveys",
+        "Formal recognition programs only"
+      ],
+      "section": "Organizational Climate",
+      "correctOption": 1,
+      "explanation": "Leaders should focus on the little things because a leader's influence is constant and comes from every action, including highlighting achievements and providing feedback."
+    },
+    {
+      "id": 78,
+      "questionText": "What defines critical information in OPSEC?",
+      "options": [
+        "All classified documents",
+        "Specific facts about friendly activities sought by adversaries",
+        "Personal information about military members",
+        "Financial data about military budgets"
+      ],
+      "section": "Operations Security (OPSEC)",
+      "correctOption": 1,
+      "explanation": "Critical information consists of specific facts about friendly activities, intentions, capabilities, or limitations that adversaries seek for advantage."
+    },
+    {
+      "id": 79,
+      "questionText": "What is step 3 in the OPSEC process?",
+      "options": [
+        "Identify Critical Information",
+        "Analyze Threats",
+        "Analyze Vulnerabilities",
+        "Assess Risk"
+      ],
+      "section": "Operations Security (OPSEC)",
+      "correctOption": 2,
+      "explanation": "Step 3 in the five-step OPSEC process is 'Analyze Vulnerabilities' - identifying instances where adversaries can collect critical information."
+    },
+    {
+      "id": 80,
+      "questionText": "Which USSF commitment falls under the core value of 'Courage'?",
+      "options": [
+        "Act with integrity",
+        "Engage with respect",
+        "Achieve audacious goals",
+        "Take smart risks"
+      ],
+      "section": "Core Values",
+      "correctOption": 3,
+      "explanation": "Under Courage, the commitments include: be steadfast, innovate, share ideas, and take smart risks."
+    },
+    {
+      "id": 81,
+      "questionText": "What is the final step in the 8-Step Practical Problem-Solving Method?",
+      "options": [
+        "See Countermeasures Through",
+        "Confirm Results and Process",
+        "Standardizing Successful Processes",
+        "Implement Solutions"
+      ],
+      "section": "Problem Solving",
+      "correctOption": 2,
+      "explanation": "Step 8, the final step in the PPSM, is 'Standardizing Successful Processes.'"
+    },
+    {
+      "id": 82,
+      "questionText": "What distinguishes OODA Loop from PPSM in terms of decision-making approach?",
+      "options": [
+        "OODA requires team consensus",
+        "OODA focuses on single decision maker",
+        "OODA is only for administrative decisions",
+        "OODA requires more detailed analysis"
+      ],
+      "section": "Problem Solving",
+      "correctOption": 1,
+      "explanation": "OODA Loop is designed for rapid decision-making with a single decision maker, while PPSM uses a team-centered approach."
+    },
+    {
+      "id": 83,
+      "questionText": "According to effective followership principles, what should you do regarding your family's needs?",
+      "options": [
+        "Always prioritize work over family",
+        "Don't forget your family's needs",
+        "Keep family matters completely separate",
+        "Involve family in all work decisions"
+      ],
+      "section": "Followership",
+      "correctOption": 1,
+      "explanation": "One characteristic of effective followers is 'Don't forget your family's needs,' showing the importance of work-life balance."
+    },
+    {
+      "id": 84,
+      "questionText": "Which constitutional provision limits federal government to powers explicitly granted?",
+      "options": [
+        "Separation of Powers",
+        "Federalism",
+        "Enumerated Powers",
+        "Bill of Rights"
+      ],
+      "section": "U.S. Constitution",
+      "correctOption": 2,
+      "explanation": "Enumerated Powers limits the federal government to powers explicitly granted in the Constitution."
+    },
+    {
+      "id": 85,
+      "questionText": "What is the Control Roster in military discipline?",
+      "options": [
+        "A list of court-martial convictions",
+        "A schedule for duty assignments",
+        "A list for observing members whose conduct requires special attention",
+        "An inventory of military equipment"
+      ],
+      "section": "Military Justice",
+      "correctOption": 2,
+      "explanation": "The Control Roster is a list for observing members whose conduct or performance requires special attention or rehabilitation."
+    },
+    {
+      "id": 86,
+      "questionText": "Nonjudicial Punishment (NJP) under Article 15:",
+      "options": [
+        "Constitutes a criminal conviction",
+        "Can only be used for serious offenses",
+        "Does not constitute a criminal conviction",
+        "Requires a court-martial proceeding"
+      ],
+      "section": "Military Justice",
+      "correctOption": 2,
+      "explanation": "Article 15 NJP is used by commanders for minor offenses and does not constitute a criminal conviction."
+    },
+    {
+      "id": 87,
+      "questionText": "According to unprofessional relationship policy, when does a subsequent marriage excuse prior fraternization?",
+      "options": [
+        "Always",
+        "Never",
+        "Only if approved by the commander",
+        "Only after one year"
+      ],
+      "section": "Professional Relationships",
+      "correctOption": 1,
+      "explanation": "A subsequent marriage does not excuse prior acts of fraternization."
+    },
+    {
+      "id": 88,
+      "questionText": "Which intellectual standard ensures thoughts are mutually supporting and make sense in combination?",
+      "options": [
+        "Precision",
+        "Logic",
+        "Significance",
+        "Fairness"
+      ],
+      "section": "Critical Thinking",
+      "correctOption": 1,
+      "explanation": "Logic ensures that thoughts are mutually supporting and make sense in combination."
+    },
+    {
+      "id": 89,
+      "questionText": "In the elements of reasoning, what represents 'beliefs and values that are taken for granted'?",
+      "options": [
+        "Concepts",
+        "Assumptions",
+        "Inferences",
+        "Information"
+      ],
+      "section": "Critical Thinking",
+      "correctOption": 1,
+      "explanation": "Assumptions represent beliefs and values that are taken for granted in the reasoning process."
+    },
+    {
+      "id": 90,
+      "questionText": "The 'Evade' approach in conflict management corresponds to which Thomas-Kilmann style?",
+      "options": [
+        "Competing",
+        "Avoiding",
+        "Accommodating",
+        "Compromising"
+      ],
+      "section": "Conflict Management",
+      "correctOption": 1,
+      "explanation": "The 'Evade' approach from AFNC corresponds to 'Avoiding' in the Thomas-Kilmann model, showing low assertiveness and low cooperation."
+    },
+    {
+      "id": 91,
+      "questionText": "Which USAF core function provides 'freedom from attack and freedom to attack'?",
+      "options": [
+        "Global Strike",
+        "Air Superiority",
+        "Command and Control",
+        "Rapid Global Mobility"
+      ],
+      "section": "DAF Capabilities",
+      "correctOption": 1,
+      "explanation": "Air Superiority provides freedom from attack and freedom to attack, serving as a precondition for successful military operations."
+    },
+    {
+      "id": 92,
+      "questionText": "Which USSF core competency establishes 'safe and secure access to space'?",
+      "options": [
+        "Space Security",
+        "Combat Power Projection",
+        "Space Domain Awareness",
+        "Information Mobility"
+      ],
+      "section": "DAF Capabilities",
+      "correctOption": 0,
+      "explanation": "Space Security establishes safe and secure access to space for civil, commercial, intelligence, and multinational partners."
+    },
+    {
+      "id": 93,
+      "questionText": "What does SPAFORGEN prepare Guardians for?",
+      "options": [
+        "Peaceful space operations",
+        "Congested, contested space domain",
+        "Administrative duties",
+        "Training responsibilities"
+      ],
+      "section": "DAF Deployment",
+      "correctOption": 1,
+      "explanation": "SPAFORGEN prepares Guardians for the congested, contested space domain while establishing predictable battle rhythm."
+    },
+    {
+      "id": 94,
+      "questionText": "Management by Exception-Passive (MBE-P) is characterized by:",
+      "options": [
+        "Constantly monitoring for deviations",
+        "Waiting for problems to arise before intervening",
+        "Setting expectations and providing rewards",
+        "Acting as a positive role model"
+      ],
+      "section": "Full Range Leadership",
+      "correctOption": 1,
+      "explanation": "MBE-P involves waiting for problems to arise before intervening, unlike MBE-A which constantly monitors for deviations."
+    },
+    {
+      "id": 95,
+      "questionText": "In the Performing stage of team development, team members:",
+      "options": [
+        "Resist collaboration and argue over actions",
+        "Determine their roles and transition to member status",
+        "Accept each other's strengths and weaknesses",
+        "Establish cohesiveness and reduce conflict"
+      ],
+      "section": "Team Building",
+      "correctOption": 2,
+      "explanation": "In the Performing stage, team members accept each other's strengths and weaknesses and begin solving problems effectively."
+    },
+    {
+      "id": 96,
+      "questionText": "What is the primary difference between emotional safety and physical safety in organizational climate?",
+      "options": [
+        "Physical safety involves equipment, emotional safety involves people",
+        "Physical safety prevents harm, emotional safety fosters respect and trust",
+        "They are the same concept",
+        "Emotional safety is less important than physical safety"
+      ],
+      "section": "Organizational Climate",
+      "correctOption": 1,
+      "explanation": "Physical safety safeguards troops from harm and eliminates hazards, while emotional safety fosters respect, openness, and trust."
+    },
+    {
+      "id": 97,
+      "questionText": "When encouraging continued action toward a vision, leaders should:",
+      "options": [
+        "Create a monologue about the vision",
+        "Create a dialogue and invite feedback",
+        "Avoid discussing the vision regularly",
+        "Focus only on major milestones"
+      ],
+      "section": "Inspiring Action",
+      "correctOption": 1,
+      "explanation": "Leaders should create a dialogue, not a monologue, inviting questions and feedback to encourage continued action toward the vision."
+    },
+    {
+      "id": 98,
+      "questionText": "What is a threat in OPSEC terminology?",
+      "options": [
+        "Any foreign entity",
+        "An adversary with capability and intent to act detrimentally",
+        "Classified information",
+        "Security vulnerabilities"
+      ],
+      "section": "Operations Security (OPSEC)",
+      "correctOption": 1,
+      "explanation": "A threat is an adversary with the capability and intent to act detrimentally to mission success."
+    },
+    {
+      "id": 99,
+      "questionText": "In step 4 of the OPSEC process (Assess Risk), what is being evaluated?",
+      "options": [
+        "The adversary's intentions only",
+        "The adversary's ability to exploit vulnerabilities",
+        "The cost of implementing countermeasures",
+        "The classification level of information"
+      ],
+      "section": "Operations Security (OPSEC)",
+      "correctOption": 1,
+      "explanation": "Step 4 (Assess Risk) evaluates the adversary's ability to exploit vulnerabilities and determines potential impact on the mission."
+    },
+    {
+      "id": 100,
+      "questionText": "Which virtue under 'Excellence in All We Do' involves recognizing interdependency of contributions?",
+      "options": [
+        "Mission",
+        "Discipline",
+        "Teamwork",
+        "Standards"
+      ],
+      "section": "Core Values",
+      "correctOption": 2,
+      "explanation": "Teamwork involves recognizing the interdependency of every member's contribution under Excellence in All We Do."
+    },
+    {
+      "id": 201,
+      "questionText": "According to DAF doctrine, what is the relationship between Core Values and virtues?",
+      "options": [
+        "Virtues are the foundational beliefs, and Core Values are the actions based on them.",
+        "Virtues are the tangible actions and characteristics that bring the Core Values to life.",
+        "Core Values and virtues are identical concepts with different names for Airmen and Guardians.",
+        "Core Values are for officers, while virtues are for enlisted personnel."
+      ],
+      "section": "Core Values",
+      "correctOption": 1,
+      "explanation": "Virtues are the desired behaviors and characteristics that demonstrate one truly values Integrity, Service, and Excellence. They are the tangible actions that bring the Core Values to life."
+    },
+    {
+      "id": 202,
+      "questionText": "The willingness to take risks and admit mistakes is a demonstration of which virtue under the USAF Core Value 'Integrity First'?",
+      "options": [
+        "Honesty",
+        "Accountability",
+        "Humility",
+        "Courage"
+      ],
+      "section": "Core Values",
+      "correctOption": 3,
+      "explanation": "Courage is the virtue associated with 'Integrity First' that is defined as the willingness to take risks and admit mistakes."
+    },
+    {
+      "id": 203,
+      "questionText": "Which USAF Core Value is described as having a passion for continuous improvement and innovation?",
+      "options": [
+        "Integrity First",
+        "Service Before Self",
+        "Excellence in All We Do",
+        "Connection"
+      ],
+      "section": "Core Values",
+      "correctOption": 2,
+      "explanation": "'Excellence in All We Do' is the USAF Core Value that represents a passion for continuous improvement and innovation, focusing on mission, discipline, and teamwork."
+    },
+    {
+      "id": 204,
+      "questionText": "For Guardians, 'Commitments' are the equivalent of what concept for Airmen?",
+      "options": [
+        "Core Values",
+        "Virtues",
+        "Competencies",
+        "Functions"
+      ],
+      "section": "Core Values",
+      "correctOption": 1,
+      "explanation": "The source material states that for Guardians, 'Commitments' are the equivalent of virtues for the 4 Cs (Character, Connection, Commitment, Courage)."
+    },
+    {
+      "id": 205,
+      "questionText": "Which USSF Core Value emphasizes a common purpose and embracing diverse perspectives?",
+      "options": [
+        "Character",
+        "Connection",
+        "Commitment",
+        "Courage"
+      ],
+      "section": "Core Values",
+      "correctOption": 1,
+      "explanation": "The USSF Core Value of 'Connection' focuses on a common purpose, being stronger together, and embracing diverse perspectives to foster a fearless environment."
+    },
+    {
+      "id": 206,
+      "questionText": "Why are the Core Values considered the 'bedrock of leadership' in the Air and Space Forces?",
+      "options": [
+        "They are optional guidelines for personal conduct.",
+        "They provide a tactical advantage in combat situations.",
+        "They are the foundation for leadership and a moral compass for all military activities.",
+        "They are primarily used for performance report evaluations."
+      ],
+      "section": "Core Values",
+      "correctOption": 2,
+      "explanation": "The Core Values are the bedrock of leadership because they are the foundation for leadership and serve as the moral compass for all military activities, defining what it means to be an Airman or Guardian."
+    },
+    {
+      "id": 207,
+      "questionText": "Which virtue of 'Service Before Self' involves making necessary sacrifices to accomplish the mission?",
+      "options": [
+        "Loyalty",
+        "Respect",
+        "Duty",
+        "Humility"
+      ],
+      "section": "Core Values",
+      "correctOption": 2,
+      "explanation": "Duty, a virtue of 'Service Before Self', is defined as making the necessary sacrifices to accomplish the mission."
+    },
+    {
+      "id": 208,
+      "questionText": "The commitment to 'achieve audacious goals, learn from experience, and seek and offer feedback' aligns with which USSF Core Value?",
+      "options": [
+        "Character",
+        "Connection",
+        "Commitment",
+        "Courage"
+      ],
+      "section": "Core Values",
+      "correctOption": 2,
+      "explanation": "These commitments are associated with the USSF Core Value of 'Commitment,' which is defined as the pursuit of mastery of self, profession, and domain."
+    },
+    {
+      "id": 209,
+      "questionText": "What is the first step in the 8-Step Practical Problem-Solving Method (PPSM)?",
+      "options": [
+        "Determine Root Causes",
+        "Break Down Problem & ID Performance Gaps",
+        "Set Improvement Targets",
+        "Clarify the Problem"
+      ],
+      "section": "Problem Solving",
+      "correctOption": 3,
+      "explanation": "The very first step of the 8-Step PPSM is to 'Clarify the Problem' to ensure the team understands what they are trying to solve."
+    },
+    {
+      "id": 210,
+      "questionText": "A key difference between the OODA Loop and the 8-Step PPSM is that the OODA Loop is designed for...",
+      "options": [
+        "long-term, team-centered process improvement.",
+        "rapid decision-making in time-compressed environments.",
+        "standardizing successful processes across an organization.",
+        "detailed root cause analysis with multiple stakeholders."
+      ],
+      "section": "Problem Solving",
+      "correctOption": 1,
+      "explanation": "The OODA Loop (Observe, Orient, Decide, Act) is designed for rapid decision-making, particularly in combat or other time-compressed environments, whereas the PPSM is for more detailed, long-term problem solving."
+    },
+    {
+      "id": 211,
+      "questionText": "Which step of the 8-Step PPSM involves creating a plan to implement solutions?",
+      "options": [
+        "Determine Root Causes",
+        "Develop Countermeasures",
+        "Confirm Results and Process",
+        "Standardizing Successful Processes"
+      ],
+      "section": "Problem Solving",
+      "correctOption": 1,
+      "explanation": "Step 5, 'Develop Countermeasures,' is where the team creates solutions and a plan to implement them to address the identified root causes of the problem."
+    },
+    {
+      "id": 212,
+      "questionText": "A follower who is passive, not a critical thinker, and does only what is asked is described as which followership style?",
+      "options": [
+        "Yes People",
+        "Survivors",
+        "Sheep",
+        "Alienated Followers"
+      ],
+      "section": "Followership",
+      "correctOption": 2,
+      "explanation": "A 'Sheep' is the followership style characterized by being passive and not a critical thinker, waiting for instructions and having no initiative."
+    },
+    {
+      "id": 213,
+      "questionText": "Which followership style is characterized by being a critical thinker but passive, often cynical and critical of leadership without offering solutions?",
+      "options": [
+        "Yes People",
+        "Survivors",
+        "Sheep",
+        "Alienated Followers"
+      ],
+      "section": "Followership",
+      "correctOption": 3,
+      "explanation": "'Alienated Followers' are critical thinkers but are passive. They tend to be cynical and will criticize leadership but do not contribute solutions."
+    },
+    {
+      "id": 214,
+      "questionText": "A follower who is proactive, works well with others, and is not afraid to raise concerns with their leader is described as a(n):",
+      "options": [
+        "Survivor",
+        "Effective Follower",
+        "Yes Person",
+        "Sheep"
+      ],
+      "section": "Followership",
+      "correctOption": 1,
+      "explanation": "An 'Effective Follower' is both active and a critical thinker. They are proactive, take initiative, collaborate effectively, and have the courage to raise concerns."
+    },
+    {
+      "id": 215,
+      "questionText": "According to the principles of effective followership, how should a follower handle disagreements with their boss?",
+      "options": [
+        "Publicly challenge the boss to show courage.",
+        "Discuss the disagreement privately with the boss.",
+        "Go to the boss's supervisor immediately.",
+        "Ignore the disagreement and simply follow the order."
+      ],
+      "section": "Followership",
+      "correctOption": 1,
+      "explanation": "A key characteristic of an effective follower is to support their boss and, if there is a disagreement, to address it privately rather than undermining them publicly."
+    },
+    {
+      "id": 216,
+      "questionText": "The connection between leadership and followership is best described by which statement?",
+      "options": [
+        "Leadership and followership are mutually exclusive roles.",
+        "To be a good leader, one must first be a good follower.",
+        "Followers are not expected to develop leadership skills.",
+        "Effective leaders rarely have experience as followers."
+      ],
+      "section": "Followership",
+      "correctOption": 1,
+      "explanation": "A fundamental concept is that developing good followers is the first step to creating good leaders. To be a good leader, you must first understand how to be a good follower, as the skills often overlap."
+    },
+    {
+      "id": 217,
+      "questionText": "Which branch of the U.S. government establishes military authority, with the President as Commander in Chief?",
+      "options": [
+        "Legislative Branch",
+        "Judicial Branch",
+        "Executive Branch",
+        "Federalist Branch"
+      ],
+      "section": "U.S. Constitution",
+      "correctOption": 2,
+      "explanation": "The authority for the military is established by the Executive Branch, derived from Article II of the Constitution, which designates the President as the Commander in Chief."
+    },
+    {
+      "id": 218,
+      "questionText": "The division of government into three independent branches (Legislative, Executive, Judicial) is known as what constitutional provision?",
+      "options": [
+        "Enumerated Powers",
+        "Federalism",
+        "Separation of Powers",
+        "The Bill of Rights"
+      ],
+      "section": "U.S. Constitution",
+      "correctOption": 2,
+      "explanation": "'Separation of Powers' is the constitutional provision that divides the government into three independent branches to prevent the concentration of power in any single branch."
+    },
+    {
+      "id": 219,
+      "questionText": "Which part of the US Constitution most restricts a military officer's authority over service members and civilians?",
+      "options": [
+        "Article I",
+        "Article II",
+        "The Preamble",
+        "The Bill of Rights (First 10 Amendments)"
+      ],
+      "section": "U.S. Constitution",
+      "correctOption": 3,
+      "explanation": "The Bill of Rights is the part of the Constitution that most significantly restricts a military officer's authority, outlining fundamental rights and freedoms such as speech, religion, and assembly."
+    },
+    {
+      "id": 220,
+      "questionText": "The Fifth Amendment provides an exception to grand jury indictment for persons serving in the armed forces, who are instead subject to what?",
+      "options": [
+        "Civilian courts in the local area",
+        "The court-martial system",
+        "Commander's discretion without trial",
+        "International law"
+      ],
+      "section": "U.S. Constitution",
+      "correctOption": 1,
+      "explanation": "The Fifth Amendment contains a specific exception for members of the armed forces, stating they are subject to the court-martial system under the UCMJ instead of requiring a grand jury indictment."
+    },
+    {
+      "id": 221,
+      "questionText": "What is the primary function of the Uniform Code of Military Justice (UCMJ)?",
+      "options": [
+        "To provide guidance on non-punitive administrative actions only.",
+        "To serve as the federal law that is the basis of the military justice system.",
+        "To outline rules of evidence for civilian federal courts.",
+        "To list the specific duties of the Staff Judge Advocate."
+      ],
+      "section": "Military Justice",
+      "correctOption": 1,
+      "explanation": "The UCMJ is the federal law that serves as the foundation of the entire military justice system for all branches of the armed forces."
+    },
+    {
+      "id": 222,
+      "questionText": "Which document, implemented by the President's Executive Order, provides the detailed rules and procedures for implementing the UCMJ?",
+      "options": [
+        "The Bill of Rights",
+        "The Articles of War",
+        "The Manual for Courts-Martial (MCM)",
+        "The Department of Defense Instructions (DoDI)"
+      ],
+      "section": "Military Justice",
+      "correctOption": 2,
+      "explanation": "The Manual for Courts-Martial (MCM) is issued by the President via Executive Order and provides the detailed rules, procedures, and guides for the application of the UCMJ."
+    },
+    {
+      "id": 223,
+      "questionText": "Why is a separate military justice system necessary?",
+      "options": [
+        "Because service members do not have constitutional rights.",
+        "To address crimes unique to the military and maintain worldwide discipline and good order.",
+        "To ensure all punishments are more severe than in civilian courts.",
+        "Because military law is older than civilian law."
+      ],
+      "section": "Military Justice",
+      "correctOption": 1,
+      "explanation": "A military justice system is needed to address offenses with no civilian equivalent (e.g., AWOL, Failure to Obey), to maintain discipline critical for mission success, and to provide a legal system that applies to service members globally."
+    },
+    {
+      "id": 224,
+      "questionText": "A service member's right against compulsory self-incrimination is protected by which article of the UCMJ?",
+      "options": [
+        "Article 15",
+        "Article 31",
+        "Article 92",
+        "Article 134"
+      ],
+      "section": "Military Justice",
+      "correctOption": 1,
+      "explanation": "Article 31 of the UCMJ explicitly protects a service member's right against compulsory self-incrimination, requiring them to be informed of the suspected offense and their right to remain silent."
+    },
+    {
+      "id": 225,
+      "questionText": "A Letter of Counseling (LOC), Letter of Admonishment (LOA), and Letter of Reprimand (LOR) are all examples of what type of disciplinary tool?",
+      "options": [
+        "Punitive Action",
+        "Judicial Punishment",
+        "Nonjudicial Punishment (NJP)",
+        "Administrative Action (Non-Punitive Tools)"
+      ],
+      "section": "Military Justice",
+      "correctOption": 3,
+      "explanation": "LOCs, LOAs, and LORs are forms of administrative action. They are non-punitive tools used to correct behavior and are part of a system of preventive discipline."
+    },
+    {
+      "id": 226,
+      "questionText": "Which office provides independent legal representation to Air Force and Space Force personnel who are accused of wrongdoing or facing disciplinary action?",
+      "options": [
+        "Staff Judge Advocate (SJA)",
+        "Area Defense Counsel (ADC)",
+        "Victims' Counsel (VC)",
+        "Inspector General (IG)"
+      ],
+      "section": "Military Justice",
+      "correctOption": 1,
+      "explanation": "The Area Defense Counsel (ADC) is responsible for representing service members. The ADC operates through a separate chain of command from the SJA to ensure its independence and ability to advocate for the accused."
+    },
+    {
+      "id": 227,
+      "questionText": "Which type of court-martial tries the most serious offenses and can impose the maximum punishment?",
+      "options": [
+        "Summary Court-Martial",
+        "Special Court-Martial",
+        "General Court-Martial",
+        "Commander's Court-Martial"
+      ],
+      "section": "Military Justice",
+      "correctOption": 2,
+      "explanation": "A General Court-Martial is the highest trial-level court in the military justice system and is convened for the most serious offenses, with the authority to adjudge the maximum allowable punishments."
+    },
+    {
+      "id": 228,
+      "questionText": "Which office represents the Air Force and Space Force in all legal matters and advises commanders on military justice and disciplinary actions?",
+      "options": [
+        "Inspector General (IG)",
+        "Area Defense Counsel (ADC)",
+        "Staff Judge Advocate (SJA)",
+        "Victims' Counsel (VC)"
+      ],
+      "section": "Military Justice",
+      "correctOption": 2,
+      "explanation": "The Staff Judge Advocate (SJA) and their legal staff represent the government's interest and serve as the chief legal advisors to commanders on all legal matters, including military justice."
+    },
+    {
+      "id": 229,
+      "questionText": "An Unprofessional Relationship (UPR) is primarily a concern when it:",
+      "options": [
+        "involves personnel from different career fields.",
+        "occurs during off-duty hours.",
+        "adversely affects morale, good order, discipline, orunit cohesion.",
+        "is between two members of the same pay grade."
+      ],
+      "section": "Professional & Unprofessional Relationships",
+      "correctOption": 2,
+      "explanation": "A personal relationship becomes an official concern and an Unprofessional Relationship (UPR) when it negatively impacts the unit by adversely affecting morale, good order, discipline, respect for authority, unit cohesion, or the mission."
+    },
+    {
+      "id": 230,
+      "questionText": "In an unprofessional relationship between a senior and a junior member, who is primarily responsible for maintaining professional standards?",
+      "options": [
+        "The junior member",
+        "The senior member",
+        "Both members are equally responsible",
+        "The unit commander"
+      ],
+      "section": "Professional & Unprofessional Relationships",
+      "correctOption": 1,
+      "explanation": "While all members are accountable, the policy states that the senior member in any personal relationship is primarily responsible for maintaining the professionalism of that relationship."
+    },
+    {
+      "id": 231,
+      "questionText": "An unprofessional relationship between an officer and an enlisted member that violates customs of acceptable behavior and prejudices good order and discipline is known as:",
+      "options": [
+        "Collaboration",
+        "Fraternization",
+        "Mentorship",
+        "Networking"
+      ],
+      "section": "Professional & Unprofessional Relationships",
+      "correctOption": 1,
+      "explanation": "Fraternization is the specific term for a UPR between an officer and an enlisted member that violates the customs of the service and prejudices good order and discipline or brings discredit upon the armed forces."
+    },
+    {
+      "id": 232,
+      "questionText": "Which of the following is an effect of unprofessional relationships on unit cohesiveness?",
+      "options": [
+        "Increased trust in leadership",
+        "Improved morale due to strong personal bonds",
+        "Enhanced respect for the chain of command",
+        "Erosion of trust and perceptions of favoritism"
+      ],
+      "section": "Professional & Unprofessional Relationships",
+      "correctOption": 3,
+      "explanation": "UPRs undermine unit cohesiveness by eroding trust, creating perceptions of favoritism or an 'in crowd,' degrading morale, and weakening the authority of leaders trying to maintain standards."
+    },
+    {
+      "id": 233,
+      "questionText": "Which of the following is a specific prohibition for officers regarding relationships with enlisted members?",
+      "options": [
+        "Mentoring an enlisted member on career progression.",
+        "Participating in unit sports with enlisted members.",
+        "Lending money to or borrowing money from enlisted members.",
+        "Recognizing an enlisted member for outstanding performance."
+      ],
+      "section": "Professional & Unprofessional Relationships",
+      "correctOption": 2,
+      "explanation": "The policy specifically prohibits officers from engaging in certain activities with enlisted members, including gambling, sharing living accommodations, and lending or borrowing money."
+    },
+    {
+      "id": 234,
+      "questionText": "Critical thinking is defined as the process of thinking carefully about a subject or idea...",
+      "options": [
+        "based primarily on one's personal experience.",
+        "to rapidly arrive at the first available solution.",
+        "without allowing feelings or opinions to affect you.",
+        "to confirm your existing beliefs."
+      ],
+      "section": "Critical Thinking I",
+      "correctOption": 2,
+      "explanation": "The provided definition of critical thinking is: \u201cThe process of thinking carefully about a subject or idea, without allowing feelings or opinions to affect you.\u201d"
+    },
+    {
+      "id": 235,
+      "questionText": "Which intellectual standard is considered the 'gateway standard' because a statement cannot be checked for accuracy or relevance if it is not met?",
+      "options": [
+        "Logic",
+        "Clarity",
+        "Depth",
+        "Fairness"
+      ],
+      "section": "Critical Thinking I",
+      "correctOption": 1,
+      "explanation": "Clarity is called the 'gateway standard.' If a statement is unclear, you cannot determine its accuracy, relevance, or any other intellectual standard."
+    },
+    {
+      "id": 236,
+      "questionText": "When a thinker ensures their thoughts are mutually supporting and make sense in combination, they are applying which intellectual standard?",
+      "options": [
+        "Breadth",
+        "Precision",
+        "Significance",
+        "Logic"
+      ],
+      "section": "Critical Thinking I",
+      "correctOption": 3,
+      "explanation": "The intellectual standard of Logic ensures that different thoughts and premises support each other and make sense when considered together, avoiding contradictions."
+    },
+    {
+      "id": 237,
+      "questionText": "Operations aimed at influencing an adversary's will, beliefs, and thinking to affect their decisions are known as:",
+      "options": [
+        "Global Strike Operations",
+        "Information Mobility Operations",
+        "Cognitive Domain Operations",
+        "Cyber Security Operations"
+      ],
+      "section": "Critical Thinking I",
+      "correctOption": 2,
+      "explanation": "Cognitive Domain Operations are specifically defined as aiming to influence an adversary's will, beliefs, and thinking, targeting the human brain as the main combat space."
+    },
+    {
+      "id": 238,
+      "questionText": "Disinformation is a key tool in cognitive operations because it exploits which human tendency?",
+      "options": [
+        "The tendency to seek out diverse points of view.",
+        "The tendency to favor information that confirms existing beliefs (confirmation bias).",
+        "The tendency to reject all information from outside sources.",
+        "The tendency to only trust information from official channels."
+      ],
+      "section": "Critical Thinking I",
+      "correctOption": 1,
+      "explanation": "Disinformation is effective because it exploits confirmation bias, where people are more receptive to information, even if false, that confirms what they already believe."
+    },
+    {
+      "id": 239,
+      "questionText": "An objective claim is one that...",
+      "options": [
+        "depends on what a person thinks or believes.",
+        "is always true.",
+        "is factually true or false, independent of what people think.",
+        "cannot be verified by evidence."
+      ],
+      "section": "Critical Thinking I",
+      "correctOption": 2,
+      "explanation": "An objective claim's truth or falsity is independent of individual belief. For example, 'the Earth is round' is an objective claim, while 'vanilla is the best flavor' is a subjective claim."
+    },
+    {
+      "id": 240,
+      "questionText": "Conflict that arises from misinterpreted, inaccurate, or incomplete information is attributed to which organizational source?",
+      "options": [
+        "Structural Factors",
+        "Rewards",
+        "Resource Interdependence",
+        "Communication Factors"
+      ],
+      "section": "Conflict Management",
+      "correctOption": 3,
+      "explanation": "Communication Factors are a key organizational source of conflict, where issues like misinterpreted or incomplete information can lead to frustration and disagreement."
+    },
+    {
+      "id": 241,
+      "questionText": "Which conflict management style is characterized by high assertiveness and low cooperation, aiming to overwhelm an opponent with authority?",
+      "options": [
+        "Avoiding (Evade)",
+        "Accommodating (Comply)",
+        "Competing/Forcing (Insist)",
+        "Collaborating (Cooperate)"
+      ],
+      "section": "Conflict Management",
+      "correctOption": 2,
+      "explanation": "The Competing/Forcing style (also known as the 'Insist' approach) is high in task focus/assertiveness and low in people focus/cooperation. It is a 'win-lose' approach."
+    },
+    {
+      "id": 242,
+      "questionText": "In the AFNC problem-solving model, which approach aligns with the 'Collaborating' style and seeks a 'win-win' solution satisfying both parties?",
+      "options": [
+        "Insist",
+        "Settle",
+        "Evade",
+        "Cooperate"
+      ],
+      "section": "Conflict Management",
+      "correctOption": 3,
+      "explanation": "The 'Cooperate' approach from the AFNC aligns with the 'Collaborating' style. It is high in both task and people orientation and aims for a win-win outcome that fully addresses the concerns of both sides."
+    },
+    {
+      "id": 243,
+      "questionText": "A leader who chooses to ignore a conflict, hoping it will resolve itself, is using which conflict management style?",
+      "options": [
+        "Compromising (Settle)",
+        "Accommodating (Comply)",
+        "Avoiding (Evade)",
+        "Competing/Forcing (Insist)"
+      ],
+      "section": "Conflict Management",
+      "correctOption": 2,
+      "explanation": "The Avoiding (Evade) style is passive and unassertive, characterized by ignoring or delaying a confrontation. It is appropriate only when the issue is trivial or more time is needed."
+    },
+    {
+      "id": 244,
+      "questionText": "When a leader gives in to the other person's wishes to preserve the relationship at the expense of the task, they are using which style?",
+      "options": [
+        "Accommodating (Comply)",
+        "Collaborating (Cooperate)",
+        "Compromising (Settle)",
+        "Avoiding (Evade)"
+      ],
+      "section": "Conflict Management",
+      "correctOption": 0,
+      "explanation": "The Accommodating (Comply) style is low on assertiveness but high on cooperativeness. This 'yield-lose/win' approach prioritizes the relationship over the objective."
+    },
+    {
+      "id": 245,
+      "questionText": "Which of the eight elements of reasoning refers to the theories, principles, and ideas that frame one's thinking?",
+      "options": [
+        "Information",
+        "Assumptions",
+        "Concepts",
+        "Implications"
+      ],
+      "section": "Critical Thinking II",
+      "correctOption": 2,
+      "explanation": "Concepts are the element of reasoning that includes the theories, principles, and ideas used to frame and understand the problem or subject."
+    },
+    {
+      "id": 246,
+      "questionText": "Allowing a single positive or negative trait of a person to define your entire opinion of them is an example of which cognitive bias?",
+      "options": [
+        "Confirmation Bias",
+        "Halo Effect",
+        "Deflection",
+        "Activated Ignorance"
+      ],
+      "section": "Critical Thinking II",
+      "correctOption": 1,
+      "explanation": "The Halo Effect is a cognitive bias where a single trait (positive or negative) of a person or situation overshadows all other information, leading to a skewed overall judgment."
+    },
+    {
+      "id": 247,
+      "questionText": "Favoring information that confirms your existing beliefs while ignoring contradictory evidence is known as:",
+      "options": [
+        "Stereotyping",
+        "System 1 Thinking",
+        "Belief Perseverance/Confirmation Bias",
+        "Asking the wrong questions"
+      ],
+      "section": "Critical Thinking II",
+      "correctOption": 2,
+      "explanation": "Belief Perseverance, also known as Confirmation Bias, is a common thinking error where individuals actively seek out and favor information that supports their pre-existing beliefs and perspectives."
+    },
+    {
+      "id": 248,
+      "questionText": "Which of the following is NOT one of the five core functions of the USAF?",
+      "options": [
+        "Air Superiority",
+        "Global Strike",
+        "Space Security",
+        "Rapid Global Mobility"
+      ],
+      "section": "DAF Capabilities",
+      "correctOption": 2,
+      "explanation": "Space Security is a core competency of the USSF. The five USAF core functions are Air Superiority, ISR, Rapid Global Mobility, Global Strike, and Command and Control (C2)."
+    },
+    {
+      "id": 249,
+      "questionText": "Which of the following is NOT one of the five core competencies of the USSF?",
+      "options": [
+        "Combat Power Projection",
+        "Intelligence, Surveillance, and Reconnaissance (ISR)",
+        "Information Mobility",
+        "Space Domain Awareness"
+      ],
+      "section": "DAF Capabilities",
+      "correctOption": 1,
+      "explanation": "Intelligence, Surveillance, and Reconnaissance (ISR) is a core function of the USAF. The five USSF core competencies are Space Security, Combat Power Projection, Space Mobility and Logistics, Information Mobility, and Space Domain Awareness."
+    },
+    {
+      "id": 250,
+      "questionText": "The USAF core function described as 'delivery on demand' and including deployment, sustainment, and in-flight refueling is:",
+      "options": [
+        "Global Strike",
+        "Rapid Global Mobility",
+        "Air Superiority",
+        "Command and Control (C2)"
+      ],
+      "section": "DAF Capabilities",
+      "correctOption": 1,
+      "explanation": "Rapid Global Mobility is the USAF core function focused on the timely deployment, sustainment, and movement of military forces and equipment anywhere on the globe."
+    },
+    {
+      "id": 251,
+      "questionText": "Which USSF core competency focuses on establishing safe and secure access to space for all partners?",
+      "options": [
+        "Combat Power Projection",
+        "Space Mobility and Logistics",
+        "Space Security",
+        "Information Mobility"
+      ],
+      "section": "DAF Capabilities",
+      "correctOption": 2,
+      "explanation": "Space Security is the USSF core competency dedicated to establishing safe and secure access to the space domain for civil, commercial, intelligence, and multinational partners."
+    },
+    {
+      "id": 252,
+      "questionText": "What is the primary purpose of doctrine in the USAF and USSF?",
+      "options": [
+        "To provide strict, unchangeable rules that must be followed in all situations.",
+        "To describe and guide the proper use of airpower and space power, serving as official but not directive advice.",
+        "To serve as a replacement for a commander's judgment in combat.",
+        "To outline the specific legal punishments for military offenses."
+      ],
+      "section": "DAF Capabilities",
+      "correctOption": 1,
+      "explanation": "Doctrine provides the fundamental principles that guide military actions. It is official advice but requires judgment in its application; it is not a set of rigid, directive rules."
+    },
+    {
+      "id": 253,
+      "questionText": "The USAF core function that provides situational awareness and is described as the 'eyes and ears on adversaries' is:",
+      "options": [
+        "Command and Control (C2)",
+        "Air Superiority",
+        "Intelligence, Surveillance, and Reconnaissance (ISR)",
+        "Global Strike"
+      ],
+      "section": "DAF Capabilities",
+      "correctOption": 2,
+      "explanation": "Intelligence, Surveillance, and Reconnaissance (ISR) is the core function focused on providing the necessary situational awareness to minimize uncertainty for decision-makers."
+    },
+    {
+      "id": 254,
+      "questionText": "The purpose of the AFFORGEN deployment model is to...",
+      "options": [
+        "prepare Guardians specifically for a contested space domain.",
+        "present sustainable, predictable forces to Joint Force Commanders.",
+        "replace the need for individual readiness.",
+        "eliminate the 'Reset' phase of the deployment cycle."
+      ],
+      "section": "DAF Deployment",
+      "correctOption": 1,
+      "explanation": "The primary purpose of the Air Force Force Generation (AFFORGEN) model is to present sustainable and predictable forces to Joint Force Commanders, enabling readiness recovery and countering strategic competition."
+    },
+    {
+      "id": 255,
+      "questionText": "What are the four rotational phases of the AFFORGEN cycle?",
+      "options": [
+        "Prepare, Ready, Commit, Reconstitute",
+        "Reset, Prepare, Ready, Commit",
+        "Plan, Train, Deploy, Return",
+        "Alert, Deploy, Sustain, Retrograde"
+      ],
+      "section": "DAF Deployment",
+      "correctOption": 1,
+      "explanation": "The four phases of the AFFORGEN cycle are: Reset, Prepare, Ready, and Commit."
+    },
+    {
+      "id": 256,
+      "questionText": "What are the three rotational phases of the SPAFORGEN cycle?",
+      "options": [
+        "Reset, Prepare, Commit",
+        "Prepare, Ready, Deploy",
+        "Prepare, Ready, Commit",
+        "Observe, Orient, Act"
+      ],
+      "section": "DAF Deployment",
+      "correctOption": 2,
+      "explanation": "The three phases of the Space Force Force Generation (SPAFORGEN) cycle are: Prepare, Ready, and Commit."
+    },
+    {
+      "id": 257,
+      "questionText": "Why is individual readiness critical for mission accomplishment?",
+      "options": [
+        "It is only the commander's responsibility to ensure the unit is ready.",
+        "Individual readiness is secondary to equipment readiness.",
+        "Each Airman and Guardian must be personally prepared to fulfill mission requirements when called upon.",
+        "Readiness is only important during the 'Commit' phase of the deployment cycle."
+      ],
+      "section": "DAF Deployment",
+      "correctOption": 2,
+      "explanation": "Individual readiness, which includes training, medical, fitness, and personal affairs, is the foundation of unit readiness. Every individual has a role in maintaining their own preparedness to ensure they can fulfill mission requirements."
+    },
+    {
+      "id": 258,
+      "questionText": "Which leadership style is characterized by an absence of action, avoidance of decision-making, and a failure to develop subordinates?",
+      "options": [
+        "Transactional",
+        "Transformational",
+        "Laissez-Faire",
+        "Management by Exception-Active"
+      ],
+      "section": "Full Range Leadership",
+      "correctOption": 2,
+      "explanation": "Laissez-Faire leadership is defined by the absence of leadership. This 'hands-off' leader avoids decisions, is disconnected from the mission, and fails to develop their people."
+    },
+    {
+      "id": 259,
+      "questionText": "A leader who sets clear expectations and provides rewards when those expectations are met is using which transactional leadership behavior?",
+      "options": [
+        "Management by Exception-Active (MBE-A)",
+        "Management by Exception-Passive (MBE-P)",
+        "Contingent Reward (CR)",
+        "Individual Consideration (IC)"
+      ],
+      "section": "Full Range Leadership",
+      "correctOption": 2,
+      "explanation": "Contingent Reward (CR) is a transactional behavior where the leader establishes a constructive exchange, setting expectations and providing rewards for successful performance."
+    },
+    {
+      "id": 260,
+      "questionText": "A leader who constantly monitors for deviations from standards and immediately corrects them is demonstrating...",
+      "options": [
+        "Management by Exception-Active (MBE-A)",
+        "Management by Exception-Passive (MBE-P)",
+        "Idealized Influence (II)",
+        "Laissez-Faire"
+      ],
+      "section": "Full Range Leadership",
+      "correctOption": 0,
+      "explanation": "Management by Exception-Active (MBE-A) involves the leader actively monitoring performance and making immediate corrections when standards are not met. It is a more engaged, micromanagement-style approach."
+    },
+    {
+      "id": 261,
+      "questionText": "Which transformational leadership behavior involves stimulating creative thinking and challenging old ways of doing things?",
+      "options": [
+        "Idealized Influence (II)",
+        "Inspirational Motivation (IM)",
+        "Intellectual Stimulation (IS)",
+        "Individual Consideration (IC)"
+      ],
+      "section": "Full Range Leadership",
+      "correctOption": 2,
+      "explanation": "Intellectual Stimulation (IS) is the behavior where transformational leaders encourage followers to be creative and innovative, challenging assumptions and viewing problems from new perspectives."
+    },
+    {
+      "id": 262,
+      "questionText": "When a leader acts as a positive role model and embodies the principle of 'walking the talk,' they are using which transformational behavior?",
+      "options": [
+        "Idealized Influence (II)",
+        "Inspirational Motivation (IM)",
+        "Intellectual Stimulation (IS)",
+        "Individual Consideration (IC)"
+      ],
+      "section": "Full Range Leadership",
+      "correctOption": 0,
+      "explanation": "Idealized Influence (II) is when leaders act as role models for their followers. They are respected, admired, and trusted, and they 'walk the talk' by living the values they espouse."
+    },
+    {
+      "id": 263,
+      "questionText": "How should effective leaders apply the Full-Range Leadership model?",
+      "options": [
+        "Choose one style and use it exclusively.",
+        "Avoid transactional leadership entirely as it is less effective.",
+        "Blend and emphasize different approaches based on the people and the situation.",
+        "Always start with Laissez-Faire and escalate if necessary."
+      ],
+      "section": "Full Range Leadership",
+      "correctOption": 2,
+      "explanation": "The Full-Range Leadership model is not a continuum from bad to good. Effective leaders blend various approaches, using both transactional and transformational behaviors as required by the specific situation and followers."
+    },
+    {
+      "id": 264,
+      "questionText": "Acting as a coach or mentor and focusing on subordinate development is the core of which transformational leadership behavior?",
+      "options": [
+        "Idealized Influence (II)",
+        "Inspirational Motivation (IM)",
+        "Intellectual Stimulation (IS)",
+        "Individual Consideration (IC)"
+      ],
+      "section": "Full Range Leadership",
+      "correctOption": 3,
+      "explanation": "Individual Consideration (IC) involves leaders paying special attention to each individual's needs for achievement and growth, acting as a coach and mentor to help them reach their full potential."
+    },
+    {
+      "id": 265,
+      "questionText": "What is a primary reason for a leader to establish clear expectations?",
+      "options": [
+        "To increase follower stress and anxiety.",
+        "To provide a clear roadmap and link individual duties to the unit mission.",
+        "To eliminate the need for performance tracking.",
+        "To create ambiguity so followers can be creative."
+      ],
+      "section": "Establishing Expectations",
+      "correctOption": 1,
+      "explanation": "Establishing clear expectations is crucial because it provides a roadmap for success, reduces stress by eliminating confusion, and connects individual responsibilities to the broader organizational mission."
+    },
+    {
+      "id": 266,
+      "questionText": "According to the guidelines for establishing expectations, why is it important to seek 'buy-in' from the team?",
+      "options": [
+        "To show that the leader is not fully in charge.",
+        "To foster ownership and commitment by including the team in the process.",
+        "To make the process take as long as possible.",
+        "To allow the team to set all the standards without leader input."
+      ],
+      "section": "Establishing Expectations",
+      "correctOption": 1,
+      "explanation": "Seeking buy-in by including the team in the process, setting achievable goals, and showing trust fosters a sense of ownership and makes personnel more committed to meeting the established expectations."
+    },
+    {
+      "id": 267,
+      "questionText": "In the four stages of team growth, which stage is often the most difficult and is characterized by conflict and resistance to collaboration?",
+      "options": [
+        "Forming",
+        "Storming",
+        "Norming",
+        "Performing"
+      ],
+      "section": "Team Building",
+      "correctOption": 1,
+      "explanation": "The 'Storming' stage is the most difficult phase of team development, where conflict arises as members push back against collaboration and argue over team actions and direction."
+    },
+    {
+      "id": 268,
+      "questionText": "During which stage of team growth does cohesiveness form, conflict reduce, and team norms become established?",
+      "options": [
+        "Forming",
+        "Storming",
+        "Norming",
+        "Performing"
+      ],
+      "section": "Team Building",
+      "correctOption": 2,
+      "explanation": "In the 'Norming' stage, the team establishes cohesiveness and commitment, conflict is managed and reduced, and the members agree on shared norms and values."
+    },
+    {
+      "id": 269,
+      "questionText": "What is the leader's primary role during the 'Forming' stage of team growth?",
+      "options": [
+        "To act as a visionary and plan for the future.",
+        "To act as a coach and manage conflict.",
+        "To be directive and clearly define roles and the mission.",
+        "To act as a facilitator and delegate responsibilities."
+      ],
+      "section": "Team Building",
+      "correctOption": 2,
+      "explanation": "In the 'Forming' stage, the team needs direction. The leader's role is to be directive, help the team get acquainted, and clearly define the mission, tasks, and individual roles."
+    },
+    {
+      "id": 270,
+      "questionText": "A leader should act as a 'Coach' during which stage of team development?",
+      "options": [
+        "Forming",
+        "Storming",
+        "Norming",
+        "Performing"
+      ],
+      "section": "Team Building",
+      "correctOption": 1,
+      "explanation": "During the 'Storming' stage, the leader should act as a coach to manage the inevitable chaos and conflict, creating an open climate and facilitating resolution."
+    },
+    {
+      "id": 271,
+      "questionText": "A team that is proficient, solves problems effectively, and has members who accept each other's strengths and weaknesses is in which stage?",
+      "options": [
+        "Forming",
+        "Storming",
+        "Norming",
+        "Performing"
+      ],
+      "section": "Team Building",
+      "correctOption": 3,
+      "explanation": "The 'Performing' stage is the peak of team effectiveness. The team is proficient, highly functional, and focused on problem-solving and achieving goals."
+    },
+    {
+      "id": 272,
+      "questionText": "What is the key difference between a mission statement and a vision statement?",
+      "options": [
+        "A mission statement is for the future; a vision statement is for the present.",
+        "A mission statement is about 'why' and 'how'; a vision statement is about 'what' and 'who'.",
+        "A mission statement focuses on the present purpose; a vision statement focuses on future aspirations.",
+        "There is no functional difference between the two."
+      ],
+      "section": "Inspiring Action",
+      "correctOption": 2,
+      "explanation": "A mission statement defines the organization's present purpose (what it does). A vision statement describes its future aspirations (what it wants to become) and provides inspiration."
+    },
+    {
+      "id": 273,
+      "questionText": "What is the purpose of using the SWOT (Strengths, Weaknesses, Opportunities, Threats) method?",
+      "options": [
+        "To assign blame for past failures.",
+        "To conduct performance evaluations for individuals.",
+        "To serve as a strategic planning tool to identify priorities and make decisions.",
+        "To replace the need for a mission or vision statement."
+      ],
+      "section": "Inspiring Action",
+      "correctOption": 2,
+      "explanation": "SWOT analysis is a strategic planning tool used to assess an organization's internal factors (Strengths, Weaknesses) and external factors (Opportunities, Threats) to help identify priorities and guide decision-making."
+    },
+    {
+      "id": 274,
+      "questionText": "Which technique for encouraging continued action towards a vision involves explaining the 'why' and creating a dialogue rather than a monologue?",
+      "options": [
+        "Reinforce Action & Celebrate Success",
+        "Enable Action",
+        "Articulate the Vision",
+        "Get Their Attention & Frame Meaning"
+      ],
+      "section": "Inspiring Action",
+      "correctOption": 3,
+      "explanation": "'Get Their Attention & Frame Meaning' involves explaining the purpose ('the why') behind the vision and engaging the team in a dialogue to ensure understanding and buy-in."
+    },
+    {
+      "id": 275,
+      "questionText": "What is the primary difference between organizational climate and culture?",
+      "options": [
+        "Climate is long-term and ingrained; culture is short-term and adjustable.",
+        "Culture is about current moods; climate is about foundational beliefs.",
+        "Climate and culture are the same concept.",
+        "Culture is long-term ideology; climate is the short-term perception and product of that culture."
+      ],
+      "section": "Organizational Climate",
+      "correctOption": 3,
+      "explanation": "Culture represents the long-term, ingrained values and norms of an organization. Climate is the current, short-term, and adjustable collective mood and perceptions of the personnel, which is a product of the underlying culture."
+    },
+    {
+      "id": 276,
+      "questionText": "Fostering respect, openness, and encouraging calculated risks without fear of harsh repercussions contributes to what aspect of a positive organizational climate?",
+      "options": [
+        "Physical Safety",
+        "Emotional Safety",
+        "High Standards",
+        "Organizational Culture"
+      ],
+      "section": "Organizational Climate",
+      "correctOption": 1,
+      "explanation": "Emotional safety is created when leaders foster an environment of respect and trust, where personnel feel safe enough to share ideas, ask questions, and take calculated risks without fear of retribution."
+    },
+    {
+      "id": 277,
+      "questionText": "When a leader transparently discusses DEOCS results, addresses trends, and offers follow-up services, they are taking a step to...",
+      "options": [
+        "establish the organization's culture.",
+        "ignore the climate survey.",
+        "positively change the organizational climate.",
+        "focus only on physical safety."
+      ],
+      "section": "Organizational Climate",
+      "correctOption": 2,
+      "explanation": "A key step in positively changing an organizational climate is to 'Address Your Unit' by being transparent with survey results like the DEOCS, discussing the findings, and showing a commitment to improvement."
+    },
+    {
+      "id": 278,
+      "questionText": "In OPSEC, what is the term for specific facts about friendly intentions, capabilities, or limitations that an adversary seeks?",
+      "options": [
+        "Threat",
+        "Vulnerability",
+        "Critical Information",
+        "Indicator"
+      ],
+      "section": "Operations Security (OPSEC)",
+      "correctOption": 2,
+      "explanation": "Critical Information is defined as the specific facts about friendly activities, intentions, capabilities, or limitations that an adversary would seek to gain an advantage."
+    },
+    {
+      "id": 279,
+      "questionText": "What is the first step in the five-step OPSEC process?",
+      "options": [
+        "Analyze Threats",
+        "Assess Risk",
+        "Apply Countermeasures",
+        "Identify Critical Information"
+      ],
+      "section": "Operations Security (OPSEC)",
+      "correctOption": 3,
+      "explanation": "The very first step of the OPSEC process is to identify the critical information\u2014that is, to determine what information needs to be protected."
+    },
+    {
+      "id": 280,
+      "questionText": "In the OPSEC process, when does a vulnerability exist?",
+      "options": [
+        "Any time an adversary has intent to cause harm.",
+        "When an adversary can collect, analyze, and act on critical information.",
+        "Only when countermeasures have failed.",
+        "When critical information lists are created."
+      ],
+      "section": "Operations Security (OPSEC)",
+      "correctOption": 1,
+      "explanation": "A vulnerability exists when a weakness allows an adversary to collect your critical information, analyze it, and act on it quickly enough to negatively impact your objectives."
+    },
+    {
+      "id": 281,
+      "questionText": "The final step in the OPSEC process, which involves implementing measures to negate or reduce risk, is:",
+      "options": [
+        "Analyze Threats",
+        "Analyze Vulnerabilities",
+        "Assess Risk",
+        "Apply Countermeasures"
+      ],
+      "section": "Operations Security (OPSEC)",
+      "correctOption": 3,
+      "explanation": "The fifth and final step is to 'Apply Countermeasures.' These are actions taken to protect critical information by negating or reducing an adversary's ability to exploit vulnerabilities, but only after the risk has been assessed as unacceptable."
+    },
+    {
+      "id": 282,
+      "questionText": "What two variables are used to categorize the five conflict management styles in the Thomas-Kilmann model?",
+      "options": [
+        "Time and Resources",
+        "Assertiveness and Cooperativeness",
+        "Experience and Authority",
+        "Emotion and Logic"
+      ],
+      "section": "Conflict Management",
+      "correctOption": 1,
+      "explanation": "The five conflict management styles are plotted on a two-dimensional grid based on assertiveness (task focus) and cooperativeness (people focus)."
+    },
+    {
+      "id": 283,
+      "questionText": "A manager who waits for problems to become serious before intervening is exhibiting which leadership behavior?",
+      "options": [
+        "Management by Exception-Active (MBE-A)",
+        "Contingent Reward (CR)",
+        "Management by Exception-Passive (MBE-P)",
+        "Inspirational Motivation (IM)"
+      ],
+      "section": "Full Range Leadership",
+      "correctOption": 2,
+      "explanation": "Management by Exception-Passive (MBE-P) is a reactive, transactional style where the leader waits for problems, mistakes, or deviations to arise before taking corrective action."
+    },
+    {
+      "id": 284,
+      "questionText": "Which followership style is a mix of all others, where the person does just enough to get by and avoid taking risks?",
+      "options": [
+        "Yes People",
+        "Sheep",
+        "Survivors",
+        "Alienated Followers"
+      ],
+      "section": "Followership",
+      "correctOption": 2,
+      "explanation": "'Survivors' are pragmatic followers who adapt their style to whatever is needed to get by. They are not committed, avoid making waves, and do just enough to survive."
+    },
+    {
+      "id": 285,
+      "questionText": "The commitment to 'act with integrity, be accountable, and uphold standards' aligns with which USSF Core Value?",
+      "options": [
+        "Character",
+        "Connection",
+        "Commitment",
+        "Courage"
+      ],
+      "section": "Core Values",
+      "correctOption": 0,
+      "explanation": "These commitments are associated with the USSF Core Value of 'Character,' which is defined by high moral and ethical standards, embracing integrity, grit, honesty, and trustworthiness."
+    },
+    {
+      "id": 286,
+      "questionText": "Which step of the 8-Step PPSM comes immediately after 'Set Improvement Targets'?",
+      "options": [
+        "Break Down Problem",
+        "Develop Countermeasures",
+        "Determine Root Causes",
+        "See Countermeasures Through"
+      ],
+      "section": "Problem Solving",
+      "correctOption": 2,
+      "explanation": "The 8-Step PPSM sequential order is: 1. Clarify Problem, 2. Break Down Problem, 3. Set Improvement Targets, 4. Determine Root Causes. Therefore, 'Determine Root Causes' follows 'Set Improvement Targets'."
+    },
+    {
+      "id": 287,
+      "questionText": "Which constitutional amendment prohibits military officers from forcing the public to house soldiers?",
+      "options": [
+        "First Amendment",
+        "Second Amendment",
+        "Third Amendment",
+        "Fifth Amendment"
+      ],
+      "section": "U.S. Constitution",
+      "correctOption": 2,
+      "explanation": "The Third Amendment specifically prohibits the quartering of soldiers in private homes without the owner's consent, restricting military authority in this area."
+    },
+    {
+      "id": 288,
+      "questionText": "An official record of unfavorable information about a member's conduct and performance is a(n):",
+      "options": [
+        "Letter of Reprimand (LOR)",
+        "Control Roster",
+        "Unfavorable Information File (UIF)",
+        "Article 15"
+      ],
+      "section": "Military Justice",
+      "correctOption": 2,
+      "explanation": "An Unfavorable Information File (UIF) is an official administrative tool used to maintain a record of unfavorable information about an individual's personal conduct and duty performance."
+    },
+    {
+      "id": 289,
+      "questionText": "In critical thinking, addressing various interpretations and other points of view demonstrates which intellectual standard?",
+      "options": [
+        "Depth",
+        "Breadth",
+        "Significance",
+        "Accuracy"
+      ],
+      "section": "Critical Thinking I",
+      "correctOption": 1,
+      "explanation": "The standard of Breadth requires the thinker to consider an issue from multiple perspectives and points of view to avoid a narrow or one-sided assessment."
+    },
+    {
+      "id": 290,
+      "questionText": "Relying on fast, instinctive, and emotional thinking rather than slow, deliberate, and logical thinking is which common thinking error?",
+      "options": [
+        "Halo Effect",
+        "Deflection",
+        "Activated Ignorance",
+        "Relying on System 1 Thinking"
+      ],
+      "section": "Critical Thinking II",
+      "correctOption": 3,
+      "explanation": "This describes the error of relying on System 1 thinking (fast, intuitive) for complex problems that require System 2 thinking (slow, deliberate, logical)."
+    },
+    {
+      "id": 291,
+      "questionText": "Which USAF Core Function is considered a precondition for successful military operations, described as 'freedom from attack and the freedom to attack'?",
+      "options": [
+        "Global Strike",
+        "Command and Control (C2)",
+        "Air Superiority",
+        "Rapid Global Mobility"
+      ],
+      "section": "DAF Capabilities",
+      "correctOption": 2,
+      "explanation": "Air Superiority is the degree of dominance in the air battle that permits friendly land, sea, air, and space forces to operate without prohibitive interference. It is a vital precondition for success."
+    },
+    {
+      "id": 292,
+      "questionText": "Which USSF core competency involves defensive and offensive operations to ensure US freedom of action in space while denying it to an adversary?",
+      "options": [
+        "Space Security",
+        "Combat Power Projection",
+        "Space Domain Awareness",
+        "Information Mobility"
+      ],
+      "section": "DAF Capabilities",
+      "correctOption": 1,
+      "explanation": "Combat Power Projection is the competency that encompasses both defensive operations to protect space assets and offensive operations to deny an adversary the use of their space capabilities."
+    },
+    {
+      "id": 293,
+      "questionText": "Articulating a shared vision and 'talking the talk' to motivate followers aligns with which transformational leadership behavior?",
+      "options": [
+        "Idealized Influence (II)",
+        "Inspirational Motivation (IM)",
+        "Intellectual Stimulation (IS)",
+        "Individual Consideration (IC)"
+      ],
+      "section": "Full Range Leadership",
+      "correctOption": 1,
+      "explanation": "Inspirational Motivation (IM) is about leaders inspiring and motivating their followers, often by articulating a compelling vision for the future\u2014effectively 'talking the talk.'"
+    },
+    {
+      "id": 294,
+      "questionText": "The conflict management approach that seeks a quick solution where both parties partially win and partially lose is:",
+      "options": [
+        "Collaborating (Cooperate)",
+        "Accommodating (Comply)",
+        "Compromising (Settle)",
+        "Avoiding (Evade)"
+      ],
+      "section": "Conflict Management",
+      "correctOption": 2,
+      "explanation": "Compromising (Settle) involves seeking a middle ground where both parties make concessions. It's a quick, partially satisfying solution for both sides."
+    },
+    {
+      "id": 295,
+      "questionText": "Which element of reasoning refers to the central problem or question that needs to be answered?",
+      "options": [
+        "Purpose",
+        "Question at Issue",
+        "Assumptions",
+        "Inferences"
+      ],
+      "section": "Critical Thinking II",
+      "correctOption": 1,
+      "explanation": "The 'Question at Issue' is the core element that defines the problem or issue that the critical thinking process is meant to address and solve."
+    },
+    {
+      "id": 296,
+      "questionText": "Which office has a separate chain of command and advises/represents victims of alleged sexual assault and domestic violence?",
+      "options": [
+        "Staff Judge Advocate (SJA)",
+        "Area Defense Counsel (ADC)",
+        "Victims' Counsel (VC)",
+        "Inspector General (IG)"
+      ],
+      "section": "Military Justice",
+      "correctOption": 2,
+      "explanation": "The Victims' Counsel (VC) operates independently to provide legal advice and representation specifically to victims of certain crimes, like sexual assault, ensuring their rights are protected throughout the legal process."
+    },
+    {
+      "id": 297,
+      "questionText": "In the OPSEC process, what is an adversary with the capability and intent to act detrimentally to mission success called?",
+      "options": [
+        "A Vulnerability",
+        "A Countermeasure",
+        "A Threat",
+        "An Indicator"
+      ],
+      "section": "Operations Security (OPSEC)",
+      "correctOption": 2,
+      "explanation": "A threat is specifically defined as an adversary that possesses both the capability and the intent to take actions that would be harmful to mission success."
+    },
+    {
+      "id": 298,
+      "questionText": "The virtue of 'Humility' under the USAF Core Value 'Integrity First' is best described as:",
+      "options": [
+        "The willingness to take risks.",
+        "Taking ownership of actions.",
+        "Preserving trust through truthfulness.",
+        "Service with gratitude and putting others first."
+      ],
+      "section": "Core Values",
+      "correctOption": 3,
+      "explanation": "Humility is the virtue of putting service and others before oneself, serving with a sense of gratitude and without arrogance."
+    },
+    {
+      "id": 299,
+      "questionText": "In which stage of team growth does a leader act as a 'Visionary,' focusing on maintaining success and cultivating new leaders?",
+      "options": [
+        "Forming",
+        "Storming",
+        "Norming",
+        "Performing"
+      ],
+      "section": "Team Building",
+      "correctOption": 3,
+      "explanation": "During the 'Performing' stage, the leader's role shifts to that of a 'Visionary.' They work to maintain the team's high performance, look to the future, and develop the leadership potential within the team."
+    },
+    {
+      "id": 300,
+      "questionText": "A vision statement answers which two questions about an organization?",
+      "options": [
+        "'what' and 'who'",
+        "'when' and 'where'",
+        "'why' and 'how'",
+        "'what' and 'when'"
+      ],
+      "section": "Inspiring Action",
+      "correctOption": 2,
+      "explanation": "A vision statement focuses on the future, answering the 'why' (the organization's purpose and inspiration) and the 'how' (how it will achieve its long-term aspirations)."
+    },
+    {
+      "id": 301,
+      "questionText": "A list for observing members whose conduct or performance requires special attention or rehabilitation is called a:",
+      "options": [
+        "Letter of Reprimand (LOR)",
+        "Control Roster",
+        "Unfavorable Information File (UIF)",
+        "Summary Court-Martial"
+      ],
+      "section": "Military Justice",
+      "correctOption": 1,
+      "explanation": "The Control Roster is an administrative tool used by commanders to establish a 6-month observation period for service members whose conduct, bearing, integrity, or duty performance requires special attention and rehabilitation."
+    },
+    {
+      "id": 302,
+      "questionText": "The constitutional provision that divides and shares power between the national and state governments is known as:",
+      "options": [
+        "Separation of Powers",
+        "Enumerated Powers",
+        "Federalism",
+        "The Supremacy Clause"
+      ],
+      "section": "U.S. Constitution",
+      "correctOption": 2,
+      "explanation": "Federalism is the constitutional principle that power is divided and shared between the federal (national) government and the individual state governments."
+    },
+    {
+      "id": 303,
+      "questionText": "Which followership style is active but not a critical thinker, depending heavily on the leader for direction?",
+      "options": [
+        "Sheep",
+        "Yes People",
+        "Survivors",
+        "Alienated Followers"
+      ],
+      "section": "Followership",
+      "correctOption": 1,
+      "explanation": "'Yes People' are active participants but lack critical thinking. They are conformists who depend on the leader for direction and will not question orders."
+    },
+    {
+      "id": 304,
+      "questionText": "A thinking error where one actively uses information that is false but mistakenly believed to be true is known as:",
+      "options": [
+        "Deflection",
+        "Halo Effect",
+        "Stereotyping",
+        "Activated Ignorance"
+      ],
+      "section": "Critical Thinking II",
+      "correctOption": 3,
+      "explanation": "Activated Ignorance is the mistake of taking something false as true and actively using that false information as a premise in one's reasoning, leading to faulty conclusions."
+    }
+  ]
+}
