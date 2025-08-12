@@ -41,7 +41,15 @@ export class QuizComponent implements OnInit {
 
   ngOnInit(): void {
     this.questions = this.quizService.getQuestions();
+    this.shuffleQuestions();
     this.setupPage();
+  }
+
+  private shuffleQuestions(): void {
+    for (let i = this.questions.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [this.questions[i], this.questions[j]] = [this.questions[j], this.questions[i]];
+    }
   }
 
   setupPage(): void {
