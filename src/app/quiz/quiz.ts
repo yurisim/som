@@ -45,9 +45,7 @@ export class QuizComponent implements OnInit {
   ngOnInit(): void {
     this.loadState();
     if (this.questions.length === 0) {
-      this.questions = this.quizService.getQuestions();
-      this.shuffleQuestions();
-      this.questions = this.questions.slice(0, 100);
+      this.startNewQuiz();
     }
     this.setupPage();
   }
@@ -135,6 +133,10 @@ export class QuizComponent implements OnInit {
   }
 
   restartQuiz(): void {
+    this.startNewQuiz();
+  }
+
+  startNewQuiz(): void {
     this.clearState();
     this.currentPage = 0;
     this.score = 0;

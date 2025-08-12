@@ -1,4 +1,4 @@
-import { Component, AfterViewInit } from '@angular/core';
+import { Component, AfterViewInit, ViewChild } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
 import { ChecklistComponent } from './checklist/checklist.component';
@@ -16,6 +16,7 @@ import { NavigationComponent } from './navigation/navigation.component';
   standalone: true,
 })
 export class App implements AfterViewInit {
+  @ViewChild(QuizComponent) quizComponent: QuizComponent;
   isAuthenticated = false;
   selectedView: 'checklist' | 'quiz' = 'checklist';
 
@@ -30,6 +31,9 @@ export class App implements AfterViewInit {
   }
 
   onViewSelected(view: 'checklist' | 'quiz') {
+    if (this.selectedView !== 'quiz' && view === 'quiz') {
+      this.quizComponent?.startNewQuiz();
+    }
     this.selectedView = view;
   }
 
