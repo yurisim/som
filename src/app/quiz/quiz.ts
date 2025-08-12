@@ -42,6 +42,7 @@ export class QuizComponent implements OnInit {
   ngOnInit(): void {
     this.questions = this.quizService.getQuestions();
     this.shuffleQuestions();
+    this.questions = this.questions.slice(0, 100);
     this.setupPage();
   }
 
