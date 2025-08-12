@@ -1,0 +1,27 @@
+<div *ngIf="question" class="p-4">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title class="text-xl font-bold">{{ question.questionText }}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <mat-list role="list">
+        <mat-list-item
+          *ngFor="let option of shuffledOptions"
+          (click)="selectOption(option)"
+          class="cursor-pointer my-2 p-3 rounded border"
+          [ngClass]="{
+            'bg-green-200 border-green-500': isAnswered && isCorrect(option),
+            'bg-red-200 border-red-500': isAnswered && isIncorrect(option),
+            'hover:bg-gray-100': !isAnswered
+          }"
+        >
+          {{ option.text }}
+        </mat-list-item>
+      </mat-list>
+      <div *ngIf="isAnswered" class="mt-4 p-4 bg-blue-100 border-l-4 border-blue-500 text-blue-700">
+        <p class="font-bold">Explanation</p>
+        <p>{{ question.explanation }}</p>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>

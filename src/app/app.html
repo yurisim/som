@@ -1,8 +1,15 @@
 <div *ngIf="isAuthenticated; else passwordPrompt">
-  <div class="container mx-auto mt-24 text-center">
-    <h1 class="text-2xl sm:text-3xl font-bold">Dormitory Inspection Checklist</h1>
-  </div>
-  <app-checklist id="checklist-container"></app-checklist>
+  <mat-tab-group>
+    <mat-tab label="Checklist">
+      <div class="container mx-auto mt-12 text-center">
+        <h1 class="text-2xl sm:text-3xl font-bold">Dormitory Inspection Checklist</h1>
+      </div>
+      <app-checklist id="checklist-container"></app-checklist>
+    </mat-tab>
+    <mat-tab label="Quiz">
+      <app-quiz></app-quiz>
+    </mat-tab>
+  </mat-tab-group>
 </div>
 
 <ng-template #passwordPrompt>

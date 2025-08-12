@@ -1,0 +1,16 @@
+<div class="p-8">
+  <div *ngIf="!quizFinished; else resultsView">
+    <app-question
+      [question]="currentQuestion"
+      (answer)="onAnswer($event)"
+    ></app-question>
+  </div>
+
+  <ng-template #resultsView>
+    <app-results
+      [score]="score"
+      [totalQuestions]="questions.length"
+      (restart)="restartQuiz()"
+    ></app-results>
+  </ng-template>
+</div>

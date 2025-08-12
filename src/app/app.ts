@@ -4,9 +4,11 @@ import { MatButtonModule } from '@angular/material/button';
 import { ChecklistComponent } from './checklist/checklist.component';
 import { PasswordComponent } from './password/password.component';
 import { CommonModule } from '@angular/common';
+import { QuizComponent } from './quiz/quiz';
+import { MatTabsModule } from '@angular/material/tabs';
 
 @Component({
-  imports: [RouterModule, MatButtonModule, ChecklistComponent, PasswordComponent, CommonModule],
+  imports: [RouterModule, MatButtonModule, ChecklistComponent, PasswordComponent, CommonModule, QuizComponent, MatTabsModule],
   selector: 'app-root',
   templateUrl: './app.html',
   styleUrl: './app.scss',
