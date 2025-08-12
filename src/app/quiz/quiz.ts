@@ -21,7 +21,7 @@ export class QuizComponent implements OnInit {
   questions: Question[] = [];
   paginatedQuestions: Question[] = [];
   currentPage = 0;
-  questionsPerPage = 10;
+  questionsPerPage = 20;
   score = 0;
   quizFinished = false;
   missedAreas: { section: string; count: number }[] = [];
@@ -43,9 +43,12 @@ export class QuizComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.questions = this.quizService.getQuestions();
-    this.shuffleQuestions();
-    this.questions = this.questions.slice(0, 5);
+    this.loadState();
+    if (this.questions.length === 0) {
+      this.questions = this.quizService.getQuestions();
+      this.shuffleQuestions();
+      this.questions = this.questions.slice(0, 100);
+    }
     this.setupPage();
   }
 
@@ -66,6 +69,7 @@ export class QuizComponent implements OnInit {
     const question = this.questions.find(q => q.id === payload.questionId);
     if (question) {
       question.selectedOption = payload.selectedOption;
+      this.saveState();
     }
   }
 
@@ -73,6 +77,7 @@ export class QuizComponent implements OnInit {
     if ((this.currentPage + 1) * this.questionsPerPage < this.questions.length) {
       this.currentPage++;
       this.setupPage();
+      this.saveState();
     }
   }
 
@@ -80,12 +85,14 @@ export class QuizComponent implements OnInit {
     if (this.currentPage > 0) {
       this.currentPage--;
       this.setupPage();
+      this.saveState();
     }
   }
 
   submitQuiz(): void {
     this.score = this.questions.filter(q => q.selectedOption === q.correctOption).length;
     this.quizFinished = true;
+    this.clearState();
 
     const incorrectAnswers = this.questions.filter(
       q => q.selectedOption !== q.correctOption && q.selectedOption !== undefined
@@ -102,15 +109,39 @@ export class QuizComponent implements OnInit {
       .sort((a, b) => b.count - a.count);
   }
 
+  private saveState(): void {
+    const state = {
+      questions: this.questions,
+      currentPage: this.currentPage
+    };
+    localStorage.setItem('quizState', JSON.stringify(state));
+  }
+
+  private loadState(): void {
+    const savedState = localStorage.getItem('quizState');
+    if (savedState) {
+      const state = JSON.parse(savedState);
+      this.questions = state.questions;
+      this.currentPage = state.currentPage;
+    }
+  }
+
+  private clearState(): void {
+    localStorage.removeItem('quizState');
+  }
+
   isLastPage(): boolean {
     return (this.currentPage + 1) * this.questionsPerPage >= this.questions.length;
   }
 
   restartQuiz(): void {
+    this.clearState();
     this.currentPage = 0;
     this.score = 0;
     this.quizFinished = false;
     this.questions = this.quizService.getQuestions();
+    this.shuffleQuestions();
+    this.questions = this.questions.slice(0, 5);
     this.setupPage();
   }
 }
