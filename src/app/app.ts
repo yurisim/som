@@ -5,10 +5,11 @@ import { ChecklistComponent } from './checklist/checklist.component';
 import { PasswordComponent } from './password/password.component';
 import { CommonModule } from '@angular/common';
 import { QuizComponent } from './quiz/quiz';
-import { MatTabsModule } from '@angular/material/tabs';
+import { NavigationComponent } from './navigation/navigation.component';
+
 
 @Component({
-  imports: [RouterModule, MatButtonModule, ChecklistComponent, PasswordComponent, CommonModule, QuizComponent, MatTabsModule],
+  imports: [RouterModule, MatButtonModule, ChecklistComponent, PasswordComponent, CommonModule, QuizComponent, NavigationComponent],
   selector: 'app-root',
   templateUrl: './app.html',
   styleUrl: './app.scss',
@@ -16,6 +17,7 @@ import { MatTabsModule } from '@angular/material/tabs';
 })
 export class App implements AfterViewInit {
   isAuthenticated = false;
+  selectedView: 'checklist' | 'quiz' = 'checklist';
 
   constructor() {
     this.isAuthenticated = localStorage.getItem('isAuthenticated') === 'true';
@@ -25,6 +27,10 @@ export class App implements AfterViewInit {
 
   onAuthenticated(isAuthenticated: boolean) {
     this.isAuthenticated = isAuthenticated;
+  }
+
+  onViewSelected(view: 'checklist' | 'quiz') {
+    this.selectedView = view;
   }
 
   ngAfterViewInit() {

@@ -1,0 +1,8 @@
+<div class="relative z-20 flex justify-center my-4 space-x-2">
+  <button mat-raised-button (click)="selectView('checklist')" [color]="selectedView === 'checklist' ? 'primary' : 'accent'">
+    Checklist
+  </button>
+  <button mat-raised-button (click)="selectView('quiz')" [color]="selectedView === 'quiz' ? 'primary' : 'accent'">
+    Quiz
+  </button>
+</div>

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
 import { Question } from '../quiz/quiz.model';
 import { QuizService } from './quiz.service';
 import { QuestionComponent } from '../question/question';
@@ -11,15 +11,15 @@ import { ResultsComponent } from '../results/results';
   standalone: true,
   imports: [CommonModule, QuestionComponent, MatButtonModule, ResultsComponent],
   templateUrl: './quiz.html',
-  styleUrls: ['./quiz.scss']
+  styleUrls: ['./quiz.scss'],
 })
 export class QuizComponent implements OnInit {
+  private quizService = inject(QuizService);
+
   questions: Question[] = [];
   currentQuestionIndex = 0;
   score = 0;
   quizFinished = false;
-
-  constructor(private quizService: QuizService) {}
 
   ngOnInit(): void {
     this.questions = this.quizService.getQuestions();
