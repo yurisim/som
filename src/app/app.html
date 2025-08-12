@@ -1,15 +1,21 @@
 <div *ngIf="isAuthenticated; else passwordPrompt">
-
-
   <div *ngIf="selectedView === 'checklist'" class="container mx-auto mt-12">
-    <h1 class="text-2xl sm:text-3xl font-bold text-center">Dormitory Inspection Checklist</h1>
-    <app-navigation [selectedView]="selectedView" (viewSelected)="onViewSelected($event)"></app-navigation>
+    <h1 class="text-2xl sm:text-3xl font-bold text-center">
+      Dormitory Inspection/Quiz
+    </h1>
+    <app-navigation
+      [selectedView]="selectedView"
+      (viewSelected)="onViewSelected($event)"
+    ></app-navigation>
     <app-checklist id="checklist-container"></app-checklist>
   </div>
 
   <div *ngIf="selectedView === 'quiz'" class="container mx-auto mt-12">
     <h1 class="text-2xl sm:text-3xl font-bold text-center">Quiz</h1>
-    <app-navigation [selectedView]="selectedView" (viewSelected)="onViewSelected($event)"></app-navigation>
+    <app-navigation
+      [selectedView]="selectedView"
+      (viewSelected)="onViewSelected($event)"
+    ></app-navigation>
     <app-quiz></app-quiz>
   </div>
 </div>

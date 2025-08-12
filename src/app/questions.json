@@ -79,19 +79,6 @@
       "explanation": "The first step in the PPSM is to Clarify the Problem."
     },
     {
-      "id": 7,
-      "questionText": "How does the OODA Loop differ from the 8-Step PPSM?",
-      "options": [
-        "OODA is more detailed and systematic",
-        "OODA is for rapid decision-making in time-compressed environments",
-        "OODA requires more team input",
-        "OODA focuses on long-term solutions"
-      ],
-      "section": "Problem Solving",
-      "correctOption": 1,
-      "explanation": "The OODA Loop is designed for rapid decision-making in combat/time-compressed environments, while PPSM is for long-term, systematic problem solving."
-    },
-    {
       "id": 8,
       "questionText": "Which followership style is characterized as 'Active and a critical thinker'?",
       "options": [

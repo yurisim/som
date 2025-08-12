@@ -23,7 +23,7 @@ export class App implements AfterViewInit {
     this.isAuthenticated = localStorage.getItem('isAuthenticated') === 'true';
   }
 
-    protected title = 'som';
+    protected title = 'Dorm Inspection/Quiz';
 
   onAuthenticated(isAuthenticated: boolean) {
     this.isAuthenticated = isAuthenticated;
