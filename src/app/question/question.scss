@@ -1,0 +1,12 @@
+.quiz-option {
+  height: auto !important; /* Allow the item to grow vertically */
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+
+  /* Target the span containing the option text */
+  span {
+    white-space: normal; /* Allow text to wrap */
+    word-wrap: break-word; /* Break long words if necessary */
+    line-height: 1.4; /* Improve readability of wrapped text */
+  }
+}
