@@ -21,6 +21,7 @@
       </mat-list>
       <div *ngIf="isAnswered" class="mt-4 p-4 bg-blue-100 border-l-4 border-blue-500 text-blue-700">
         <p class="font-bold">Explanation</p>
+        <p class="italic text-sm mb-2 text-blue-600">Section: {{ question.section }}</p>
         <p>{{ question.explanation }}</p>
       </div>
     </mat-card-content>
