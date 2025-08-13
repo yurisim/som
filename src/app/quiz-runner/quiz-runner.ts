@@ -218,6 +218,15 @@ export class QuizRunnerComponent implements OnInit, OnDestroy {
   }
 
   clearState(): void {
-    localStorage.removeItem('quizState-' + this.route.snapshot.paramMap.get('mode'));
+    const keysToRemove: string[] = [];
+    for (let i = 0; i < localStorage.length; i++) {
+      const key = localStorage.key(i);
+      if (key && key.startsWith('quizState-')) {
+        keysToRemove.push(key);
+      }
+    }
+    for (const key of keysToRemove) {
+      localStorage.removeItem(key);
+    }
   }
 }
