@@ -169,16 +169,16 @@
     },
     {
       "id": 16,
-      "questionText": "What is the most severe administrative action before punitive measures?",
+      "questionText": "A first-term Airman is late for the third time in a month. His supervisor, a SSgt, has already provided verbal counseling. To formally address the continued behavior, the SSgt documents the issue and the counseling standards on an AF Form 174. This action is an example of which administrative tool?",
       "options": [
-        "Letter of Counseling (LOC)",
-        "Letter of Admonishment (LOA)",
         "Letter of Reprimand (LOR)",
-        "Unfavorable Information File (UIF)"
+        "Letter of Admonishment (LOA)",
+        "Letter of Counseling (LOC)",
+        "Control Roster"
       ],
       "section": "Military Justice",
       "correctOption": 2,
-      "explanation": "Letter of Reprimand (LOR) is the most severe administrative action, representing official censure more severe than LOC or LOA."
+      "explanation": "A Letter of Counseling (LOC) is the appropriate first step in written administrative action. It is used to document a discussion of minor infractions and the supervisor's expectations, which matches the scenario."
     },
     {
       "id": 17,
@@ -234,29 +234,24 @@
     },
     {
       "id": 21,
-      "questionText": "Officers are specifically prohibited from doing all of the following with enlisted members EXCEPT:",
+      "questionText": "Lt Miller, an unmarried officer, is seen out on a date with a TSgt from a different squadron. While not in his direct chain of command, other enlisted members see this and begin to gossip, questioning the officer's judgment. This situation is an example of a relationship that does what?",
       "options": [
-        "Gambling",
-        "Dating or sexual relations",
-        "Professional training and mentoring",
-        "Sharing living accommodations"
+        "Represents professional mentorship",
+        "Enhances unit cohesion and morale",
+        "Discredits the armed forces",
+        "Is specifically permitted by policy"
       ],
       "section": "Professional Relationships",
       "correctOption": 2,
-      "explanation": "Professional training and mentoring are appropriate relationships. Officers are prohibited from gambling, dating, and sharing living accommodations with enlisted members."
+      "explanation": "Fraternization is an unprofessional relationship between an officer and enlisted member that prejudices good order and discipline or, as in this case, discredits the armed services by creating a poor perception and undermining the officer's standing."
     },
     {
       "id": 22,
-      "questionText": "What is the definition of critical thinking according to PME materials?",
-      "options": [
-        "Making decisions quickly under pressure",
-        "Following established procedures without question",
-        "The process of thinking carefully without allowing feelings to affect you",
-        "Accepting information from authoritative sources"
-      ],
+      "questionText": "An accident report states, 'The servicemember showed a significant lack of situational awareness.' The investigating officer rejects this wording, stating, 'That is a nebulous term. What specific actions or inactions demonstrated this lack of awareness? Was he distracted? Did he fail to check his instruments? Be explicit.' The officer is demanding improvement in which intellectual standard?",
+      "options": ["Logic", "Clarity", "Accuracy", "Fairness"],
       "section": "Critical Thinking",
-      "correctOption": 2,
-      "explanation": "Critical thinking is defined as 'the process of thinking carefully about a subject or idea, without allowing feelings or opinions to affect you.'"
+      "correctOption": 1,
+      "explanation": "Clarity is the 'gateway standard.' The term 'lack of situational awareness' is vague and unclear. The officer is demanding a more explicit description of the behavior to ensure the meaning is understood before its accuracy or relevance can be determined."
     },
     {
       "id": 23,
@@ -409,16 +404,16 @@
     },
     {
       "id": 36,
-      "questionText": "Which leadership style represents the 'absence of action or leadership'?",
+      "questionText": "A flight chief is frequently absent from the work center, provides no direction, fails to follow up on tasks, and avoids making any decisions, forcing the NCOICs to handle everything. The flight's morale and productivity are suffering. This flight chief's behavior is a clear example of...",
       "options": [
-        "Transactional",
-        "Transformational",
-        "Laissez-Faire",
-        "Authoritarian"
+        "Transactional Leadership",
+        "Transformational Leadership",
+        "Management by Exception-Passive",
+        "Laissez-Faire Leadership"
       ],
       "section": "Full Range Leadership",
-      "correctOption": 2,
-      "explanation": "Laissez-Faire represents the absence of action or leadership and should be avoided as it is counterproductive."
+      "correctOption": 3,
+      "explanation": "Laissez-Faire is the absence of leadership. The chief's avoidance of decisions, lack of follow-up, and disconnection from the mission are all hallmark characteristics of this counterproductive style."
     },
     {
       "id": 37,
@@ -469,11 +464,11 @@
     },
     {
       "id": 41,
-      "questionText": "What leadership style should be used during the Forming stage?",
-      "options": ["Coach", "Director", "Collaborator", "Visionary"],
+      "questionText": "A team of new Airmen are assigned to a project. The leader is very directive, clearly defines the mission, assigns specific roles, and facilitates 'ice breaker' activities. The leader is performing the correct actions for which stage of team growth?",
+      "options": ["Forming", "Storming", "Norming", "Performing"],
       "section": "Team Building",
-      "correctOption": 1,
-      "explanation": "During the Forming stage, leaders should act as a 'Director,' being directive and helping define roles and mission."
+      "correctOption": 0,
+      "explanation": "In the Forming stage, the leader must act as a 'Director.' The described actions—being directive, defining roles, and helping the team get acquainted—are precisely what is needed for a new team in this initial stage."
     },
     {
       "id": 42,
@@ -516,29 +511,29 @@
     },
     {
       "id": 45,
-      "questionText": "What does SWOT stand for?",
+      "questionText": "A commander is assessing her unit's upcoming mission. She analyzes her team's advanced training (a strength) and aging equipment (a weakness). She also considers new technology from a commercial partner (an opportunity) and a rival nation's new jamming capability (a threat). This commander is using what strategic planning tool?",
       "options": [
-        "Strategies, Weaknesses, Opportunities, Tactics",
-        "Strengths, Weaknesses, Opportunities, Threats",
-        "Systems, Workflows, Operations, Training",
-        "Standards, Workforce, Objectives, Timeline"
+        "OODA Loop",
+        "8-Step PPSM",
+        "SWOT Method",
+        "Full-Range Leadership Model"
       ],
       "section": "Inspiring Action",
-      "correctOption": 1,
-      "explanation": "SWOT stands for Strengths, Weaknesses, Opportunities, and Threats - a strategic planning tool to identify priorities."
+      "correctOption": 2,
+      "explanation": "The commander is conducting a SWOT analysis by assessing internal factors (Strengths, Weaknesses) and external factors (Opportunities, Threats) to identify priorities and make decisions."
     },
     {
       "id": 46,
-      "questionText": "What is Operations Security (OPSEC)?",
+      "questionText": "An intelligence unit is planning a mission and begins by listing all potential adversaries, from state actors to terrorist groups. For each, they research the adversary's known collection capabilities and assess their specific interest in the mission's objectives. This unit is performing which step of the OPSEC process?",
       "options": [
-        "Physical security of military installations",
-        "Information-related capability to preserve secrecy",
-        "Personnel security clearance process",
-        "Weapons and ammunition storage procedures"
+        "Identify Critical Information",
+        "Analyze Threats",
+        "Analyze Vulnerabilities",
+        "Assess Risk"
       ],
       "section": "Operations Security (OPSEC)",
       "correctOption": 1,
-      "explanation": "OPSEC is an information-related capability to preserve secrecy using a process to identify, control, and protect critical information."
+      "explanation": "Step 2 of the OPSEC process is to Analyze Threats. This involves identifying potential adversaries and determining their capabilities and intentions, which is exactly what the unit is doing."
     },
     {
       "id": 47,
@@ -597,11 +592,11 @@
     },
     {
       "id": 52,
-      "questionText": "Which followership style 'does just enough to get by and avoids making waves'?",
-      "options": ["Sheep", "Yes People", "Survivors", "Alienated Followers"],
+      "questionText": "A new squadron-wide policy is introduced. SSgt Vance neither supports nor opposes it. He observes which NCOs are praised for their adoption of it and mimics their actions just enough to avoid negative attention from leadership. His primary goal is to remain unnoticed. SSgt Vance is demonstrating which followership style?",
+      "options": ["Sheep", "Yes People", "Survivors", "Effective Followers"],
       "section": "Followership",
       "correctOption": 2,
-      "explanation": "Survivors are a mix of all styles who do just enough to get by and avoid making waves or taking risks."
+      "explanation": "'Survivors' are pragmatic followers who are a mix of all styles. They do just enough to get by and avoid making waves or taking risks, which perfectly describes SSgt Vance's actions."
     },
     {
       "id": 53,
@@ -696,16 +691,16 @@
     },
     {
       "id": 60,
-      "questionText": "Professional relationships become a concern when they:",
+      "questionText": "A flight has seen a significant drop in morale. The members feel that certain individuals receive preferential treatment, that the NCOs in charge are not trustworthy, and that the flight's mission has lost its focus. This situation is a direct example of the negative effects of UPRs on what?",
       "options": [
-        "Involve members from different units",
-        "Include social media interactions",
-        "Adversely affect morale, good order, discipline, or mission",
-        "Occur during off-duty time"
+        "Unit Cohesiveness",
+        "Physical Safety",
+        "Individual Readiness",
+        "Logistical Support"
       ],
       "section": "Professional Relationships",
-      "correctOption": 2,
-      "explanation": "Personal relationships become an official concern when they adversely affect morale, good order, discipline, respect for authority, unit cohesion, or the mission."
+      "correctOption": 0,
+      "explanation": "Unprofessional Relationships erode trust, create perceptions of favoritism, and degrade morale. These factors directly undermine unit cohesiveness, which is critical for mission accomplishment."
     },
     {
       "id": 61,
@@ -1069,16 +1064,16 @@
     },
     {
       "id": 91,
-      "questionText": "Which USAF core function provides 'freedom from attack and freedom to attack'?",
+      "questionText": "A fighter squadron cannot conduct its training missions effectively because an adversary has gained control of the airspace over the training range. Before any other operations can succeed, the Air Force must first achieve what?",
       "options": [
+        "Rapid Global Mobility",
         "Global Strike",
         "Air Superiority",
-        "Command and Control",
-        "Rapid Global Mobility"
+        "Command and Control"
       ],
       "section": "DAF Capabilities",
-      "correctOption": 1,
-      "explanation": "Air Superiority provides freedom from attack and freedom to attack, serving as a precondition for successful military operations."
+      "correctOption": 2,
+      "explanation": "Air Superiority, the freedom from attack and freedom to attack, is described as a precondition for successful military operations. The squadron cannot operate until this is achieved."
     },
     {
       "id": 92,
@@ -3561,6 +3556,281 @@
       "section": "Military Justice",
       "correctOption": 1,
       "explanation": "The SJA serves as the commander's legal advisor and represents the Air Force and Space Force. The ADC has a separate chain of command and is solely focused on providing independent legal representation to service members accused of wrongdoing."
+    },
+    {
+      "id": 404,
+      "questionText": "A team is tasked with reducing vehicle repair times. After identifying the problem, the team lead states, 'Our goal is to reduce the average repair time from 8 hours to 6 hours within 90 days.' This action of creating a specific, measurable, and time-bound goal is a critical part of which PPSM step?",
+      "options": [
+        "Clarify the Problem (Step 1)",
+        "Break Down Problem & ID Performance Gaps (Step 2)",
+        "Set Improvement Targets (Step 3)",
+        "Determine Root Causes (Step 4)"
+      ],
+      "section": "Problem Solving",
+      "correctOption": 2,
+      "explanation": "Step 3, Set Improvement Targets, involves creating a specific, measurable, achievable, relevant, and time-bound (SMART) goal that defines what success will look like."
+    },
+    {
+      "id": 405,
+      "questionText": "A maintenance team observes that a specific part is failing frequently. Instead of just replacing the part, the team lead asks 'Why is it failing?' They discover it's overheating. They then ask, 'Why is it overheating?' and find that a cooling fan is malfunctioning. This process of repeatedly asking 'Why?' is a technique used to accomplish which PPSM step?",
+      "options": [
+        "Set Improvement Targets (Step 3)",
+        "Determine Root Causes (Step 4)",
+        "Develop Countermeasures (Step 5)",
+        "Confirm Results and Process (Step 7)"
+      ],
+      "section": "Problem Solving",
+      "correctOption": 1,
+      "explanation": "Step 4, Determine Root Causes, requires digging past the obvious symptoms to find the true underlying cause. The '5 Whys' technique is a common tool used in this step to ensure the team solves the real problem."
+    },
+    {
+      "id": 406,
+      "questionText": "A problem-solving team has developed and briefed a comprehensive plan to reorganize the unit's supply closet. For the next month, they actively carry out the plan, track their progress, manage the timeline, and make minor adjustments as they go. This phase of actively executing the plan is which PPSM step?",
+      "options": [
+        "Develop Countermeasures (Step 5)",
+        "See Countermeasures Through (Step 6)",
+        "Confirm Results and Process (Step 7)",
+        "Standardizing Successful Processes (Step 8)"
+      ],
+      "section": "Problem Solving",
+      "correctOption": 1,
+      "explanation": "Step 6, See Countermeasures Through, is the implementation phase where the team executes the plan developed in the previous step. It requires diligence and monitoring to ensure the plan is carried out as intended."
+    },
+    {
+      "id": 407,
+      "questionText": "A unit implements a new process for tracking equipment and finds it reduces losses by 75%. To ensure this success is permanent, the unit commander directs that the new process be written into the local operating instruction and used as the new standard for all future training. This action describes which PPSM step?",
+      "options": [
+        "Develop Countermeasures (Step 5)",
+        "See Countermeasures Through (Step 6)",
+        "Confirm Results and Process (Step 7)",
+        "Standardizing Successful Processes (Step 8)"
+      ],
+      "section": "Problem Solving",
+      "correctOption": 3,
+      "explanation": "The final step, Standardizing Successful Processes, involves making the improvement permanent by updating official guidance, training materials, and procedures to prevent the unit from reverting to the old, less effective way of doing things."
+    },
+    {
+      "id": 408,
+      "questionText": "A work center is experiencing a high rate of rejected paperwork. The team immediately begins arguing over solutions: more training, stricter reviews, and new software. The section chief stops them and says, 'Hold on. We haven't even agreed on what the real problem is yet. What kind of errors are they? When are they happening? Let's get the facts first.' The chief is enforcing which crucial first step of the PPSM?",
+      "options": [
+        "Clarify the Problem (Step 1)",
+        "Set Improvement Targets (Step 3)",
+        "Develop Countermeasures (Step 5)",
+        "Determine Root Causes (Step 4)"
+      ],
+      "section": "Problem Solving",
+      "correctOption": 0,
+      "explanation": "The team skipped Step 1, Clarify the Problem. It is critical to first create a clear problem statement based on facts and data before jumping to root causes or solutions."
+    },
+    {
+      "id": 409,
+      "questionText": "A unit is concerned about its overall decline in physical fitness scores. To get a better handle on this broad issue, a team is formed to gather specific data: they analyze failure rates by age group, by specific test component (e.g., push-ups, run time), and compare morning versus afternoon testing results. This action of dissecting a large problem into smaller pieces is which PPSM step?",
+      "options": [
+        "Clarify the Problem (Step 1)",
+        "Break Down Problem & ID Performance Gaps (Step 2)",
+        "Set Improvement Targets (Step 3)",
+        "Determine Root Causes (Step 4)"
+      ],
+      "section": "Problem Solving",
+      "correctOption": 1,
+      "explanation": "Step 2, Break Down Problem & ID Performance Gaps, involves taking a large or vague problem and breaking it down into smaller, more specific, and measurable components to identify where the biggest performance gaps are."
+    },
+    {
+      "id": 410,
+      "questionText": "After confirming their new solution works, a PPSM team measures the results. They find the new process reduced errors by 40%, which met the goal they set earlier in the project. The action of comparing their final results against their initial goal happens in which PPSM step?",
+      "options": [
+        "Develop Countermeasures (Step 5)",
+        "See Countermeasures Through (Step 6)",
+        "Confirm Results and Process (Step 7)",
+        "Standardizing Successful Processes (Step 8)"
+      ],
+      "section": "Problem Solving",
+      "correctOption": 2,
+      "explanation": "Step 7, Confirm Results and Process, is where the team validates the outcome. A key part of this step is comparing the 'after' performance data directly against the improvement targets set in Step 3."
+    },
+    {
+      "id": 411,
+      "questionText": "Having determined that poor training is the root cause of a problem, a team gets together to generate a list of twenty possible solutions, ranging from simple fixes like a new job aid to complex ones like a multi-day training course. This brainstorming activity is the core of which PPSM step?",
+      "options": [
+        "Determine Root Causes (Step 4)",
+        "Develop Countermeasures (Step 5)",
+        "Set Improvement Targets (Step 3)",
+        "See Countermeasures Through (Step 6)"
+      ],
+      "section": "Problem Solving",
+      "correctOption": 1,
+      "explanation": "Step 5, Develop Countermeasures, is where the team develops potential solutions to address the identified root causes. Brainstorming a wide range of options is a key part of this creative step."
+    },
+    {
+      "id": 412,
+      "questionText": "During a briefing, an NCO states: 'The technical order says this procedure requires two people. Therefore, you must find a wingman before starting this task.' The NCO's statement is best described as what?",
+      "options": [
+        "A statement, because it is a single sentence.",
+        "An argument, because a reason is provided for a conclusion.",
+        "An opinion, because it is the NCO's interpretation.",
+        "A fact, because it references a technical order."
+      ],
+      "section": "Critical Thinking",
+      "correctOption": 1,
+      "explanation": "This is an argument. It provides a premise (a reason): 'The technical order says this procedure requires two people,' to support a conclusion: 'Therefore, you must find a wingman.' A simple statement would be just the claim without the supporting reason."
+    },
+    {
+      "id": 413,
+      "questionText": "A flight chief writes in an evaluation, 'SrA Davis completed his 7-level upgrade training six months ahead of schedule. He is the most promising technician I have seen in years.' Which part of this evaluation is an opinion?",
+      "options": [
+        "SrA Davis completed his 7-level upgrade training.",
+        "The training was six months ahead of schedule.",
+        "He is the most promising technician I have seen in years.",
+        "There are no opinions in this statement."
+      ],
+      "section": "Critical Thinking",
+      "correctOption": 2,
+      "explanation": "A fact is verifiable, like completing training on a certain timeline. An opinion is a subjective judgment. While his early completion is a fact, the statement that he is 'the most promising technician' is the flight chief's personal belief and cannot be objectively proven."
+    },
+    {
+      "id": 414,
+      "questionText": "Two Airmen are discussing a new policy. Airman A says, 'This new policy is unfair.' Airman B says, 'This new policy will increase processing time by 10%.' Airman B's statement is an example of what?",
+      "options": [
+        "A subjective claim, because its fairness can be debated.",
+        "An objective claim, because it can be proven true or false with data.",
+        "An opinion, because it has not yet been proven.",
+        "An argument, because it provides a reason."
+      ],
+      "section": "Critical Thinking",
+      "correctOption": 1,
+      "explanation": "Airman A's claim ('unfair') is subjective, as its truth depends on personal belief. Airman B's claim ('increase processing time by 10%') is an objective claim because its truth or falsity is independent of belief; it can be measured and verified."
+    },
+    {
+      "id": 415,
+      "questionText": "An intelligence report reads, 'The adversary has tripled their patrols in the last 24 hours.' In a separate analysis, a planner writes, 'The adversary's increase in patrols is an aggressive and reckless maneuver.' The intelligence report is a ______, while the planner's analysis is a(n) ______.",
+      "options": [
+        "fact; opinion",
+        "opinion; fact",
+        "argument; statement",
+        "statement; argument"
+      ],
+      "section": "Critical Thinking",
+      "correctOption": 0,
+      "explanation": "The intelligence report states a verifiable fact (patrols tripled). The planner's analysis gives a subjective judgment ('aggressive and reckless'), which is an opinion about that fact."
+    },
+    {
+      "id": 416,
+      "questionText": "At a commander's call, a guest speaker states: 'There are microscopic life forms on Jupiter's moon Europa.' This statement is best classified as which of the following?",
+      "options": [
+        "A subjective claim, because it is currently a matter of belief.",
+        "An objective claim, because it is either true or false, regardless of our ability to prove it.",
+        "An opinion, because it cannot be verified as a fact at this time.",
+        "An argument, because it implies we should fund a mission to find out."
+      ],
+      "section": "Critical Thinking",
+      "correctOption": 1,
+      "explanation": "An objective claim's truth or falsity is independent of what we believe or know. While we cannot currently verify it, there either is or is not microscopic life on Europa. The truth of the statement exists outside of our opinion, making it objective."
+    },
+    {
+      "id": 417,
+      "questionText": "A safety inspector reads an instruction that says, 'All personnel must wear reflective belts during hours of darkness.' When asked to clarify, he says, 'Wearing reflective belts is a requirement.' The inspector's second statement is a ______, not an argument.",
+      "options": ["subjective claim", "statement", "opinion", "concept"],
+      "section": "Critical Thinking",
+      "correctOption": 1,
+      "explanation": "The inspector's clarification, 'Wearing reflective belts is a requirement,' is a simple statement of fact. It does not provide a premise to support a conclusion (e.g., '...therefore you must wear one'), which would make it an argument."
+    },
+    {
+      "id": 418,
+      "questionText": "Consider these two claims: 1) 'Coffee tastes better than tea.' 2) 'More coffee is consumed globally per year than tea.' Claim 1 is ______ because its truth depends on personal taste, while Claim 2 is ______ because it can be verified with global consumption data.",
+      "options": [
+        "objective; subjective",
+        "a fact; an opinion",
+        "subjective; objective",
+        "an argument; a statement"
+      ],
+      "section": "Critical Thinking",
+      "correctOption": 2,
+      "explanation": "Claim 1 ('tastes better') is a subjective claim, as its truth is dependent on individual preference. Claim 2 ('more is consumed') is an objective claim, as its truth is independent of preference and can be proven true or false with evidence."
+    },
+    {
+      "id": 419,
+      "questionText": "In a report, a captain writes, 'Because our supply chain is overstretched and maintenance is understaffed, our mission readiness will decline next quarter.' How should this sentence be evaluated?",
+      "options": [
+        "It is a fact, because it uses real-world data.",
+        "It is an opinion, because 'decline' is a subjective term.",
+        "It is an argument, because it presents premises to support a conclusion.",
+        "It is a statement, because it is just one sentence making a claim."
+      ],
+      "section": "Critical Thinking",
+      "correctOption": 2,
+      "explanation": "This is an argument. It offers two premises (reasons): 'our supply chain is overstretched' and 'maintenance is understaffed,' to support the conclusion that 'our mission readiness will decline next quarter.'"
+    },
+    {
+      "id": 420,
+      "questionText": "An accident report states, 'The servicemember showed a significant lack of situational awareness.' The investigating officer rejects this wording, stating, 'That is a nebulous term. What specific actions or inactions demonstrated this lack of awareness? Was he distracted? Did he fail to check his instruments? Be explicit.' The officer is demanding improvement in which intellectual standard?",
+      "options": ["Logic", "Clarity", "Accuracy", "Fairness"],
+      "section": "Critical Thinking",
+      "correctOption": 1,
+      "explanation": "Clarity is the 'gateway standard.' The term 'lack of situational awareness' is vague and unclear. The officer is demanding a more explicit description of the behavior to ensure the meaning is understood before its accuracy or relevance can be determined."
+    },
+    {
+      "id": 421,
+      "questionText": "A briefer presents a chart showing that a new training program has a 98% success rate. However, a member of the audience points out that the data used for the chart is from a different unit that has twice the resources and newer equipment. This challenges the ______ of the briefer's claim for their own unit.",
+      "options": ["Clarity", "Precision", "Accuracy", "Relevance"],
+      "section": "Critical Thinking",
+      "correctOption": 2,
+      "explanation": "Accuracy addresses the validity and truthfulness of information. While the data might be true for the other unit, presenting it as representative of the current situation is misleading and therefore inaccurate."
+    },
+    {
+      "id": 422,
+      "questionText": "A budget request states, 'The squadron needs more funds for supplies.' The wing commander sends it back, asking for a version that says, 'The squadron requires $27,500 to purchase 350 specific replacement parts (Part #11-ABC) needed to address the current 15% equipment failure rate.' The commander is demanding a higher level of which standard?",
+      "options": ["Precision", "Fairness", "Breadth", "Significance"],
+      "section": "Critical Thinking",
+      "correctOption": 0,
+      "explanation": "Precision helps refine information by adding necessary details to make it more exact. The commander is asking for specific, quantifiable details instead of a vague, general request for 'more funds.'"
+    },
+    {
+      "id": 423,
+      "questionText": "During a meeting to solve a critical aircraft maintenance issue, a young lieutenant begins discussing his idea for redesigning the squadron's morale patch. The team lead stops him, saying, 'That's an interesting idea for another time, but right now we need to focus exclusively on the maintenance problem.' The team lead is enforcing which intellectual standard?",
+      "options": ["Depth", "Logic", "Relevance", "Accuracy"],
+      "section": "Critical Thinking",
+      "correctOption": 2,
+      "explanation": "Relevance evaluates what is most related to the issue at hand. The discussion about the morale patch, while potentially important elsewhere, is not relevant to the specific problem of aircraft maintenance."
+    },
+    {
+      "id": 424,
+      "questionText": "When asked why his project is behind schedule, a team lead replies, 'It's late because my team is lazy.' A senior NCO challenges this, saying, 'That's a superficial answer. Have you considered the impact of the recent supply chain delays, the new software that keeps crashing, and the fact that three team members have been on emergency leave?' The SNCO is pushing for more ______.",
+      "options": ["Depth", "Clarity", "Breadth", "Logic"],
+      "section": "Critical Thinking",
+      "correctOption": 0,
+      "explanation": "Depth addresses the complexities and deeper layers of an issue. The team lead's answer is superficial, while the SNCO is pushing for a deeper analysis that considers all the complex, contributing factors beyond a simple, one-dimensional reason."
+    },
+    {
+      "id": 425,
+      "questionText": "To improve base traffic flow, a team composed entirely of Security Forces members designs a new gate procedure. When they brief the plan, the Logistics Readiness Squadron points out that it fails to account for the unique size and screening needs of commercial delivery trucks, which would cause massive delays. The initial plan was flawed because it lacked which intellectual standard?",
+      "options": ["Logic", "Accuracy", "Breadth", "Significance"],
+      "section": "Critical Thinking",
+      "correctOption": 2,
+      "explanation": "Breadth involves considering an issue from multiple perspectives. The initial plan was too narrow because it was only developed from the Security Forces' point of view and failed to consider the viewpoint and needs of other key stakeholders, like logistics."
+    },
+    {
+      "id": 426,
+      "questionText": "A squadron's new policy states: 1) 'To save fuel, all GOVs will maintain a maximum speed of 35 mph on base.' 2) 'To meet mission timelines, all GOVs must be able to respond to any on-base location within 3 minutes.' A junior officer points out that for some locations, these two rules are contradictory. This officer is questioning which intellectual standard of the policy?",
+      "options": ["Precision", "Relevance", "Fairness", "Logic"],
+      "section": "Critical Thinking",
+      "correctOption": 3,
+      "explanation": "Logic ensures that thoughts are mutually supporting and make sense in combination. The officer has identified a contradiction where the two rules cannot be followed simultaneously under certain conditions, indicating a failure of logic in the policy design."
+    },
+    {
+      "id": 427,
+      "questionText": "A unit faces several issues: the ice machine in the break room is broken, the waiting room needs new paint, and the primary communication system has a 20% failure rate. A new leader decides to dedicate all available resources to fixing the communication system first. This decision is based on prioritizing which intellectual standard?",
+      "options": ["Clarity", "Depth", "Fairness", "Significance"],
+      "section": "Critical Thinking",
+      "correctOption": 3,
+      "explanation": "Significance involves identifying the most important piece of an issue. While all are problems, the leader correctly identifies that the mission-critical communication system is more significant than the cosmetic or convenience issues and must be addressed first."
+    },
+    {
+      "id": 428,
+      "questionText": "When investigating a conflict between Amn Smith and Amn Jones, the supervisor only interviews Amn Smith and his friends. The final report places 100% of the blame on Amn Jones without ever presenting his side of the story. This biased investigation clearly violates which intellectual standard?",
+      "options": ["Accuracy", "Precision", "Logic", "Fairness"],
+      "section": "Critical Thinking",
+      "correctOption": 3,
+      "explanation": "Fairness requires treating all viewpoints with impartiality and avoiding personal bias. By only considering one side of the story and not giving the other party a chance to be heard, the supervisor's investigation is fundamentally unfair."
     }
   ]
 }
