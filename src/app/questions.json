@@ -29,12 +29,7 @@
     {
       "id": 3,
       "questionText": "Which virtue under 'Integrity First' involves preserving trust?",
-      "options": [
-        "Courage",
-        "Accountability",
-        "Honesty",
-        "Humility"
-      ],
+      "options": ["Courage", "Accountability", "Honesty", "Humility"],
       "section": "Core Values",
       "correctOption": 2,
       "explanation": "Honesty is the virtue under Integrity First that preserves trust."
@@ -55,12 +50,7 @@
     {
       "id": 5,
       "questionText": "How many steps are in the Practical Problem-Solving Method (PPSM)?",
-      "options": [
-        "4",
-        "6",
-        "8",
-        "10"
-      ],
+      "options": ["4", "6", "8", "10"],
       "section": "Problem Solving",
       "correctOption": 2,
       "explanation": "The PPSM consists of 8 detailed steps for systematic problem solving."
@@ -94,12 +84,7 @@
     {
       "id": 9,
       "questionText": "A new policy is implemented in the squadron. TSgt Ford privately complains to his peers about how flawed it is and criticizes the commander's decision. However, during the team meeting to discuss implementation, he remains silent and offers no constructive feedback or alternative solutions. TSgt Ford's behavior is characteristic of a(n)...",
-      "options": [
-        "Yes Person",
-        "Survivor",
-        "Alienated Follower",
-        "Sheep"
-      ],
+      "options": ["Yes Person", "Survivor", "Alienated Follower", "Sheep"],
       "section": "Followership",
       "correctOption": 2,
       "explanation": "Alienated Followers are critical thinkers but passive. Like TSgt Ford, they are often cynical and criticize leadership but do not offer solutions or contribute positively."
@@ -276,12 +261,7 @@
     {
       "id": 23,
       "questionText": "An intelligence analyst presents a brief, stating, 'The adversary is planning an imminent action.' The commander responds, 'That's too vague. What do you mean by 'imminent'? What 'action'? I can't assess if your information is accurate until you explain your terms.' The commander is requesting improvement in which intellectual standard?",
-      "options": [
-        "Logic",
-        "Clarity",
-        "Depth",
-        "Fairness"
-      ],
+      "options": ["Logic", "Clarity", "Depth", "Fairness"],
       "section": "Critical Thinking",
       "correctOption": 1,
       "explanation": "Clarity is the 'gateway standard.' The commander cannot evaluate the accuracy or relevance of the intel because the initial statement is unclear. They need the analyst to be more explicit."
@@ -328,12 +308,7 @@
     {
       "id": 27,
       "questionText": "Which conflict management style shows high assertiveness and low cooperation?",
-      "options": [
-        "Accommodating",
-        "Avoiding",
-        "Competing",
-        "Collaborating"
-      ],
+      "options": ["Accommodating", "Avoiding", "Competing", "Collaborating"],
       "section": "Conflict Management",
       "correctOption": 2,
       "explanation": "Competing/Forcing shows high assertiveness and low cooperation, aiming to overwhelm an opponent with authority or power."
@@ -367,12 +342,7 @@
     {
       "id": 30,
       "questionText": "How many core functions does the USAF have?",
-      "options": [
-        "3",
-        "4",
-        "5",
-        "6"
-      ],
+      "options": ["3", "4", "5", "6"],
       "section": "DAF Capabilities",
       "correctOption": 2,
       "explanation": "The USAF has five core functions: Air Superiority, ISR, Rapid Global Mobility, Global Strike, and Command and Control."
@@ -419,12 +389,7 @@
     {
       "id": 34,
       "questionText": "How many phases are in the AFFORGEN cycle?",
-      "options": [
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
+      "options": ["2", "3", "4", "5"],
       "section": "DAF Deployment",
       "correctOption": 2,
       "explanation": "AFFORGEN has four phases: Reset, Prepare, Ready, and Commit."
@@ -497,12 +462,7 @@
     {
       "id": 40,
       "questionText": "A new project team is formed with members from different departments. In their second week, arguments break out over the project's direction, members push back against the leader's authority, and there is clear resistance to collaboration. The team is most likely in which stage of development?",
-      "options": [
-        "Forming",
-        "Storming",
-        "Norming",
-        "Performing"
-      ],
+      "options": ["Forming", "Storming", "Norming", "Performing"],
       "section": "Team Building",
       "correctOption": 1,
       "explanation": "The Storming stage is characterized by conflict, arguments, and resistance to authority and collaboration as the team struggles to find its identity and direction. This perfectly describes the scenario."
@@ -510,12 +470,7 @@
     {
       "id": 41,
       "questionText": "What leadership style should be used during the Forming stage?",
-      "options": [
-        "Coach",
-        "Director",
-        "Collaborator",
-        "Visionary"
-      ],
+      "options": ["Coach", "Director", "Collaborator", "Visionary"],
       "section": "Team Building",
       "correctOption": 1,
       "explanation": "During the Forming stage, leaders should act as a 'Director,' being directive and helping define roles and mission."
@@ -614,12 +569,7 @@
     {
       "id": 49,
       "questionText": "What virtue under 'Service Before Self' involves making necessary sacrifices?",
-      "options": [
-        "Duty",
-        "Loyalty",
-        "Respect",
-        "Honor"
-      ],
+      "options": ["Duty", "Loyalty", "Respect", "Honor"],
       "section": "Core Values",
       "correctOption": 0,
       "explanation": "Duty involves making necessary sacrifices to accomplish the mission and is a virtue under Service Before Self."
@@ -627,12 +577,7 @@
     {
       "id": 50,
       "questionText": "Under 'Excellence in All We Do,' which virtue focuses on operations, product, and resource excellence?",
-      "options": [
-        "Discipline",
-        "Teamwork",
-        "Mission",
-        "Standards"
-      ],
+      "options": ["Discipline", "Teamwork", "Mission", "Standards"],
       "section": "Core Values",
       "correctOption": 2,
       "explanation": "Mission focuses on operations, product, and resource excellence under the core value of Excellence in All We Do."
@@ -653,12 +598,7 @@
     {
       "id": 52,
       "questionText": "Which followership style 'does just enough to get by and avoids making waves'?",
-      "options": [
-        "Sheep",
-        "Yes People",
-        "Survivors",
-        "Alienated Followers"
-      ],
+      "options": ["Sheep", "Yes People", "Survivors", "Alienated Followers"],
       "section": "Followership",
       "correctOption": 2,
       "explanation": "Survivors are a mix of all styles who do just enough to get by and avoid making waves or taking risks."
@@ -770,12 +710,7 @@
     {
       "id": 61,
       "questionText": "Which intellectual standard helps refine information by adding necessary details?",
-      "options": [
-        "Clarity",
-        "Accuracy",
-        "Precision",
-        "Depth"
-      ],
+      "options": ["Clarity", "Accuracy", "Precision", "Depth"],
       "section": "Critical Thinking",
       "correctOption": 2,
       "explanation": "Precision helps refine information by adding necessary details to make statements more exact."
@@ -809,12 +744,7 @@
     {
       "id": 64,
       "questionText": "Which conflict management approach seeks a solution that partially satisfies both parties?",
-      "options": [
-        "Insist",
-        "Evade",
-        "Settle",
-        "Cooperate"
-      ],
+      "options": ["Insist", "Evade", "Settle", "Cooperate"],
       "section": "Conflict Management",
       "correctOption": 2,
       "explanation": "Settle (corresponding to Compromising) seeks a solution that partially satisfies both parties through mutual concessions."
@@ -926,12 +856,7 @@
     {
       "id": 73,
       "questionText": "Capt Miller's team is struggling with infighting and disagreements. To manage this, she facilitates an open discussion, helps members find common ground, and reinforces the team's purpose, guiding them through the conflict. In this situation, Capt Miller is acting as a 'Coach,' the most effective style for which stage?",
-      "options": [
-        "Forming",
-        "Storming",
-        "Norming",
-        "Performing"
-      ],
+      "options": ["Forming", "Storming", "Norming", "Performing"],
       "section": "Team Building",
       "correctOption": 1,
       "explanation": "During the difficult Storming stage, a leader should act as a 'Coach' to manage chaos, facilitate open discussion, and help resolve conflicts, just as Capt Miller is doing."
@@ -1121,12 +1046,7 @@
     {
       "id": 88,
       "questionText": "A planner states, 'Our best course of action is to launch at dawn because surprise is crucial. We should also notify the local population 24 hours in advance for their safety.' A critic points out this contradiction. The critic is questioning which intellectual standard?",
-      "options": [
-        "Precision",
-        "Logic",
-        "Significance",
-        "Fairness"
-      ],
+      "options": ["Precision", "Logic", "Significance", "Fairness"],
       "section": "Critical Thinking",
       "correctOption": 1,
       "explanation": "The plan lacks Logic because the two main points (the need for surprise and the need to give advance warning) contradict each other and do not make sense in combination."
@@ -1134,12 +1054,7 @@
     {
       "id": 89,
       "questionText": "In the elements of reasoning, what represents 'beliefs and values that are taken for granted'?",
-      "options": [
-        "Concepts",
-        "Assumptions",
-        "Inferences",
-        "Information"
-      ],
+      "options": ["Concepts", "Assumptions", "Inferences", "Information"],
       "section": "Critical Thinking",
       "correctOption": 1,
       "explanation": "Assumptions represent beliefs and values that are taken for granted in the reasoning process."
@@ -1147,12 +1062,7 @@
     {
       "id": 90,
       "questionText": "The 'Evade' approach in conflict management corresponds to which Thomas-Kilmann style?",
-      "options": [
-        "Competing",
-        "Avoiding",
-        "Accommodating",
-        "Compromising"
-      ],
+      "options": ["Competing", "Avoiding", "Accommodating", "Compromising"],
       "section": "Conflict Management",
       "correctOption": 1,
       "explanation": "The 'Evade' approach from AFNC corresponds to 'Avoiding' in the Thomas-Kilmann model, showing low assertiveness and low cooperation."
@@ -1277,12 +1187,7 @@
     {
       "id": 100,
       "questionText": "Which virtue under 'Excellence in All We Do' involves recognizing interdependency of contributions?",
-      "options": [
-        "Mission",
-        "Discipline",
-        "Teamwork",
-        "Standards"
-      ],
+      "options": ["Mission", "Discipline", "Teamwork", "Standards"],
       "section": "Core Values",
       "correctOption": 2,
       "explanation": "Teamwork involves recognizing the interdependency of every member's contribution under Excellence in All We Do."
@@ -1290,12 +1195,7 @@
     {
       "id": 201,
       "questionText": "SSgt Miller consistently shows up on time, meticulously maintains her equipment, and mentors junior Airmen to uphold high standards. Her supervisor notes that her actions perfectly embody the Core Values. In this context, SSgt Miller's consistent actions are best described as what?",
-      "options": [
-        "Core Values",
-        "Virtues",
-        "Commitments",
-        "Competencies"
-      ],
+      "options": ["Core Values", "Virtues", "Commitments", "Competencies"],
       "section": "Core Values",
       "correctOption": 1,
       "explanation": "Virtues are the tangible actions and characteristics, like SSgt Miller's discipline and sense of duty, that bring the Core Values to life."
@@ -1303,12 +1203,7 @@
     {
       "id": 202,
       "questionText": "The willingness to take risks and admit mistakes is a demonstration of which virtue under the USAF Core Value 'Integrity First'?",
-      "options": [
-        "Honesty",
-        "Accountability",
-        "Humility",
-        "Courage"
-      ],
+      "options": ["Honesty", "Accountability", "Humility", "Courage"],
       "section": "Core Values",
       "correctOption": 3,
       "explanation": "Courage is the virtue associated with 'Integrity First' that is defined as the willingness to take risks and admit mistakes."
@@ -1329,12 +1224,7 @@
     {
       "id": 204,
       "questionText": "For Guardians, 'Commitments' are the equivalent of what concept for Airmen?",
-      "options": [
-        "Core Values",
-        "Virtues",
-        "Competencies",
-        "Functions"
-      ],
+      "options": ["Core Values", "Virtues", "Competencies", "Functions"],
       "section": "Core Values",
       "correctOption": 1,
       "explanation": "The source material states that for Guardians, 'Commitments' are the equivalent of virtues for the 4 Cs (Character, Connection, Commitment, Courage)."
@@ -1342,12 +1232,7 @@
     {
       "id": 205,
       "questionText": "Which USSF Core Value emphasizes a common purpose and embracing diverse perspectives?",
-      "options": [
-        "Character",
-        "Connection",
-        "Commitment",
-        "Courage"
-      ],
+      "options": ["Character", "Connection", "Commitment", "Courage"],
       "section": "Core Values",
       "correctOption": 1,
       "explanation": "The USSF Core Value of 'Connection' focuses on a common purpose, being stronger together, and embracing diverse perspectives to foster a fearless environment."
@@ -1368,12 +1253,7 @@
     {
       "id": 207,
       "questionText": "Which virtue of 'Service Before Self' involves making necessary sacrifices to accomplish the mission?",
-      "options": [
-        "Loyalty",
-        "Respect",
-        "Duty",
-        "Humility"
-      ],
+      "options": ["Loyalty", "Respect", "Duty", "Humility"],
       "section": "Core Values",
       "correctOption": 2,
       "explanation": "Duty, a virtue of 'Service Before Self', is defined as making the necessary sacrifices to accomplish the mission."
@@ -1381,12 +1261,7 @@
     {
       "id": 208,
       "questionText": "The commitment to 'achieve audacious goals, learn from experience, and seek and offer feedback' aligns with which USSF Core Value?",
-      "options": [
-        "Character",
-        "Connection",
-        "Commitment",
-        "Courage"
-      ],
+      "options": ["Character", "Connection", "Commitment", "Courage"],
       "section": "Core Values",
       "correctOption": 2,
       "explanation": "These commitments are associated with the USSF Core Value of 'Commitment,' which is defined as the pursuit of mastery of self, profession, and domain."
@@ -1433,12 +1308,7 @@
     {
       "id": 212,
       "questionText": "A follower who is passive, not a critical thinker, and does only what is asked is described as which followership style?",
-      "options": [
-        "Yes People",
-        "Survivors",
-        "Sheep",
-        "Alienated Followers"
-      ],
+      "options": ["Yes People", "Survivors", "Sheep", "Alienated Followers"],
       "section": "Followership",
       "correctOption": 2,
       "explanation": "A 'Sheep' is the followership style characterized by being passive and not a critical thinker, waiting for instructions and having no initiative."
@@ -1446,12 +1316,7 @@
     {
       "id": 213,
       "questionText": "Which followership style is characterized by being a critical thinker but passive, often cynical and critical of leadership without offering solutions?",
-      "options": [
-        "Yes People",
-        "Survivors",
-        "Sheep",
-        "Alienated Followers"
-      ],
+      "options": ["Yes People", "Survivors", "Sheep", "Alienated Followers"],
       "section": "Followership",
       "correctOption": 3,
       "explanation": "'Alienated Followers' are critical thinkers but are passive. They tend to be cynical and will criticize leadership but do not contribute solutions."
@@ -1459,12 +1324,7 @@
     {
       "id": 214,
       "questionText": "A follower who is proactive, works well with others, and is not afraid to raise concerns with their leader is described as a(n):",
-      "options": [
-        "Survivor",
-        "Effective Follower",
-        "Yes Person",
-        "Sheep"
-      ],
+      "options": ["Survivor", "Effective Follower", "Yes Person", "Sheep"],
       "section": "Followership",
       "correctOption": 1,
       "explanation": "An 'Effective Follower' is both active and a critical thinker. They are proactive, take initiative, collaborate effectively, and have the courage to raise concerns."
@@ -1589,12 +1449,7 @@
     {
       "id": 224,
       "questionText": "A service member's right against compulsory self-incrimination is protected by which article of the UCMJ?",
-      "options": [
-        "Article 15",
-        "Article 31",
-        "Article 92",
-        "Article 134"
-      ],
+      "options": ["Article 15", "Article 31", "Article 92", "Article 134"],
       "section": "Military Justice",
       "correctOption": 1,
       "explanation": "Article 31 of the UCMJ explicitly protects a service member's right against compulsory self-incrimination, requiring them to be informed of the suspected offense and their right to remain silent."
@@ -1732,12 +1587,7 @@
     {
       "id": 235,
       "questionText": "Which intellectual standard is considered the 'gateway standard' because a statement cannot be checked for accuracy or relevance if it is not met?",
-      "options": [
-        "Logic",
-        "Clarity",
-        "Depth",
-        "Fairness"
-      ],
+      "options": ["Logic", "Clarity", "Depth", "Fairness"],
       "section": "Critical Thinking I",
       "correctOption": 1,
       "explanation": "Clarity is called the 'gateway standard.' If a statement is unclear, you cannot determine its accuracy, relevance, or any other intellectual standard."
@@ -1745,12 +1595,7 @@
     {
       "id": 236,
       "questionText": "When a thinker ensures their thoughts are mutually supporting and make sense in combination, they are applying which intellectual standard?",
-      "options": [
-        "Breadth",
-        "Precision",
-        "Significance",
-        "Logic"
-      ],
+      "options": ["Breadth", "Precision", "Significance", "Logic"],
       "section": "Critical Thinking I",
       "correctOption": 3,
       "explanation": "The intellectual standard of Logic ensures that different thoughts and premises support each other and make sense when considered together, avoiding contradictions."
@@ -1823,12 +1668,7 @@
     {
       "id": 242,
       "questionText": "In the AFNC problem-solving model, which approach aligns with the 'Collaborating' style and seeks a 'win-win' solution satisfying both parties?",
-      "options": [
-        "Insist",
-        "Settle",
-        "Evade",
-        "Cooperate"
-      ],
+      "options": ["Insist", "Settle", "Evade", "Cooperate"],
       "section": "Conflict Management",
       "correctOption": 3,
       "explanation": "The 'Cooperate' approach from the AFNC aligns with the 'Collaborating' style. It is high in both task and people orientation and aims for a win-win outcome that fully addresses the concerns of both sides."
@@ -1862,12 +1702,7 @@
     {
       "id": 245,
       "questionText": "Which of the eight elements of reasoning refers to the theories, principles, and ideas that frame one's thinking?",
-      "options": [
-        "Information",
-        "Assumptions",
-        "Concepts",
-        "Implications"
-      ],
+      "options": ["Information", "Assumptions", "Concepts", "Implications"],
       "section": "Critical Thinking II",
       "correctOption": 2,
       "explanation": "Concepts are the element of reasoning that includes the theories, principles, and ideas used to frame and understand the problem or subject."
@@ -2148,12 +1983,7 @@
     {
       "id": 267,
       "questionText": "In the four stages of team growth, which stage is often the most difficult and is characterized by conflict and resistance to collaboration?",
-      "options": [
-        "Forming",
-        "Storming",
-        "Norming",
-        "Performing"
-      ],
+      "options": ["Forming", "Storming", "Norming", "Performing"],
       "section": "Team Building",
       "correctOption": 1,
       "explanation": "The 'Storming' stage is the most difficult phase of team development, where conflict arises as members push back against collaboration and argue over team actions and direction."
@@ -2161,12 +1991,7 @@
     {
       "id": 268,
       "questionText": "During which stage of team growth does cohesiveness form, conflict reduce, and team norms become established?",
-      "options": [
-        "Forming",
-        "Storming",
-        "Norming",
-        "Performing"
-      ],
+      "options": ["Forming", "Storming", "Norming", "Performing"],
       "section": "Team Building",
       "correctOption": 2,
       "explanation": "In the 'Norming' stage, the team establishes cohesiveness and commitment, conflict is managed and reduced, and the members agree on shared norms and values."
@@ -2187,12 +2012,7 @@
     {
       "id": 270,
       "questionText": "A leader should act as a 'Coach' during which stage of team development?",
-      "options": [
-        "Forming",
-        "Storming",
-        "Norming",
-        "Performing"
-      ],
+      "options": ["Forming", "Storming", "Norming", "Performing"],
       "section": "Team Building",
       "correctOption": 1,
       "explanation": "During the 'Storming' stage, the leader should act as a coach to manage the inevitable chaos and conflict, creating an open climate and facilitating resolution."
@@ -2200,12 +2020,7 @@
     {
       "id": 271,
       "questionText": "A team that is proficient, solves problems effectively, and has members who accept each other's strengths and weaknesses is in which stage?",
-      "options": [
-        "Forming",
-        "Storming",
-        "Norming",
-        "Performing"
-      ],
+      "options": ["Forming", "Storming", "Norming", "Performing"],
       "section": "Team Building",
       "correctOption": 3,
       "explanation": "The 'Performing' stage is the peak of team effectiveness. The team is proficient, highly functional, and focused on problem-solving and achieving goals."
@@ -2317,12 +2132,7 @@
     {
       "id": 280,
       "questionText": "An OPSEC review finds that unclassified but sensitive flight schedules are being discussed on an unencrypted radio channel that adversaries are known to monitor. This situation describes the existence of a(n)...",
-      "options": [
-        "Threat",
-        "Vulnerability",
-        "Countermeasure",
-        "Indicator"
-      ],
+      "options": ["Threat", "Vulnerability", "Countermeasure", "Indicator"],
       "section": "Operations Security (OPSEC)",
       "correctOption": 1,
       "explanation": "A vulnerability is a weakness that allows an adversary to collect critical information. In this case, using an unencrypted radio is the vulnerability that exposes the flight schedules to the known threat."
@@ -2369,12 +2179,7 @@
     {
       "id": 284,
       "questionText": "Which followership style is a mix of all others, where the person does just enough to get by and avoid taking risks?",
-      "options": [
-        "Yes People",
-        "Sheep",
-        "Survivors",
-        "Alienated Followers"
-      ],
+      "options": ["Yes People", "Sheep", "Survivors", "Alienated Followers"],
       "section": "Followership",
       "correctOption": 2,
       "explanation": "'Survivors' are pragmatic followers who adapt their style to whatever is needed to get by. They are not committed, avoid making waves, and do just enough to survive."
@@ -2382,12 +2187,7 @@
     {
       "id": 285,
       "questionText": "The commitment to 'act with integrity, be accountable, and uphold standards' aligns with which USSF Core Value?",
-      "options": [
-        "Character",
-        "Connection",
-        "Commitment",
-        "Courage"
-      ],
+      "options": ["Character", "Connection", "Commitment", "Courage"],
       "section": "Core Values",
       "correctOption": 0,
       "explanation": "These commitments are associated with the USSF Core Value of 'Character,' which is defined by high moral and ethical standards, embracing integrity, grit, honesty, and trustworthiness."
@@ -2434,12 +2234,7 @@
     {
       "id": 289,
       "questionText": "In critical thinking, addressing various interpretations and other points of view demonstrates which intellectual standard?",
-      "options": [
-        "Depth",
-        "Breadth",
-        "Significance",
-        "Accuracy"
-      ],
+      "options": ["Depth", "Breadth", "Significance", "Accuracy"],
       "section": "Critical Thinking I",
       "correctOption": 1,
       "explanation": "The standard of Breadth requires the thinker to consider an issue from multiple perspectives and points of view to avoid a narrow or one-sided assessment."
@@ -2512,12 +2307,7 @@
     {
       "id": 295,
       "questionText": "Which element of reasoning refers to the central problem or question that needs to be answered?",
-      "options": [
-        "Purpose",
-        "Question at Issue",
-        "Assumptions",
-        "Inferences"
-      ],
+      "options": ["Purpose", "Question at Issue", "Assumptions", "Inferences"],
       "section": "Critical Thinking II",
       "correctOption": 1,
       "explanation": "The 'Question at Issue' is the core element that defines the problem or issue that the critical thinking process is meant to address and solve."
@@ -2551,12 +2341,7 @@
     {
       "id": 298,
       "questionText": "After a successful project, Lt Col Smith gives all the credit to his team during the awards ceremony, highlighting their contributions without mentioning his own significant role. Lt Col Smith's behavior is a direct demonstration of which virtue?",
-      "options": [
-        "Courage",
-        "Accountability",
-        "Honesty",
-        "Humility"
-      ],
+      "options": ["Courage", "Accountability", "Honesty", "Humility"],
       "section": "Core Values",
       "correctOption": 3,
       "explanation": "Humility, a virtue of Integrity First, is demonstrated by putting others first and serving with gratitude, as shown by Lt Col Smith giving credit to his team rather than seeking it for himself."
@@ -2564,12 +2349,7 @@
     {
       "id": 299,
       "questionText": "In which stage of team growth does a leader act as a 'Visionary,' focusing on maintaining success and cultivating new leaders?",
-      "options": [
-        "Forming",
-        "Storming",
-        "Norming",
-        "Performing"
-      ],
+      "options": ["Forming", "Storming", "Norming", "Performing"],
       "section": "Team Building",
       "correctOption": 3,
       "explanation": "During the 'Performing' stage, the leader's role shifts to that of a 'Visionary.' They work to maintain the team's high performance, look to the future, and develop the leadership potential within the team."
@@ -2616,12 +2396,7 @@
     {
       "id": 303,
       "questionText": "Which followership style is active but not a critical thinker, depending heavily on the leader for direction?",
-      "options": [
-        "Sheep",
-        "Yes People",
-        "Survivors",
-        "Alienated Followers"
-      ],
+      "options": ["Sheep", "Yes People", "Survivors", "Alienated Followers"],
       "section": "Followership",
       "correctOption": 1,
       "explanation": "'Yes People' are active participants but lack critical thinking. They are conformists who depend on the leader for direction and will not question orders."
@@ -2638,6 +2413,574 @@
       "section": "Critical Thinking II",
       "correctOption": 3,
       "explanation": "Activated Ignorance is the mistake of taking something false as true and actively using that false information as a premise in one's reasoning, leading to faulty conclusions."
+    },
+
+    {
+      "id": 305,
+      "questionText": "A first-term Airman is late for the third time in a month. His supervisor, a SSgt, has already provided verbal counseling. To formally address the continued behavior, the SSgt documents the issue and the counseling standards on an AF Form 174. This action is an example of which administrative tool?",
+      "options": [
+        "Letter of Reprimand (LOR)",
+        "Letter of Admonishment (LOA)",
+        "Letter of Counseling (LOC)",
+        "Control Roster"
+      ],
+      "section": "Military Justice",
+      "correctOption": 2,
+      "explanation": "A Letter of Counseling (LOC) is the appropriate first step in written administrative action. It is used to document a discussion of minor infractions and the supervisor's expectations, which matches the scenario."
+    },
+    {
+      "id": 306,
+      "questionText": "During a unit meeting, the commander outlines a complex new procedure. Amn Smith doesn't fully understand but notices no one else is asking questions, so she stays quiet to avoid looking foolish. Later, she performs the procedure incorrectly. Amn Smith's behavior is characteristic of which followership style?",
+      "options": ["Yes Person", "Sheep", "Alienated Follower", "Survivor"],
+      "section": "Followership",
+      "correctOption": 1,
+      "explanation": "A 'Sheep' is a passive follower who is not a critical thinker. By failing to seek clarification and simply waiting for instructions (even when confused), Amn Smith demonstrates the passive, non-inquisitive nature of this style."
+    },
+    {
+      "id": 307,
+      "questionText": "A report states, 'Vehicle out-of-commission rates increased 15% last quarter.' The flight commander asks, 'Is that 15% of all vehicles, or 15% of the fighter support fleet? Give me the exact numbers for each vehicle type.' The commander is demanding a higher level of which intellectual standard?",
+      "options": ["Accuracy", "Breadth", "Precision", "Relevance"],
+      "section": "Critical Thinking",
+      "correctOption": 2,
+      "explanation": "Precision involves adding necessary details to refine information. The commander is asking for more specific, exact numbers to move beyond the general statement and truly understand the problem."
+    },
+    {
+      "id": 308,
+      "questionText": "A deployed joint task force requires emergency resupply of ammunition and medical equipment to a forward operating base. The JFC needs a capability that ensures 'delivery on demand.' Which USAF core function is specifically designed to meet this immediate need?",
+      "options": [
+        "Global Strike",
+        "Air Superiority",
+        "Rapid Global Mobility",
+        "Intelligence, Surveillance, and Reconnaissance (ISR)"
+      ],
+      "section": "DAF Capabilities",
+      "correctOption": 2,
+      "explanation": "Rapid Global Mobility is the core function focused on the timely deployment, sustainment, and movement of military forces and equipment, perfectly matching the scenario's need for emergency resupply."
+    },
+    {
+      "id": 309,
+      "questionText": "During a team meeting, the leader states, 'Now that we've resolved our initial conflicts and set our ground rules, I'm going to step back a bit and give you all more responsibility to manage your own tasks. I will act as a facilitator to help you work together.' The leader is adapting his style for which stage of team growth?",
+      "options": ["Forming", "Storming", "Norming", "Performing"],
+      "section": "Team Building",
+      "correctOption": 2,
+      "explanation": "In the Norming stage, the leader should act as a 'Collaborator' or 'Facilitator.' By delegating responsibility and helping the team work together after conflicts have been resolved, the leader is correctly adapting to this stage."
+    },
+    {
+      "id": 310,
+      "questionText": "After a critical project fails, Capt Marvel steps in front of the squadron and says, 'The failure was mine. I take full ownership for not securing the right resources and for the final decision to proceed.' By doing this, she is demonstrating which virtue of 'Integrity First'?",
+      "options": ["Honesty", "Accountability", "Courage", "Humility"],
+      "section": "Core Values",
+      "correctOption": 1,
+      "explanation": "Accountability is the virtue of taking ownership of one's actions and decisions, regardless of the outcome. Capt Marvel's public acceptance of responsibility is a clear demonstration of this virtue."
+    },
+    {
+      "id": 311,
+      "questionText": "A flight has seen a significant drop in morale. The members feel that certain individuals receive preferential treatment, that the NCOs in charge are not trustworthy, and that the flight's mission has lost its focus. This situation is a direct example of the negative effects of UPRs on what?",
+      "options": [
+        "Unit Cohesiveness",
+        "Physical Safety",
+        "Individual Readiness",
+        "Logistical Support"
+      ],
+      "section": "Professional Relationships",
+      "correctOption": 0,
+      "explanation": "Unprofessional Relationships erode trust, create perceptions of favoritism, and degrade morale. These factors directly undermine unit cohesiveness, which is critical for mission accomplishment."
+    },
+    {
+      "id": 312,
+      "questionText": "A process improvement team has successfully identified a problem with vehicle dispatch procedures. Now, they are collecting data, creating flowcharts, and identifying value-added versus non-value-added steps to better understand the process. Which step of the 8-Step PPSM is the team currently in?",
+      "options": [
+        "Clarify the Problem (Step 1)",
+        "Break Down Problem & ID Performance Gaps (Step 2)",
+        "Set Improvement Targets (Step 3)",
+        "Determine Root Causes (Step 4)"
+      ],
+      "section": "Problem Solving",
+      "correctOption": 1,
+      "explanation": "Step 2 of the PPSM involves breaking down the problem and identifying performance gaps. The team's actions of gathering data and creating flowcharts perfectly align with the activities of this step."
+    },
+    {
+      "id": 313,
+      "questionText": "A new Airman is technically skilled but struggles with teamwork. Her supervisor uses a 'Contingent Reward' approach to improve her basic performance but also uses 'Individual Consideration' by mentoring her on communication skills to help her reach her full potential. This supervisor is correctly applying which leadership concept?",
+      "options": [
+        "Using only Transformational Leadership",
+        "Using only Transactional Leadership",
+        "Applying the Full-Range Leadership model by blending styles",
+        "Relying on Laissez-Faire leadership"
+      ],
+      "section": "Full Range Leadership",
+      "correctOption": 2,
+      "explanation": "Effective leaders blend leadership styles to fit the situation and the follower. By using a transactional approach (CR) for performance and a transformational approach (IC) for development, the supervisor is demonstrating the proper application of the Full-Range Leadership model."
+    },
+    {
+      "id": 314,
+      "questionText": "An intelligence unit is planning a mission and begins by listing all potential adversaries, from state actors to terrorist groups. For each, they research the adversary's known collection capabilities and assess their specific interest in the mission's objectives. This unit is performing which step of the OPSEC process?",
+      "options": [
+        "Identify Critical Information",
+        "Analyze Threats",
+        "Analyze Vulnerabilities",
+        "Assess Risk"
+      ],
+      "section": "Operations Security (OPSEC)",
+      "correctOption": 1,
+      "explanation": "Step 2 of the OPSEC process is to Analyze Threats. This involves identifying potential adversaries and determining their capabilities and intentions, which is exactly what the unit is doing."
+    },
+    {
+      "id": 315,
+      "questionText": "A flight chief makes a point to regularly walk through the work center, praise Airmen for good work in front of their peers, and provide on-the-spot corrections in a professional manner. These consistent, small actions contribute most directly to doing what?",
+      "options": [
+        "Changing organizational culture",
+        "Positively changing the organizational climate",
+        "Completing the SWOT analysis",
+        "Establishing a vision statement"
+      ],
+      "section": "Organizational Climate",
+      "correctOption": 1,
+      "explanation": "A leader's influence is constant and comes from every action. Focusing on 'the little things,' like providing consistent feedback and recognition, is a key strategy for positively influencing the short-term, adjustable organizational climate."
+    },
+    {
+      "id": 316,
+      "questionText": "After a unit successfully completes a major inspection with high marks, the commander hosts an awards ceremony to recognize top performers and holds a unit-wide BBQ to thank everyone for their hard work. Which technique for inspiring action is the commander using?",
+      "options": [
+        "Articulate the Vision",
+        "Get Their Attention & Frame Meaning",
+        "Enable Action",
+        "Reinforce Action & Celebrate Success"
+      ],
+      "section": "Inspiring Action",
+      "correctOption": 3,
+      "explanation": "By acknowledging progress and celebrating milestones, the commander is using the 'Reinforce Action & Celebrate Success' technique to maintain motivation and keep the vision a priority."
+    },
+    {
+      "id": 317,
+      "questionText": "A commander wants to publish a unit newsletter that is critical of a specific political party's platform. The Staff Judge Advocate advises against this, citing limitations on an officer's authority. This restriction on political speech in an official capacity is based on which constitutional amendment?",
+      "options": [
+        "First Amendment",
+        "Second Amendment",
+        "Third Amendment",
+        "Fifth Amendment"
+      ],
+      "section": "U.S. Constitution",
+      "correctOption": 0,
+      "explanation": "While the First Amendment protects freedom of speech, military necessity allows for greater restrictions than in civilian life, especially regarding official communications and political activities that could compromise good order and discipline."
+    },
+    {
+      "id": 318,
+      "questionText": "A1C Johnson is a stellar performer who is highly praised by his supervisor, MSgt Smith. When A1C Johnson makes a significant error on a project, MSgt Smith dismisses it as a one-time mistake, assuming his best performer couldn't be truly at fault without looking at the evidence. MSgt Smith is likely falling prey to which cognitive bias?",
+      "options": [
+        "Confirmation Bias",
+        "Deflection",
+        "Activated Ignorance",
+        "Halo Effect"
+      ],
+      "section": "Critical Thinking",
+      "correctOption": 3,
+      "explanation": "The Halo Effect occurs when a single positive trait (A1C Johnson being a stellar performer) overshadows other information, causing MSgt Smith to make a skewed judgment about the error."
+    },
+    {
+      "id": 319,
+      "questionText": "TSgt Reynolds gives his team a task. They immediately start working, following the instructions to the letter without asking for clarification or suggesting improvements. They are energetic and eager to please. This behavior best describes which followership style?",
+      "options": ["Sheep", "Yes People", "Survivors", "Effective Followers"],
+      "section": "Followership",
+      "correctOption": 1,
+      "explanation": "'Yes People' are active followers but are not critical thinkers. They depend on the leader for all direction and will not question orders, which is exactly how TSgt Reynolds' team is behaving."
+    },
+    {
+      "id": 320,
+      "questionText": "A unit is scheduled to deploy in 30 days. During final checks, it's discovered that several members have overdue dental appointments and one has not completed a required family care plan. This unit's ability to accomplish the mission is jeopardized by a failure in what?",
+      "options": [
+        "The AFFORGEN cycle",
+        "SPAFORGEN purpose",
+        "Individual readiness",
+        "The 'Reset' phase"
+      ],
+      "section": "DAF Deployment",
+      "correctOption": 2,
+      "explanation": "Individual readiness is the foundation of mission accomplishment. Failures in personal affairs like medical readiness (dental) and family care plans directly impact a unit's ability to deploy and fulfill its mission requirements."
+    },
+    {
+      "id": 321,
+      "questionText": "Two work centers have different ideas about the standard of 'cleanliness' for shared spaces. One defines it as 'visibly tidy,' while the other defines it as 'fully sanitized daily.' The resulting friction and constant arguments are a form of conflict arising from which personal behavior factor?",
+      "options": ["Values", "Perception", "Personality", "Communication"],
+      "section": "Conflict Management",
+      "correctOption": 1,
+      "explanation": "Conflict can arise from different Perceptions. The two work centers have different views on a concept (cleanliness), and the conflict is generated because they assume everyone defines the term the same way."
+    },
+    {
+      "id": 322,
+      "questionText": "Amn Clark is notified she is a suspect in a larceny investigation and is told to report to her commander's office. She is worried about her rights. Which office should she contact for free, independent legal advice and representation regarding this criminal investigation?",
+      "options": [
+        "Staff Judge Advocate (SJA)",
+        "Area Defense Counsel (ADC)",
+        "Victims' Counsel (VC)",
+        "Inspector General (IG)"
+      ],
+      "section": "Military Justice",
+      "correctOption": 1,
+      "explanation": "The Area Defense Counsel (ADC) is specifically tasked with representing Air Force and Space Force personnel accused of wrongdoing. They operate through a separate chain of command to ensure independent representation."
+    },
+    {
+      "id": 323,
+      "questionText": "A security forces leader constantly patrols with her Airmen, corrects uniform discrepancies on the spot, and drills them on procedures to ensure they are always met. She rarely waits for an inspector to find a flaw. This leader is demonstrating which transactional leadership behavior?",
+      "options": [
+        "Contingent Reward (CR)",
+        "Management by Exception-Passive (MBE-P)",
+        "Management by Exception-Active (MBE-A)",
+        "Laissez-Faire"
+      ],
+      "section": "Full Range Leadership",
+      "correctOption": 2,
+      "explanation": "Management by Exception-Active (MBE-A) is characterized by the leader constantly monitoring for deviations from standards and taking immediate corrective action, which perfectly describes the leader's behavior."
+    },
+    {
+      "id": 324,
+      "questionText": "When analyzing a plan to establish a new base, a logistician focuses only on engineering requirements. The commander asks, 'Have you considered the political viewpoint of the host nation, or the economic impact on the local community?' The commander is pushing for which intellectual standard?",
+      "options": ["Depth", "Breadth", "Significance", "Accuracy"],
+      "section": "Critical Thinking",
+      "correctOption": 1,
+      "explanation": "Breadth requires considering an issue from multiple perspectives. The commander is forcing the logistician to move beyond a narrow, single point of view (logistics) and consider other relevant viewpoints (political, economic)."
+    },
+    {
+      "id": 325,
+      "questionText": "Commander A prefers a team-centered approach for process improvement, using a detailed, systematic methodology. Commander B needs to make a fast decision in a time-compressed combat situation. Which problem-solving models are best suited for Commander A and Commander B, respectively?",
+      "options": [
+        "PPSM for A; OODA Loop for B",
+        "OODA Loop for A; PPSM for B",
+        "PPSM for both",
+        "OODA Loop for both"
+      ],
+      "section": "Problem Solving",
+      "correctOption": 0,
+      "explanation": "The 8-Step PPSM is a team-centered, systematic approach ideal for process improvement (Commander A). The OODA Loop is designed for rapid, individual decision-making in time-compressed environments (Commander B)."
+    },
+    {
+      "id": 326,
+      "questionText": "To integrate a new Guardian from the Army, a team leader makes a point to include her in team-building events, asks for her unique perspective in meetings, and pairs her with a mentor to help her navigate the Space Force culture. This leader is embodying which USSF Core Value?",
+      "options": ["Character", "Connection", "Commitment", "Courage"],
+      "section": "Core Values",
+      "correctOption": 1,
+      "explanation": "The USSF value of Connection emphasizes a common purpose and being stronger by embracing diverse perspectives. The leader's actions to actively integrate and value the new Guardian's background demonstrates this value."
+    },
+    {
+      "id": 327,
+      "questionText": "During a unit potluck, a team that has been working together for months shows easy camaraderie. The members have accepted their roles, cooperate effectively, and there is little to no open conflict as they have already established their group norms. What is a key action for FOLLOWERS in this stage?",
+      "options": [
+        "Resist collaboration and challenge the leader",
+        "Determine their roles and get to know each other",
+        "Establish cohesiveness and reconcile competing loyalties",
+        "Embrace their roles and begin solving problems"
+      ],
+      "section": "Team Building",
+      "correctOption": 2,
+      "explanation": "The scenario describes a team in the Norming Stage. In this stage, followers work to establish cohesiveness, increase cooperation, and reconcile differences to solidify the team's commitment and norms."
+    },
+    {
+      "id": 328,
+      "questionText": "TSgt Webb develops a close friendship with SrA Penn, who is in her section. While all members are accountable, the policy on professional relationships places primary responsibility for maintaining professional standards and boundaries on whom?",
+      "options": [
+        "SrA Penn, the junior member",
+        "TSgt Webb, the senior member",
+        "Both members equally",
+        "The First Sergeant"
+      ],
+      "section": "Professional Relationships",
+      "correctOption": 1,
+      "explanation": "The policy explicitly states that the senior member in a relationship, TSgt Webb in this case, is primarily responsible for maintaining the professionalism of that relationship."
+    },
+    {
+      "id": 329,
+      "questionText": "An adversary needs to know the exact location and time of a pending satellite launch to attempt a cyber-attack. This information, if obtained, would give them a significant advantage. This type of information is best described by which USSF Core Competency?",
+      "options": [
+        "Space Security",
+        "Combat Power Projection",
+        "Space Mobility and Logistics",
+        "Space Domain Awareness"
+      ],
+      "section": "DAF Capabilities",
+      "correctOption": 3,
+      "explanation": "Space Domain Awareness involves the effective identification, characterization, and understanding of any factor in the space domain that could affect operations, including knowing an adversary's capabilities and intentions."
+    },
+    {
+      "id": 330,
+      "questionText": "A commander wants to conduct a random inspection of dormitory rooms to look for illegal substances. According to military justice principles, what must the commander ensure?",
+      "options": [
+        "That the inspection is actually a criminal search in disguise.",
+        "That an ADC representative is present for every room search.",
+        "That the inspection is for health and welfare and not a pretext for a criminal search.",
+        "That all personal property can be searched without a warrant."
+      ],
+      "section": "Military Justice",
+      "correctOption": 2,
+      "explanation": "Service members have rights regarding search and seizure. While health and welfare inspections are permissible, they cannot be used as a pretext for a criminal search; if the intent is to find evidence of a specific crime, a warrant or probable cause is required."
+    },
+    {
+      "id": 331,
+      "questionText": "When planning a mission, a leader says, 'My plan will work because I believe our forces are inherently superior and the enemy is incompetent.' A subordinate questions this, asking, 'What are we taking for granted here? What if the enemy is more capable than we think?' The subordinate is questioning which element of reasoning?",
+      "options": ["Information", "Concepts", "Assumptions", "Inferences"],
+      "section": "Critical Thinking",
+      "correctOption": 2,
+      "explanation": "Assumptions are beliefs that are taken for granted in the reasoning process. The leader is assuming friendly superiority and enemy incompetence. The subordinate is challenging these unstated assumptions."
+    },
+    {
+      "id": 332,
+      "questionText": "A flight chief notices an Airman is struggling with a new task. The chief pulls the Airman aside, asks about their concerns in a respectful way, and ensures they get extra training, stating, 'I want you to feel confident and safe doing your job.' Which strategy for building a positive climate is the chief demonstrating?",
+      "options": [
+        "Focusing only on physical safety",
+        "Establishing high standards",
+        "Enforcing cultural norms",
+        "Fostering emotional safety"
+      ],
+      "section": "Organizational Climate",
+      "correctOption": 3,
+      "explanation": "Emotional safety involves fostering respect, openness, and trust, and ensuring personnel don't fear failure. By addressing the Airman's concerns and providing support, the chief is building an emotionally safe environment."
+    },
+    {
+      "id": 333,
+      "questionText": "SSgt Jones sees his supervisor, MSgt Smith, is about to brief the commander with incomplete data. Before the briefing, SSgt Jones discreetly provides MSgt Smith with the missing information and warns her about a potential tough question. This action is a key characteristic of an effective follower because SSgt Jones is...",
+      "options": [
+        "publicly challenging the boss.",
+        "taking all the credit for the work.",
+        "making a decision without authority.",
+        "supporting his boss and not undermining them."
+      ],
+      "section": "Followership",
+      "correctOption": 3,
+      "explanation": "One of the key characteristics of an effective follower is to support the boss. By providing the information privately and helping MSgt Smith prepare, SSgt Jones is supporting her success rather than letting her fail or undermining her publicly."
+    },
+    {
+      "id": 334,
+      "questionText": "A commander announces a new, challenging standard for the unit without explaining why it's necessary or asking for input. The team members are resistant and feel the goal is unachievable, leading to poor buy-in. Which guideline for establishing expectations has the commander failed to follow?",
+      "options": [
+        "Communicate Clearly",
+        "Track Progress",
+        "Seek Buy-In",
+        "Understand Importance"
+      ],
+      "section": "Full Range Leadership",
+      "correctOption": 2,
+      "explanation": "By not including the team in the process or fostering ownership, the commander failed to 'Seek Buy-In.' This guideline is critical for ensuring personnel are committed to meeting expectations."
+    },
+    {
+      "id": 335,
+      "questionText": "A student asks, 'Is this statement a fact or an opinion?' The instructor replies, 'Neither. The statement is that 'the moon is made of green cheese.' It's presented as a fact, but it's false. Its truthfulness is independent of what you believe.' The instructor is explaining that the statement is a(n):",
+      "options": ["Subjective Claim", "Objective Claim", "Argument", "Premise"],
+      "section": "Critical Thinking",
+      "correctOption": 1,
+      "explanation": "An objective claim is a statement that is factually true or false, regardless of what people think. The statement 'the moon is made of green cheese' is an objective claim that happens to be false."
+    },
+    {
+      "id": 336,
+      "questionText": "To settle a dispute over a parking spot, SSgt Rogers tells A1C Davis, 'Look, preserving our working relationship is more important than this spot. You can have it.' Which conflict management style is SSgt Rogers using?",
+      "options": [
+        "Competing/Forcing (Insist)",
+        "Collaborating (Cooperate)",
+        "Avoiding (Evade)",
+        "Accommodating (Comply)"
+      ],
+      "section": "Conflict Management",
+      "correctOption": 3,
+      "explanation": "The Accommodating (Comply) style is characterized by low assertiveness and high cooperation, where one person gives in to preserve the relationship at the expense of the task. SSgt Rogers is prioritizing the relationship over the parking spot."
+    },
+    {
+      "id": 337,
+      "questionText": "A commander is assessing her unit's upcoming mission. She analyzes her team's advanced training (a strength) and aging equipment (a weakness). She also considers new technology from a commercial partner (an opportunity) and a rival nation's new jamming capability (a threat). This commander is using what strategic planning tool?",
+      "options": [
+        "OODA Loop",
+        "8-Step PPSM",
+        "SWOT Method",
+        "Full-Range Leadership Model"
+      ],
+      "section": "Inspiring Action",
+      "correctOption": 2,
+      "explanation": "The commander is conducting a SWOT analysis by assessing internal factors (Strengths, Weaknesses) and external factors (Opportunities, Threats) to identify priorities and make decisions."
+    },
+    {
+      "id": 338,
+      "questionText": "The AFFORGEN model is designed to provide Joint Force Commanders with a clear understanding of which units are available and for how long. This prevents the old problem of units being pulled for deployments at the last minute with little time to prepare. This illustrates that a key purpose of AFFORGEN is to...",
+      "options": [
+        "increase the number of deployments.",
+        "present sustainable and predictable forces.",
+        "eliminate the need for a 'Reset' phase.",
+        "be used only for the Space Force."
+      ],
+      "section": "DAF Deployment",
+      "correctOption": 1,
+      "explanation": "A primary purpose of AFFORGEN is to establish a predictable cycle, allowing the DAF to present sustainable and predictable forces to combatant commanders and avoid the strain of ad-hoc taskings."
+    },
+    {
+      "id": 339,
+      "questionText": "A MSgt demonstrates a steadfast commitment to enforcing standards, ensuring her own uniform and conduct are always impeccable, and holding her subordinates to that same high standard without compromise. This NCO is exemplifying which virtue under 'Excellence in All We Do'?",
+      "options": ["Mission", "Discipline", "Teamwork", "Respect"],
+      "section": "Core Values",
+      "correctOption": 1,
+      "explanation": "Discipline, under the Core Value of Excellence in All We Do, is defined as upholding the highest personal and professional standards, which the MSgt is clearly demonstrating through her actions."
+    },
+    {
+      "id": 340,
+      "questionText": "A service member is the victim of an alleged sexual assault and feels overwhelmed by the military justice process. She needs legal advice on her rights as a victim and someone to represent her interests during court proceedings. Which office is specifically designed to provide this support?",
+      "options": [
+        "Staff Judge Advocate (SJA)",
+        "Area Defense Counsel (ADC)",
+        "Victims' Counsel (VC)",
+        "First Sergeant"
+      ],
+      "section": "Military Justice",
+      "correctOption": 2,
+      "explanation": "The Victims' Counsel (VC) program was created to advise and represent victims of alleged sexual assault, operating through a separate chain of command to ensure their interests are independently represented."
+    },
+    {
+      "id": 341,
+      "questionText": "After implementing a new check-in process, a team meets to compare the new performance data against the goals they set in Step 3. They are analyzing metrics to see if the changes worked as intended. The team is in which step of the 8-Step PPSM?",
+      "options": [
+        "Develop Countermeasures (Step 5)",
+        "See Countermeasures Through (Step 6)",
+        "Confirm Results and Process (Step 7)",
+        "Standardize Successful Processes (Step 8)"
+      ],
+      "section": "Problem Solving",
+      "correctOption": 2,
+      "explanation": "Step 7, Confirm Results and Process, is where the team compares the 'after' data with their initial targets to confirm whether the countermeasures were successful and the process improved."
+    },
+    {
+      "id": 342,
+      "questionText": "A state's National Guard unit is called up by the governor to respond to a natural disaster, while a separate active-duty unit on a base in that state operates under the authority of the President. This division and sharing of power between state and national governments is an example of which constitutional provision?",
+      "options": [
+        "Enumerated Powers",
+        "Separation of Powers",
+        "Federalism",
+        "The Bill of Rights"
+      ],
+      "section": "U.S. Constitution",
+      "correctOption": 2,
+      "explanation": "Federalism is the constitutional principle that divides and shares power between the national and state governments. The distinct chains of command for the National Guard (under state authority unless federalized) and active-duty forces (under national authority) illustrate this principle."
+    },
+    {
+      "id": 343,
+      "questionText": "During a heated debate about a new policy, a participant is asked why they oppose it. Instead of answering, they say, 'The real question is why the people who created this policy are so out of touch with our needs.' This is an example of which thinking error?",
+      "options": [
+        "Halo Effect",
+        "Confirmation Bias",
+        "Deflection",
+        "Activated Ignorance"
+      ],
+      "section": "Critical Thinking",
+      "correctOption": 2,
+      "explanation": "Deflection is the error of answering the wrong question to steer a conversation away from its original intent. The participant avoids addressing their opposition by changing the topic to an attack on the policy's creators."
+    },
+    {
+      "id": 344,
+      "questionText": "A young Lieutenant is often praised for her ideas, but her NCOs notice she is rarely present in the work center and sometimes struggles to translate her ideas into action. This scenario suggests she may be a strong leader but needs to develop her skills as a(n)...",
+      "options": [
+        "manager.",
+        "effective follower.",
+        "commander.",
+        "strategist."
+      ],
+      "section": "Followership",
+      "correctOption": 1,
+      "explanation": "The Followership & Leadership connection highlights that being a good leader requires the skills of a good follower. The Lieutenant's struggle to translate ideas into action shows a gap in the practical, hands-on skills often honed through effective followership."
+    },
+    {
+      "id": 345,
+      "questionText": "A joint force commander needs to synchronize the actions of air, land, and sea components in real-time during a large-scale operation. Success depends on getting the right information to the right person at the right time. Which USAF core function enables this level of operational synergy?",
+      "options": [
+        "Air Superiority",
+        "Global Strike",
+        "Rapid Global Mobility",
+        "Command and Control (C2)"
+      ],
+      "section": "DAF Capabilities",
+      "correctOption": 3,
+      "explanation": "Command and Control (C2) is the core function that allows joint teams to operate together effectively at a high tempo. It provides the situational awareness and connectivity needed to synchronize complex operations."
+    },
+    {
+      "id": 346,
+      "questionText": "MSgt Wheeler notices one of her Airmen seems withdrawn and is struggling with personal issues. She schedules a private meeting, listens to the Airman's goals and challenges, and connects them with base resources to help. This focus on subordinate development is a key part of which leadership behavior?",
+      "options": [
+        "Idealized Influence (II)",
+        "Inspirational Motivation (IM)",
+        "Intellectual Stimulation (IS)",
+        "Individual Consideration (IC)"
+      ],
+      "section": "Full Range Leadership",
+      "correctOption": 3,
+      "explanation": "Individual Consideration (IC) involves acting as a coach or mentor and being attentive to the needs of individual followers. MSgt Wheeler's actions are a direct application of this transformational behavior."
+    },
+    {
+      "id": 347,
+      "questionText": "A team has moved past its initial infighting and has established its ground rules and norms. The leader now focuses on delegating tasks to build confidence and maximizing each member's strengths. In this situation, the leader is acting as a...",
+      "options": ["Director.", "Coach.", "Collaborator.", "Visionary."],
+      "section": "Team Building",
+      "correctOption": 2,
+      "explanation": "The team is in the Norming stage. The appropriate leadership role for this stage is that of a 'Collaborator,' who acts as a facilitator and delegates responsibilities to build member confidence and cohesion."
+    },
+    {
+      "id": 348,
+      "questionText": "Upon discovering sensitive mission details posted on a public social media page, an OPSEC team immediately identifies the weakness that allowed the post and assesses that a known adversary has a high probability of having seen it. This combination of a weakness and a threat's ability to exploit it creates what?",
+      "options": [
+        "A countermeasure",
+        "A threat",
+        "A risk",
+        "Critical Information"
+      ],
+      "section": "Operations Security (OPSEC)",
+      "correctOption": 2,
+      "explanation": "Risk is the intersection of a threat and a vulnerability. The vulnerability (posting on social media) combined with the threat (an adversary seeing it) creates a risk to the mission that must be assessed."
+    },
+    {
+      "id": 349,
+      "questionText": "The logistics and communications flights both need access to a limited number of new servers for critical upgrades, but there aren't enough for both to complete their projects on schedule. This conflict is caused by which organizational factor?",
+      "options": [
+        "Communication Factors",
+        "Structural Factors",
+        "Resource Interdependence",
+        "Personal Behavior Factors"
+      ],
+      "section": "Conflict Management",
+      "correctOption": 2,
+      "explanation": "This conflict arises from Resource Interdependence. When two or more groups need the same scarce resource (in this case, servers), it creates a high potential for conflict."
+    },
+    {
+      "id": 350,
+      "questionText": "During a planning brief, an officer focuses heavily on the cost and timeline of a project. The commander stops him and says, 'Is this the most important part of the problem? Or should we be focusing on the potential impact on mission readiness first?' The commander is questioning which intellectual standard?",
+      "options": ["Clarity", "Significance", "Fairness", "Logic"],
+      "section": "Critical Thinking",
+      "correctOption": 1,
+      "explanation": "The intellectual standard of Significance involves identifying the most important pieces of an issue. The commander is forcing the officer to re-evaluate the priorities and focus on what is truly most significant to the problem."
+    },
+    {
+      "id": 351,
+      "questionText": "SSgt Reagan is known for her unshakable devotion to her unit, the Air Force, and the nation. She consistently puts the needs of the mission and her fellow Airmen ahead of her own interests, demonstrating a strong commitment to something bigger than herself. This is a clear example of which virtue under 'Service Before Self'?",
+      "options": ["Duty", "Loyalty", "Respect", "Humility"],
+      "section": "Core Values",
+      "correctOption": 1,
+      "explanation": "Loyalty is the virtue of commitment to something bigger than oneself, including the unit, the service, and the nation. SSgt Reagan's unwavering devotion is a direct reflection of this virtue."
+    },
+    {
+      "id": 352,
+      "questionText": "An Airman is caught in a minor offense. The commander believes the incident does not warrant a criminal conviction but is serious enough for official punishment that will be documented. Which tool is most appropriate for the commander to use?",
+      "options": [
+        "Letter of Admonishment (LOA)",
+        "General Court-Martial",
+        "Nonjudicial Punishment (NJP) / Article 15",
+        "Summary Court-Martial"
+      ],
+      "section": "Military Justice",
+      "correctOption": 2,
+      "explanation": "Nonjudicial Punishment (NJP) under Article 15 is used by commanders for minor offenses. It is a form of punitive action but does not constitute a federal criminal conviction, making it the perfect tool for this scenario."
+    },
+    {
+      "id": 353,
+      "questionText": "Lt Miller, an unmarried officer, is seen out on a date with a TSgt from a different squadron. While not in his direct chain of command, other enlisted members see this and begin to gossip, questioning the officer's judgment. This situation is an example of a relationship that does what?",
+      "options": [
+        "Represents professional mentorship",
+        "Enhances unit cohesion and morale",
+        "Discredits the armed forces",
+        "Is specifically permitted by policy"
+      ],
+      "section": "Professional Relationships",
+      "correctOption": 2,
+      "explanation": "Fraternization is an unprofessional relationship between an officer and enlisted member that prejudices good order and discipline or, as in this case, discredits the armed services by creating a poor perception and undermining the officer's standing."
     }
   ]
 }
