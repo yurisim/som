@@ -2,12 +2,13 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatButtonModule } from '@angular/material/button';
 import { MatTableModule } from '@angular/material/table';
+import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 
 @Component({
   selector: 'app-results',
   standalone: true,
-  imports: [CommonModule, MatCardModule, MatButtonModule, MatTableModule],
+  imports: [CommonModule, MatCardModule, MatButtonModule, MatTableModule, MatIconModule],
   templateUrl: './results.html',
   styleUrls: ['./results.scss']
 })
