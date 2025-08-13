@@ -55,7 +55,6 @@ export class ChecklistComponent implements OnInit {
 
   // loads data and sets up initial state
   ngOnInit(): void {
-
     this.checklistService.getChecklistData().subscribe((data) => {
       this.groupedChecklist = this.groupData(data);
       this.filteredGroupedChecklist = this.groupedChecklist;

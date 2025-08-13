@@ -5,17 +5,10 @@ import { BehaviorSubject } from 'rxjs';
   providedIn: 'root'
 })
 export class LayoutService {
-  private showProgressBarSource = new BehaviorSubject<boolean>(false);
-  showProgressBar$ = this.showProgressBarSource.asObservable();
+  private showTopProgressBarSource = new BehaviorSubject<boolean>(false);
+  showTopProgressBar$ = this.showTopProgressBarSource.asObservable();
 
-  private mainToolbarVisibleSource = new BehaviorSubject<boolean>(true);
-  mainToolbarVisible$ = this.mainToolbarVisibleSource.asObservable();
-
-  setShowProgressBar(isVisible: boolean): void {
-    this.showProgressBarSource.next(isVisible);
-  }
-
-  setMainToolbarVisible(isVisible: boolean) {
-    this.mainToolbarVisibleSource.next(isVisible);
+  setShowTopProgressBar(isVisible: boolean): void {
+    this.showTopProgressBarSource.next(isVisible);
   }
 }

@@ -1,6 +1,4 @@
-<div class="fixed top-0 left-0 right-0 z-20">
-  <app-navigation *ngIf="!isHomePage"></app-navigation>
-</div>
-<main class="pt-16" [class.pt-28]="showProgressBar">
+<app-navigation *ngIf="!isHomePage"></app-navigation>
+<main class="pt-16" [class.pt-28]="showTopProgressBar">
   <router-outlet></router-outlet>
 </main>

@@ -48,7 +48,7 @@ export class QuizRunnerComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
-    this.layoutService.setShowProgressBar(true);
+    this.layoutService.setShowTopProgressBar(true);
     this.route.paramMap.subscribe(params => {
       const mode = params.get('mode');
       const numQuestions = mode === 'all' ? 'all' : Number(mode);
@@ -158,7 +158,7 @@ export class QuizRunnerComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy(): void {
-    this.layoutService.setShowProgressBar(false);
+    this.layoutService.setShowTopProgressBar(false);
   }
 
   restartQuiz(): void {

@@ -17,7 +17,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 export class App {
   protected title = 'Dorm Inspection/Quiz';
   isHomePage = false;
-  showProgressBar = false;
+  showTopProgressBar = false;
   private router = inject(Router);
   private layoutService = inject(LayoutService);
 
@@ -26,11 +26,10 @@ export class App {
       .pipe(filter((event): event is NavigationEnd => event instanceof NavigationEnd))
       .subscribe((event: NavigationEnd) => {
         this.isHomePage = ['/', '/login'].includes(event.urlAfterRedirects);
-        this.layoutService.setMainToolbarVisible(!this.isHomePage);
       });
 
-    this.layoutService.showProgressBar$.subscribe(isVisible => {
-      this.showProgressBar = isVisible;
+    this.layoutService.showTopProgressBar$.subscribe(isVisible => {
+      this.showTopProgressBar = isVisible;
     });
   }
 }
