@@ -8,7 +8,7 @@
 
 <div class="p-4 sm:p-8 pt-20">
   <!-- Quiz View -->
-  <div *ngIf="!quizFinished; else resultsView">
+  <div *ngIf="!quizFinished" class="quiz-container" [@fadeInOut]>
     <div class="flex justify-end mb-4">
       <button mat-stroked-button color="warn" (click)="exitQuiz()">Exit Quiz</button>
     </div>
@@ -38,12 +38,12 @@
   </div>
 
   <!-- Results View -->
-  <ng-template #resultsView>
+  <div *ngIf="quizFinished" [@fadeInOut]>
     <app-results
       [score]="score"
       [totalQuestions]="totalQuestions"
       [missedAreas]="missedAreas"
       (restart)="restartQuiz()"
     ></app-results>
-  </ng-template>
+  </div>
 </div>

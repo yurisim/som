@@ -1,4 +1,5 @@
 import { Component, OnInit, OnDestroy, inject } from '@angular/core';
+import { fadeInOut } from '../animations';
 import { LayoutService } from '../layout.service';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Router } from '@angular/router';
@@ -23,6 +24,7 @@ import { Question } from '../quiz/quiz.model';
   ],
   templateUrl: './quiz-runner.html',
   styleUrls: ['./quiz-runner.scss'],
+  animations: [fadeInOut],
 })
 export class QuizRunnerComponent implements OnInit, OnDestroy {
   private quizService = inject(QuizService);
