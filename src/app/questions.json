@@ -80,7 +80,7 @@
     },
     {
       "id": 8,
-      "questionText": "Which followership style is characterized as 'Active and a critical thinker'?",
+      "questionText": "Amn Davis notices a small error in the weekly maintenance report that could lead to a larger issue later. Instead of waiting for instructions, she researches the correct procedure, drafts a correction, and presents both the problem and her proposed solution to her supervisor for approval. Amn Davis is demonstrating which followership style?",
       "options": [
         "Sheep",
         "Yes People",
@@ -89,20 +89,20 @@
       ],
       "section": "Followership",
       "correctOption": 3,
-      "explanation": "Effective Followers are both active and critical thinkers who are proactive, take initiative, and work well with others."
+      "explanation": "Effective Followers are active and critical thinkers like Amn Davis, who take initiative to identify and solve problems proactively."
     },
     {
       "id": 9,
-      "questionText": "What characterizes 'Alienated Followers'?",
+      "questionText": "A new policy is implemented in the squadron. TSgt Ford privately complains to his peers about how flawed it is and criticizes the commander's decision. However, during the team meeting to discuss implementation, he remains silent and offers no constructive feedback or alternative solutions. TSgt Ford's behavior is characteristic of a(n)...",
       "options": [
-        "Active but not critical thinkers",
-        "Passive and not critical thinkers",
-        "Critical thinkers but passive",
-        "Active and critical thinkers"
+        "Yes Person",
+        "Survivor",
+        "Alienated Follower",
+        "Sheep"
       ],
       "section": "Followership",
       "correctOption": 2,
-      "explanation": "Alienated Followers are critical thinkers but passive. They are often cynical and criticize leadership but don't offer solutions."
+      "explanation": "Alienated Followers are critical thinkers but passive. Like TSgt Ford, they are often cynical and criticize leadership but do not offer solutions or contribute positively."
     },
     {
       "id": 10,
@@ -275,16 +275,16 @@
     },
     {
       "id": 23,
-      "questionText": "Which intellectual standard serves as the 'gateway standard' relevant to all others?",
+      "questionText": "An intelligence analyst presents a brief, stating, 'The adversary is planning an imminent action.' The commander responds, 'That's too vague. What do you mean by 'imminent'? What 'action'? I can't assess if your information is accurate until you explain your terms.' The commander is requesting improvement in which intellectual standard?",
       "options": [
-        "Accuracy",
+        "Logic",
         "Clarity",
-        "Precision",
-        "Logic"
+        "Depth",
+        "Fairness"
       ],
       "section": "Critical Thinking",
       "correctOption": 1,
-      "explanation": "Clarity is the 'gateway standard' that is relevant to all others. If a statement is unclear, you cannot determine its accuracy or relevance."
+      "explanation": "Clarity is the 'gateway standard.' The commander cannot evaluate the accuracy or relevance of the intel because the initial statement is unclear. They need the analyst to be more explicit."
     },
     {
       "id": 24,
@@ -301,7 +301,7 @@
     },
     {
       "id": 25,
-      "questionText": "Which thinking error involves favoring information that confirms existing beliefs?",
+      "questionText": "SSgt Reed believes a new software update is inefficient. He actively seeks out colleagues who have had problems with it and dismisses positive feedback from those who find it helpful. When writing a report, he only includes data showing negative performance metrics. SSgt Reed is exhibiting which cognitive bias?",
       "options": [
         "Halo Effect",
         "Confirmation Bias",
@@ -310,7 +310,7 @@
       ],
       "section": "Critical Thinking",
       "correctOption": 1,
-      "explanation": "Confirmation Bias (also called Belief Perseverance) involves favoring information that confirms existing beliefs and perspectives."
+      "explanation": "SSgt Reed is exhibiting Confirmation Bias (also called Belief Perseverance) by favoring information that confirms his existing negative belief about the software and ignoring evidence to the contrary."
     },
     {
       "id": 26,
@@ -340,16 +340,16 @@
     },
     {
       "id": 28,
-      "questionText": "Which conflict source involves issues arising from organization size?",
+      "questionText": "In a large wing, SSgt Rios finds that instructions from wing HQ are often distorted or delayed by the time they reach his work center. This communication breakdown has led to his team missing deadlines and created tension with other flights. This type of conflict is primarily caused by which factor?",
       "options": [
-        "Communication Factors",
-        "Structural Factors",
         "Personal Behavior Factors",
-        "Resource Factors"
+        "Structural Factors",
+        "Resource Interdependence",
+        "Differing Values"
       ],
       "section": "Conflict Management",
       "correctOption": 1,
-      "explanation": "Structural Factors involve issues arising from the size of an organization, such as information distortion."
+      "explanation": "This conflict stems from Structural Factors, specifically issues like information distortion that arise from the size and complexity of a large organization."
     },
     {
       "id": 29,
@@ -457,7 +457,7 @@
     },
     {
       "id": 37,
-      "questionText": "Which transformational leadership behavior involves 'acting as a positive role model'?",
+      "questionText": "Capt Lee consistently adheres to the highest standards of conduct, on and off duty. Her subordinates see that she lives by the Core Values she preaches, which earns their trust and respect. They strive to emulate her professionalism. Capt Lee is demonstrating which transformational leadership behavior?",
       "options": [
         "Inspirational Motivation (IM)",
         "Idealized Influence (II)",
@@ -466,7 +466,7 @@
       ],
       "section": "Full Range Leadership",
       "correctOption": 1,
-      "explanation": "Idealized Influence (II) involves acting as a positive role model, demonstrating 'walking the talk.'"
+      "explanation": "Idealized Influence (II) involves acting as a positive role model and 'walking the talk.' Capt Lee's actions, which inspire trust and emulation, are a perfect example of this behavior."
     },
     {
       "id": 38,
@@ -496,7 +496,7 @@
     },
     {
       "id": 40,
-      "questionText": "In which team development stage does the most conflict occur?",
+      "questionText": "A new project team is formed with members from different departments. In their second week, arguments break out over the project's direction, members push back against the leader's authority, and there is clear resistance to collaboration. The team is most likely in which stage of development?",
       "options": [
         "Forming",
         "Storming",
@@ -505,7 +505,7 @@
       ],
       "section": "Team Building",
       "correctOption": 1,
-      "explanation": "Storming is the most difficult stage where conflict arises as members resist collaboration and argue over team actions."
+      "explanation": "The Storming stage is characterized by conflict, arguments, and resistance to authority and collaboration as the team struggles to find its identity and direction. This perfectly describes the scenario."
     },
     {
       "id": 41,
@@ -535,16 +535,16 @@
     },
     {
       "id": 43,
-      "questionText": "What is the main difference between organizational climate and culture?",
+      "questionText": "A squadron has a long-standing tradition of holding a 'heritage day' every year, reflecting its deep-seated values of history and unit pride. This is part of the squadron's ______. In contrast, the current mood is tense due to a high-stress inspection cycle, which reflects its current ______.",
       "options": [
-        "Climate is long-term, culture is short-term",
-        "Climate is short-term and adjustable, culture is long-term and ingrained",
-        "They are the same thing",
-        "Climate applies to officers, culture applies to enlisted"
+        "climate; culture",
+        "culture; climate",
+        "mission; vision",
+        "vision; mission"
       ],
       "section": "Organizational Climate",
       "correctOption": 1,
-      "explanation": "Organizational climate is short-term and adjustable (current attitudes and perceptions), while culture is long-term and ingrained (values, norms, and traditions)."
+      "explanation": "The long-term, ingrained tradition ('heritage day') is part of the organization's culture. The current, short-term, and adjustable mood (tension from an inspection) is its climate."
     },
     {
       "id": 44,
@@ -860,7 +860,7 @@
     },
     {
       "id": 68,
-      "questionText": "Doctrine is best described as:",
+      "questionText": "A new officer is concerned about memorizing every rule in a doctrine publication. His mentor clarifies, 'Think of it as collected wisdom. It provides a solid foundation, but you will always need to use your judgment to adapt it to the specific situation you face.' The mentor is describing doctrine as:",
       "options": [
         "Rigid rules that must always be followed",
         "Official advice that requires judgment in application",
@@ -869,7 +869,7 @@
       ],
       "section": "DAF Capabilities",
       "correctOption": 1,
-      "explanation": "Doctrine is official advice, but not directive, and requires judgment in application. It provides an 80-90% solution when properly applied."
+      "explanation": "The mentor's description matches the concept of doctrine: it is authoritative guidance and official advice, not a set of rigid rules. It requires judgment to apply it effectively."
     },
     {
       "id": 69,
@@ -925,7 +925,7 @@
     },
     {
       "id": 73,
-      "questionText": "During which team development stage should leaders act as a 'Coach'?",
+      "questionText": "Capt Miller's team is struggling with infighting and disagreements. To manage this, she facilitates an open discussion, helps members find common ground, and reinforces the team's purpose, guiding them through the conflict. In this situation, Capt Miller is acting as a 'Coach,' the most effective style for which stage?",
       "options": [
         "Forming",
         "Storming",
@@ -934,7 +934,7 @@
       ],
       "section": "Team Building",
       "correctOption": 1,
-      "explanation": "During the Storming stage, leaders should act as a 'Coach' to control chaos, facilitate open discussion, and resolve conflicts."
+      "explanation": "During the difficult Storming stage, a leader should act as a 'Coach' to manage chaos, facilitate open discussion, and help resolve conflicts, just as Capt Miller is doing."
     },
     {
       "id": 74,
@@ -1042,16 +1042,16 @@
     },
     {
       "id": 82,
-      "questionText": "What distinguishes OODA Loop from PPSM in terms of decision-making approach?",
+      "questionText": "An aircraft maintenance team has a recurring equipment failure issue. The chief assembles a team to analyze data, find the root cause, and develop a long-term solution. Separately, a security patrol responds to an active alarm and must make a split-second decision based on changing information. Which models are most appropriate for the maintenance team and the patrol, respectively?",
       "options": [
-        "OODA requires team consensus",
-        "OODA focuses on single decision maker",
-        "OODA is only for administrative decisions",
-        "OODA requires more detailed analysis"
+        "OODA for the team; PPSM for the patrol",
+        "PPSM for the team; OODA for the patrol",
+        "OODA for both",
+        "PPSM for both"
       ],
       "section": "Problem Solving",
       "correctOption": 1,
-      "explanation": "OODA Loop is designed for rapid decision-making with a single decision maker, while PPSM uses a team-centered approach."
+      "explanation": "The 8-Step PPSM is appropriate for the team's team-centered, long-term improvement effort. The OODA Loop is designed for the patrol's rapid, time-compressed decision-making environment."
     },
     {
       "id": 83,
@@ -1120,7 +1120,7 @@
     },
     {
       "id": 88,
-      "questionText": "Which intellectual standard ensures thoughts are mutually supporting and make sense in combination?",
+      "questionText": "A planner states, 'Our best course of action is to launch at dawn because surprise is crucial. We should also notify the local population 24 hours in advance for their safety.' A critic points out this contradiction. The critic is questioning which intellectual standard?",
       "options": [
         "Precision",
         "Logic",
@@ -1129,7 +1129,7 @@
       ],
       "section": "Critical Thinking",
       "correctOption": 1,
-      "explanation": "Logic ensures that thoughts are mutually supporting and make sense in combination."
+      "explanation": "The plan lacks Logic because the two main points (the need for surprise and the need to give advance warning) contradict each other and do not make sense in combination."
     },
     {
       "id": 89,
@@ -1289,16 +1289,16 @@
     },
     {
       "id": 201,
-      "questionText": "According to the DAF, what is the relationship between Core Values and virtues?",
+      "questionText": "SSgt Miller consistently shows up on time, meticulously maintains her equipment, and mentors junior Airmen to uphold high standards. Her supervisor notes that her actions perfectly embody the Core Values. In this context, SSgt Miller's consistent actions are best described as what?",
       "options": [
-        "Virtues are the foundational beliefs, and Core Values are the actions based on them.",
-        "Virtues are the tangible actions and characteristics that bring the Core Values to life.",
-        "Core Values and virtues are identical concepts with different names for Airmen and Guardians.",
-        "Core Values are for officers, while virtues are for enlisted personnel."
+        "Core Values",
+        "Virtues",
+        "Commitments",
+        "Competencies"
       ],
       "section": "Core Values",
       "correctOption": 1,
-      "explanation": "Virtues are the desired behaviors and characteristics that demonstrate one truly values Integrity, Service, and Excellence. They are the tangible actions that bring the Core Values to life."
+      "explanation": "Virtues are the tangible actions and characteristics, like SSgt Miller's discipline and sense of duty, that bring the Core Values to life."
     },
     {
       "id": 202,
@@ -1354,16 +1354,16 @@
     },
     {
       "id": 206,
-      "questionText": "Why are the Core Values considered the 'bedrock of leadership' in the Air and Space Forces?",
+      "questionText": "During a difficult deployment, Capt Evans bases a tough decision on the principles of Integrity First and Service Before Self, ensuring fairness and mission focus. Her actions reinforce trust and discipline within the team. This situation demonstrates that the Core Values serve as a...",
       "options": [
-        "They are optional guidelines for personal conduct.",
-        "They provide a tactical advantage in combat situations.",
-        "They are the foundation for leadership and a moral compass for all military activities.",
-        "They are primarily used for performance report evaluations."
+        "set of optional behavioral guidelines.",
+        "tactical advantage in combat.",
+        "moral compass for all military activities.",
+        "tool used only for performance reports."
       ],
       "section": "Core Values",
       "correctOption": 2,
-      "explanation": "The Core Values are the bedrock of leadership because they are the foundation for leadership and serve as the moral compass for all military activities, defining what it means to be an Airman or Guardian."
+      "explanation": "The Core Values are the bedrock of leadership because they serve as the moral compass for all military activities, guiding leaders like Capt Evans to make ethical decisions under pressure."
     },
     {
       "id": 207,
@@ -1484,7 +1484,7 @@
     },
     {
       "id": 216,
-      "questionText": "The connection between leadership and followership is best described by which statement?",
+      "questionText": "SSgt Adams, an exceptional NCO, is asked how she became a good leader. She replies, 'I learned by watching my supervisors, understanding their intent, and figuring out how to best support the mission from my position.' SSgt Adams' experience best illustrates which principle?",
       "options": [
         "Leadership and followership are mutually exclusive roles.",
         "To be a good leader, one must first be a good follower.",
@@ -1493,7 +1493,7 @@
       ],
       "section": "Followership",
       "correctOption": 1,
-      "explanation": "A fundamental concept is that developing good followers is the first step to creating good leaders. To be a good leader, you must first understand how to be a good follower, as the skills often overlap."
+      "explanation": "SSgt Adams' path shows that developing good followership skills—like anticipating needs and supporting the mission—is a critical first step to becoming an effective leader."
     },
     {
       "id": 217,
@@ -1575,16 +1575,16 @@
     },
     {
       "id": 223,
-      "questionText": "Why is a separate military justice system necessary?",
+      "questionText": "A service member deployed overseas is accused of dereliction of duty, an offense with no direct civilian equivalent. A commander needs a legal framework to address this promptly and maintain discipline. This situation highlights the need for a separate military justice system primarily to:",
       "options": [
-        "Because service members do not have constitutional rights.",
-        "To address crimes unique to the military and maintain worldwide discipline and good order.",
-        "To ensure all punishments are more severe than in civilian courts.",
-        "Because military law is older than civilian law."
+        "ensure punishments are more severe than in civilian courts.",
+        "address crimes unique to the military and maintain worldwide discipline.",
+        "give commanders unlimited authority over subordinates.",
+        "replace constitutional rights for service members."
       ],
       "section": "Military Justice",
       "correctOption": 1,
-      "explanation": "A military justice system is needed to address offenses with no civilian equivalent (e.g., AWOL, Failure to Obey), to maintain discipline critical for mission success, and to provide a legal system that applies to service members globally."
+      "explanation": "This scenario illustrates that the military justice system is needed to address unique military offenses and maintain good order and discipline essential for mission success, especially in a worldwide context."
     },
     {
       "id": 224,
@@ -1692,16 +1692,16 @@
     },
     {
       "id": 232,
-      "questionText": "Which of the following is an effect of unprofessional relationships on unit cohesiveness?",
+      "questionText": "Lt Smith begins spending significant off-duty time with A1C Ryan from his flight. Other Airmen notice that A1C Ryan seems to get preferential treatment and easier assignments. This has caused resentment and a decline in morale. This situation illustrates which primary effect of UPRs?",
       "options": [
         "Increased trust in leadership",
-        "Improved morale due to strong personal bonds",
+        "Improved unit morale",
         "Enhanced respect for the chain of command",
         "Erosion of trust and perceptions of favoritism"
       ],
       "section": "Professional & Unprofessional Relationships",
       "correctOption": 3,
-      "explanation": "UPRs undermine unit cohesiveness by eroding trust, creating perceptions of favoritism or an 'in crowd,' degrading morale, and weakening the authority of leaders trying to maintain standards."
+      "explanation": "This scenario shows how a UPR can lead to perceptions of favoritism, which erodes trust in leadership, degrades morale, and ultimately harms unit cohesiveness and mission accomplishment."
     },
     {
       "id": 233,
@@ -2069,7 +2069,7 @@
     },
     {
       "id": 261,
-      "questionText": "Which transformational leadership behavior involves stimulating creative thinking and challenging old ways of doing things?",
+      "questionText": "MSgt Chen notices her team using an outdated inventory process. She holds a brainstorming session, saying, 'Let's throw out the old playbook. How can we redesign this to be faster and more accurate? No idea is a bad idea.' This approach is an example of:",
       "options": [
         "Idealized Influence (II)",
         "Inspirational Motivation (IM)",
@@ -2078,7 +2078,7 @@
       ],
       "section": "Full Range Leadership",
       "correctOption": 2,
-      "explanation": "Intellectual Stimulation (IS) is the behavior where transformational leaders encourage followers to be creative and innovative, challenging assumptions and viewing problems from new perspectives."
+      "explanation": "Intellectual Stimulation (IS) involves challenging old ways and stimulating followers' creativity and innovation, as MSgt Chen does by encouraging her team to rethink the process."
     },
     {
       "id": 262,
@@ -2316,16 +2316,16 @@
     },
     {
       "id": 280,
-      "questionText": "In the OPSEC process, when does a vulnerability exist?",
+      "questionText": "An OPSEC review finds that unclassified but sensitive flight schedules are being discussed on an unencrypted radio channel that adversaries are known to monitor. This situation describes the existence of a(n)...",
       "options": [
-        "Any time an adversary has intent to cause harm.",
-        "When an adversary can collect, analyze, and act on critical information.",
-        "Only when countermeasures have failed.",
-        "When critical information lists are created."
+        "Threat",
+        "Vulnerability",
+        "Countermeasure",
+        "Indicator"
       ],
       "section": "Operations Security (OPSEC)",
       "correctOption": 1,
-      "explanation": "A vulnerability exists when a weakness allows an adversary to collect your critical information, analyze it, and act on it quickly enough to negatively impact your objectives."
+      "explanation": "A vulnerability is a weakness that allows an adversary to collect critical information. In this case, using an unencrypted radio is the vulnerability that exposes the flight schedules to the known threat."
     },
     {
       "id": 281,
@@ -2550,16 +2550,16 @@
     },
     {
       "id": 298,
-      "questionText": "The virtue of 'Humility' under the USAF Core Value 'Integrity First' is best described as:",
+      "questionText": "After a successful project, Lt Col Smith gives all the credit to his team during the awards ceremony, highlighting their contributions without mentioning his own significant role. Lt Col Smith's behavior is a direct demonstration of which virtue?",
       "options": [
-        "The willingness to take risks.",
-        "Taking ownership of actions.",
-        "Preserving trust through truthfulness.",
-        "Service with gratitude and putting others first."
+        "Courage",
+        "Accountability",
+        "Honesty",
+        "Humility"
       ],
       "section": "Core Values",
       "correctOption": 3,
-      "explanation": "Humility is the virtue of putting service and others before oneself, serving with a sense of gratitude and without arrogance."
+      "explanation": "Humility, a virtue of Integrity First, is demonstrated by putting others first and serving with gratitude, as shown by Lt Col Smith giving credit to his team rather than seeking it for himself."
     },
     {
       "id": 299,
