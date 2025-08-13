@@ -1,4 +1,5 @@
-import { Component, EventEmitter, Output } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { AuthService } from '../auth.service';
 import { FormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
@@ -13,14 +14,14 @@ import { CommonModule } from '@angular/common';
   imports: [FormsModule, CommonModule, MatFormFieldModule, MatInputModule, MatButtonModule]
 })
 export class PasswordComponent {
-  @Output() authenticated = new EventEmitter<boolean>();
+  private authService = inject(AuthService);
   password = '';
   showError = false;
 
   checkPassword() {
+    // The original password was 'hoyas' or 'hoya'.
     if (this.password.toLowerCase() === 'hoyas' || this.password.toLowerCase() === 'hoya') {
-      localStorage.setItem('isAuthenticated', 'true');
-      this.authenticated.emit(true);
+      this.authService.login();
       this.showError = false;
     } else {
       this.showError = true;
