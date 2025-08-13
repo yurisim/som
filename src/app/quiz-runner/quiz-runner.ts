@@ -53,10 +53,29 @@ export class QuizRunnerComponent implements OnInit, OnDestroy {
 
   ngOnInit(): void {
     this.layoutService.setShowTopProgressBar(true);
+
     this.route.paramMap.subscribe(params => {
-      const mode = params.get('mode');
+      const currentMode = params.get('mode');
+      let activeQuizMode: string | null = null;
+
+      // Check for any active quiz in localStorage
+      for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        if (key && key.startsWith('quizState-')) {
+          activeQuizMode = key.replace('quizState-', '');
+          break;
+        }
+      }
+
+      // If an active quiz exists and it's not the current one, redirect
+      if (activeQuizMode && activeQuizMode !== currentMode) {
+        this.router.navigate(['/quiz', activeQuizMode]);
+        return;
+      }
+
+      // Otherwise, load state or start a new quiz
       if (!this.loadState()) {
-        const numQuestions = mode === 'all' ? 'all' : Number(mode);
+        const numQuestions = currentMode === 'all' ? 'all' : Number(currentMode);
         this.startNewQuiz(numQuestions);
       }
     });
