@@ -3831,6 +3831,136 @@
       "section": "Critical Thinking",
       "correctOption": 3,
       "explanation": "Fairness requires treating all viewpoints with impartiality and avoiding personal bias. By only considering one side of the story and not giving the other party a chance to be heard, the supervisor's investigation is fundamentally unfair."
+    },
+    {
+      "id": 429,
+      "questionText": "How does the USAF core function of Air Superiority serve as a 'precondition' for other successful military operations?",
+      "options": [
+        "By holding any target on the planet at risk with precision strikes.",
+        "By ensuring friendly forces can operate without prohibitive interference from enemy air assets.",
+        "By delivering personnel and equipment rapidly anywhere in the world.",
+        "By providing commanders with real-time intelligence on enemy movements."
+      ],
+      "section": "DAF Capabilities",
+      "correctOption": 1,
+      "explanation": "Air Superiority is described as a 'precondition' because it provides 'freedom from attack,' which allows land, sea, air, and space forces to conduct their missions without being effectively opposed by an adversary's air power."
+    },
+    {
+      "id": 430,
+      "questionText": "Which statement best explains the primary purpose of the Intelligence, Surveillance, and Reconnaissance (ISR) core function for a commander?",
+      "options": [
+        "It guarantees the physical destruction of enemy targets.",
+        "It allows commanders to move forces and supplies around the globe.",
+        "It aims to minimize uncertainty by providing situational awareness of the adversary.",
+        "It directly controls the actions of all joint forces in an operation."
+      ],
+      "section": "DAF Capabilities",
+      "correctOption": 2,
+      "explanation": "The primary purpose of ISR is to provide decision-makers with situational awareness of the battlespace, effectively acting as their 'eyes and ears' to minimize uncertainty and enable informed decisions."
+    },
+    {
+      "id": 431,
+      "questionText": "Which of the following scenarios best illustrates the USAF core function of Rapid Global Mobility?",
+      "options": [
+        "A Predator drone monitors an enemy compound for 24 hours.",
+        "F-22s clear the airspace of enemy fighters over a conflict zone.",
+        "A B-2 bomber flies from the US to strike a high-value target.",
+        "A C-17 airlifts a platoon of soldiers and their equipment to a forward operating base."
+      ],
+      "section": "DAF Capabilities",
+      "correctOption": 3,
+      "explanation": "Rapid Global Mobility encompasses the timely deployment and sustainment of forces and equipment. Airlifting soldiers and their gear via a C-17 is a direct example of this 'delivery on demand' capability."
+    },
+    {
+      "id": 432,
+      "questionText": "What is the primary strategic effect of the Global Strike core function?",
+      "options": [
+        "It provides commanders with perfect situational awareness of the battlefield.",
+        "It establishes a global deterrent by demonstrating the ability to hold any target at risk.",
+        "It secures the space domain for friendly and commercial assets.",
+        "It ensures friendly forces have total freedom of movement in the air."
+      ],
+      "section": "DAF Capabilities",
+      "correctOption": 1,
+      "explanation": "The Global Strike function, with its ability to hold 'any target, any time' at risk, serves as a powerful strategic deterrent by projecting power and influencing the decisions of potential adversaries worldwide."
+    },
+    {
+      "id": 433,
+      "questionText": "Which statement best explains the outcome of an effective Command and Control (C2) system in a joint operation?",
+      "options": [
+        "It ensures all enemy air threats are neutralized before the operation begins.",
+        "It allows a single commander to make every decision for all forces.",
+        "It enables different military branches to operate with synergy and high tempo by synchronizing their actions.",
+        "It physically transports data and equipment to the battle space."
+      ],
+      "section": "DAF Capabilities",
+      "correctOption": 2,
+      "explanation": "Effective C2 gets the 'right info to the right person at the right time,' which allows disparate joint teams (e.g., Army, Navy, Air Force) to synchronize their efforts and operate together with high intensity and effectiveness."
+    },
+    {
+      "id": 434,
+      "questionText": "The USSF core competency of Space Security is intended to provide safe and secure access to the space domain for which group of users?",
+      "options": [
+        "For US military and intelligence community assets only.",
+        "For US and allied military forces exclusively.",
+        "For US military, civil, commercial, and multinational partners.",
+        "For US commercial and scientific entities only."
+      ],
+      "section": "DAF Capabilities",
+      "correctOption": 2,
+      "explanation": "The Space Security competency aims to establish a secure space environment not just for the US military, but for a broad range of users, including civil agencies (like NASA), commercial companies, and international partners."
+    },
+    {
+      "id": 435,
+      "questionText": "The core competency of Combat Power Projection from space has two main aspects. Which statement best summarizes these two aspects?",
+      "options": [
+        "Launching new satellites and repairing existing ones.",
+        "Providing GPS signals and collecting weather data.",
+        "Protecting friendly space assets and denying an adversary the use of their space assets.",
+        "Monitoring space debris and tracking adversary satellites."
+      ],
+      "section": "DAF Capabilities",
+      "correctOption": 2,
+      "explanation": "Combat Power Projection is described as having both defensive and offensive components: defensive operations ensure the US has freedom of action in space, while offensive operations are aimed at denying that same freedom to an adversary."
+    },
+    {
+      "id": 436,
+      "questionText": "Which of the following activities is a primary example of the Space Mobility and Logistics core competency?",
+      "options": [
+        "Operating a GPS satellite to provide navigation signals.",
+        "Using a satellite to monitor an adversary's missile launch.",
+        "Transporting a new military satellite to orbit aboard a rocket.",
+        "Jamming an adversary's communication satellite during a conflict."
+      ],
+      "section": "DAF Capabilities",
+      "correctOption": 2,
+      "explanation": "Space Mobility and Logistics is defined as the 'movement and support of military equipment and personnel into, through, and back from the space domain.' Transporting a satellite to orbit is a core example of this competency."
+    },
+    {
+      "id": 437,
+      "questionText": "What is the main goal of the Information Mobility core competency?",
+      "options": [
+        "To secure the physical safety of satellites in orbit.",
+        "To physically move equipment and personnel into space.",
+        "To provide timely and reliable transportation of data for military operations.",
+        "To understand all factors and activities occurring within the space domain."
+      ],
+      "section": "DAF Capabilities",
+      "correctOption": 2,
+      "explanation": "The goal of Information Mobility is to ensure the 'timely, rapid, and reliable collection and transportation of data,' which is critical for providing information advantage to warfighters and decision-makers on Earth."
+    },
+    {
+      "id": 438,
+      "questionText": "Which statement best explains the type of knowledge provided by the Space Domain Awareness (SDA) competency?",
+      "options": [
+        "It provides the ability to transport data from space to Earth.",
+        "It provides a comprehensive understanding of the space environment and any factor that could affect operations.",
+        "It provides the physical ability to launch and maneuver satellites.",
+        "It provides secure access to space for commercial partners."
+      ],
+      "section": "DAF Capabilities",
+      "correctOption": 1,
+      "explanation": "Space Domain Awareness goes beyond simply tracking objects; it is the 'effective identification, characterization, and understanding of any factor' in space. This includes everything from orbital debris to an adversary's capabilities and intent, providing a complete picture of the operational environment."
     }
   ]
 }
