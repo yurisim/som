@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy, inject } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatCardModule } from '@angular/material/card';
 import { MatCheckboxModule } from '@angular/material/checkbox';
@@ -39,7 +39,7 @@ import { ChecklistItem, GroupedChecklist } from '../checklist.model';
   templateUrl: './checklist.component.html',
   styleUrls: ['./checklist.component.scss'],
 })
-export class ChecklistComponent implements OnInit, OnDestroy {
+export class ChecklistComponent implements OnInit {
   groupedChecklist: GroupedChecklist = {};
   regions: string[] = [];
   sections: { [key: string]: string[] } = {};
@@ -55,7 +55,7 @@ export class ChecklistComponent implements OnInit, OnDestroy {
 
   // loads data and sets up initial state
   ngOnInit(): void {
-    this.layoutService.setShowProgressBar(true);
+
     this.checklistService.getChecklistData().subscribe((data) => {
       this.groupedChecklist = this.groupData(data);
       this.filteredGroupedChecklist = this.groupedChecklist;
@@ -67,9 +67,7 @@ export class ChecklistComponent implements OnInit, OnDestroy {
     });
   }
 
-  ngOnDestroy(): void {
-    this.layoutService.setShowProgressBar(false);
-  }
+
 
   trackByRegion(index: number, region: string): string {
     return region;

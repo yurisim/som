@@ -26,6 +26,7 @@ export class App {
       .pipe(filter((event): event is NavigationEnd => event instanceof NavigationEnd))
       .subscribe((event: NavigationEnd) => {
         this.isHomePage = ['/', '/login'].includes(event.urlAfterRedirects);
+        this.layoutService.setMainToolbarVisible(!this.isHomePage);
       });
 
     this.layoutService.showProgressBar$.subscribe(isVisible => {
