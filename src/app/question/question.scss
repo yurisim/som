@@ -1,17 +1,19 @@
 .quiz-option {
   cursor: pointer;
-  margin: 0.5rem 0;
-  padding: 0.75rem;
-  border-radius: 0.25rem;
-  border: 1px solid #ddd;
+  transition: background-color 0.3s, color 0.3s;
   display: flex;
   align-items: center;
-
-  height: auto; /* Allow the item to grow vertically */
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+  height: auto; // Allow height to grow
+  min-height: 48px; // Ensure tappable area
 
   span {
-    white-space: normal; /* Allow text to wrap */
-    word-wrap: break-word; /* Break long words if necessary */
-    line-height: 1.4; /* Improve readability of wrapped text */
+    white-space: normal; // Allow text to wrap
+    word-break: break-word;
+  }
+
+  &:last-child {
+    border-bottom: none;
   }
 }

@@ -20,12 +20,12 @@
       ></app-question>
     </div>
 
-    <div class="flex justify-between mt-4">
-      <button mat-stroked-button (click)="prevPage()" [disabled]="currentPage === 0">
+    <div class="flex flex-col sm:flex-row justify-between items-center mt-4 space-y-2 sm:space-y-0">
+      <button mat-stroked-button (click)="prevPage()" [disabled]="currentPage === 0" class="w-full sm:w-auto">
         Previous
       </button>
       <span>Page {{ currentPage + 1 }} of {{ totalPages }}</span>
-      <button mat-stroked-button (click)="nextPage()" [disabled]="currentPage >= totalPages - 1">
+      <button mat-stroked-button (click)="nextPage()" [disabled]="currentPage >= totalPages - 1" class="w-full sm:w-auto">
         Next
       </button>
     </div>
