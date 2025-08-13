@@ -1,0 +1,21 @@
+<div class="text-center mb-8">
+  <h2 class="text-2xl font-bold">Choose Your Number of Questions</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+  <button mat-raised-button color="primary" (click)="selectMode(10)" class="h-24">
+    <mat-icon>flash_on</mat-icon>
+    <span class="ml-2">Quickie (10)</span>
+  </button>
+  <button mat-raised-button color="accent" (click)="selectMode(50)" class="h-24">
+    <mat-icon>psychology</mat-icon>
+    <span class="ml-2">Brain Teaser (50)</span>
+  </button>
+  <button mat-raised-button color="warn" (click)="selectMode(100)" class="h-24">
+    <mat-icon>school</mat-icon>
+    <span class="ml-2">Scholar (100)</span>
+  </button>
+  <button mat-raised-button (click)="selectMode('all')" class="h-24">
+    <mat-icon>fitness_center</mat-icon>
+    <span class="ml-2">Marathon (All)</span>
+  </button>
+</div>

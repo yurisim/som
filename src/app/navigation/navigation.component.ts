@@ -1,4 +1,5 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
 import { CommonModule } from '@angular/common';
 
@@ -6,13 +7,6 @@ import { CommonModule } from '@angular/common';
   selector: 'app-navigation',
   templateUrl: './navigation.component.html',
   standalone: true,
-  imports: [MatButtonModule, CommonModule]
+  imports: [MatButtonModule, CommonModule, RouterModule]
 })
-export class NavigationComponent {
-  @Input() selectedView: 'checklist' | 'quiz' = 'checklist';
-  @Output() viewSelected = new EventEmitter<'checklist' | 'quiz'>();
-
-  selectView(view: 'checklist' | 'quiz') {
-    this.viewSelected.emit(view);
-  }
-}
+export class NavigationComponent {}

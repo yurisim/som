@@ -1,8 +1,4 @@
-<div class="relative z-20 flex justify-center my-4 space-x-2">
-  <button mat-raised-button (click)="selectView('checklist')" [color]="selectedView === 'checklist' ? 'primary' : 'accent'">
-    Checklist
-  </button>
-  <button mat-raised-button (click)="selectView('quiz')" [color]="selectedView === 'quiz' ? 'primary' : 'accent'">
-    Quiz
-  </button>
+<div class="flex justify-center my-12">
+  <a mat-raised-button routerLink="/checklist" routerLinkActive="mat-primary">Checklist</a>
+  <a mat-raised-button routerLink="/quiz" routerLinkActive="mat-primary" class="ml-2">Quiz</a>
 </div>
