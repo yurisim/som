@@ -1,4 +1,5 @@
-import { Component, OnInit, inject } from '@angular/core';
+import { Component, OnInit, OnDestroy, inject } from '@angular/core';
+import { LayoutService } from '../layout.service';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Router } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
@@ -23,8 +24,9 @@ import { Question } from '../quiz/quiz.model';
   templateUrl: './quiz-runner.html',
   styleUrls: ['./quiz-runner.scss'],
 })
-export class QuizRunnerComponent implements OnInit {
+export class QuizRunnerComponent implements OnInit, OnDestroy {
   private quizService = inject(QuizService);
+  private layoutService = inject(LayoutService);
   private route = inject(ActivatedRoute);
   private router = inject(Router);
 
@@ -46,6 +48,7 @@ export class QuizRunnerComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.layoutService.setShowProgressBar(true);
     this.route.paramMap.subscribe(params => {
       const mode = params.get('mode');
       const numQuestions = mode === 'all' ? 'all' : Number(mode);
@@ -60,11 +63,25 @@ export class QuizRunnerComponent implements OnInit {
     this.quizFinished = false;
     this.questions = this.quizService.getQuestions();
     this.shuffleQuestions();
+    this.shuffleAnswers();
     if (typeof numQuestions === 'number') {
       this.questions = this.questions.slice(0, numQuestions);
     }
     this.setupPage();
     this.saveState();
+  }
+
+  shuffleAnswers(): void {
+    this.questions.forEach(q => {
+      const correctAnswer = q.options[q.correctOption];
+      // Shuffle the options array
+      for (let i = q.options.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [q.options[i], q.options[j]] = [q.options[j], q.options[i]];
+      }
+      // Find the new index of the correct answer and update the question
+      q.correctOption = q.options.findIndex(option => option === correctAnswer);
+    });
   }
 
   shuffleQuestions(): void {
@@ -101,6 +118,7 @@ export class QuizRunnerComponent implements OnInit {
     const question = this.questions.find(q => q.id === answer.questionId);
     if (question) {
       question.selectedOption = answer.selectedOption;
+      this.updateCompletionPercentage();
       this.saveState();
     }
   }
@@ -110,7 +128,8 @@ export class QuizRunnerComponent implements OnInit {
   }
 
   updateCompletionPercentage(): void {
-    this.completionPercentage = ((this.currentPage + 1) / this.totalPages) * 100;
+    const answeredCount = this.questions.filter(q => q.selectedOption !== undefined).length;
+    this.completionPercentage = this.totalQuestions > 0 ? (answeredCount / this.totalQuestions) * 100 : 0;
   }
 
   submitQuiz(): void {
@@ -136,6 +155,10 @@ export class QuizRunnerComponent implements OnInit {
   exitQuiz(): void {
     this.clearState();
     this.router.navigate(['/quiz']);
+  }
+
+  ngOnDestroy(): void {
+    this.layoutService.setShowProgressBar(false);
   }
 
   restartQuiz(): void {

@@ -1,4 +1,4 @@
-import { Component, OnInit, inject } from '@angular/core';
+import { Component, OnInit, OnDestroy, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatCardModule } from '@angular/material/card';
 import { MatCheckboxModule } from '@angular/material/checkbox';
@@ -8,12 +8,13 @@ import { FormsModule } from '@angular/forms';
 import { MatIconModule } from '@angular/material/icon';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatExpansionModule } from '@angular/material/expansion';
-import { MatInputModule } from '@angular/material/input';
-import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 import { ConfirmDialogComponent } from './confirm-dialog.component';
 import { ChecklistService } from '../checklist.service';
+import { LayoutService } from '../layout.service';
 import { KeyValue } from '@angular/common';
 import { ChecklistItem, GroupedChecklist } from '../checklist.model';
 
@@ -38,7 +39,7 @@ import { ChecklistItem, GroupedChecklist } from '../checklist.model';
   templateUrl: './checklist.component.html',
   styleUrls: ['./checklist.component.scss'],
 })
-export class ChecklistComponent implements OnInit {
+export class ChecklistComponent implements OnInit, OnDestroy {
   groupedChecklist: GroupedChecklist = {};
   regions: string[] = [];
   sections: { [key: string]: string[] } = {};
@@ -50,9 +51,11 @@ export class ChecklistComponent implements OnInit {
 
   checklistService = inject(ChecklistService);
   dialog = inject(MatDialog);
+  private layoutService = inject(LayoutService);
 
   // loads data and sets up initial state
   ngOnInit(): void {
+    this.layoutService.setShowProgressBar(true);
     this.checklistService.getChecklistData().subscribe((data) => {
       this.groupedChecklist = this.groupData(data);
       this.filteredGroupedChecklist = this.groupedChecklist;
@@ -62,6 +65,10 @@ export class ChecklistComponent implements OnInit {
       });
       this.calculateCompletionPercentage();
     });
+  }
+
+  ngOnDestroy(): void {
+    this.layoutService.setShowProgressBar(false);
   }
 
   trackByRegion(index: number, region: string): string {

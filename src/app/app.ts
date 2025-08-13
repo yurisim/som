@@ -1,4 +1,5 @@
 import { Component, inject } from '@angular/core';
+import { LayoutService } from './layout.service';
 import { CommonModule } from '@angular/common';
 import { NavigationEnd, Router, RouterModule } from '@angular/router';
 import { filter } from 'rxjs';
@@ -15,16 +16,20 @@ import { NavigationComponent } from './navigation/navigation.component';
 })
 export class App {
   protected title = 'Dorm Inspection/Quiz';
-  isQuizRunning = false;
   isHomePage = false;
+  showProgressBar = false;
   private router = inject(Router);
+  private layoutService = inject(LayoutService);
 
   constructor() {
     this.router.events
       .pipe(filter((event): event is NavigationEnd => event instanceof NavigationEnd))
       .subscribe((event: NavigationEnd) => {
-        this.isQuizRunning = event.urlAfterRedirects.startsWith('/quiz/run');
         this.isHomePage = ['/', '/login'].includes(event.urlAfterRedirects);
       });
+
+    this.layoutService.showProgressBar$.subscribe(isVisible => {
+      this.showProgressBar = isVisible;
+    });
   }
 }
