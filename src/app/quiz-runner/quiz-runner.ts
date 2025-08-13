@@ -55,8 +55,10 @@ export class QuizRunnerComponent implements OnInit, OnDestroy {
     this.layoutService.setShowTopProgressBar(true);
     this.route.paramMap.subscribe(params => {
       const mode = params.get('mode');
-      const numQuestions = mode === 'all' ? 'all' : Number(mode);
-      this.startNewQuiz(numQuestions);
+      if (!this.loadState()) {
+        const numQuestions = mode === 'all' ? 'all' : Number(mode);
+        this.startNewQuiz(numQuestions);
+      }
     });
   }
 
@@ -181,7 +183,7 @@ export class QuizRunnerComponent implements OnInit, OnDestroy {
     localStorage.setItem('quizState-' + this.route.snapshot.paramMap.get('mode'), JSON.stringify(state));
   }
 
-  loadState(): void {
+  loadState(): boolean {
     const savedState = localStorage.getItem('quizState-' + this.route.snapshot.paramMap.get('mode'));
     if (savedState) {
       const state = JSON.parse(savedState);
@@ -191,7 +193,9 @@ export class QuizRunnerComponent implements OnInit, OnDestroy {
       if (!this.quizFinished) {
         this.setupPage();
       }
+      return true;
     }
+    return false;
   }
 
   clearState(): void {
