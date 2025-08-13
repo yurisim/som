@@ -1,6 +1,7 @@
 import { Component, OnInit, OnDestroy, inject } from '@angular/core';
 import { fadeInOut } from '../animations';
 import { LayoutService } from '../layout.service';
+import { ViewportScroller } from '@angular/common';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Router } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
@@ -31,6 +32,7 @@ export class QuizRunnerComponent implements OnInit, OnDestroy {
   private layoutService = inject(LayoutService);
   private route = inject(ActivatedRoute);
   private router = inject(Router);
+  private viewportScroller = inject(ViewportScroller);
 
   questions: Question[] = [];
   paginatedQuestions: Question[] = [];
@@ -105,6 +107,7 @@ export class QuizRunnerComponent implements OnInit, OnDestroy {
       this.currentPage++;
       this.setupPage();
       this.saveState();
+      this.viewportScroller.scrollToPosition([0, 0]);
     }
   }
 
