@@ -19,15 +19,21 @@
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
   display: flex;
-  align-items: center;
+
   padding: 1rem;
   border-bottom: 1px solid #eee;
-  height: auto; // Allow height to grow
+  height: auto !important; // Ensure height is not fixed
   min-height: 48px; // Ensure tappable area
 
   span {
     white-space: normal; // Allow text to wrap
     word-break: break-word;
+
+    // Make the text span flexible
+    &:last-child {
+      flex: 1;
+      min-width: 0; // Prevents the flex item from overflowing its container
+    }
   }
 
   &:last-child {

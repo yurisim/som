@@ -737,14 +737,6 @@
       "explanation": "Implications and consequences represent the potential outcomes of a decision or action in the elements of reasoning."
     },
     {
-      "id": 64,
-      "questionText": "Which conflict management approach seeks a solution that partially satisfies both parties?",
-      "options": ["Insist", "Evade", "Settle", "Cooperate"],
-      "section": "Conflict Management",
-      "correctOption": 2,
-      "explanation": "Settle (corresponding to Compromising) seeks a solution that partially satisfies both parties through mutual concessions."
-    },
-    {
       "id": 65,
       "questionText": "Resource interdependence as a source of conflict occurs when:",
       "options": [
@@ -1953,10 +1945,10 @@
       "id": 265,
       "questionText": "What is a primary reason for a leader to establish clear expectations?",
       "options": [
-        "To increase follower stress and anxiety.",
+        "To increase follower stress to develop their character.",
         "To provide a clear roadmap and link individual duties to the unit mission.",
         "To eliminate the need for performance tracking.",
-        "To create ambiguity so followers can be creative."
+        "Creating only expectations but not routes creates ambiguity so followers can be creative."
       ],
       "section": "Establishing Expectations",
       "correctOption": 1,
@@ -2285,19 +2277,6 @@
       "section": "Full Range Leadership",
       "correctOption": 1,
       "explanation": "Inspirational Motivation (IM) is about leaders inspiring and motivating their followers, often by articulating a compelling vision for the future\u2014effectively 'talking the talk.'"
-    },
-    {
-      "id": 294,
-      "questionText": "The conflict management approach that seeks a quick solution where both parties partially win and partially lose is:",
-      "options": [
-        "Collaborating (Cooperate)",
-        "Accommodating (Comply)",
-        "Compromising (Settle)",
-        "Avoiding (Evade)"
-      ],
-      "section": "Conflict Management",
-      "correctOption": 2,
-      "explanation": "Compromising (Settle) involves seeking a middle ground where both parties make concessions. It's a quick, partially satisfying solution for both sides."
     },
     {
       "id": 295,
@@ -3504,7 +3483,7 @@
     },
     {
       "id": 399,
-      "questionText": "A fighter squadron cannot conduct its training missions effectively because an adversary has gained control of the airspace over the training range. Before any other operations can succeed, the Air Force must first achieve what?",
+      "questionText": "A bomber squadron cannot conduct its missions effectively because an adversary has gained control of the airspace over the area. Before any other operations can succeed, the Air Force must first achieve what?",
       "options": [
         "Rapid Global Mobility",
         "Global Strike",
