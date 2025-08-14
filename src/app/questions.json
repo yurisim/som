@@ -254,14 +254,6 @@
       "explanation": "Clarity is the 'gateway standard.' The term 'lack of situational awareness' is vague and unclear. The officer is demanding a more explicit description of the behavior to ensure the meaning is understood before its accuracy or relevance can be determined."
     },
     {
-      "id": 23,
-      "questionText": "An intelligence analyst presents a brief, stating, 'The adversary is planning an imminent action.' The commander responds, 'That's too vague. What do you mean by 'imminent'? What 'action'? I can't assess if your information is accurate until you explain your terms.' The commander is requesting improvement in which intellectual standard?",
-      "options": ["Logic", "Clarity", "Depth", "Fairness"],
-      "section": "Critical Thinking",
-      "correctOption": 1,
-      "explanation": "Clarity is the 'gateway standard.' The commander cannot evaluate the accuracy or relevance of the intel because the initial statement is unclear. They need the analyst to be more explicit."
-    },
-    {
       "id": 24,
       "questionText": "What is the primary goal of cognitive domain operations?",
       "options": [
@@ -1572,14 +1564,6 @@
       "explanation": "The provided definition of critical thinking is: \u201cThe process of thinking carefully about a subject or idea, without allowing feelings or opinions to affect you.\u201d"
     },
     {
-      "id": 235,
-      "questionText": "Which intellectual standard is considered the 'gateway standard' because a statement cannot be checked for accuracy or relevance if it is not met?",
-      "options": ["Logic", "Clarity", "Depth", "Fairness"],
-      "section": "Critical Thinking",
-      "correctOption": 1,
-      "explanation": "Clarity is called the 'gateway standard.' If a statement is unclear, you cannot determine its accuracy, relevance, or any other intellectual standard."
-    },
-    {
       "id": 236,
       "questionText": "When a thinker ensures their thoughts are mutually supporting and make sense in combination, they are applying which intellectual standard?",
       "options": ["Breadth", "Precision", "Significance", "Logic"],
@@ -1696,7 +1680,7 @@
     },
     {
       "id": 246,
-      "questionText": "Allowing a single positive or negative trait of a person to define your entire opinion of them is an example of which cognitive bias?",
+      "questionText": "Allowing a single positive of a person to define your entire opinion of them is an example of which cognitive bias?",
       "options": [
         "Confirmation Bias",
         "Halo Effect",
@@ -1705,7 +1689,7 @@
       ],
       "section": "Critical Thinking",
       "correctOption": 1,
-      "explanation": "The Halo Effect is a cognitive bias where a single trait (positive or negative) of a person or situation overshadows all other information, leading to a skewed overall judgment."
+      "explanation": "The Halo Effect is a cognitive bias where a single trait (positive) of a person or situation overshadows all other information, leading to a skewed overall judgment."
     },
     {
       "id": 247,
@@ -3940,6 +3924,84 @@
       "section": "DAF Capabilities",
       "correctOption": 1,
       "explanation": "Space Domain Awareness goes beyond simply tracking objects; it is the 'effective identification, characterization, and understanding of any factor' in space. This includes everything from orbital debris to an adversary's capabilities and intent, providing a complete picture of the operational environment."
+    },
+    {
+      "id": 439,
+      "questionText": "A team of Airmen is tasked with reorganizing a supply room but receives no specific instructions beyond 'make it better.' The team members become anxious, argue over methods, and make little progress. This situation illustrates that establishing clear expectations is important primarily because it does what?",
+      "options": [
+        "It demonstrates the leader's absolute authority.",
+        "It provides a clear roadmap and reduces the stress of uncertainty.",
+        "It guarantees the team will receive awards for their work.",
+        "It eliminates the need for the team to think for themselves."
+      ],
+      "section": "Establishing Expectations",
+      "correctOption": 1,
+      "explanation": "The team's anxiety and confusion show how a lack of clear goals creates stress. Establishing expectations provides the 'roadmap' needed to clarify objectives, reduce confusion, and enable the team to succeed."
+    },
+    {
+      "id": 440,
+      "questionText": "A MSgt tells his NCOICs, 'I expect a higher level of professionalism from your shifts next week.' He offers no specific examples or metrics for what 'professionalism' entails, leaving the NCOICs unsure of what changes to implement. The MSgt's failure to provide specifics violates which guideline for establishing expectations?",
+      "options": [
+        "Track Progress",
+        "Seek Buy-In",
+        "Communicate Clearly",
+        "Help Subordinates Connect"
+      ],
+      "section": "Establishing Expectations",
+      "correctOption": 2,
+      "explanation": "The guideline 'Communicate Clearly' stresses that expectations must be simple and easily understood. By using a vague term like 'professionalism' without specific, measurable examples, the MSgt failed to communicate his expectations effectively."
+    },
+    {
+      "id": 441,
+      "questionText": "When assigning the tedious task of daily tool inventory, a flight chief explains, 'I know this is repetitive, but your accuracy here is what ensures our mechanics have the right tools, which directly impacts our aircraft availability rate and the wing's overall mission.' By explaining the 'why', the chief is using which guideline?",
+      "options": [
+        "Seeking Buy-In",
+        "Tracking Progress",
+        "Helping Subordinates Connect to the Mission",
+        "Understanding the Importance"
+      ],
+      "section": "Establishing Expectations",
+      "correctOption": 2,
+      "explanation": "The flight chief is directly linking a routine, individual duty (tool inventory) to the success of the larger organizational mission. This is a key part of the 'Help Subordinates Connect' guideline, which fosters a sense of purpose."
+    },
+    {
+      "id": 442,
+      "questionText": "A commander, frustrated with untidy common areas, unilaterally posts a memo mandating a new, rigorous cleaning schedule for all personnel. The rule is met with widespread resentment and minimal compliance. This poor result is likely because the commander failed to follow which guideline?",
+      "options": [
+        "Track Progress",
+        "Communicate Clearly",
+        "Seek Buy-In",
+        "Understand Importance"
+      ],
+      "section": "Establishing Expectations",
+      "correctOption": 2,
+      "explanation": "By imposing the rule without including the team in the process or setting achievable goals together, the commander failed to 'Seek Buy-In.' This is crucial for fostering ownership and commitment to new expectations."
+    },
+    {
+      "id": 443,
+      "questionText": "A section chief announces, 'Our objective for this quarter is to reduce our customer response time.' However, she never establishes a baseline, sets a specific target, or creates a system to measure the response time. The initiative fails. Which guideline was critically missing?",
+      "options": [
+        "Communicate Clearly",
+        "Seek Buy-In",
+        "Track Progress",
+        "Help Subordinates Connect"
+      ],
+      "section": "Establishing Expectations",
+      "correctOption": 2,
+      "explanation": "An expectation without a monitoring plan is likely to fail. The 'Track Progress' guideline requires leaders to plan how to monitor activities with steps, milestones, and results, all of which were missing in this scenario."
+    },
+    {
+      "id": 444,
+      "questionText": "In January, a supervisor sets a goal for an Airman to become an expert on System A. In June, the unit's mission shifts, and the Airman is now required to work exclusively on System B. The supervisor, however, continues to evaluate the Airman based on their lack of progress with System A. This supervisor fails to understand which guideline?",
+      "options": [
+        "That expectations are a continuous cycle that must be observed and adjusted as situations change.",
+        "That an expectation must be communicated simply and clearly to be effective.",
+        "That an expectation should be linked to the unit's overarching mission.",
+        "That a supervisor must seek buy-in from subordinates for the expectation to work."
+      ],
+      "section": "Establishing Expectations",
+      "correctOption": 0,
+      "explanation": "The 'Know When & Where' guideline highlights that establishing expectations is not a one-time event. It is a continuous cycle; leaders must observe performance and adjust expectations when the mission or environment changes, which this supervisor failed to do."
     }
   ]
 }
