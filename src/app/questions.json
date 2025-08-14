@@ -1510,7 +1510,7 @@
         "adversely affects morale, good order, discipline, orunit cohesion.",
         "is between two members of the same pay grade."
       ],
-      "section": "Professional & Unprofessional Relationships",
+      "section": "Professional Relationships",
       "correctOption": 2,
       "explanation": "A personal relationship becomes an official concern and an Unprofessional Relationship (UPR) when it negatively impacts the unit by adversely affecting morale, good order, discipline, respect for authority, unit cohesion, or the mission."
     },
@@ -1523,7 +1523,7 @@
         "Both members are equally responsible",
         "The unit commander"
       ],
-      "section": "Professional & Unprofessional Relationships",
+      "section": "Professional Relationships",
       "correctOption": 1,
       "explanation": "While all members are accountable, the policy states that the senior member in any personal relationship is primarily responsible for maintaining the professionalism of that relationship."
     },
@@ -1536,7 +1536,7 @@
         "Mentorship",
         "Networking"
       ],
-      "section": "Professional & Unprofessional Relationships",
+      "section": "Professional Relationships",
       "correctOption": 1,
       "explanation": "Fraternization is the specific term for a UPR between an officer and an enlisted member that violates the customs of the service and prejudices good order and discipline or brings discredit upon the armed forces."
     },
@@ -1549,7 +1549,7 @@
         "Enhanced respect for the chain of command",
         "Erosion of trust and perceptions of favoritism"
       ],
-      "section": "Professional & Unprofessional Relationships",
+      "section": "Professional Relationships",
       "correctOption": 3,
       "explanation": "This scenario shows how a UPR can lead to perceptions of favoritism, which erodes trust in leadership, degrades morale, and ultimately harms unit cohesiveness and mission accomplishment."
     },
@@ -1562,7 +1562,7 @@
         "Lending money to or borrowing money from enlisted members.",
         "Recognizing an enlisted member for outstanding performance."
       ],
-      "section": "Professional & Unprofessional Relationships",
+      "section": "Professional Relationships",
       "correctOption": 2,
       "explanation": "The policy specifically prohibits officers from engaging in certain activities with enlisted members, including gambling, sharing living accommodations, and lending or borrowing money."
     },
@@ -1575,7 +1575,7 @@
         "without allowing feelings or opinions to affect you.",
         "to confirm your existing beliefs."
       ],
-      "section": "Critical Thinking I",
+      "section": "Critical Thinking",
       "correctOption": 2,
       "explanation": "The provided definition of critical thinking is: \u201cThe process of thinking carefully about a subject or idea, without allowing feelings or opinions to affect you.\u201d"
     },
@@ -1583,7 +1583,7 @@
       "id": 235,
       "questionText": "Which intellectual standard is considered the 'gateway standard' because a statement cannot be checked for accuracy or relevance if it is not met?",
       "options": ["Logic", "Clarity", "Depth", "Fairness"],
-      "section": "Critical Thinking I",
+      "section": "Critical Thinking",
       "correctOption": 1,
       "explanation": "Clarity is called the 'gateway standard.' If a statement is unclear, you cannot determine its accuracy, relevance, or any other intellectual standard."
     },
@@ -1591,7 +1591,7 @@
       "id": 236,
       "questionText": "When a thinker ensures their thoughts are mutually supporting and make sense in combination, they are applying which intellectual standard?",
       "options": ["Breadth", "Precision", "Significance", "Logic"],
-      "section": "Critical Thinking I",
+      "section": "Critical Thinking",
       "correctOption": 3,
       "explanation": "The intellectual standard of Logic ensures that different thoughts and premises support each other and make sense when considered together, avoiding contradictions."
     },
@@ -1604,7 +1604,7 @@
         "Cognitive Domain Operations",
         "Cyber Security Operations"
       ],
-      "section": "Critical Thinking I",
+      "section": "Critical Thinking",
       "correctOption": 2,
       "explanation": "Cognitive Domain Operations are specifically defined as aiming to influence an adversary's will, beliefs, and thinking, targeting the human brain as the main combat space."
     },
@@ -1617,7 +1617,7 @@
         "The tendency to reject all information from outside sources.",
         "The tendency to only trust information from official channels."
       ],
-      "section": "Critical Thinking I",
+      "section": "Critical Thinking",
       "correctOption": 1,
       "explanation": "Disinformation is effective because it exploits confirmation bias, where people are more receptive to information, even if false, that confirms what they already believe."
     },
@@ -1630,7 +1630,7 @@
         "is factually true or false, independent of what people think.",
         "cannot be verified by evidence."
       ],
-      "section": "Critical Thinking I",
+      "section": "Critical Thinking",
       "correctOption": 2,
       "explanation": "An objective claim's truth or falsity is independent of individual belief. For example, 'the Earth is round' is an objective claim, while 'vanilla is the best flavor' is a subjective claim."
     },
@@ -1698,7 +1698,7 @@
       "id": 245,
       "questionText": "Which of the eight elements of reasoning refers to the theories, principles, and ideas that frame one's thinking?",
       "options": ["Information", "Assumptions", "Concepts", "Implications"],
-      "section": "Critical Thinking II",
+      "section": "Critical Thinking",
       "correctOption": 2,
       "explanation": "Concepts are the element of reasoning that includes the theories, principles, and ideas used to frame and understand the problem or subject."
     },
@@ -1711,7 +1711,7 @@
         "Deflection",
         "Activated Ignorance"
       ],
-      "section": "Critical Thinking II",
+      "section": "Critical Thinking",
       "correctOption": 1,
       "explanation": "The Halo Effect is a cognitive bias where a single trait (positive or negative) of a person or situation overshadows all other information, leading to a skewed overall judgment."
     },
@@ -1724,7 +1724,7 @@
         "Belief Perseverance/Confirmation Bias",
         "Asking the wrong questions"
       ],
-      "section": "Critical Thinking II",
+      "section": "Critical Thinking",
       "correctOption": 2,
       "explanation": "Belief Perseverance, also known as Confirmation Bias, is a common thinking error where individuals actively seek out and favor information that supports their pre-existing beliefs and perspectives."
     },
@@ -2230,7 +2230,7 @@
       "id": 289,
       "questionText": "In critical thinking, addressing various interpretations and other points of view demonstrates which intellectual standard?",
       "options": ["Depth", "Breadth", "Significance", "Accuracy"],
-      "section": "Critical Thinking I",
+      "section": "Critical Thinking",
       "correctOption": 1,
       "explanation": "The standard of Breadth requires the thinker to consider an issue from multiple perspectives and points of view to avoid a narrow or one-sided assessment."
     },
@@ -2243,7 +2243,7 @@
         "Activated Ignorance",
         "Relying on System 1 Thinking"
       ],
-      "section": "Critical Thinking II",
+      "section": "Critical Thinking",
       "correctOption": 3,
       "explanation": "This describes the error of relying on System 1 thinking (fast, intuitive) for complex problems that require System 2 thinking (slow, deliberate, logical)."
     },
@@ -2303,7 +2303,7 @@
       "id": 295,
       "questionText": "Which element of reasoning refers to the central problem or question that needs to be answered?",
       "options": ["Purpose", "Question at Issue", "Assumptions", "Inferences"],
-      "section": "Critical Thinking II",
+      "section": "Critical Thinking",
       "correctOption": 1,
       "explanation": "The 'Question at Issue' is the core element that defines the problem or issue that the critical thinking process is meant to address and solve."
     },
@@ -2405,7 +2405,7 @@
         "Stereotyping",
         "Activated Ignorance"
       ],
-      "section": "Critical Thinking II",
+      "section": "Critical Thinking",
       "correctOption": 3,
       "explanation": "Activated Ignorance is the mistake of taking something false as true and actively using that false information as a premise in one's reasoning, leading to faulty conclusions."
     },

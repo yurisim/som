@@ -17,7 +17,8 @@ export const appRoutes: Route[] = [
     canActivate: [authGuard],
     children: [
       { path: '', component: QuizModeSelectionComponent },
-      { path: 'run/:mode', component: QuizRunnerComponent }
+      { path: 'run/:mode', component: QuizRunnerComponent },
+      { path: 'run/section/:sectionName', component: QuizRunnerComponent }
     ]
   }
 ];

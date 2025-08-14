@@ -42,6 +42,7 @@ export class QuizRunnerComponent implements OnInit, OnDestroy {
   quizFinished = false;
   completionPercentage = 0;
   missedAreas: { section: string; count: number }[] = [];
+  quizMode: string | null = null;
 
   get totalPages(): number {
     return Math.ceil(this.questions.length / this.questionsPerPage);
@@ -55,43 +56,65 @@ export class QuizRunnerComponent implements OnInit, OnDestroy {
     this.layoutService.setShowTopProgressBar(true);
 
     this.route.paramMap.subscribe(params => {
-      const currentMode = params.get('mode');
-      let activeQuizMode: string | null = null;
+      const sectionName = params.get('sectionName');
+      if (sectionName) {
+        this.quizMode = `section-${sectionName}`;
+      } else {
+        this.quizMode = params.get('mode');
+      }
+
+      if (!this.quizMode) {
+        this.router.navigate(['/quiz']); // Should not happen, but as a safeguard
+        return;
+      }
 
       // Check for any active quiz in localStorage
+      let activeQuizKey: string | null = null;
       for (let i = 0; i < localStorage.length; i++) {
         const key = localStorage.key(i);
         if (key && key.startsWith('quizState-')) {
-          activeQuizMode = key.replace('quizState-', '');
+          activeQuizKey = key;
           break;
         }
       }
 
+      const activeQuizMode = activeQuizKey ? activeQuizKey.replace('quizState-', '') : null;
+
       // If an active quiz exists and it's not the current one, redirect
-      if (activeQuizMode && activeQuizMode !== currentMode) {
-        this.router.navigate(['/quiz', activeQuizMode]);
+      if (activeQuizMode && activeQuizMode !== this.quizMode) {
+        const route = activeQuizMode.includes('section-')
+          ? ['/quiz/run/section', activeQuizMode.replace('section-', '')]
+          : ['/quiz/run', activeQuizMode];
+        this.router.navigate(route);
         return;
       }
 
       // Otherwise, load state or start a new quiz
       if (!this.loadState()) {
-        const numQuestions = currentMode === 'all' ? 'all' : Number(currentMode);
-        this.startNewQuiz(numQuestions);
+        this.startNewQuiz();
       }
     });
   }
 
-  startNewQuiz(numQuestions: number | 'all'): void {
+  startNewQuiz(): void {
     this.clearState();
     this.currentPage = 0;
     this.score = 0;
     this.quizFinished = false;
-    this.questions = this.quizService.getQuestions();
-    this.shuffleQuestions();
-    this.shuffleAnswers();
-    if (typeof numQuestions === 'number') {
-      this.questions = this.questions.slice(0, numQuestions);
+    const allQuestions = this.quizService.getQuestions();
+
+    if (this.quizMode?.startsWith('section-')) {
+      const section = this.quizMode.replace('section-', '');
+      this.questions = allQuestions.filter(q => q.section === section);
+    } else if (this.quizMode !== 'all') {
+      this.shuffleQuestions(allQuestions);
+      this.questions = allQuestions.slice(0, Number(this.quizMode));
+    } else {
+      this.questions = allQuestions;
     }
+
+    this.shuffleQuestions(this.questions);
+    this.shuffleAnswers();
     this.setupPage();
     this.saveState();
   }
@@ -109,10 +132,10 @@ export class QuizRunnerComponent implements OnInit, OnDestroy {
     });
   }
 
-  shuffleQuestions(): void {
-    for (let i = this.questions.length - 1; i > 0; i--) {
+  shuffleQuestions(questions: Question[]): void {
+    for (let i = questions.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
-      [this.questions[i], this.questions[j]] = [this.questions[j], this.questions[i]];
+      [questions[i], questions[j]] = [questions[j], questions[i]];
     }
   }
 
@@ -188,9 +211,7 @@ export class QuizRunnerComponent implements OnInit, OnDestroy {
   }
 
   restartQuiz(): void {
-    const mode = this.route.snapshot.paramMap.get('mode');
-    const numQuestions = mode === 'all' ? 'all' : Number(mode);
-    this.startNewQuiz(numQuestions);
+    this.startNewQuiz();
   }
 
   saveState(): void {
@@ -199,11 +220,14 @@ export class QuizRunnerComponent implements OnInit, OnDestroy {
       currentPage: this.currentPage,
       quizFinished: this.quizFinished
     };
-    localStorage.setItem('quizState-' + this.route.snapshot.paramMap.get('mode'), JSON.stringify(state));
+    if (this.quizMode) {
+      localStorage.setItem(`quizState-${this.quizMode}`, JSON.stringify(state));
+    }
   }
 
   loadState(): boolean {
-    const savedState = localStorage.getItem('quizState-' + this.route.snapshot.paramMap.get('mode'));
+    if (!this.quizMode) return false;
+    const savedState = localStorage.getItem(`quizState-${this.quizMode}`);
     if (savedState) {
       const state = JSON.parse(savedState);
       this.questions = state.questions;

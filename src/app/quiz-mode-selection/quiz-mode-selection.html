@@ -29,3 +29,14 @@
     <div matListItemLine>All questions</div>
   </mat-list-item>
 </mat-list>
+
+<div class="text-center mb-8 mt-4">
+  <h3 class="text-xl font-bold mt-8 mb-4">Practice by Topic</h3>
+</div>
+<mat-list role="list">
+  <mat-list-item *ngFor="let section of sections" (click)="selectMode(section.name)" class="cursor-pointer h-auto py-4 px-2 sm:px-6">
+    <mat-icon matListItemIcon>topic</mat-icon>
+    <div matListItemTitle>{{ section.name }}</div>
+    <div matListItemLine>{{ section.count }} questions</div>
+  </mat-list-item>
+</mat-list>
