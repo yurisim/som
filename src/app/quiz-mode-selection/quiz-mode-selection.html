@@ -25,65 +25,33 @@
     Open Study Guide
   </a>
 </div>
-<mat-list role="list" class="centered-list">
-  <mat-list-item
-    role="listitem"
-    (click)="selectMode(10)"
-    class="cursor-pointer h-auto py-4 px-2 sm:px-6"
+<div class="topic-tiles-container">
+  <mat-card
+    *ngFor="let mode of quizModes"
+    (click)="selectMode(mode.mode)"
+    class="topic-tile"
   >
-    <mat-icon class="my-2">flash_on</mat-icon>
-    <div matListItemTitle>Quickie</div>
-    <div matListItemLine>10 questions</div>
-  </mat-list-item>
-  <mat-list-item
-    role="listitem"
-    (click)="selectMode(50)"
-    class="cursor-pointer h-auto py-4 px-2 sm:px-6"
-  >
-    <mat-icon class="my-2">psychology</mat-icon>
-    <div matListItemTitle>Brain Teaser</div>
-    <div matListItemLine>50 questions</div>
-  </mat-list-item>
-  <mat-list-item
-    role="listitem"
-    (click)="selectMode(100)"
-    class="cursor-pointer h-auto py-4 px-2 sm:px-6"
-  >
-    <mat-icon class="my-2">school</mat-icon>
-    <div matListItemTitle>Scholar</div>
-    <div matListItemLine>100 questions</div>
-  </mat-list-item>
-  <mat-list-item
-    role="listitem"
-    (click)="selectMode('all')"
-    class="cursor-pointer h-auto py-4 px-2 sm:px-6"
-  >
-    <mat-icon class="my-2">fitness_center</mat-icon>
-    <div matListItemTitle>Marathon</div>
-    <div matListItemLine>All questions</div>
-  </mat-list-item>
-  <mat-list-item
-    role="listitem"
-    (click)="selectMode('incorrect')"
-    class="cursor-pointer h-auto py-4 px-2 sm:px-6"
-  >
-    <mat-icon class="my-2">replay</mat-icon>
-    <div matListItemTitle>Prioritize Incorrect</div>
-    <div matListItemLine>Focus on questions you've missed</div>
-  </mat-list-item>
-</mat-list>
+    <mat-card-content>
+      <mat-icon>{{ mode.icon }}</mat-icon>
+      <div class="font-bold">{{ mode.title }}</div>
+      <div class="text-sm text-gray-500">{{ mode.line }}</div>
+    </mat-card-content>
+  </mat-card>
+</div>
 
 <div class="text-center mb-8 mt-4">
   <h3 class="text-2xl font-bold header-primary my-4">Practice by Topic</h3>
 </div>
-<mat-list role="list" class="centered-list">
-  <mat-list-item
+<div class="topic-tiles-container">
+  <mat-card
     *ngFor="let section of sections"
     (click)="selectMode(section.name)"
-    class="cursor-pointer h-auto py-4 px-2 sm:px-6"
+    class="topic-tile"
   >
-    <mat-icon class="my-2">topic</mat-icon>
-    <div matListItemTitle>{{ section.name }}</div>
-    <div matListItemLine>{{ section.count }} questions</div>
-  </mat-list-item>
-</mat-list>
+    <mat-card-content>
+      <mat-icon>topic</mat-icon>
+      <div class="font-bold">{{ section.name }}</div>
+      <div class="text-sm text-gray-500">{{ section.count }} questions</div>
+    </mat-card-content>
+  </mat-card>
+</div>

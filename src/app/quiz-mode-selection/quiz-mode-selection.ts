@@ -7,15 +7,24 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatCardModule } from '@angular/material/card';
 
 @Component({
   selector: 'app-quiz-mode-selection',
   standalone: true,
-  imports: [CommonModule, MatButtonModule, MatIconModule, MatListModule, MatTooltipModule],
+  imports: [CommonModule, MatButtonModule, MatIconModule, MatListModule, MatTooltipModule, MatCardModule],
   templateUrl: './quiz-mode-selection.html',
   styleUrls: ['./quiz-mode-selection.scss']
 })
 export class QuizModeSelectionComponent implements OnInit {
+  quizModes = [
+    { mode: 10, icon: 'flash_on', title: 'Quickie', line: '10 questions' },
+    { mode: 50, icon: 'psychology', title: 'Brain Teaser', line: '50 questions' },
+    { mode: 100, icon: 'school', title: 'Scholar', line: '100 questions' },
+    { mode: 'all', icon: 'fitness_center', title: 'Marathon', line: 'All questions' },
+    { mode: 'incorrect', icon: 'replay', title: 'Prioritize Incorrect', line: 'Focus on missed questions' }
+  ];
+
   sections: { name: string; count: number }[] = [];
   private router = inject(Router);
   private quizService = inject(QuizService);
