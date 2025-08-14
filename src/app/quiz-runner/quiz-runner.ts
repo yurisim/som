@@ -102,8 +102,11 @@ export class QuizRunnerComponent implements OnInit, OnDestroy {
     this.score = 0;
     this.quizFinished = false;
     const allQuestions = this.quizService.getQuestions();
+    const prioritizedIds = this.quizService.getPrioritizedQuestions();
 
-    if (this.quizMode?.startsWith('section-')) {
+    if (this.quizMode === 'incorrect' && prioritizedIds.length > 0) {
+      this.questions = allQuestions.filter(q => prioritizedIds.includes(q.id));
+    } else if (this.quizMode?.startsWith('section-')) {
       const section = this.quizMode.replace('section-', '');
       this.questions = allQuestions.filter(q => q.section === section);
     } else if (this.quizMode !== 'all') {

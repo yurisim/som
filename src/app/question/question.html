@@ -28,6 +28,17 @@
       </div>
       }
     </mat-card-content>
+    <mat-card-actions>
+      <div class="flex-grow"></div>
+      <div class="flex items-center space-x-1"
+           matTooltip="The number of times you got this question correct or wrong. Two correct answers awards 'mastery'.">
+        <ng-container *ngFor="let result of questionHistory">
+          <mat-icon [ngClass]="{'text-green-500': result, 'text-red-500': !result}">
+            {{ result ? 'check_circle' : 'cancel' }}
+          </mat-icon>
+        </ng-container>
+      </div>
+    </mat-card-actions>
   </mat-card>
 </div>
 }

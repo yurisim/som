@@ -1,8 +1,11 @@
-import { Component, EventEmitter, Input, OnChanges, Output, SimpleChanges } from '@angular/core';
+import { Component, EventEmitter, inject, Input, OnChanges, Output, SimpleChanges } from '@angular/core';
 import { Question } from '../quiz/quiz.model';
 import { CommonModule } from '@angular/common';
 import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
+import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatIconModule } from '@angular/material/icon';
+import { QuestionHistoryService } from '../question-history.service';
 
 interface ShuffledOption {
   text: string;
@@ -12,7 +15,7 @@ interface ShuffledOption {
 @Component({
   selector: 'app-question',
   standalone: true,
-  imports: [CommonModule, MatCardModule, MatListModule],
+  imports: [CommonModule, MatCardModule, MatListModule, MatTooltipModule, MatIconModule],
   templateUrl: './question.html',
   styleUrls: ['./question.scss']
 })
@@ -24,10 +27,14 @@ export class QuestionComponent implements OnChanges {
   shuffledOptions: ShuffledOption[] = [];
   selectedOption: ShuffledOption | null = null;
   isAnswered = false;
+  questionHistory: boolean[] = [];
+
+  private questionHistoryService = inject(QuestionHistoryService);
 
   ngOnChanges(changes: SimpleChanges): void {
     if (changes['question'] && this.question) {
       this.isAnswered = this.question.selectedOption !== undefined;
+      this.questionHistory = this.questionHistoryService.getHistory(this.question.id);
       this.shuffleOptions();
       if (this.isAnswered) {
         this.selectedOption = this.shuffledOptions.find(o => o.originalIndex === this.question.selectedOption) || null;
@@ -52,6 +59,12 @@ export class QuestionComponent implements OnChanges {
     if (!this.isAnswered) {
       this.selectedOption = option;
       this.isAnswered = true;
+      const isCorrect = this.isCorrect(option);
+      this.questionHistoryService.addAnswer(this.question.id, isCorrect);
+      this.questionHistory.push(isCorrect);
+      if (this.questionHistory.length > 2) {
+        this.questionHistory.shift();
+      }
       this.answer.emit({ questionId: this.question.id, selectedOption: this.selectedOption.originalIndex });
     }
   }

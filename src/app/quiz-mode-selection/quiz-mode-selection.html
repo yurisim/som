@@ -28,7 +28,17 @@
     <div matListItemTitle>Marathon</div>
     <div matListItemLine>All questions</div>
   </mat-list-item>
+  <mat-list-item role="listitem" (click)="selectMode('incorrect')" class="cursor-pointer h-auto py-4 px-2 sm:px-6">
+    <mat-icon matListItemIcon>replay</mat-icon>
+    <div matListItemTitle>Prioritize Incorrect</div>
+    <div matListItemLine>Focus on questions you've missed</div>
+  </mat-list-item>
 </mat-list>
+
+<div class="text-center my-8">
+  <h3 class="text-xl font-bold">Mastery Progress</h3>
+  <p class="text-lg">{{ masteredQuestions }} / {{ totalQuestions }} questions mastered</p>
+</div>
 
 <div class="text-center mb-8 mt-4">
   <h3 class="text-xl font-bold mt-8 mb-4">Practice by Topic</h3>

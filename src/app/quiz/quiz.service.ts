@@ -7,6 +7,7 @@ import questionsData from '../questions.json';
 })
 export class QuizService {
   private questions: Question[] = questionsData.questions;
+  private prioritizedQuestionIds: number[] = [];
 
   getSections(): { name: string; count: number }[] {
     const sectionCounts = this.questions.reduce((acc, question) => {
@@ -22,8 +23,22 @@ export class QuizService {
       .sort((a, b) => a.name.localeCompare(b.name));
   }
 
+  getTotalQuestionsCount(): number {
+    return this.questions.length;
+  }
+
   getQuestions(): Question[] {
     // Deep copy to prevent modification of the original data
     return JSON.parse(JSON.stringify(this.questions));
   }
+
+  setPrioritizedQuestions(questionIds: number[]): void {
+    this.prioritizedQuestionIds = questionIds;
+  }
+
+  getPrioritizedQuestions(): number[] {
+    return this.prioritizedQuestionIds;
+  }
+
+
 }
