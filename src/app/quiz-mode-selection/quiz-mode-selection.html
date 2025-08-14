@@ -1,4 +1,4 @@
-<div class="text-center my-8">
+<div class="text-center">
   <h3 class="text-xl font-bold header-primary">
     Mastery Progress
     <mat-icon
@@ -11,9 +11,6 @@
     {{ masteredQuestions }} / {{ totalQuestions }} questions mastered
   </p>
 </div>
-<div class="text-center">
-  <h2 class="text-2xl font-bold header-primary mt-4">Choose Your Challenge</h2>
-</div>
 <div class="my-4 text-center">
   <a
     mat-stroked-button
@@ -25,6 +22,9 @@
     Open Study Guide
   </a>
 </div>
+<div class="text-center my-4">
+  <h2 class="text-2xl font-bold header-primary">Choose Your Challenge</h2>
+</div>
 <div class="topic-tiles-container">
   <mat-card
     *ngFor="let mode of quizModes"
@@ -34,12 +34,12 @@
     <mat-card-content>
       <mat-icon>{{ mode.icon }}</mat-icon>
       <div class="font-bold">{{ mode.title }}</div>
-      <div class="text-sm text-gray-500">{{ mode.line }}</div>
+      <div class="text-sm text-gray-400">{{ mode.line }}</div>
     </mat-card-content>
   </mat-card>
 </div>
 
-<div class="text-center mb-8 mt-4">
+<div class="text-center mb-8 mt-8">
   <h3 class="text-2xl font-bold header-primary my-4">Practice by Topic</h3>
 </div>
 <div class="topic-tiles-container">
@@ -51,7 +51,7 @@
     <mat-card-content>
       <mat-icon>topic</mat-icon>
       <div class="font-bold">{{ section.name }}</div>
-      <div class="text-sm text-gray-500">{{ section.count }} questions</div>
+      <div class="text-sm text-gray-400">{{ section.count }} questions</div>
     </mat-card-content>
   </mat-card>
 </div>
