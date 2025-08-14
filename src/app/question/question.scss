@@ -40,3 +40,8 @@
     border-bottom: none;
   }
 }
+
+mat-card-actions {
+  min-height: unset !important;
+  padding: 8px 0 !important;
+}
