@@ -1,5 +1,23 @@
 @use "@angular/material" as mat;
 
+:host ::ng-deep .centered-list .mdc-list-item__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  mat-icon {
+    margin-bottom: 8px; /* Add space between icon and title */
+  }
+
+  [matListItemTitle],
+  [matListItemLine] {
+    text-align: center;
+    width: 100%;
+  }
+}
+
 mat-list-item:hover {
   background: rgba(0, 0, 0, 0.04);
 

@@ -7,29 +7,29 @@
       Open Study Guide
     </a>
   </div>
-  <mat-list role="list">
+  <mat-list role="list" class="centered-list">
   <mat-list-item role="listitem" (click)="selectMode(10)" class="cursor-pointer h-auto py-4 px-2 sm:px-6">
-    <mat-icon matListItemIcon>flash_on</mat-icon>
+    <mat-icon class="my-2">flash_on</mat-icon>
     <div matListItemTitle>Quickie</div>
     <div matListItemLine>10 questions</div>
   </mat-list-item>
   <mat-list-item role="listitem" (click)="selectMode(50)" class="cursor-pointer h-auto py-4 px-2 sm:px-6">
-    <mat-icon matListItemIcon>psychology</mat-icon>
+    <mat-icon class="my-2">psychology</mat-icon>
     <div matListItemTitle>Brain Teaser</div>
     <div matListItemLine>50 questions</div>
   </mat-list-item>
   <mat-list-item role="listitem" (click)="selectMode(100)" class="cursor-pointer h-auto py-4 px-2 sm:px-6">
-    <mat-icon matListItemIcon>school</mat-icon>
+    <mat-icon class="my-2">school</mat-icon>
     <div matListItemTitle>Scholar</div>
     <div matListItemLine>100 questions</div>
   </mat-list-item>
   <mat-list-item role="listitem" (click)="selectMode('all')" class="cursor-pointer h-auto py-4 px-2 sm:px-6">
-    <mat-icon matListItemIcon>fitness_center</mat-icon>
+    <mat-icon class="my-2">fitness_center</mat-icon>
     <div matListItemTitle>Marathon</div>
     <div matListItemLine>All questions</div>
   </mat-list-item>
   <mat-list-item role="listitem" (click)="selectMode('incorrect')" class="cursor-pointer h-auto py-4 px-2 sm:px-6">
-    <mat-icon matListItemIcon>replay</mat-icon>
+    <mat-icon class="my-2">replay</mat-icon>
     <div matListItemTitle>Prioritize Incorrect</div>
     <div matListItemLine>Focus on questions you've missed</div>
   </mat-list-item>
@@ -50,9 +50,9 @@
 <div class="text-center mb-8 mt-4">
   <h3 class="text-xl font-bold mt-8 mb-4">Practice by Topic</h3>
 </div>
-<mat-list role="list">
+<mat-list role="list" class="centered-list">
   <mat-list-item *ngFor="let section of sections" (click)="selectMode(section.name)" class="cursor-pointer h-auto py-4 px-2 sm:px-6">
-    <mat-icon matListItemIcon>topic</mat-icon>
+    <mat-icon class="my-2">topic</mat-icon>
     <div matListItemTitle>{{ section.name }}</div>
     <div matListItemLine>{{ section.count }} questions</div>
   </mat-list-item>
