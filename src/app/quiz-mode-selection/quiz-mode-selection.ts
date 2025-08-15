@@ -28,7 +28,6 @@ export class QuizModeSelectionComponent implements OnInit {
     { mode: 10, icon: 'flash_on', title: 'Quickie', line: '10 questions' },
     { mode: 50, icon: 'psychology', title: 'Brain Teaser', line: '50 questions' },
     { mode: 100, icon: 'school', title: 'Scholar', line: '100 questions' },
-    { mode: 'all', icon: 'fitness_center', title: 'Marathon', line: 'All questions' },
     { mode: 'incorrect', icon: 'replay', title: 'Prioritize Incorrect', line: 'Focus on missed questions' }
   ];
 
