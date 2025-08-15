@@ -2694,7 +2694,7 @@
     },
     {
       "id": 334,
-      "questionText": "A commander announces a new, challenging standard for the unit without explaining why it's necessary or asking for input. The team members are resistant and feel the goal is unachievable, leading to poor buy-in. Which guideline for establishing expectations has the commander failed to follow?",
+      "questionText": "A commander announces a new, challenging standard for the unit without explaining why it's necessary or asking for input. The team members are resistant and feel the goal is unachievable and don't understand it. Which guideline for establishing expectations has the commander failed to follow?",
       "options": [
         "Communicate Clearly",
         "Track Progress",
@@ -3740,10 +3740,10 @@
     {
       "id": 425,
       "questionText": "To improve base traffic flow, a team composed entirely of Security Forces members designs a new gate procedure. When they brief the plan, the Logistics Readiness Squadron points out that it fails to account for the unique size and screening needs of commercial delivery trucks, which would cause massive delays. The initial plan was flawed because it lacked which intellectual standard?",
-      "options": ["Logic", "Accuracy", "Breadth", "Significance"],
+      "options": ["Logic", "Depth", "Breadth", "Significance"],
       "section": "Critical Thinking",
       "correctOption": 2,
-      "explanation": "Breadth involves considering an issue from multiple perspectives. The initial plan was too narrow because it was only developed from the Security Forces' point of view and failed to consider the viewpoint and needs of other key stakeholders, like logistics."
+      "explanation": "Breadth involves considering an issue from multiple perspectives. The initial plan was too narrow because it was only developed from the Security Forces' point of view and failed to consider the viewpoint and needs of other key stakeholders, like logistics. Contrast this with depth, not analyzing traffic data to identify peak congestion times is an example of lack of depth."
     },
     {
       "id": 426,

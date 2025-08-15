@@ -5,14 +5,19 @@
 @tailwind utilities;
 
 // Light theme by default
-@import "@angular/material/prebuilt-themes/indigo-pink.css" (prefers-color-scheme: light);
+@import '@angular/material/prebuilt-themes/indigo-pink.css'
+  (prefers-color-scheme: light);
 // Dark theme when system prefers dark mode
-@import "@angular/material/prebuilt-themes/pink-bluegrey.css" (prefers-color-scheme: dark);
+@import '@angular/material/prebuilt-themes/pink-bluegrey.css'
+  (prefers-color-scheme: dark);
 
-html, body { height: 100%; }
-body { 
-  margin: 0; 
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
   min-width: 500px;
 }
 
