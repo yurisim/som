@@ -10,6 +10,9 @@
   <p class="text-lg">
     {{ masteredQuestions }} / {{ totalQuestions }} questions mastered
   </p>
+  <mat-checkbox [(ngModel)]="hideMastered" (change)="updateSections()" class="mt-2">
+    Hide mastered questions
+  </mat-checkbox>
 </div>
 <div class="my-4 text-center">
   <a

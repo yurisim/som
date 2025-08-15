@@ -42,6 +42,9 @@
         class="flex items-center space-x-1 mr-3"
         matTooltip="The number of times you got this question correct or wrong. Two correct answers awards 'mastery'."
       >
+        @if (isMastered) {
+          <span class="text-green-500 mr-2">Mastered</span>
+        }
         <ng-container *ngFor="let result of questionHistory">
           <mat-icon
             [ngClass]="{'text-green-500': result, 'text-red-500': !result}"

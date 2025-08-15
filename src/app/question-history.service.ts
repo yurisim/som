@@ -1,56 +1,60 @@
 import { Injectable } from '@angular/core';
+import { ReplaySubject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class QuestionHistoryService {
-  private readonly HISTORY_KEY = 'question_history';
+  private historyUpdatedSource = new ReplaySubject<number>(1);
+  historyUpdated$ = this.historyUpdatedSource.asObservable();
+
+  private readonly HISTORY_KEY_PREFIX = 'question_history_';
   private readonly MAX_HISTORY = 2;
 
   getHistory(questionId: number): boolean[] {
-    const history = this.getAllHistory();
-    return history[questionId] || [];
+    const historyString = localStorage.getItem(this.HISTORY_KEY_PREFIX + questionId);
+    return historyString ? JSON.parse(historyString) : [];
   }
 
   addAnswer(questionId: number, isCorrect: boolean) {
-    const history = this.getAllHistory();
-    if (!history[questionId]) {
-      history[questionId] = [];
+    const history = this.getHistory(questionId);
+    history.push(isCorrect);
+    if (history.length > this.MAX_HISTORY) {
+      history.shift();
     }
-    history[questionId].push(isCorrect);
-    if (history[questionId].length > this.MAX_HISTORY) {
-      history[questionId].shift();
-    }
-    this.saveHistory(history);
+    localStorage.setItem(this.HISTORY_KEY_PREFIX + questionId, JSON.stringify(history));
+    this.historyUpdatedSource.next(questionId);
   }
 
-  getAllHistory(): { [questionId: number]: boolean[] } {
-    const historyString = localStorage.getItem(this.HISTORY_KEY);
-    return historyString ? JSON.parse(historyString) : {};
-  }
-
-  private saveHistory(history: { [questionId: number]: boolean[] }) {
-    localStorage.setItem(this.HISTORY_KEY, JSON.stringify(history));
+  getMasteredQuestionIds(): Set<number> {
+    const masteredQuestionIds = new Set<number>();
+    for (let i = 0; i < localStorage.length; i++) {
+      const key = localStorage.key(i);
+      if (key && key.startsWith(this.HISTORY_KEY_PREFIX)) {
+        const history = JSON.parse(localStorage.getItem(key) || '[]');
+        if (history.length >= this.MAX_HISTORY && history.every((h: boolean) => h)) {
+          masteredQuestionIds.add(Number(key.replace(this.HISTORY_KEY_PREFIX, '')));
+        }
+      }
+    }
+    return masteredQuestionIds;
   }
 
   getIncorrectlyAnsweredQuestions(): number[] {
-    const history = this.getAllHistory();
-    return Object.keys(history)
-      .map(Number)
-      .filter(questionId => {
-        const results = history[questionId];
-        // Prioritize questions that have been answered incorrectly at least once
-        return results.some(result => !result);
-      });
+    const incorrectlyAnswered = new Set<number>();
+    for (let i = 0; i < localStorage.length; i++) {
+      const key = localStorage.key(i);
+      if (key && key.startsWith(this.HISTORY_KEY_PREFIX)) {
+        const history = JSON.parse(localStorage.getItem(key) || '[]');
+        if (history.some((h: boolean) => !h)) {
+          incorrectlyAnswered.add(Number(key.replace(this.HISTORY_KEY_PREFIX, '')));
+        }
+      }
+    }
+    return Array.from(incorrectlyAnswered);
   }
 
   getNumberOfCorrectlyMasteredQuestions(): number {
-    const history = this.getAllHistory();
-    return Object.keys(history)
-      .map(Number)
-      .filter(questionId => {
-        const results = history[questionId];
-        return results.length === this.MAX_HISTORY && results.every(result => result);
-      }).length;
+    return this.getMasteredQuestionIds().size;
   }
 }

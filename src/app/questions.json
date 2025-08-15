@@ -2049,19 +2049,6 @@
       "explanation": "Culture represents the long-term, ingrained values and norms of an organization. Climate is the current, short-term, and adjustable collective mood and perceptions of the personnel, which is a product of the underlying culture."
     },
     {
-      "id": 276,
-      "questionText": "Fostering respect, openness, and encouraging calculated risks without fear of harsh repercussions contributes to what aspect of a positive organizational climate?",
-      "options": [
-        "Physical Safety",
-        "Emotional Safety",
-        "High Standards",
-        "Organizational Culture"
-      ],
-      "section": "Organizational Climate",
-      "correctOption": 1,
-      "explanation": "Emotional safety is created when leaders foster an environment of respect and trust, where personnel feel safe enough to share ideas, ask questions, and take calculated risks without fear of retribution."
-    },
-    {
       "id": 277,
       "questionText": "When a leader transparently discusses DEOCS results, addresses trends, and offers follow-up services, they are taking a step to...",
       "options": [
@@ -3232,19 +3219,6 @@
       "section": "Core Values",
       "correctOption": 2,
       "explanation": "Teamwork is the virtue that involves recognizing the interdependency of every member's contribution to the team and the mission. The scenario directly illustrates this concept."
-    },
-    {
-      "id": 380,
-      "questionText": "A new squadron commander reviews the unit's DEOCS results and immediately schedules a series of small group discussions to transparently address the negative trends and solicit feedback for an action plan. This commander is taking a deliberate step to do what?",
-      "options": [
-        "Change the unit's long-term culture.",
-        "Positively change the organizational climate.",
-        "Establish a new vision statement.",
-        "Implement punitive discipline."
-      ],
-      "section": "Organizational Climate",
-      "correctOption": 1,
-      "explanation": "Organizational climate is the short-term, adjustable perception of the unit. By 'Addressing Your Unit' and being transparent with survey results, the commander is taking a prescribed action to improve the current climate."
     },
     {
       "id": 381,

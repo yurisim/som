@@ -39,6 +39,4 @@ export class QuizService {
   getPrioritizedQuestions(): number[] {
     return this.prioritizedQuestionIds;
   }
-
-
 }

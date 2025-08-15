@@ -8,15 +8,19 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatCardModule } from '@angular/material/card';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-quiz-mode-selection',
   standalone: true,
-  imports: [CommonModule, MatButtonModule, MatIconModule, MatListModule, MatTooltipModule, MatCardModule],
+  imports: [CommonModule, FormsModule, MatButtonModule, MatIconModule, MatListModule, MatTooltipModule, MatCardModule, MatCheckboxModule],
   templateUrl: './quiz-mode-selection.html',
   styleUrls: ['./quiz-mode-selection.scss']
 })
 export class QuizModeSelectionComponent implements OnInit {
+  hideMastered = false;
+
   quizModes = [
     { mode: 10, icon: 'flash_on', title: 'Quickie', line: '10 questions' },
     { mode: 50, icon: 'psychology', title: 'Brain Teaser', line: '50 questions' },
@@ -45,9 +49,26 @@ export class QuizModeSelectionComponent implements OnInit {
         break;
       }
     }
-    this.sections = this.quizService.getSections();
+    this.updateSections();
+  }
+
+  updateSections(): void {
     this.masteredQuestions = this.questionHistoryService.getNumberOfCorrectlyMasteredQuestions();
-    this.totalQuestions = this.quizService.getTotalQuestionsCount();
+    const masteredQuestionIds = this.questionHistoryService.getMasteredQuestionIds();
+
+    let allQuestions = this.quizService.getQuestions();
+    this.totalQuestions = allQuestions.length;
+
+    if (this.hideMastered) {
+      allQuestions = allQuestions.filter(q => !masteredQuestionIds.has(q.id));
+    }
+
+    const sectionsMap = new Map<string, number>();
+    for (const question of allQuestions) {
+      sectionsMap.set(question.section, (sectionsMap.get(question.section) || 0) + 1);
+    }
+
+    this.sections = Array.from(sectionsMap.entries()).map(([name, count]) => ({ name, count }));
   }
 
   selectMode(mode: number | 'all' | string | 'incorrect'): void {
@@ -63,10 +84,14 @@ export class QuizModeSelectionComponent implements OnInit {
       return;
     }
     this.quizService.setPrioritizedQuestions([]); // Clear any prioritized questions
-    if (typeof mode === 'string' && mode !== 'all') {
-      this.router.navigate(['/quiz/run/section', mode]);
+    const queryParams = { hideMastered: this.hideMastered };
+
+    if (typeof mode === 'string' && !isNaN(Number(mode))) {
+      this.router.navigate(['/quiz/run', mode], { queryParams });
+    } else if (typeof mode === 'string') {
+      this.router.navigate(['/quiz/run/section', mode], { queryParams });
     } else {
-      this.router.navigate(['/quiz/run', mode]);
+      this.router.navigate(['/quiz/run', mode], { queryParams });
     }
   }
 }

@@ -11,6 +11,7 @@ import { QuestionComponent } from '../question/question';
 import { ResultsComponent } from '../results/results';
 import { QuizService } from '../quiz/quiz.service';
 import { Question } from '../quiz/quiz.model';
+import { QuestionHistoryService } from '../question-history.service';
 
 @Component({
   selector: 'app-quiz-runner',
@@ -28,7 +29,9 @@ import { Question } from '../quiz/quiz.model';
   animations: [fadeInOut],
 })
 export class QuizRunnerComponent implements OnInit, OnDestroy {
+  hideMastered = false;
   private quizService = inject(QuizService);
+  private questionHistoryService = inject(QuestionHistoryService);
   private layoutService = inject(LayoutService);
   private route = inject(ActivatedRoute);
   private router = inject(Router);
@@ -61,6 +64,10 @@ export class QuizRunnerComponent implements OnInit, OnDestroy {
         this.quizMode = `section-${sectionName}`;
       } else {
         this.quizMode = params.get('mode');
+
+      this.route.queryParamMap.subscribe(queryParams => {
+        this.hideMastered = queryParams.get('hideMastered') === 'true';
+      });
       }
 
       if (!this.quizMode) {
@@ -101,7 +108,12 @@ export class QuizRunnerComponent implements OnInit, OnDestroy {
     this.currentPage = 0;
     this.score = 0;
     this.quizFinished = false;
-    const allQuestions = this.quizService.getQuestions();
+    let allQuestions = this.quizService.getQuestions();
+
+    if (this.hideMastered) {
+      const masteredQuestionIds = this.questionHistoryService.getMasteredQuestionIds();
+      allQuestions = allQuestions.filter(q => !masteredQuestionIds.has(q.id));
+    }
     const prioritizedIds = this.quizService.getPrioritizedQuestions();
 
     if (this.quizMode === 'incorrect' && prioritizedIds.length > 0) {
