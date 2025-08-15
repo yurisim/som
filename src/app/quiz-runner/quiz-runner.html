@@ -6,7 +6,7 @@
   ></mat-progress-bar>
 </div>
 
-<div class="p-4 sm:p-8">
+<div class="p-4 sm:p-6">
   <!-- Quiz View -->
   <div *ngIf="!quizFinished" class="quiz-container" [@fadeInOut]>
     <div class="flex justify-end mb-4">
@@ -22,7 +22,7 @@
       ></app-question>
     </div>
 
-    <div class="quiz-navigation mt-2">
+    <div class="quiz-navigation mt-6">
       <button
         mat-stroked-button
         (click)="prevPage()"
@@ -40,7 +40,7 @@
       </button>
     </div>
 
-    <div class="mt-4 text-center">
+    <div class="mt-6 text-center">
       <button
         mat-raised-button
         color="primary"
