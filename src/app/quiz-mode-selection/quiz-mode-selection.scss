@@ -19,16 +19,18 @@
 }
 
 mat-list-item:hover {
-  background-color: rgba(var(--mat-sys-on-surface-rgb), 0.08);
+  background: rgba(0, 0, 0, 0.04);
 
-  // mat-icon,
-  // [matListItemTitle] {
-  //   color: var(--mat-sys-primary);
-  //   font-weight: bold;
-  // }
+  mat-icon,
+  [matListItemTitle] {
+    color: var(--mat-primary-500, #3f51b5);
+    font-weight: bold;
+  }
 }
 
-
+.header-primary {
+  color: var(--mat-primary-500, #3f51b5);
+}
 
 .topic-tiles-container {
   display: flex;
