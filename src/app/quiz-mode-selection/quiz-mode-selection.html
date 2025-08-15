@@ -1,18 +1,29 @@
-<div class="text-center my-4">
-  <h3 class="text-xl font-bold header-primary flex items-center justify-center">
+<div class="text-center my-6">
+  <h3
+    class="text-xl font-bold header-primary flex items-center justify-center"
+    color="primary"
+  >
     Mastery Progress
-    <button mat-icon-button (click)="openMasteryExplanationDialog()" class="ml-2">
+    <button
+      mat-icon-button
+      (click)="openMasteryExplanationDialog()"
+      class="ml-2"
+    >
       <mat-icon>info_outline</mat-icon>
     </button>
   </h3>
   <p class="text-lg">
     {{ masteredQuestions }} / {{ totalQuestions }} questions mastered
   </p>
-  <mat-checkbox [(ngModel)]="hideMastered" (change)="updateSections()" class="mt-2">
+  <mat-checkbox
+    [(ngModel)]="hideMastered"
+    (change)="updateSections()"
+    class="mt-2"
+  >
     Hide mastered questions
   </mat-checkbox>
 </div>
-<div class="my-4 text-center">
+<div class="my-6 text-center">
   <a
     mat-stroked-button
     href="https://airuniversity-my.sharepoint.com/:w:/g/personal/yura_sim_ots_au_af_edu/EXCrskQrpgZNifzONssaCXEBHr6Irqi_vHpz1C9pto_nog?e=iVhnOk"
@@ -23,7 +34,7 @@
     Open Study Guide
   </a>
 </div>
-<div class="text-center my-4">
+<div class="text-center my-6">
   <h2 class="text-2xl font-bold header-primary">Choose Your Challenge</h2>
 </div>
 <div class="topic-tiles-container">
@@ -40,8 +51,10 @@
   </mat-card>
 </div>
 
-<div class="text-center mb-8 mt-8">
-  <h3 class="text-2xl font-bold header-primary my-4 flex items-center justify-center">
+<div class="text-center my-6">
+  <h3
+    class="text-2xl font-bold header-primary flex items-center justify-center"
+  >
     Practice by Topic
     <button mat-icon-button (click)="openColorKeyDialog()" class="ml-2">
       <mat-icon>info_outline</mat-icon>
