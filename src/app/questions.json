@@ -255,16 +255,16 @@
     },
     {
       "id": 24,
-      "questionText": "What is the primary goal of cognitive domain operations?",
+      "questionText": "A military unit launches a campaign using targeted social media messages and news articles to create doubt among an adversary's population about their government's legitimacy. The intended outcome is to reduce public support for the conflict without direct military engagement. This campaign is primarily aimed at achieving effects in which domain?",
       "options": [
-        "Physical destruction of enemy assets",
-        "Influence an adversary's will, beliefs, and thinking",
-        "Electronic warfare capabilities",
-        "Cyber network penetration"
+        "The Physical Domain",
+        "The Cognitive Domain",
+        "The Information Domain",
+        "The Cyber Domain"
       ],
       "section": "Critical Thinking",
       "correctOption": 1,
-      "explanation": "Cognitive domain operations aim to influence an adversary's will, beliefs, and thinking to affect their decisions and actions."
+      "explanation": "The cognitive domain pertains to the human mind. The campaign's goal is to influence perceptions, beliefs, and will—all elements of human cognition—to achieve a strategic advantage. While it uses tools from the information and cyber domains, its ultimate target is the adversary's thinking."
     },
     {
       "id": 25,
