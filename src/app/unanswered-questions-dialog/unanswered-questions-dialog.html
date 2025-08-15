@@ -1,0 +1,13 @@
+<h1 mat-dialog-title>Unanswered Questions</h1>
+<div mat-dialog-content>
+  <p>Please answer the following questions before submitting:</p>
+  <mat-list>
+    <mat-list-item *ngFor="let q of data.unansweredQuestions">
+      Question #{{ q.questionNumber }}
+    </mat-list-item>
+  </mat-list>
+</div>
+<div mat-dialog-actions class="flex flex-col sm:flex-row justify-end gap-2 w-full">
+  <button mat-button [mat-dialog-close]="'submit'">Submit Anyway</button>
+  <button mat-flat-button color="primary" [mat-dialog-close]="true">Jump to Unanswered</button>
+</div>

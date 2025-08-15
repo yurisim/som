@@ -13,6 +13,8 @@ import { ResultsComponent } from '../results/results';
 import { QuizService } from '../quiz/quiz.service';
 import { Question } from '../quiz/quiz.model';
 import { QuestionHistoryService } from '../question-history.service';
+import { MatDialog } from '@angular/material/dialog';
+import { UnansweredQuestionsDialogComponent } from '../unanswered-questions-dialog/unanswered-questions-dialog';
 
 @Component({
   selector: 'app-quiz-runner',
@@ -37,6 +39,7 @@ export class QuizRunnerComponent implements OnInit, OnDestroy {
   private route = inject(ActivatedRoute);
   private router = inject(Router);
   private viewportScroller = inject(ViewportScroller);
+  private dialog = inject(MatDialog);
 
   questions: Question[] = [];
   paginatedQuestions: Question[] = [];
@@ -196,6 +199,46 @@ export class QuizRunnerComponent implements OnInit, OnDestroy {
   }
 
   submitQuiz(): void {
+    const unansweredQuestions = this.questions
+      .map((q, index) => ({
+        ...q,
+        questionNumber: index + 1, // Add question number for display
+      }))
+      .filter(q => q.selectedOption === undefined);
+
+    if (unansweredQuestions.length > 0) {
+      const dialogRef = this.dialog.open(UnansweredQuestionsDialogComponent, {
+        width: '350px',
+        data: { unansweredQuestions: unansweredQuestions.map(q => ({ questionNumber: q.questionNumber })) },
+      });
+
+      dialogRef.afterClosed().subscribe(result => {
+        if (result === true) {
+          const firstUnanswered = unansweredQuestions[0];
+          const questionIndex = this.questions.findIndex(q => q.id === firstUnanswered.id);
+          const page = Math.floor(questionIndex / this.questionsPerPage);
+          this.currentPage = page;
+          this.setupPage();
+          this.saveState();
+
+          setTimeout(() => {
+            const element = document.getElementById(`question-${firstUnanswered.id}`);
+            if (element) {
+              element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+          }, 100);
+        } else if (result === 'submit') {
+          this._finalizeSubmission();
+        }
+      });
+
+      return;
+    }
+
+    this._finalizeSubmission();
+  }
+
+  private _finalizeSubmission(): void {
     this.score = this.questions.filter(q => q.selectedOption === q.correctOption).length;
     this.quizFinished = true;
     this.clearState();
