@@ -3151,11 +3151,11 @@
     },
     {
       "id": 373,
-      "questionText": "After reviewing a mission plan, a commander states, 'This plan seems overly simplistic and doesn't consider the enemy's likely response or the potential for equipment failure. We need to explore these complexities.' The commander is pushing for greater application of which intellectual standard?",
+      "questionText": "After reviewing a mission plan, a commander states, 'This plan seems overly simplistic and doesn't consider the potential for equipment failure or seasonal weather. We need to explore these complexities.' The commander is pushing for greater application of which intellectual standard?",
       "options": ["Relevance", "Depth", "Clarity", "Breadth"],
       "section": "Critical Thinking",
       "correctOption": 1,
-      "explanation": "Depth involves addressing the complexities and deeper layers of an issue, moving beyond surface-level thinking. The commander's request to consider second-order effects and complexities is a call for more depth."
+      "explanation": "Depth involves addressing the complexities and deeper layers of an issue, moving beyond surface-level thinking. Whereas Breadth looks at different POVs. The commander's request to consider second-order effects and complexities is a call for more depth."
     },
     {
       "id": 374,
