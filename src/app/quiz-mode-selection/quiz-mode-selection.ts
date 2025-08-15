@@ -19,7 +19,7 @@ import { FormsModule } from '@angular/forms';
   styleUrls: ['./quiz-mode-selection.scss']
 })
 export class QuizModeSelectionComponent implements OnInit {
-  hideMastered = false;
+  hideMastered = true;
 
   quizModes = [
     { mode: 10, icon: 'flash_on', title: 'Quickie', line: '10 questions' },
@@ -38,6 +38,8 @@ export class QuizModeSelectionComponent implements OnInit {
   totalQuestions = 0;
 
   ngOnInit(): void {
+    const savedHideMastered = localStorage.getItem('hideMastered');
+    this.hideMastered = savedHideMastered !== null ? JSON.parse(savedHideMastered) : true;
     for (let i = 0; i < localStorage.length; i++) {
       const key = localStorage.key(i);
       if (key && key.startsWith('quizState-')) {
@@ -53,6 +55,7 @@ export class QuizModeSelectionComponent implements OnInit {
   }
 
   updateSections(): void {
+    localStorage.setItem('hideMastered', JSON.stringify(this.hideMastered));
     this.masteredQuestions = this.questionHistoryService.getNumberOfCorrectlyMasteredQuestions();
     const masteredQuestionIds = this.questionHistoryService.getMasteredQuestionIds();
 

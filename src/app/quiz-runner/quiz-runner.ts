@@ -1,4 +1,5 @@
 import { Component, OnInit, OnDestroy, inject } from '@angular/core';
+import { combineLatest } from 'rxjs';
 import { fadeInOut } from '../animations';
 import { LayoutService } from '../layout.service';
 import { ViewportScroller } from '@angular/common';
@@ -58,16 +59,14 @@ export class QuizRunnerComponent implements OnInit, OnDestroy {
   ngOnInit(): void {
     this.layoutService.setShowTopProgressBar(true);
 
-    this.route.paramMap.subscribe(params => {
+    combineLatest([this.route.paramMap, this.route.queryParamMap]).subscribe(([params, queryParams]) => {
+      this.hideMastered = queryParams.get('hideMastered') === 'true';
       const sectionName = params.get('sectionName');
+
       if (sectionName) {
         this.quizMode = `section-${sectionName}`;
       } else {
         this.quizMode = params.get('mode');
-
-      this.route.queryParamMap.subscribe(queryParams => {
-        this.hideMastered = queryParams.get('hideMastered') === 'true';
-      });
       }
 
       if (!this.quizMode) {
@@ -234,7 +233,8 @@ export class QuizRunnerComponent implements OnInit, OnDestroy {
     const state = {
       questions: this.questions,
       currentPage: this.currentPage,
-      quizFinished: this.quizFinished
+      quizFinished: this.quizFinished,
+      hideMastered: this.hideMastered
     };
     if (this.quizMode) {
       localStorage.setItem(`quizState-${this.quizMode}`, JSON.stringify(state));
@@ -243,15 +243,22 @@ export class QuizRunnerComponent implements OnInit, OnDestroy {
 
   loadState(): boolean {
     if (!this.quizMode) return false;
+
     const savedState = localStorage.getItem(`quizState-${this.quizMode}`);
     if (savedState) {
       const state = JSON.parse(savedState);
+
+      if (state.hideMastered !== this.hideMastered) {
+        this.clearState();
+        return false;
+      }
+
       this.questions = state.questions;
       this.currentPage = state.currentPage;
       this.quizFinished = state.quizFinished;
-      if (!this.quizFinished) {
-        this.setupPage();
-      }
+      this.hideMastered = state.hideMastered;
+      this.setupPage();
+
       return true;
     }
     return false;
