@@ -10,7 +10,9 @@
   <!-- Quiz View -->
   <div *ngIf="!quizFinished" class="quiz-container" [@fadeInOut]>
     <div class="flex justify-end mb-4">
-      <button mat-stroked-button color="warn" (click)="exitQuiz()">Exit Quiz</button>
+      <button mat-stroked-button color="warn" (click)="exitQuiz()">
+        Exit Quiz
+      </button>
     </div>
     <div *ngFor="let question of paginatedQuestions; let i = index">
       <app-question
@@ -20,18 +22,31 @@
       ></app-question>
     </div>
 
-    <div class="flex flex-col sm:flex-row justify-between items-center mt-4 space-y-2 sm:space-y-0">
-      <button mat-stroked-button (click)="prevPage()" [disabled]="currentPage === 0" class="w-full sm:w-auto">
+    <div class="quiz-navigation mt-2">
+      <button
+        mat-stroked-button
+        (click)="prevPage()"
+        [disabled]="currentPage === 0"
+      >
         Previous
       </button>
       <span>Page {{ currentPage + 1 }} of {{ totalPages }}</span>
-      <button mat-stroked-button (click)="nextPage()" [disabled]="currentPage >= totalPages - 1" class="w-full sm:w-auto">
+      <button
+        mat-stroked-button
+        (click)="nextPage()"
+        [disabled]="currentPage >= totalPages - 1"
+      >
         Next
       </button>
     </div>
 
     <div class="mt-4 text-center">
-      <button mat-raised-button color="primary" (click)="submitQuiz()" [disabled]="!isLastPage()">
+      <button
+        mat-raised-button
+        color="primary"
+        (click)="submitQuiz()"
+        [disabled]="!isLastPage()"
+      >
         Submit Quiz
       </button>
     </div>

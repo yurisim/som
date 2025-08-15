@@ -209,6 +209,7 @@ export class QuizRunnerComponent implements OnInit, OnDestroy {
     this.router.navigate(['/quiz']);
   }
 
+
   ngOnDestroy(): void {
     this.layoutService.setShowTopProgressBar(false);
   }
