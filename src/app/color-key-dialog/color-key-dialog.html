@@ -1,0 +1,16 @@
+<h2 mat-dialog-title>What the Colors Mean</h2>
+<mat-dialog-content>
+  <p>The color of each topic tile indicates your performance in that section, from red to green.</p>
+  <div class="color-gradient-container">
+    <div class="color-box red"></div>
+    <span>Needs Practice</span>
+  </div>
+  <div class="color-gradient-container">
+    <div class="color-box green"></div>
+    <span>Good Progress</span>
+  </div>
+  <p class="mt-4">The score is based on all questions in the section, including mastered and unanswered ones. Unanswered questions are counted as incorrect, so it's harder to get a green shade until you've attempted most of the questions.</p>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button (click)="close()">Got it</button>
+</mat-dialog-actions>

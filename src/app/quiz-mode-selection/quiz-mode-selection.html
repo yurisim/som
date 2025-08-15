@@ -1,11 +1,9 @@
 <div class="text-center my-4">
-  <h3 class="text-xl font-bold header-primary">
+  <h3 class="text-xl font-bold header-primary flex items-center justify-center">
     Mastery Progress
-    <mat-icon
-      class="align-middle text-gray-500 ml-1"
-      matTooltip="A question is 'mastered' when you answer it correctly twice in a row."
-      >info_outline</mat-icon
-    >
+    <button mat-icon-button (click)="openMasteryExplanationDialog()" class="ml-2">
+      <mat-icon>info_outline</mat-icon>
+    </button>
   </h3>
   <p class="text-lg">
     {{ masteredQuestions }} / {{ totalQuestions }} questions mastered
@@ -43,7 +41,12 @@
 </div>
 
 <div class="text-center mb-8 mt-8">
-  <h3 class="text-2xl font-bold header-primary my-4">Practice by Topic</h3>
+  <h3 class="text-2xl font-bold header-primary my-4 flex items-center justify-center">
+    Practice by Topic
+    <button mat-icon-button (click)="openColorKeyDialog()" class="ml-2">
+      <mat-icon>info_outline</mat-icon>
+    </button>
+  </h3>
 </div>
 <div class="topic-tiles-container">
   <mat-card

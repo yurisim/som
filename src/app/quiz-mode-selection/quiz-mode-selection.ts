@@ -8,13 +8,16 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatCardModule } from '@angular/material/card';
+import { MatDialog, MatDialogModule } from '@angular/material/dialog';
+import { ColorKeyDialogComponent } from '../color-key-dialog/color-key-dialog';
+import { MasteryExplanationDialogComponent } from '../mastery-explanation-dialog/mastery-explanation-dialog';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-quiz-mode-selection',
   standalone: true,
-  imports: [CommonModule, FormsModule, MatButtonModule, MatIconModule, MatListModule, MatTooltipModule, MatCardModule, MatCheckboxModule],
+  imports: [CommonModule, FormsModule, MatButtonModule, MatIconModule, MatListModule, MatTooltipModule, MatCardModule, MatCheckboxModule, MatDialogModule],
   templateUrl: './quiz-mode-selection.html',
   styleUrls: ['./quiz-mode-selection.scss']
 })
@@ -33,6 +36,7 @@ export class QuizModeSelectionComponent implements OnInit {
   private router = inject(Router);
   private quizService = inject(QuizService);
   private questionHistoryService = inject(QuestionHistoryService);
+  private dialog = inject(MatDialog);
 
   masteredQuestions = 0;
   totalQuestions = 0;
@@ -79,8 +83,13 @@ export class QuizModeSelectionComponent implements OnInit {
       const nonMasteredIdsInSection = allQuestionIdsInSection.filter(id => !masteredQuestionIds.has(id));
 
       const nonMasteredPerformance = this.questionHistoryService.getPerformanceScore(nonMasteredIdsInSection);
-      const nonMasteredScore = nonMasteredPerformance >= 0 ? nonMasteredPerformance * nonMasteredIdsInSection.length : 0;
 
+      // Treat unanswered questions as 0 score. The performance score is a ratio of correct answers.
+      // We multiply by the number of questions that have been answered to get a raw score.
+      const answeredNonMasteredIds = nonMasteredIdsInSection.filter(id => this.questionHistoryService.getHistory(id).length > 0);
+      const nonMasteredScore = nonMasteredPerformance >= 0 ? nonMasteredPerformance * answeredNonMasteredIds.length : 0;
+
+      // Each question is worth 1 point (perfect score). Mastered questions get full points.
       const totalScore = masteredIdsInSection.length + nonMasteredScore;
       const finalPerformance = allQuestionIdsInSection.length > 0 ? totalScore / allQuestionIdsInSection.length : -1;
 
@@ -98,6 +107,14 @@ export class QuizModeSelectionComponent implements OnInit {
     // Using hsla to add a semi-transparent overlay. Adjust saturation and alpha for theming.
     // 50% saturation and 20% alpha should provide a subtle, theme-friendly tint.
     return `hsla(${hue}, 50%, 50%, 0.2)`;
+  }
+
+  openColorKeyDialog(): void {
+    this.dialog.open(ColorKeyDialogComponent);
+  }
+
+  openMasteryExplanationDialog(): void {
+    this.dialog.open(MasteryExplanationDialogComponent);
   }
 
   selectMode(mode: number | 'all' | string | 'incorrect'): void {
