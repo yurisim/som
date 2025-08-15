@@ -208,16 +208,16 @@
     },
     {
       "id": 19,
-      "questionText": "What defines an unprofessional relationship?",
+      "questionText": "What is the key factor that determines if a relationship is an unprofessional relationship (UPR)?",
       "options": [
-        "Any friendship between military members",
-        "Relationships that detract from authority and show favoritism",
-        "Social media connections between ranks",
-        "Professional mentoring relationships"
+        "The difference in rank between the individuals involved.",
+        "The relationship's negative impact on good order, discipline, and respect for authority.",
+        "Whether the relationship occurs on or off-duty.",
+        "A close friendship between a supervisor and a subordinate."
       ],
       "section": "Professional Relationships",
       "correctOption": 1,
-      "explanation": "Unprofessional relationships detract from the authority of superiors, result in or appear to show favoritism, partiality, or misuse of position."
+      "explanation": "The key to defining a UPR is not the relationship itself, but its effect. While factors like rank differences and supervisor-subordinate dynamics are important, the core issue is whether the relationship negatively impacts the command climate, morale, and the ability of the military to function effectively."
     },
     {
       "id": 20,
@@ -1586,16 +1586,16 @@
     },
     {
       "id": 238,
-      "questionText": "Disinformation is a key tool in cognitive operations because it exploits which human tendency?",
+      "questionText": "Why is confirmation bias a primary vulnerability exploited by disinformation?",
       "options": [
-        "The tendency to seek out diverse points of view.",
-        "The tendency to favor information that confirms existing beliefs (confirmation bias).",
-        "The tendency to reject all information from outside sources.",
-        "The tendency to only trust information from official channels."
+        "It causes people to actively seek out and rigorously debate opposing viewpoints.",
+        "It makes individuals more likely to accept and share information that aligns with their existing beliefs, without critical evaluation.",
+        "It only affects people who are not well-informed on a topic.",
+        "It encourages reliance on official sources over social media, which disinformation avoids."
       ],
       "section": "Critical Thinking",
       "correctOption": 1,
-      "explanation": "Disinformation is effective because it exploits confirmation bias, where people are more receptive to information, even if false, that confirms what they already believe."
+      "explanation": "Confirmation bias is a cognitive shortcut that makes people unconsciously favor information confirming their pre-existing beliefs. Disinformation campaigns exploit this by creating content that feels true to the target audience, increasing its likelihood of being accepted and shared without scrutiny."
     },
     {
       "id": 239,
@@ -1940,16 +1940,16 @@
     },
     {
       "id": 266,
-      "questionText": "According to the guidelines for establishing expectations, why is it important to seek 'buy-in' from the team?",
+      "questionText": "When establishing expectations, what is the most effective outcome of a leader successfully seeking 'buy-in' from the team?",
       "options": [
-        "To show that the leader is not fully in charge.",
-        "To foster ownership and commitment by including the team in the process.",
-        "To make the process take as long as possible.",
-        "To allow the team to set all the standards without leader input."
+        "It ensures all team members personally agree with every standard.",
+        "It transfers the responsibility of setting goals from the leader to the team.",
+        "It fosters a shared sense of ownership and commitment towards achieving the team's objectives.",
+        "It primarily serves to identify potential conflicts within the team early on."
       ],
       "section": "Establishing Expectations",
-      "correctOption": 1,
-      "explanation": "Seeking buy-in by including the team in the process, setting achievable goals, and showing trust fosters a sense of ownership and makes personnel more committed to meeting the established expectations."
+      "correctOption": 2,
+      "explanation": "Successfully seeking buy-in fosters a sense of shared ownership and commitment. While it can help identify conflicts and involves team participation, its primary purpose is not to transfer responsibility or achieve universal agreement, but to align the team toward common goals."
     },
     {
       "id": 267,
@@ -2895,7 +2895,7 @@
     },
     {
       "id": 351,
-      "questionText": "SSgt Reagan is known for her unshakable devotion to her unit, the Air Force, and the nation. She consistently puts the needs of the mission and her fellow Airmen ahead of her own interests, demonstrating a strong commitment to something bigger than herself. This is a clear example of which virtue under 'Service Before Self'?",
+      "questionText": "SSgt Reagan is known for her unshakable devotion to her unit, the Air Force, and the nation. She consistently puts the needs of the mission and her fellow Airmen ahead of her own ambitions, demonstrating a strong commitment to something bigger than herself. This is an example of which virtue under 'Service Before Self'?",
       "options": ["Duty", "Loyalty", "Respect", "Humility"],
       "section": "Core Values",
       "correctOption": 1,
