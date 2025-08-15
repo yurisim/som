@@ -3078,16 +3078,16 @@
     },
     {
       "id": 367,
-      "questionText": "A commander feels his authority is limited because Congress passes the laws that appropriate funding for his unit, and the Judicial Branch can review the legality of military actions. This distribution of power across different government entities is an example of what constitutional provision?",
+      "questionText": "A commander is tasked with implementing a newly passed international treaty. The President negotiated the treaty, the Senate ratified it, and the Supreme Court can interpret its legality in future cases. This intricate process, involving distinct roles for each governmental body, best exemplifies which constitutional principle?",
       "options": [
-        "Enumerated Powers",
+        "Checks and Balances",
         "Separation of Powers",
         "Federalism",
-        "The Bill of Rights"
+        "The Supremacy Clause"
       ],
       "section": "U.S. Constitution",
       "correctOption": 1,
-      "explanation": "Separation of Powers divides governmental roles among the Legislative (Congress), Executive (Commander), and Judicial branches to prevent any one branch from becoming too powerful. The scenario is a direct example of this system of checks and balances."
+      "explanation": "Separation of Powers divides authority among the legislative, executive, and judicial branches. While it works with Checks and Balances, the scenario specifically highlights the distinct roles of each branch (negotiating, ratifying, interpreting), which is the core of Separation of Powers. Federalism concerns state vs. national power, not the division among federal branches."
     },
     {
       "id": 368,
