@@ -169,7 +169,7 @@
     },
     {
       "id": 16,
-      "questionText": "A first-term Airman is late for the third time in a month. His supervisor, a SSgt, has already provided verbal counseling. To formally address the continued behavior, the SSgt documents the issue and the counseling standards on an AF Form 174. This action is an example of which administrative tool?",
+      "questionText": "A first-term Airman is late for the third time in a month. His supervisor, a SSgt, has already provided verbal counseling. To formally address the continued behavior, the SSgt documents the issue officially as written administrative action. This action is an example of which administrative tool?",
       "options": [
         "Letter of Reprimand (LOR)",
         "Letter of Admonishment (LOA)",
@@ -1048,7 +1048,7 @@
     },
     {
       "id": 91,
-      "questionText": "A fighter squadron cannot conduct its training missions effectively because an adversary has gained control of the airspace over the training range. Before any other operations can succeed, the Air Force must first achieve what?",
+      "questionText": "A fighter squadron cannot conduct its missions effectively because an adversary has gained control of the airspace over the range. Before any other operations can succeed, the Air Force must first achieve what?",
       "options": [
         "Rapid Global Mobility",
         "Global Strike",
@@ -3256,7 +3256,7 @@
     },
     {
       "id": 384,
-      "questionText": "A Guardian is tasked with helping launch a new satellite constellation that will provide secure data transmission for military forces globally. This task is a direct application of which USSF Core Competency?",
+      "questionText": "A Guardian is tasked with maintaining 100% uptime on a new satellite constellation that will provide secure data transmission for military forces globally. This task is a direct application of which USSF Core Competency?",
       "options": [
         "Combat Power Projection",
         "Space Domain Awareness",
