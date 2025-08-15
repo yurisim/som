@@ -2895,7 +2895,7 @@
     },
     {
       "id": 351,
-      "questionText": "SSgt Reagan is known for her unshakable devotion to her unit, the Air Force, and the nation. She consistently puts the needs of the mission and her fellow Airmen ahead of her own ambitions, demonstrating a strong commitment to something bigger than herself. This is an example of which virtue under 'Service Before Self'?",
+      "questionText": "Despite facing external criticism of her unit's recent performance, SSgt Reagan publicly defends her team and their mission, showing unwavering faith in her leaders and fellow Airmen. This act of standing by her unit, even in difficult times, is a clear example of which virtue under 'Service Before Self'?",
       "options": ["Duty", "Loyalty", "Respect", "Humility"],
       "section": "Core Values",
       "correctOption": 1,
@@ -3849,16 +3849,16 @@
     },
     {
       "id": 435,
-      "questionText": "The core competency of Combat Power Projection from space has two main aspects. Which statement best summarizes these two aspects?",
+      "questionText": "The USSF core competency of Combat Power Projection is fundamentally about controlling the space domain. Which statement best captures its dual-focused objective?",
       "options": [
-        "Launching new satellites and repairing existing ones.",
-        "Providing GPS signals and collecting weather data.",
-        "Protecting friendly space assets and denying an adversary the use of their space assets.",
-        "Monitoring space debris and tracking adversary satellites."
+        "Enhancing civil and commercial satellite capabilities while monitoring all space traffic.",
+        "Solely focusing on developing offensive capabilities to disable enemy satellites.",
+        "Ensuring freedom of action for the U.S. and its allies in space, while denying that same freedom to adversaries when necessary.",
+        "Providing secure satellite communications and navigation exclusively for military users."
       ],
       "section": "DAF Capabilities",
       "correctOption": 2,
-      "explanation": "Combat Power Projection is described as having both defensive and offensive components: defensive operations ensure the US has freedom of action in space, while offensive operations are aimed at denying that same freedom to an adversary."
+      "explanation": "Combat Power Projection has both defensive and offensive aspects. Its objective is to ensure the US and its allies can operate freely in space (defensive) while also being able to deny that freedom to an adversary if required (offensive)."
     },
     {
       "id": 436,
