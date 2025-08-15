@@ -29,7 +29,7 @@ export class QuizModeSelectionComponent implements OnInit {
     { mode: 'incorrect', icon: 'replay', title: 'Prioritize Incorrect', line: 'Focus on missed questions' }
   ];
 
-  sections: { name: string; count: number }[] = [];
+  sections: { name: string; count: number; performanceColor: string }[] = [];
   private router = inject(Router);
   private quizService = inject(QuizService);
   private questionHistoryService = inject(QuestionHistoryService);
@@ -71,7 +71,33 @@ export class QuizModeSelectionComponent implements OnInit {
       sectionsMap.set(question.section, (sectionsMap.get(question.section) || 0) + 1);
     }
 
-    this.sections = Array.from(sectionsMap.entries()).map(([name, count]) => ({ name, count }));
+    const allQuestionsForPerformance = this.quizService.getQuestions();
+
+    this.sections = Array.from(sectionsMap.entries()).map(([name, count]) => {
+      const allQuestionIdsInSection = allQuestionsForPerformance.filter(q => q.section === name).map(q => q.id);
+      const masteredIdsInSection = allQuestionIdsInSection.filter(id => masteredQuestionIds.has(id));
+      const nonMasteredIdsInSection = allQuestionIdsInSection.filter(id => !masteredQuestionIds.has(id));
+
+      const nonMasteredPerformance = this.questionHistoryService.getPerformanceScore(nonMasteredIdsInSection);
+      const nonMasteredScore = nonMasteredPerformance >= 0 ? nonMasteredPerformance * nonMasteredIdsInSection.length : 0;
+
+      const totalScore = masteredIdsInSection.length + nonMasteredScore;
+      const finalPerformance = allQuestionIdsInSection.length > 0 ? totalScore / allQuestionIdsInSection.length : -1;
+
+      const performanceColor = this.getPerformanceColor(finalPerformance);
+      return { name, count, performanceColor };
+    });
+  }
+
+  getPerformanceColor(performance: number): string {
+    if (performance < 0) {
+      return 'var(--tile-background-color)'; // Default color for no data
+    }
+    // Convert performance (0-1) to a hue value in HSL (0-120)
+    const hue = performance * 120;
+    // Using hsla to add a semi-transparent overlay. Adjust saturation and alpha for theming.
+    // 50% saturation and 20% alpha should provide a subtle, theme-friendly tint.
+    return `hsla(${hue}, 50%, 50%, 0.2)`;
   }
 
   selectMode(mode: number | 'all' | string | 'incorrect'): void {

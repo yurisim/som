@@ -57,4 +57,19 @@ export class QuestionHistoryService {
   getNumberOfCorrectlyMasteredQuestions(): number {
     return this.getMasteredQuestionIds().size;
   }
+
+  getPerformanceScore(questionIds: number[]): number {
+    let totalCorrect = 0;
+    let totalAnswered = 0;
+
+    for (const id of questionIds) {
+      const history = this.getHistory(id);
+      if (history.length > 0) {
+        totalCorrect += history.filter(h => h).length;
+        totalAnswered += history.length;
+      }
+    }
+
+    return totalAnswered === 0 ? -1 : totalCorrect / totalAnswered;
+  }
 }

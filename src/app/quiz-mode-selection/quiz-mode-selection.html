@@ -50,6 +50,7 @@
     *ngFor="let section of sections"
     (click)="selectMode(section.name)"
     class="topic-tile"
+    [style.background-color]="section.performanceColor"
   >
     <mat-card-content>
       <mat-icon>topic</mat-icon>
