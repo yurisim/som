@@ -669,19 +669,6 @@
       "explanation": "Summary Court-Martial tries minor offenses for enlisted members only."
     },
     {
-      "id": 59,
-      "questionText": "Who is primarily responsible for maintaining professional standards in a relationship between different ranks?",
-      "options": [
-        "The junior member",
-        "Both members equally",
-        "The senior member",
-        "The commanding officer"
-      ],
-      "section": "Professional Relationships",
-      "correctOption": 2,
-      "explanation": "While all members are accountable, the senior member in a relationship is primarily responsible for maintaining professional standards."
-    },
-    {
       "id": 60,
       "questionText": "A flight has seen a significant drop in morale. The members feel that certain individuals receive preferential treatment, that the NCOs in charge are not trustworthy, and that the flight's mission has lost its focus. This situation is a direct example of the negative effects of UPRs on what?",
       "options": [
@@ -1497,19 +1484,6 @@
       "section": "Professional Relationships",
       "correctOption": 2,
       "explanation": "A personal relationship becomes an official concern and an Unprofessional Relationship (UPR) when it negatively impacts the unit by adversely affecting morale, good order, discipline, respect for authority, unit cohesion, or the mission."
-    },
-    {
-      "id": 230,
-      "questionText": "In an unprofessional relationship between a senior and a junior member, who is primarily responsible for maintaining professional standards?",
-      "options": [
-        "The junior member",
-        "The senior member",
-        "Both members are equally responsible",
-        "The unit commander"
-      ],
-      "section": "Professional Relationships",
-      "correctOption": 1,
-      "explanation": "While all members are accountable, the policy states that the senior member in any personal relationship is primarily responsible for maintaining the professionalism of that relationship."
     },
     {
       "id": 231,
