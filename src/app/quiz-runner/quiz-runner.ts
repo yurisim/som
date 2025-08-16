@@ -49,6 +49,7 @@ export class QuizRunnerComponent implements OnInit, OnDestroy {
   quizFinished = false;
   completionPercentage = 0;
   missedAreas: { section: string; count: number }[] = [];
+  missedQuestions: Question[] = [];
   quizMode: string | null = null;
 
   get totalPages(): number {
@@ -256,6 +257,8 @@ export class QuizRunnerComponent implements OnInit, OnDestroy {
     this.missedAreas = Array.from(missedAreasMap.entries())
       .map(([section, count]) => ({ section, count }))
       .sort((a, b) => b.count - a.count);
+
+    this.missedQuestions = incorrectAnswers;
   }
 
   exitQuiz(): void {

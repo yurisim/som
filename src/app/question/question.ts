@@ -23,6 +23,7 @@ interface ShuffledOption {
 export class QuestionComponent implements OnChanges, OnDestroy {
   @Input() question!: Question;
   @Input() questionNumber!: number;
+  @Input() reviewMode = false;
   @Output() answer = new EventEmitter<{ questionId: number, selectedOption: number }>();
 
   shuffledOptions: ShuffledOption[] = [];
@@ -45,7 +46,7 @@ export class QuestionComponent implements OnChanges, OnDestroy {
 
   ngOnChanges(changes: SimpleChanges): void {
     if (changes['question'] && this.question) {
-      this.isAnswered = this.question.selectedOption !== undefined;
+      this.isAnswered = this.question.selectedOption !== undefined || this.reviewMode;
       this.questionHistory = this.questionHistoryService.getHistory(this.question.id);
       this.updateMasteryStatus();
       this.shuffleOptions();
@@ -69,7 +70,7 @@ export class QuestionComponent implements OnChanges, OnDestroy {
   }
 
   selectOption(option: ShuffledOption): void {
-    if (!this.isAnswered) {
+    if (!this.isAnswered && !this.reviewMode) {
       this.selectedOption = option;
       this.isAnswered = true;
       const isCorrect = this.isCorrect(option);

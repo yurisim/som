@@ -12,19 +12,20 @@
       <mat-list role="list">
         <mat-list-item
           *ngFor="let option of shuffledOptions; let i = index"
-          (click)="selectOption(option)"
+          (click)="reviewMode ? null : selectOption(option)"
           class="quiz-option"
           [ngClass]="{
             'correct-answer': isAnswered && isCorrect(option),
             'incorrect-answer': isAnswered && isIncorrect(option),
-            'unselected-hover': !isAnswered
+            'unselected-hover': !isAnswered && !reviewMode,
+            'review-mode': reviewMode
           }"
         >
           <span class="font-bold mr-2">{{ getLetter(i) }})</span>
           <span>{{ option.text }}</span>
         </mat-list-item>
       </mat-list>
-      @if (isAnswered) {
+      @if (isAnswered || reviewMode) {
       <div
         class="mt-4 p-4 bg-blue-100 border-l-4 border-blue-500 text-blue-700"
       >
