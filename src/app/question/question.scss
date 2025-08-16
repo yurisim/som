@@ -16,6 +16,18 @@
     color: white;
   }
 
+  &.review-mode {
+    cursor: default;
+
+    &.correct-answer {
+      opacity: 1;
+    }
+
+    &.incorrect-answer {
+      opacity: 1;
+    }
+  }
+
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
   display: flex;

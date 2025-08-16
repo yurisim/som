@@ -523,7 +523,7 @@
         "Analyze Vulnerabilities",
         "Assess Risk"
       ],
-      "section": "Operations Security (OPSEC)",
+      "section": "OPSEC",
       "correctOption": 1,
       "explanation": "Step 2 of the OPSEC process is to Analyze Threats. This involves identifying potential adversaries and determining their capabilities and intentions, which is exactly what the unit is doing."
     },
@@ -536,7 +536,7 @@
         "Analyze Vulnerabilities",
         "Assess Risk"
       ],
-      "section": "Operations Security (OPSEC)",
+      "section": "OPSEC",
       "correctOption": 1,
       "explanation": "The first step in the OPSEC process is to Identify Critical Information that is valuable to an adversary."
     },
@@ -549,7 +549,7 @@
         "When risk is deemed unacceptable",
         "Only for classified information"
       ],
-      "section": "Operations Security (OPSEC)",
+      "section": "OPSEC",
       "correctOption": 2,
       "explanation": "OPSEC countermeasures are applied when risk is deemed unacceptable, after assessing the adversary's ability to exploit vulnerabilities."
     },
@@ -901,7 +901,7 @@
         "Personal information about military members",
         "Financial data about military budgets"
       ],
-      "section": "Operations Security (OPSEC)",
+      "section": "OPSEC",
       "correctOption": 1,
       "explanation": "Critical information consists of specific facts about friendly activities, intentions, capabilities, or limitations that adversaries seek for advantage."
     },
@@ -914,7 +914,7 @@
         "Analyze Vulnerabilities",
         "Assess Risk"
       ],
-      "section": "Operations Security (OPSEC)",
+      "section": "OPSEC",
       "correctOption": 2,
       "explanation": "Step 3 in the five-step OPSEC process is 'Analyze Vulnerabilities' - identifying instances where adversaries can collect critical information."
     },
@@ -1146,7 +1146,7 @@
         "Classified information",
         "Security vulnerabilities"
       ],
-      "section": "Operations Security (OPSEC)",
+      "section": "OPSEC",
       "correctOption": 1,
       "explanation": "A threat is an adversary with the capability and intent to act detrimentally to mission success."
     },
@@ -1159,7 +1159,7 @@
         "The cost of implementing countermeasures",
         "The classification level of information"
       ],
-      "section": "Operations Security (OPSEC)",
+      "section": "OPSEC",
       "correctOption": 1,
       "explanation": "Step 4 (Assess Risk) evaluates the adversary's ability to exploit vulnerabilities and determines potential impact on the mission."
     },
@@ -2070,7 +2070,7 @@
         "Critical Information",
         "Indicator"
       ],
-      "section": "Operations Security (OPSEC)",
+      "section": "OPSEC",
       "correctOption": 2,
       "explanation": "Critical Information is defined as the specific facts about friendly activities, intentions, capabilities, or limitations that an adversary would seek to gain an advantage."
     },
@@ -2083,7 +2083,7 @@
         "Apply Countermeasures",
         "Identify Critical Information"
       ],
-      "section": "Operations Security (OPSEC)",
+      "section": "OPSEC",
       "correctOption": 3,
       "explanation": "The very first step of the OPSEC process is to identify the critical information\u2014that is, to determine what information needs to be protected."
     },
@@ -2091,7 +2091,7 @@
       "id": 280,
       "questionText": "An OPSEC review finds that unclassified but sensitive flight schedules are being discussed on an unencrypted radio channel that adversaries are known to monitor. This situation describes the existence of a(n)...",
       "options": ["Threat", "Vulnerability", "Countermeasure", "Indicator"],
-      "section": "Operations Security (OPSEC)",
+      "section": "OPSEC",
       "correctOption": 1,
       "explanation": "A vulnerability is a weakness that allows an adversary to collect critical information. In this case, using an unencrypted radio is the vulnerability that exposes the flight schedules to the known threat."
     },
@@ -2104,7 +2104,7 @@
         "Assess Risk",
         "Apply Countermeasures"
       ],
-      "section": "Operations Security (OPSEC)",
+      "section": "OPSEC",
       "correctOption": 3,
       "explanation": "The fifth and final step is to 'Apply Countermeasures.' These are actions taken to protect critical information by negating or reducing an adversary's ability to exploit vulnerabilities, but only after the risk has been assessed as unacceptable."
     },
@@ -2279,7 +2279,7 @@
         "A Threat",
         "An Indicator"
       ],
-      "section": "Operations Security (OPSEC)",
+      "section": "OPSEC",
       "correctOption": 2,
       "explanation": "A threat is specifically defined as an adversary that possesses both the capability and the intent to take actions that would be harmful to mission success."
     },
@@ -2466,7 +2466,7 @@
         "Analyze Vulnerabilities",
         "Assess Risk"
       ],
-      "section": "Operations Security (OPSEC)",
+      "section": "OPSEC",
       "correctOption": 1,
       "explanation": "Step 2 of the OPSEC process is to Analyze Threats. This involves identifying potential adversaries and determining their capabilities and intentions, which is exactly what the unit is doing."
     },
@@ -2868,7 +2868,7 @@
         "A risk",
         "Critical Information"
       ],
-      "section": "Operations Security (OPSEC)",
+      "section": "OPSEC",
       "correctOption": 2,
       "explanation": "Risk is the intersection of a threat and a vulnerability. The vulnerability (posting on social media) combined with the threat (an adversary seeing it) creates a risk to the mission that must be assessed."
     },
@@ -3046,7 +3046,7 @@
         "Threats",
         "Countermeasures"
       ],
-      "section": "Operations Security (OPSEC)",
+      "section": "OPSEC",
       "correctOption": 3,
       "explanation": "Countermeasures are measures implemented to negate or reduce an adversary's ability to exploit vulnerabilities. The policies implemented by the commander are all actions taken to protect information."
     },
@@ -3437,7 +3437,7 @@
       ],
       "section": "Professional Relationships",
       "correctOption": 1,
-      "explanation": "While the marriage itself is not prohibited, the Captain's action constitutes a misuse of position for personal gain. This creates the appearance of partiality and undermines the integrity of the selection process. This is the definition of a UPR. While the situation involves an officer and enlisted member, the specific violation is the misuse of influence, making UPR the most accurate description." 
+      "explanation": "While the marriage itself is not prohibited, the Captain's action constitutes a misuse of position for personal gain. This creates the appearance of partiality and undermines the integrity of the selection process. This is the definition of a UPR. While the situation involves an officer and enlisted member, the specific violation is the misuse of influence, making UPR the most accurate description."
     },
     {
       "id": 399,
