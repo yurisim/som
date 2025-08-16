@@ -1,7 +1,7 @@
 // Scroll to top FAB button
 .scroll-to-top {
   position: fixed;
-  bottom: 20px;
+  bottom: 50px;
   right: 20px;
   z-index: 1000;
   box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2),
@@ -11,7 +11,7 @@
 // Hide button on mobile devices in landscape mode to avoid overlapping with browser UI
 @media (max-width: 599px) and (orientation: landscape) {
   .scroll-to-top {
-    bottom: 10px;
+    bottom: 20px;
     right: 10px;
   }
 }
