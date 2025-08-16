@@ -2024,7 +2024,7 @@
     },
     {
       "id": 274,
-      "questionText": "Which technique for encouraging continued action towards a vision involves explaining the 'why' and creating a dialogue rather than a monologue?",
+      "questionText": "Which technique for encouraging progress towards a long-term organizational goal involves explaining the 'why' and creating a dialogue rather than a monologue?",
       "options": [
         "Reinforce Action & Celebrate Success",
         "Enable Action",
@@ -2033,7 +2033,7 @@
       ],
       "section": "Inspiring Action",
       "correctOption": 3,
-      "explanation": "'Get Their Attention & Frame Meaning' involves explaining the purpose ('the why') behind the vision and engaging the team in a dialogue to ensure understanding and buy-in."
+      "explanation": "'Get Their Attention & Frame Meaning' involves explaining the purpose ('the why') behind a goal and engaging the team in a dialogue to ensure understanding and buy-in."
     },
     {
       "id": 275,
@@ -2199,7 +2199,7 @@
     },
     {
       "id": 290,
-      "questionText": "Relying on fast, instinctive, and emotional thinking rather than slow, deliberate, and logical thinking is which common thinking error?",
+      "questionText": "Inappropriately relying on fast, instinctive thinking for a complex problem that requires slow, deliberate, and logical thinking is which common thinking error?",
       "options": [
         "Halo Effect",
         "Deflection",
@@ -2208,7 +2208,7 @@
       ],
       "section": "Critical Thinking",
       "correctOption": 3,
-      "explanation": "This describes the error of relying on System 1 thinking (fast, intuitive) for complex problems that require System 2 thinking (slow, deliberate, logical)."
+      "explanation": "System 1 thinking (fast, intuitive) is a useful cognitive tool for quick decisions. However, it becomes a cognitive error when it is misapplied to complex problems that require the deliberate, logical analysis of System 2 thinking."
     },
     {
       "id": 291,
@@ -3099,7 +3099,7 @@
     },
     {
       "id": 369,
-      "questionText": "A Guardian is tasked with ensuring US and allied partners can reliably access GPS signals for navigation while also ensuring adversaries cannot use those same signals against US forces. This mission directly relates to which USSF Core Competency?",
+      "questionText": "To assure allies and protect shared interests, a USSF unit conducts a combined training exercise with a multinational partner, practicing procedures to protect their satellites and establish norms of responsible behavior in space. This competency, focused on building partner capacity and establishing a safe environment through cooperation, is known as...?",
       "options": [
         "Space Security",
         "Combat Power Projection",
@@ -3108,7 +3108,7 @@
       ],
       "section": "DAF Capabilities",
       "correctOption": 0,
-      "explanation": "Space Security focuses on establishing safe and secure access to space capabilities for friendly forces and partners. Ensuring reliable access to GPS falls squarely under this competency."
+      "explanation": "This scenario highlights building partner capacity and establishing norms through combined exercises, which are defining attributes of Space Security. Unlike the data-gathering focus of Space Domain Awareness or the adversarial nature of Combat Power Projection, Space Security is about assuring partners through a cooperative presence."
     },
     {
       "id": 370,
@@ -3122,19 +3122,6 @@
       "section": "Conflict Management",
       "correctOption": 2,
       "explanation": "The Accommodating (Comply) style is appropriate when the relationship or the other party's outcome is more important. By giving up the room for the more critical task, Unit B's leader is demonstrating this style."
-    },
-    {
-      "id": 371,
-      "questionText": "A flight chief is frequently absent from the work center, provides no direction, fails to follow up on tasks, and avoids making any decisions, forcing the NCOICs to handle everything. The flight's morale and productivity are suffering. This flight chief's behavior is a clear example of...",
-      "options": [
-        "Transactional Leadership",
-        "Transformational Leadership",
-        "Management by Exception-Passive",
-        "Laissez-Faire Leadership"
-      ],
-      "section": "Full Range Leadership",
-      "correctOption": 3,
-      "explanation": "Laissez-Faire is the absence of leadership. The chief's avoidance of decisions, lack of follow-up, and disconnection from the mission are all hallmark characteristics of this counterproductive style."
     },
     {
       "id": 372,
@@ -4130,6 +4117,19 @@
       "section": "Critical Thinking",
       "correctOption": 1,
       "explanation": "The commander actively recognized and overrode her fast, instinctive (System 1) judgment, engaging in a slow, logical, and evidence-based (System 2) analysis to arrive at a well-reasoned conclusion."
+    },
+    {
+      "id": 459,
+      "questionText": "In response to an imminent threat, a USSF unit takes action to neutralize an adversary's counterspace weapon that is targeting a U.S. satellite. This operation, designed to deny the adversary freedom of action in space, is a clear example of which USSF Core Competency?",
+      "options": [
+        "Space Security",
+        "Combat Power Projection",
+        "Space Domain Awareness",
+        "Information Mobility"
+      ],
+      "section": "DAF Capabilities",
+      "correctOption": 1,
+      "explanation": "This is a direct application of Combat Power Projection, which involves defensive and offensive operations to deny an adversary's freedom of action in space. The focus is on negating a threat, which is distinct from the cooperative and partner-focused nature of Space Security."
     }
   ]
 }
